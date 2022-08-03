@@ -10,7 +10,13 @@ function App() {
     <div className="App">
       <Elements />
       <TabSearch />
-      <Multiselectdropdowndomain />
+      {SeekerData.map((postData, index) => {
+        return (
+          <div key={index}>
+            <Multiselectdropdowndomain data={postData} />
+          </div>
+        )
+      })}
     </div>
   );
 }
