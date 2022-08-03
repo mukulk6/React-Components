@@ -1,1 +1,37 @@
-.Elements {}
+.sortDropbox{
+    margin: 0px !important;
+    width: 150px !important;
+    height: 26px;
+    color: #444444;
+    font-size: 12px;
+    padding: 0px 6px !important;
+    display: inline-block;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    font-family: 'Poppins',sans-serif;
+    color: #444 !important;
+}
+
+.sortDropbox:focus
+{
+    outline: none;
+}
+
+#sortBy
+{
+    width: 90px;
+    max-width: 100%;
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: normal;
+    text-align: right;
+    padding-right: 3px;
+}
+
+.sortDropbox > option :hover
+{
+    color:#075491;
+}
