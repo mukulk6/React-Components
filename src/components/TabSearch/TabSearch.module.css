@@ -1,0 +1,31 @@
+#inputPassword2
+{
+    height: 27px;
+    padding: 0px 5px;
+    width: 180px;
+    background: white !important;
+    margin: 0px 10px !important;
+    text-align: left;
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+    float: right;
+}
+
+#inputPassword2:focus
+{
+    outline: none;
+}
+
+#inputPassword2::placeholder
+{
+    text-align: left;
+    padding-left: 25px;
+}
+
+#searchIcon
+{
+    position: relative;
+    right: -80px;
+    font-size: 14px;
+    color:#616061;
+}
