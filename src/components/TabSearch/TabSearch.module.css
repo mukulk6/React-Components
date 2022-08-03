@@ -9,11 +9,13 @@
     font-family: 'Poppins',sans-serif;
     font-size: 14px;
     float: right;
+    border-radius: 3px;
+    border: 1px solid #ccc;
 }
 
 #inputPassword2:focus
 {
-    outline: none;
+    outline: 0px none #fff none !important;
 }
 
 #inputPassword2::placeholder
