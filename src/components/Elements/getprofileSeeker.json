@@ -1,0 +1,2398 @@
+{
+    "firstName": "Mukul",
+    "lastName": "Kale",
+    "email": "mukul.kale@digitalmain.com",
+    "gauth": false,
+    "newQuestion": 1,
+    "expertAnswered": 1,
+    "seekerRated": 1,
+    "anotherExpertAnswered": 1,
+    "newExpQuestion": 1,
+    "fastTrackInfo": {
+      "used": 0,
+      "total": 3
+    },
+    "expressQuestionsAnswered": 0,
+    "expertTopics": [
+      {
+        "id": 4,
+        "indexId": 0,
+        "name": "Collaterals",
+        "visible": true,
+        "answerable": true
+      },
+      {
+        "id": 5,
+        "indexId": 1,
+        "name": "Quoting & Opportunity",
+        "visible": true,
+        "answerable": true
+      },
+      {
+        "id": 6,
+        "indexId": 2,
+        "name": "Capacity & Sizing",
+        "visible": true,
+        "answerable": true
+      },
+      {
+        "id": 7,
+        "indexId": 3,
+        "name": "Partner Specific",
+        "visible": true,
+        "answerable": true
+      },
+      {
+        "id": 8,
+        "indexId": 4,
+        "name": "Terms & Conditions",
+        "visible": true,
+        "answerable": true
+      },
+      {
+        "id": 9,
+        "indexId": 5,
+        "name": "Misc",
+        "visible": false,
+        "answerable": false
+      },
+      {
+        "id": 10,
+        "indexId": 6,
+        "name": "General FAQ",
+        "visible": false,
+        "answerable": false
+      },
+      {
+        "id": 11,
+        "indexId": 7,
+        "name": "Follow-up",
+        "visible": false,
+        "answerable": false
+      },
+      {
+        "id": 12,
+        "indexId": 8,
+        "name": "Quote Approval/Review",
+        "visible": false,
+        "answerable": false
+      },
+      {
+        "id": 13,
+        "indexId": 9,
+        "name": "Pricing Request",
+        "visible": false,
+        "answerable": false
+      },
+      {
+        "id": 14,
+        "indexId": 10,
+        "name": "Meeting Request",
+        "visible": false,
+        "answerable": false
+      },
+      {
+        "id": 15,
+        "indexId": 11,
+        "name": "Customer Success",
+        "visible": false,
+        "answerable": false
+      },
+      {
+        "id": 40,
+        "indexId": 22,
+        "name": "Virtualization-Apps-Cloud and Container",
+        "visible": true,
+        "answerable": true
+      },
+      {
+        "id": 39,
+        "indexId": 23,
+        "name": "Insight Discovery Analytics",
+        "visible": true,
+        "answerable": true
+      },
+      {
+        "id": 38,
+        "indexId": 24,
+        "name": "Others",
+        "visible": true,
+        "answerable": true
+      }
+    ],
+    "visibleTopics": [
+      "Collaterals",
+      "Quoting & Opportunity",
+      "Capacity & Sizing",
+      "Partner Specific",
+      "Terms & Conditions",
+      "Others",
+      "Insight Discovery Analytics",
+      "Virtualization-Apps-Cloud and Container"
+    ],
+    "expertTopicsData": {
+      "0": "Collaterals",
+      "1": "Quoting & Opportunity",
+      "2": "Capacity & Sizing",
+      "3": "Partner Specific",
+      "4": "Terms & Conditions",
+      "5": "Misc",
+      "6": "General FAQ",
+      "7": "Follow-up",
+      "8": "Quote Approval/Review",
+      "9": "Pricing Request",
+      "10": "Meeting Request",
+      "11": "Customer Success",
+      "22": "Virtualization-Apps-Cloud and Container",
+      "23": "Insight Discovery Analytics"
+    },
+    "cmTopics": {
+      "0": "Collaterals",
+      "1": "Quoting & Opportunity",
+      "2": "Capacity & Sizing",
+      "3": "Partner Specific",
+      "4": "Terms & Conditions",
+      "5": "Misc",
+      "6": "General FAQ",
+      "7": "Follow-up",
+      "8": "Quote Approval/Review",
+      "9": "Pricing Request",
+      "10": "Meeting Request",
+      "11": "Customer Success"
+    },
+    "questionShared": 1,
+    "roles": [
+      {
+        "roleId": 1,
+        "roleName": "Admin",
+        "active": true,
+        "permissions": [
+          {
+            "id": 1,
+            "name": "ACCEPT_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 2,
+            "name": "ACCEPT_SUGGESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 3,
+            "name": "ANSWER_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 4,
+            "name": "ASK_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 5,
+            "name": "AUTO_SUGGEST",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 6,
+            "name": "LIST_EXPERTS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 7,
+            "name": "MARK_FAVORITE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 8,
+            "name": "REJECT_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 9,
+            "name": "REJECT_SUGGESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 10,
+            "name": "REROUTE_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 11,
+            "name": "SEARCH_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 12,
+            "name": "SHARE_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 13,
+            "name": "ADD_USER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 14,
+            "name": "ASSIGN_ROLE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 15,
+            "name": "DOMAIN_ASSIGNMENT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 16,
+            "name": "FORGET_PASSWORD",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 17,
+            "name": "RESET_PASSWORD",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 18,
+            "name": "REGISTER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 19,
+            "name": "USER_ACTIVATION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 20,
+            "name": "UPDATE_PROFILE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 21,
+            "name": "VIEW_PROFILE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 22,
+            "name": "VIEW_ALL_USERS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 23,
+            "name": "DELETE_ANSWER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 24,
+            "name": "DELETE_ATTACHMENT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 25,
+            "name": "RATE_ANSWER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 26,
+            "name": "VOTE_ANSWER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 27,
+            "name": "VIEW_ATTACHMENT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 28,
+            "name": "ARCHIVE_NOTIFICATION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 29,
+            "name": "VIEW_STATISTICS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 30,
+            "name": "DELETE_RECORD",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 31,
+            "name": "FETCH_ALL_RECORDS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 32,
+            "name": "UPDATE_RECORD",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 33,
+            "name": "CREATE_ROLE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 34,
+            "name": "DELETE_ROLE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 35,
+            "name": "UPDATE_ROLE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 36,
+            "name": "VIEW_ROLE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 37,
+            "name": "FETCH_ORG_INFO",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 38,
+            "name": "UPDATE_ORG_INFO",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 39,
+            "name": "VIEW_PERMISSION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 40,
+            "name": "UPDATE_PERMISSION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 41,
+            "name": "CRUD_ATOMIZER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 42,
+            "name": "RECOMMENDED_QUESTIONS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 43,
+            "name": "STAPLE_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 44,
+            "name": "UPLOAD_CSV",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 45,
+            "name": "CREATE_QA_PAIR",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 46,
+            "name": "ACCESS_TICKET",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 48,
+            "name": "VIEW_RATING",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 49,
+            "name": "VIEW_VOTE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 50,
+            "name": "GET_VIZ_RECS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 51,
+            "name": "UPDATE_VIZ_QA",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 52,
+            "name": "CM_TAB_SEARCH",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 53,
+            "name": "ASK_CLARIFICATION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 54,
+            "name": "FETCH_GROUP",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 55,
+            "name": "UPDATE_GROUP",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 56,
+            "name": "FETCH_DOMAIN",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 57,
+            "name": "PROVIDE_FEEDBACK",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 58,
+            "name": "FETCH_FEEDBACK",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 59,
+            "name": "TRANSFER_OWNERSHIP",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 60,
+            "name": "UPDATE_ANSWER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 61,
+            "name": "FETCH_CURATION_CATEGORY",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 62,
+            "name": "GET_CURATION_START_POINT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 63,
+            "name": "UPDATE_CURATION_START_POINT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 64,
+            "name": "UPDATE_SIMILAR_SET",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 65,
+            "name": "GET_SIMILAR_SETS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 66,
+            "name": "EXPEDITE_ANSWER_PROCESS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 67,
+            "name": "CHANGE_QUESION_DOMAIN",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 68,
+            "name": "VIEW_EXPERT_SCORE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 69,
+            "name": "EDIT_WATCHLIST_USERS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 73,
+            "name": "USER_SEARCH_HISTORY",
+            "given": false,
+            "active": true
+          }
+        ]
+      },
+      {
+        "roleId": 2,
+        "roleName": "Seeker",
+        "active": true,
+        "permissions": [
+          {
+            "id": 1,
+            "name": "ACCEPT_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 2,
+            "name": "ACCEPT_SUGGESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 3,
+            "name": "ANSWER_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 4,
+            "name": "ASK_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 5,
+            "name": "AUTO_SUGGEST",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 6,
+            "name": "LIST_EXPERTS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 7,
+            "name": "MARK_FAVORITE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 8,
+            "name": "REJECT_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 9,
+            "name": "REJECT_SUGGESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 10,
+            "name": "REROUTE_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 11,
+            "name": "SEARCH_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 12,
+            "name": "SHARE_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 13,
+            "name": "ADD_USER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 14,
+            "name": "ASSIGN_ROLE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 15,
+            "name": "DOMAIN_ASSIGNMENT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 16,
+            "name": "FORGET_PASSWORD",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 17,
+            "name": "RESET_PASSWORD",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 18,
+            "name": "REGISTER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 19,
+            "name": "USER_ACTIVATION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 20,
+            "name": "UPDATE_PROFILE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 21,
+            "name": "VIEW_PROFILE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 22,
+            "name": "VIEW_ALL_USERS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 23,
+            "name": "DELETE_ANSWER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 24,
+            "name": "DELETE_ATTACHMENT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 25,
+            "name": "RATE_ANSWER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 26,
+            "name": "VOTE_ANSWER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 27,
+            "name": "VIEW_ATTACHMENT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 28,
+            "name": "ARCHIVE_NOTIFICATION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 29,
+            "name": "VIEW_STATISTICS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 30,
+            "name": "DELETE_RECORD",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 31,
+            "name": "FETCH_ALL_RECORDS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 32,
+            "name": "UPDATE_RECORD",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 33,
+            "name": "CREATE_ROLE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 34,
+            "name": "DELETE_ROLE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 35,
+            "name": "UPDATE_ROLE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 36,
+            "name": "VIEW_ROLE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 37,
+            "name": "FETCH_ORG_INFO",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 38,
+            "name": "UPDATE_ORG_INFO",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 39,
+            "name": "VIEW_PERMISSION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 40,
+            "name": "UPDATE_PERMISSION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 41,
+            "name": "CRUD_ATOMIZER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 42,
+            "name": "RECOMMENDED_QUESTIONS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 43,
+            "name": "STAPLE_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 44,
+            "name": "UPLOAD_CSV",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 45,
+            "name": "CREATE_QA_PAIR",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 46,
+            "name": "ACCESS_TICKET",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 48,
+            "name": "VIEW_RATING",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 49,
+            "name": "VIEW_VOTE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 50,
+            "name": "GET_VIZ_RECS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 51,
+            "name": "UPDATE_VIZ_QA",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 52,
+            "name": "CM_TAB_SEARCH",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 53,
+            "name": "ASK_CLARIFICATION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 54,
+            "name": "FETCH_GROUP",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 55,
+            "name": "UPDATE_GROUP",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 56,
+            "name": "FETCH_DOMAIN",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 57,
+            "name": "PROVIDE_FEEDBACK",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 58,
+            "name": "FETCH_FEEDBACK",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 59,
+            "name": "TRANSFER_OWNERSHIP",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 60,
+            "name": "UPDATE_ANSWER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 61,
+            "name": "FETCH_CURATION_CATEGORY",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 62,
+            "name": "GET_CURATION_START_POINT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 63,
+            "name": "UPDATE_CURATION_START_POINT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 64,
+            "name": "UPDATE_SIMILAR_SET",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 65,
+            "name": "GET_SIMILAR_SETS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 66,
+            "name": "EXPEDITE_ANSWER_PROCESS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 67,
+            "name": "CHANGE_QUESION_DOMAIN",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 68,
+            "name": "VIEW_EXPERT_SCORE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 69,
+            "name": "EDIT_WATCHLIST_USERS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 73,
+            "name": "USER_SEARCH_HISTORY",
+            "given": false,
+            "active": true
+          }
+        ]
+      },
+      {
+        "roleId": 3,
+        "roleName": "Expert",
+        "active": true,
+        "permissions": [
+          {
+            "id": 1,
+            "name": "ACCEPT_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 2,
+            "name": "ACCEPT_SUGGESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 3,
+            "name": "ANSWER_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 4,
+            "name": "ASK_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 5,
+            "name": "AUTO_SUGGEST",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 6,
+            "name": "LIST_EXPERTS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 7,
+            "name": "MARK_FAVORITE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 8,
+            "name": "REJECT_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 9,
+            "name": "REJECT_SUGGESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 10,
+            "name": "REROUTE_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 11,
+            "name": "SEARCH_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 12,
+            "name": "SHARE_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 13,
+            "name": "ADD_USER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 14,
+            "name": "ASSIGN_ROLE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 15,
+            "name": "DOMAIN_ASSIGNMENT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 16,
+            "name": "FORGET_PASSWORD",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 17,
+            "name": "RESET_PASSWORD",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 18,
+            "name": "REGISTER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 19,
+            "name": "USER_ACTIVATION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 20,
+            "name": "UPDATE_PROFILE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 21,
+            "name": "VIEW_PROFILE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 22,
+            "name": "VIEW_ALL_USERS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 23,
+            "name": "DELETE_ANSWER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 24,
+            "name": "DELETE_ATTACHMENT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 25,
+            "name": "RATE_ANSWER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 26,
+            "name": "VOTE_ANSWER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 27,
+            "name": "VIEW_ATTACHMENT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 28,
+            "name": "ARCHIVE_NOTIFICATION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 29,
+            "name": "VIEW_STATISTICS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 30,
+            "name": "DELETE_RECORD",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 31,
+            "name": "FETCH_ALL_RECORDS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 32,
+            "name": "UPDATE_RECORD",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 33,
+            "name": "CREATE_ROLE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 34,
+            "name": "DELETE_ROLE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 35,
+            "name": "UPDATE_ROLE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 36,
+            "name": "VIEW_ROLE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 37,
+            "name": "FETCH_ORG_INFO",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 38,
+            "name": "UPDATE_ORG_INFO",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 39,
+            "name": "VIEW_PERMISSION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 40,
+            "name": "UPDATE_PERMISSION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 41,
+            "name": "CRUD_ATOMIZER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 42,
+            "name": "RECOMMENDED_QUESTIONS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 43,
+            "name": "STAPLE_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 44,
+            "name": "UPLOAD_CSV",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 45,
+            "name": "CREATE_QA_PAIR",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 46,
+            "name": "ACCESS_TICKET",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 47,
+            "name": "FORCE_REROUTE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 48,
+            "name": "VIEW_RATING",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 49,
+            "name": "VIEW_VOTE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 50,
+            "name": "GET_VIZ_RECS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 51,
+            "name": "UPDATE_VIZ_QA",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 52,
+            "name": "CM_TAB_SEARCH",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 53,
+            "name": "ASK_CLARIFICATION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 54,
+            "name": "FETCH_GROUP",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 55,
+            "name": "UPDATE_GROUP",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 56,
+            "name": "FETCH_DOMAIN",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 57,
+            "name": "PROVIDE_FEEDBACK",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 58,
+            "name": "FETCH_FEEDBACK",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 59,
+            "name": "TRANSFER_OWNERSHIP",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 60,
+            "name": "UPDATE_ANSWER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 61,
+            "name": "FETCH_CURATION_CATEGORY",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 62,
+            "name": "GET_CURATION_START_POINT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 63,
+            "name": "UPDATE_CURATION_START_POINT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 64,
+            "name": "UPDATE_SIMILAR_SET",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 65,
+            "name": "GET_SIMILAR_SETS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 66,
+            "name": "EXPEDITE_ANSWER_PROCESS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 67,
+            "name": "CHANGE_QUESION_DOMAIN",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 68,
+            "name": "VIEW_EXPERT_SCORE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 69,
+            "name": "EDIT_WATCHLIST_USERS",
+            "given": false,
+            "active": true
+          }
+        ]
+      },
+      {
+        "roleId": 4,
+        "roleName": "CM",
+        "active": true,
+        "permissions": [
+          {
+            "id": 1,
+            "name": "ACCEPT_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 2,
+            "name": "ACCEPT_SUGGESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 3,
+            "name": "ANSWER_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 4,
+            "name": "ASK_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 5,
+            "name": "AUTO_SUGGEST",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 6,
+            "name": "LIST_EXPERTS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 7,
+            "name": "MARK_FAVORITE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 8,
+            "name": "REJECT_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 9,
+            "name": "REJECT_SUGGESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 10,
+            "name": "REROUTE_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 11,
+            "name": "SEARCH_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 12,
+            "name": "SHARE_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 13,
+            "name": "ADD_USER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 14,
+            "name": "ASSIGN_ROLE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 15,
+            "name": "DOMAIN_ASSIGNMENT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 16,
+            "name": "FORGET_PASSWORD",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 17,
+            "name": "RESET_PASSWORD",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 18,
+            "name": "REGISTER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 19,
+            "name": "USER_ACTIVATION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 20,
+            "name": "UPDATE_PROFILE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 21,
+            "name": "VIEW_PROFILE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 22,
+            "name": "VIEW_ALL_USERS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 23,
+            "name": "DELETE_ANSWER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 24,
+            "name": "DELETE_ATTACHMENT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 25,
+            "name": "RATE_ANSWER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 26,
+            "name": "VOTE_ANSWER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 27,
+            "name": "VIEW_ATTACHMENT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 28,
+            "name": "ARCHIVE_NOTIFICATION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 29,
+            "name": "VIEW_STATISTICS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 30,
+            "name": "DELETE_RECORD",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 31,
+            "name": "FETCH_ALL_RECORDS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 32,
+            "name": "UPDATE_RECORD",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 33,
+            "name": "CREATE_ROLE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 34,
+            "name": "DELETE_ROLE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 35,
+            "name": "UPDATE_ROLE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 36,
+            "name": "VIEW_ROLE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 37,
+            "name": "FETCH_ORG_INFO",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 38,
+            "name": "UPDATE_ORG_INFO",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 39,
+            "name": "VIEW_PERMISSION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 40,
+            "name": "UPDATE_PERMISSION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 41,
+            "name": "CRUD_ATOMIZER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 42,
+            "name": "RECOMMENDED_QUESTIONS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 43,
+            "name": "STAPLE_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 44,
+            "name": "UPLOAD_CSV",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 45,
+            "name": "CREATE_QA_PAIR",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 46,
+            "name": "ACCESS_TICKET",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 47,
+            "name": "FORCE_REROUTE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 48,
+            "name": "VIEW_RATING",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 49,
+            "name": "VIEW_VOTE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 50,
+            "name": "GET_VIZ_RECS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 51,
+            "name": "UPDATE_VIZ_QA",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 52,
+            "name": "CM_TAB_SEARCH",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 53,
+            "name": "ASK_CLARIFICATION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 54,
+            "name": "FETCH_GROUP",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 55,
+            "name": "UPDATE_GROUP",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 56,
+            "name": "FETCH_DOMAIN",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 57,
+            "name": "PROVIDE_FEEDBACK",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 58,
+            "name": "FETCH_FEEDBACK",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 59,
+            "name": "TRANSFER_OWNERSHIP",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 60,
+            "name": "UPDATE_ANSWER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 61,
+            "name": "FETCH_CURATION_CATEGORY",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 62,
+            "name": "GET_CURATION_START_POINT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 63,
+            "name": "UPDATE_CURATION_START_POINT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 64,
+            "name": "UPDATE_SIMILAR_SET",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 65,
+            "name": "GET_SIMILAR_SETS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 66,
+            "name": "EXPEDITE_ANSWER_PROCESS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 67,
+            "name": "CHANGE_QUESION_DOMAIN",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 68,
+            "name": "VIEW_EXPERT_SCORE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 71,
+            "name": "CM_PREVIEW_CONTENT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 72,
+            "name": "FETCH_EXPERT_VERIFIED_DOCS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 74,
+            "name": "SOURCE_DOCUMENTS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 75,
+            "name": "FETCH_GDRIVE_FREQUENCY",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 76,
+            "name": "UPDATE_GDRIVE_ATRS",
+            "given": false,
+            "active": true
+          }
+        ]
+      },
+      {
+        "roleId": 5,
+        "roleName": "Emails",
+        "active": true,
+        "permissions": [
+          {
+            "id": 1,
+            "name": "ACCEPT_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 2,
+            "name": "ACCEPT_SUGGESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 3,
+            "name": "ANSWER_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 4,
+            "name": "ASK_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 5,
+            "name": "AUTO_SUGGEST",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 6,
+            "name": "LIST_EXPERTS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 7,
+            "name": "MARK_FAVORITE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 8,
+            "name": "REJECT_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 9,
+            "name": "REJECT_SUGGESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 10,
+            "name": "REROUTE_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 11,
+            "name": "SEARCH_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 12,
+            "name": "SHARE_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 13,
+            "name": "ADD_USER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 14,
+            "name": "ASSIGN_ROLE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 15,
+            "name": "DOMAIN_ASSIGNMENT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 16,
+            "name": "FORGET_PASSWORD",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 17,
+            "name": "RESET_PASSWORD",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 18,
+            "name": "REGISTER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 19,
+            "name": "USER_ACTIVATION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 20,
+            "name": "UPDATE_PROFILE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 21,
+            "name": "VIEW_PROFILE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 22,
+            "name": "VIEW_ALL_USERS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 23,
+            "name": "DELETE_ANSWER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 24,
+            "name": "DELETE_ATTACHMENT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 25,
+            "name": "RATE_ANSWER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 26,
+            "name": "VOTE_ANSWER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 27,
+            "name": "VIEW_ATTACHMENT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 28,
+            "name": "ARCHIVE_NOTIFICATION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 29,
+            "name": "VIEW_STATISTICS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 30,
+            "name": "DELETE_RECORD",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 31,
+            "name": "FETCH_ALL_RECORDS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 32,
+            "name": "UPDATE_RECORD",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 33,
+            "name": "CREATE_ROLE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 34,
+            "name": "DELETE_ROLE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 35,
+            "name": "UPDATE_ROLE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 36,
+            "name": "VIEW_ROLE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 37,
+            "name": "FETCH_ORG_INFO",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 38,
+            "name": "UPDATE_ORG_INFO",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 39,
+            "name": "VIEW_PERMISSION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 40,
+            "name": "UPDATE_PERMISSION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 41,
+            "name": "CRUD_ATOMIZER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 42,
+            "name": "RECOMMENDED_QUESTIONS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 43,
+            "name": "STAPLE_QUESTION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 44,
+            "name": "UPLOAD_CSV",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 45,
+            "name": "CREATE_QA_PAIR",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 46,
+            "name": "ACCESS_TICKET",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 48,
+            "name": "VIEW_RATING",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 49,
+            "name": "VIEW_VOTE",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 50,
+            "name": "GET_VIZ_RECS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 51,
+            "name": "UPDATE_VIZ_QA",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 52,
+            "name": "CM_TAB_SEARCH",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 53,
+            "name": "ASK_CLARIFICATION",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 54,
+            "name": "FETCH_GROUP",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 55,
+            "name": "UPDATE_GROUP",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 56,
+            "name": "FETCH_DOMAIN",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 57,
+            "name": "PROVIDE_FEEDBACK",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 58,
+            "name": "FETCH_FEEDBACK",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 59,
+            "name": "TRANSFER_OWNERSHIP",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 60,
+            "name": "UPDATE_ANSWER",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 61,
+            "name": "FETCH_CURATION_CATEGORY",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 62,
+            "name": "GET_CURATION_START_POINT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 63,
+            "name": "UPDATE_CURATION_START_POINT",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 64,
+            "name": "UPDATE_SIMILAR_SET",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 65,
+            "name": "GET_SIMILAR_SETS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 66,
+            "name": "EXPEDITE_ANSWER_PROCESS",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 67,
+            "name": "CHANGE_QUESION_DOMAIN",
+            "given": false,
+            "active": true
+          },
+          {
+            "id": 68,
+            "name": "VIEW_EXPERT_SCORE",
+            "given": false,
+            "active": true
+          }
+        ]
+      }
+    ],
+    "auditActions": {
+      "Tab Search": 71,
+      "Shared FAQs": 27,
+      "Trending Search": 59,
+      "Favourite Questions": 5,
+      "Related Questions": 43,
+      "Attachment Download": 30,
+      "Accepted Suggestions": 4,
+      "KEY_TAGS": 95,
+      "User Login": 1
+    },
+    "geoAttributes": {
+      "userId": "3c51d003-056e-4fc0-a057-6486abe7f562",
+      "attributes": {
+        "1": {
+          "routingLevels": {
+            "atr1": "India",
+            "atr2": "APAC",
+            "global": false,
+            "adminOverriden": true,
+            "createdDate": "2022-07-06T12:18:11.000+00:00",
+            "modifiedDate": "2022-07-06T12:18:11.000+00:00"
+          }
+        },
+        "2": {
+          "routingLevels": {
+            "atr1": "India",
+            "atr2": "APAC",
+            "global": true,
+            "adminOverriden": true,
+            "createdDate": "2022-07-06T12:18:11.000+00:00",
+            "modifiedDate": "2022-07-06T12:18:11.000+00:00"
+          }
+        },
+        "3": {
+          "routingLevels": {
+            "atr1": "India",
+            "atr2": "APAC",
+            "global": true,
+            "adminOverriden": true,
+            "createdDate": "2022-07-06T12:18:11.000+00:00",
+            "modifiedDate": "2022-07-06T12:18:11.000+00:00"
+          }
+        },
+        "4": {
+          "routingLevels": {
+            "global": false,
+            "adminOverriden": true,
+            "createdDate": "2022-07-06T12:18:11.000+00:00",
+            "modifiedDate": "2022-07-06T12:18:11.000+00:00"
+          },
+          "cmDomains": [
+            null,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        "5": {
+          "routingLevels": {
+            "global": false,
+            "adminOverriden": true,
+            "createdDate": "2022-07-06T12:18:11.000+00:00",
+            "modifiedDate": "2022-07-06T12:18:11.000+00:00"
+          }
+        }
+      },
+      "seekerIdentity": true,
+      "expertScoreAllowed": true
+    },
+    "brandingText": "Domain covered: VSP 5000, E Series (E990,E790,E590), Ops Center, HNAS 5000",
+    "enableAutoPickAskExpert": false,
+    "maxSLA": 9,
+    "flatRoutingLevel": false,
+    "searchToggle": true,
+    "toggleActive": true,
+    "reroute": true,
+    "questionAllowedSources": {
+      "0": "Vizerto",
+      "2": "Mobile",
+      "3": "slack",
+      "4": "email",
+      "5": "slack-channel"
+    },
+    "outOfOffice": [],
+    "expirationMonths": 12,
+    "userBadges": [
+      {
+        "category": "Curious Mind",
+        "level": 2,
+        "nextAwardLevelCount": "825.00",
+        "currentLevelCount": "313.00"
+      },
+      {
+        "category": "Helping Hand",
+        "level": 2,
+        "nextAwardLevelCount": "561.50",
+        "currentLevelCount": "210.00"
+      },
+      {
+        "category": "Engagement",
+        "level": 2,
+        "nextAwardLevelCount": "1013.25",
+        "currentLevelCount": "678.00"
+      }
+    ]
+  }
