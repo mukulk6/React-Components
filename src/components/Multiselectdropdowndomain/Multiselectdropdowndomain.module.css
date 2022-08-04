@@ -1,5 +1,7 @@
-.domainSelect > options
+.domainSelect 
 {
     font-family: 'Poppins',sans-serif;
     font-size: 12px !important;
+    text-align: left;
+    max-height: 300px;
 }

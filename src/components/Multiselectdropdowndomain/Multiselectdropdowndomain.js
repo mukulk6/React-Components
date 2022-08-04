@@ -14,7 +14,7 @@ function Multiselectdropdowndomain(props) {
     <div class="col-md-3">
       <Form.Group as={Col} controlId="my_multiselect_field">
         <Form.Label>My multiselect</Form.Label>
-        <Form.Control as="select" multiple={true} value={field} onChange={e => setField([].slice.call(e.target.props.data.visibleTopics).map(item => item.value))}>
+        <Form.Control as="select" multiple={true} value={field} onChange={e => setField([].slice.call(e.target.selectedOptions).map(item => item.value))}>
           {props.data.visibleTopics.map((op) =>{return(<option>{op}</option>)})}
         </Form.Control>
       </Form.Group>
