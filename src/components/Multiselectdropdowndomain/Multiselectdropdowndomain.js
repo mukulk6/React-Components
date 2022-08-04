@@ -10,27 +10,24 @@ import SeekerData from './getprofileSeeker.json';
 const animatedComponents = makeAnimated();
 function Multiselectdropdowndomain(props) {
   const [field, setField] = useState([]);
-
   return (
     <div class="col-md-3">
       <Form.Group as={Col} controlId="my_multiselect_field">
         <Form.Label>My multiselect</Form.Label>
-        <Form.Control as="select" multiple={true} value={field} onChange={e => setField([].slice.call(e.target.selectedOptions).map(item => item.value))}>
-          {props.data.visibleTopics.map((opt) => {
-            return <option name={opt.name} value={opt.name}>{opt.name}</option>
-          })}
+        <Form.Control as="select" multiple={true} value={field} onChange={e => setField([].slice.call(e.target.props.data.visibleTopics).map(item => item.value))}>
+          {props.data.visibleTopics.map((op) =>{return(<option>{op}</option>)})}
         </Form.Control>
       </Form.Group>
       <Select
         closeMenuOnSelect={false}
         components={animatedComponents}
         isMulti
-        options={props.data.visibleTopics.map((opt) => <options>{opt}</options>)}
+        options={props.data.visibleTopics.map((opt) => { return {value: opt, label: opt } })}
+        className={styles.domainSelect}
       />
-    </div >
+    </div>
   );
 }
-
 
 Multiselectdropdowndomain.propTypes = {};
 

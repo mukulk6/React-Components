@@ -1,1 +1,5 @@
-.Multiselectdropdowndomain {}
+.domainSelect > options
+{
+    font-family: 'Poppins',sans-serif;
+    font-size: 12px !important;
+}
