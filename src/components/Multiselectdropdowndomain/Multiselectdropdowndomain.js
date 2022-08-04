@@ -11,12 +11,11 @@ function Multiselectdropdowndomain(props) {
     <div class="col-md-3">
       <Form.Group as={Col} controlId="my_multiselect_field">
         <Form.Label>My multiselect</Form.Label>
-      <Form.Control as="select" multiple value={field} onChange={e => setField([].slice.call(e.target.selectedOptions).map(item => item.value))}>
-        <option value="field1">Field 1</option>
-        <option value="field2">Field 2</option>
-        <option value="field3">Field 3</option>
+        <Form.Control as="select" multiple value={field} onChange={e => setField([].slice.call(e.target.selectedOptions).map(item => item.value))}>
+          {props.data.visibleTopics.map((opt) => {return<option value={opt.name}>{opt.name}</option>
+          })}
         </Form.Control>
-    </Form.Group>
+      </Form.Group>
     </div >
   );
 }
