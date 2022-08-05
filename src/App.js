@@ -7,7 +7,7 @@ import Multiselectdropdowndomain from './components/Multiselectdropdowndomain/Mu
 
 function App() {
   return (
-    
+    <div className="App">
       <div class="row">
         <Elements />
         <TabSearch />
@@ -18,6 +18,7 @@ function App() {
             </div>
           )
         })}
+      </div>
       </div>
   );
 }
