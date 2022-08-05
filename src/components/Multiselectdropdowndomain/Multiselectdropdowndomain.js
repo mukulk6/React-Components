@@ -15,16 +15,23 @@ function Multiselectdropdowndomain(props) {
       <Form.Group as={Col} controlId="my_multiselect_field">
         <Form.Label>My multiselect</Form.Label>
         <Form.Control as="select" multiple={true} value={field} onChange={e => setField([].slice.call(e.target.selectedOptions).map(item => item.value))}>
-          {props.data.visibleTopics.map((op) =>{return(<option>{op}</option>)})}
+          {props.data.visibleTopics.map((op) => { return (<option>{op}</option>) })}
         </Form.Control>
       </Form.Group>
-      <Select
-        closeMenuOnSelect={false}
-        components={animatedComponents}
-        isMulti
-        options={props.data.visibleTopics.map((opt) => { return {value: opt, label: opt } })}
-        className={styles.domainSelect}
-      />
+      <div class="row">
+        <div class="col-md-4">
+          <span>Domain: </span>
+          <Select
+            closeMenuOnSelect={false}
+            components={animatedComponents}
+            isMulti
+            options={props.data.visibleTopics.map((opt) => { return { value: opt, label: opt } })}
+            className={styles.domainSelect}
+            maxMenuHeight={220}
+            placeholder="Select Domain"
+          />
+        </div>
+      </div>
     </div>
   );
 }
