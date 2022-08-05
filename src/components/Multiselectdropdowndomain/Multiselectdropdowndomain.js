@@ -7,6 +7,7 @@ import PropTypes from 'prop-types';
 import styles from './Multiselectdropdowndomain.module.css';
 import SeekerData from './getprofileSeeker.json';
 
+
 const animatedComponents = makeAnimated();
 function Multiselectdropdowndomain(props) {
   const [field, setField] = useState([]);
@@ -27,8 +28,9 @@ function Multiselectdropdowndomain(props) {
             isMulti
             options={props.data.visibleTopics.map((opt) => { return { value: opt, label: opt } })}
             className={styles.domainSelect}
-            maxMenuHeight={220}
+            maxMenuHeight={250}
             placeholder="Select Domain"
+            container={300}
           />
         </div>
       </div>
