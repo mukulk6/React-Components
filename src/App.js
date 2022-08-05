@@ -7,17 +7,18 @@ import Multiselectdropdowndomain from './components/Multiselectdropdowndomain/Mu
 
 function App() {
   return (
-    <div className="App">
-      <Elements />
-      <TabSearch />
-      {SeekerData.map((postData, index) => {
-        return (
-          <div key={index}>
-            <Multiselectdropdowndomain data={postData} />
-          </div>
-        )
-      })}
-    </div>
+    
+      <div class="row">
+        <Elements />
+        <TabSearch />
+        {SeekerData.map((postData, index) => {
+          return (
+            <div key={index}>
+              <Multiselectdropdowndomain data={postData} />
+            </div>
+          )
+        })}
+      </div>
   );
 }
 

@@ -12,14 +12,6 @@ const animatedComponents = makeAnimated();
 function Multiselectdropdowndomain(props) {
   const [field, setField] = useState([]);
   return (
-    <div class="col-md-3">
-      <Form.Group as={Col} controlId="my_multiselect_field">
-        <Form.Label>My multiselect</Form.Label>
-        <Form.Control as="select" multiple={true} value={field} onChange={e => setField([].slice.call(e.target.selectedOptions).map(item => item.value))}>
-          {props.data.visibleTopics.map((op) => { return (<option>{op}</option>) })}
-        </Form.Control>
-      </Form.Group>
-      <div class="row">
         <div class="col-md-4">
           <span>Domain: </span>
           <Select
@@ -33,8 +25,6 @@ function Multiselectdropdowndomain(props) {
             container={300}
           />
         </div>
-      </div>
-    </div>
   );
 }
 
