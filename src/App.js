@@ -5,6 +5,7 @@ import Elements from './components/Elements/Elements';
 import TabSearch from './components/TabSearch/TabSearch';
 import Multiselectdropdowndomain from './components/Multiselectdropdowndomain/Multiselectdropdowndomain';
 import SearchBar from './components/SearchBar/SearchBar';
+import AskanExpertlogo from './components/AskanExpertlogo/AskanExpertlogo';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <div class="row">
           <Elements />
           <TabSearch />
+          <AskanExpertlogo />
           {SeekerData.map((postData, index) => {
             return (
               <div key={index}>
