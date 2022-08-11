@@ -19,8 +19,12 @@ const SearchBar = (props) => (
       </InputGroup>
     </div>
     <Row>
-      <Col xs={12} className={styles.brandText}>
+      <Col xs={10} className={styles.brandText}>
         {props.data.brandingText}
+      </Col>
+      <Col xs={2} className={styles.characterLengthDiv}>
+        <span className={styles.Characters}>Characters:</span>
+        <span className={styles.CharactersLength}>200/200</span>
       </Col>
     </Row>
   </div>
