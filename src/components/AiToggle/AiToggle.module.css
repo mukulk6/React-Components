@@ -1,5 +1,25 @@
 .aisearchtext
 {
-    position: absolute;
-    
+    position: absolute;   
+}
+
+#btnToggle
+{
+    color: #fff;
+    background-color: #00A5FB;
+    border-radius: 3px;
+    border-color: #00A5FB;
+    margin: 0px 3px;
+    border-radius: 3px;
+    border: none;
+}
+
+#customswitch, #customswitch:checked
+{
+    background-color: #00A5FB;
+    width:60px;
+    height:30px;
+    border:none !important;
+    border-radius:3px;
+    border:none;
 }
