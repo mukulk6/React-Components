@@ -4,6 +4,7 @@ import SeekerData from '../src/components/Elements/getprofileSeeker.json';
 import Elements from './components/Elements/Elements';
 import TabSearch from './components/TabSearch/TabSearch';
 import Multiselectdropdowndomain from './components/Multiselectdropdowndomain/Multiselectdropdowndomain';
+import SearchBar from './components/SearchBar/SearchBar';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             </div>
           )
         })}
+        <SearchBar />
       </div>
       </div>
   );
