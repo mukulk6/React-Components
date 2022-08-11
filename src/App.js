@@ -9,20 +9,21 @@ import SearchBar from './components/SearchBar/SearchBar';
 function App() {
   return (
     <div className="App">
-      <div class="row">
-        <Elements />
-        <TabSearch />
-        {SeekerData.map((postData, index) => {
-          return (
-            <div key={index}>
-              <Multiselectdropdowndomain data={postData} />
-              <SearchBar data={postData}/>
-            </div>
-          )
-        })}
-        
+      <div class="container">
+        <div class="row">
+          <Elements />
+          <TabSearch />
+          {SeekerData.map((postData, index) => {
+            return (
+              <div key={index}>
+                <Multiselectdropdowndomain data={postData} />
+                <SearchBar data={postData} />
+              </div>
+            )
+          })}
+        </div>
       </div>
-      </div>
+    </div>
   );
 }
 
