@@ -16,10 +16,11 @@ function App() {
           return (
             <div key={index}>
               <Multiselectdropdowndomain data={postData} />
+              <SearchBar data={postData}/>
             </div>
           )
         })}
-        <SearchBar />
+        
       </div>
       </div>
   );
