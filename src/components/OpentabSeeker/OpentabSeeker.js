@@ -12,22 +12,14 @@ const OpentabSeeker = (props) => (
     <div className={styles.Wrappersearchbar}>
       <div className={styles.midContainer}>
         <div class="container">
-          {
-            SeekerData.map((pdata, ind) => {
-              return (
-                <div key={ind}>
-                  <SearchBar data={pdata} />
-                </div>
-              )
-            })
-          }
+          <SearchBar data />
           <section>
             <div class="row">
               <div class="col-md-3">
                 <h3>Open Questions</h3>
                 <div className={styles.openQuestionCount}>
                   {
-                    
+                    props.data.count
                   }
                 </div>
               </div>

@@ -9,7 +9,6 @@ import AskanExpertlogo from './components/AskanExpertlogo/AskanExpertlogo';
 import AiToggle from './components/AiToggle/AiToggle';
 import NavigationBar from './components/NavigationBar/NavigationBar';
 import Wrappersearchbar from './components/Wrappersearchbar/Wrappersearchbar';
-import OpentabSeekerData from './components/OpentabSeeker/opentabseeker.json';
 import OpentabSeeker from './components/OpentabSeeker/OpentabSeeker';
 import React from 'react';
 
