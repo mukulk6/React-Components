@@ -11,6 +11,7 @@ import NavigationBar from './components/NavigationBar/NavigationBar';
 import Wrappersearchbar from './components/Wrappersearchbar/Wrappersearchbar';
 import OpentabSeeker from './components/OpentabSeeker/OpentabSeeker';
 import React from 'react';
+import RenderOpenTabComponent from './components/RenderOpenTabComponent/RenderOpenTabComponent';
 
 function App() {
   return (

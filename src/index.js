@@ -3,16 +3,24 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import OpenTabSeekerData from './components/RenderOpenTabComponent/opentabseeker.json'
 import RenderOpenTabComponent from './components/RenderOpenTabComponent/RenderOpenTabComponent'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import OpentabSeeker from './components/OpentabSeeker/OpentabSeeker';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />}/>
-        <Route path="/openseeker" element={<RenderOpenTabComponent  />} />
+        <Route path="/" element={<App />} />
+        <Route path="/openseeker" element={OpenTabSeekerData.map((pdata, ind) => {
+          return (
+            <div key={ind}>
+              <OpentabSeeker data={pdata} />
+            </div>
+          )
+        })} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
