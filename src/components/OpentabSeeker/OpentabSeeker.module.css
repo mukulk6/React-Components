@@ -19,3 +19,23 @@
     margin: 0 auto;
     padding: 5px
 }
+
+.openQuestionCount
+{
+    color: #fff;
+    background: #4BCAFF;
+    border-radius: 5px;
+    padding: 0px 5px 0px 5px;
+    margin-left: 8px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.openQuestions
+{
+    font-size: 20px;
+    color: #075491;
+    font-weight: bold;
+    font-family: 'Poppins',sans-serif;
+    display: inline-block;
+}

@@ -5,6 +5,9 @@ import NavigationBar from '../NavigationBar/NavigationBar';
 import Wrappersearchbar from '../Wrappersearchbar/Wrappersearchbar';
 import SeekerData from '../Elements/getprofileSeeker.json';
 import SearchBar from '../SearchBar/SearchBar';
+import TabSearch from '../TabSearch/TabSearch';
+import Elements from '../Elements/Elements';
+import Multiselectdropdowndomain from '../Multiselectdropdowndomain/Multiselectdropdowndomain';
 
 const OpentabSeeker = (props) => (
   <div class="container">
@@ -12,22 +15,41 @@ const OpentabSeeker = (props) => (
     <div className={styles.Wrappersearchbar}>
       <div className={styles.midContainer}>
         <div class="container">
-          <SearchBar data />
-          <section>
-            <div class="row">
-              <div class="col-md-3">
-                <h3>Open Questions</h3>
-                <div className={styles.openQuestionCount}>
-                  {
-                    props.data.count
-                  }
+          {
+            SeekerData.map((postData, index) => {
+              return (
+                <div key={index}>
+                  <SearchBar data={postData} />
                 </div>
-              </div>
-            </div>
-          </section>
+              )
+            })
+          }
         </div>
       </div>
     </div>
+    <section>
+      <div class="row">
+        <div class="col-md-3">
+          <h3 className={styles.openQuestions}>Open Questions</h3>
+          <span className={styles.openQuestionCount}>
+            {
+              props.data.count
+            }
+          </span>
+        </div>
+        <TabSearch />
+        <Elements />
+        {
+          SeekerData.map((postData, index) => {
+            return (
+              <div key={index}>
+                <Multiselectdropdowndomain data={postData} />
+              </div>
+            )
+          })
+        }
+      </div>
+    </section>
     <div>
     </div>
   </div>
