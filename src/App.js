@@ -7,6 +7,7 @@ import Multiselectdropdowndomain from './components/Multiselectdropdowndomain/Mu
 import SearchBar from './components/SearchBar/SearchBar';
 import AskanExpertlogo from './components/AskanExpertlogo/AskanExpertlogo';
 import AiToggle from './components/AiToggle/AiToggle';
+import NavigationBar from './components/NavigationBar/NavigationBar';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <TabSearch />
           <AskanExpertlogo />
           <AiToggle />
+          <NavigationBar />
           {SeekerData.map((postData, index) => {
             return (
               <div key={index}>

@@ -1,1 +1,73 @@
-.NavigationBar {}
+a.brandImg img 
+{
+    width:118px;
+    height:35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.navigationBar
+{
+    margin-bottom: 0;
+    margin-left: auto !important;
+}
+.navigationBar li
+{
+    color:#075491;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    font-family: 'Poppins',sans-serif;
+    font-size: 12px;
+    margin-bottom: -15px;
+    padding:5px 8px;
+    text-align: center;
+}
+
+.navigationBar a
+{
+    font-weight: 600;
+    margin:0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #075491;
+}
+
+nav {
+    box-shadow: 0px 5px 50px rgb(0 0 0 / 10%);
+    border: 0px;
+    background-color: #fff;
+    padding-top:0px !important;
+    padding-bottom: 0px !important;
+    height:52px;
+}
+
+.iconCenter
+{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.fireIcon > i
+{
+font-size: 26px;
+padding-right:2px;
+line-height: 1;
+color: #fd7400;
+}
+
+.fireIcon > span 
+{
+    display: inline;
+    position: relative;
+    bottom: 5px;
+    color: #075491;
+    font-weight: bold;
+    padding: 0 3px;
+    font-size: 14px;
+}
+
+.fireIcon
+{
+    position: relative;
+    top:-7px;
+}
