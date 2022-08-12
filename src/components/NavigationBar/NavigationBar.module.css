@@ -159,3 +159,20 @@ color: #fd7400;
 {
 border-bottom: 2px solid #fd7400;
 }
+
+.navigationBar
+{
+    padding-bottom: 10px;
+}
+.navigationBar > li > i
+{
+    font-size: 16px;
+}
+
+.avatarImg
+{
+    width:40px;
+    height:40px;
+    float:left;
+    border-radius: 50%;
+}

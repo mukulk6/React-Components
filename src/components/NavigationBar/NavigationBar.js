@@ -10,6 +10,7 @@ const NavigationBar = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
+    <div class="container">
     <nav class="navbar navbar-default navbar-light navbar-right bg-light navbar-expand-lg fixed-top">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -73,7 +74,7 @@ const NavigationBar = () => {
               <div className={styles.userinfo}>
                 <div class="clearfix">
                   <span>Mukul Kale</span>
-                  <img src={require('../../images/profile.jpg')}></img>
+                  <img src={require('../../images/profile.jpg')} className={styles.avatarImg}></img>
                   <select class="form-select form-select-sm" aria-label=".form-select-lg example">
                     <option value="1">Admin</option>
                     <option value="2">CM</option>
@@ -96,6 +97,7 @@ const NavigationBar = () => {
         </ul>
       </div>
     </nav>
+    </div>
   )
 };
 
