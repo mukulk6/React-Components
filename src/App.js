@@ -8,17 +8,21 @@ import SearchBar from './components/SearchBar/SearchBar';
 import AskanExpertlogo from './components/AskanExpertlogo/AskanExpertlogo';
 import AiToggle from './components/AiToggle/AiToggle';
 import NavigationBar from './components/NavigationBar/NavigationBar';
+import Wrappersearchbar from './components/Wrappersearchbar/Wrappersearchbar';
+import OpentabSeekerData from './components/OpentabSeeker/opentabseeker.json';
+import OpentabSeeker from './components/OpentabSeeker/OpentabSeeker';
+import React from 'react';
 
 function App() {
   return (
     <div className="App">
-      <div class="container">
         <div class="row">
           <Elements />
           <TabSearch />
           <AskanExpertlogo />
           <AiToggle />
           <NavigationBar />
+          <Wrappersearchbar />
           {SeekerData.map((postData, index) => {
             return (
               <div key={index}>
@@ -28,7 +32,6 @@ function App() {
             )
           })}
         </div>
-      </div>
     </div>
   );
 }
