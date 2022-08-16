@@ -8,6 +8,7 @@ import SearchBar from '../SearchBar/SearchBar';
 import TabSearch from '../TabSearch/TabSearch';
 import Elements from '../Elements/Elements';
 import Multiselectdropdowndomain from '../Multiselectdropdowndomain/Multiselectdropdowndomain';
+import Form from 'react-bootstrap/Form';
 
 const OpentabSeeker = (props) => (
   <div class="container">
@@ -28,7 +29,7 @@ const OpentabSeeker = (props) => (
       </div>
     </div>
     <section>
-      <div class="row">
+      <div class="row" id={styles.bottomRow}>
         <div class="col-md-3">
           <h3 className={styles.openQuestions}>Open Questions</h3>
           <span className={styles.openQuestionCount}>
@@ -46,6 +47,35 @@ const OpentabSeeker = (props) => (
             )
           })
         }
+      </div>
+      <div class="row">
+        <div className={styles.questionsList}>
+          <div class="row">
+            <div class="col-md-6">
+              <h2 id={styles.openQuestionsHeader}>
+                What is cross browser testing?
+              </h2>
+            </div>
+            <div class="col-md-6 text-end">
+              <div className={styles.openTabIcons}>
+                <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                <i class="fa fa-trash" aria-hidden="true"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa fa-users" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <Form>
+              <Form.Group className="mb-3" controlId={styles.additionalContext}>
+                <Form.Control type="text" />
+              </Form.Group>
+            </Form>
+            <div class="col-md-12">
+              <span>Domain</span>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <div>
