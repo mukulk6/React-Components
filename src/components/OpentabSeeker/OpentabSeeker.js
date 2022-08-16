@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import styles from './OpentabSeeker.module.css';
 import NavigationBar from '../NavigationBar/NavigationBar';
@@ -10,7 +10,10 @@ import Elements from '../Elements/Elements';
 import Multiselectdropdowndomain from '../Multiselectdropdowndomain/Multiselectdropdowndomain';
 import Form from 'react-bootstrap/Form';
 
-const OpentabSeeker = (props) => (
+const OpentabSeeker = () => (
+  const [openTabData, getOpenTabData] = useState(SeekerData);
+
+  return(
   <div class="container">
     <NavigationBar />
     <div className={styles.Wrappersearchbar}>
@@ -95,6 +98,7 @@ const OpentabSeeker = (props) => (
     <div>
     </div>
   </div>
+  )
 );
 
 OpentabSeeker.propTypes = {};
