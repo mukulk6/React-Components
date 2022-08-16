@@ -4,8 +4,6 @@ import Select from 'react-select';
 import PropTypes from 'prop-types';
 import styles from './Multiselectdropdowndomain.module.css';
 
-
-
 const animatedComponents = makeAnimated();
 function Multiselectdropdowndomain(props) {
   const [field, setField] = useState([]);

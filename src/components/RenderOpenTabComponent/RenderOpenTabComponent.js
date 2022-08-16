@@ -15,7 +15,7 @@ const RenderOpenTabComponent = (props) => (
         )
       })
     }   */}
-    <OpentabSeeker />
+    <OpentabSeeker data/>
   </div>
 );
 

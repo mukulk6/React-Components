@@ -17,7 +17,7 @@ root.render(
         <Route path="/openseeker" element={OpenTabSeekerData.map((pdata, ind) => {
           return (
             <div key={ind}>
-              <OpentabSeeker data={pdata} />
+              <RenderOpenTabComponent data={pdata} />
             </div>
           )
         })} />
