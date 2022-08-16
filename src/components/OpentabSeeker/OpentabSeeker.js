@@ -32,9 +32,7 @@ const OpentabSeeker = (props) => (
         <div class="col-md-3">
           <h3 className={styles.openQuestions}>Open Questions</h3>
           <span className={styles.openQuestionCount}>
-            {
-              props.data.count
-            }
+            61
           </span>
         </div>
         <TabSearch />
@@ -42,7 +40,7 @@ const OpentabSeeker = (props) => (
         {
           SeekerData.map((postData, index) => {
             return (
-              <div key={index}>
+              <div key={index} class="col-md-3">
                 <Multiselectdropdowndomain data={postData} />
               </div>
             )

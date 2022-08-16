@@ -6,16 +6,7 @@ import OpentabSeeker from '../OpentabSeeker/OpentabSeeker';
 
 const RenderOpenTabComponent = (props) => (
   <div className={styles.RenderOpenTabComponent}>
-    {/* {
-      SeekerOpenData.map((pdata,ind)=>{
-        return(
-          <div key={ind}>
-            <OpentabSeeker data={pdata}/>
-            </div>
-        )
-      })
-    }   */}
-    <OpentabSeeker data/>
+    <OpentabSeeker />
   </div>
 );
 

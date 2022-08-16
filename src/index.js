@@ -14,13 +14,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/openseeker" element={OpenTabSeekerData.map((pdata, ind) => {
-          return (
-            <div key={ind}>
-              <RenderOpenTabComponent data={pdata} />
-            </div>
-          )
-        })} />
+        <Route path="/openseeker" element={<RenderOpenTabComponent />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
