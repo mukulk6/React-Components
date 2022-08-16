@@ -71,9 +71,18 @@ const OpentabSeeker = (props) => (
                 <Form.Control type="text" />
               </Form.Group>
             </Form>
-            <div class="col-md-12">
-              <span>Domain</span>
+          <div class="row">
+          <div class="col-md-2">
+              <div className={styles.tagDomain}>
+                <h3>Domain: <span className={styles.label}>Collaterals</span></h3>
+              </div>
             </div>
+            <div class="col-md-2">
+              <div className={styles.tagsinQue}>
+                <h3>Asked: </h3>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
       </div>
