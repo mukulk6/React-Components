@@ -6,7 +6,7 @@ import OpentabSeeker from '../OpentabSeeker/OpentabSeeker';
 
 const RenderOpenTabComponent = (props) => (
   <div className={styles.RenderOpenTabComponent}>
-    <OpentabSeeker />
+      <OpentabSeeker />
   </div>
 );
 
