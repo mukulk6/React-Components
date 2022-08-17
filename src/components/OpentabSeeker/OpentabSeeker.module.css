@@ -163,3 +163,15 @@ margin:2px;
     background-color: #aaa;
     font-weight: 400;
 }
+.requestUpdateIcon
+{
+    color: #ffffff;
+    font-size: 14px;
+    background: #6c94ba;
+    padding: 4px 10px;
+    border-radius: 2px;
+    vertical-align: top;
+    display: inline-block;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+}
