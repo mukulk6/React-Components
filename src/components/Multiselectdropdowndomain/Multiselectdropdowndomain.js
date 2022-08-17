@@ -17,6 +17,7 @@ function Multiselectdropdowndomain(props) {
         maxMenuHeight={250}
         placeholder="Select Domain"
         container={300}
+        menuPosition="absolute"
       />
   );
 }

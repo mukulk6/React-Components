@@ -17,7 +17,7 @@ function questionsOpenTab() {
 
 function OpentabSeeker() {
   const questionsOpen = questionsOpenTab();
-
+  const [getQuestions, questionsData]= useState({questionsOpen});
   return (
     <div class="container">
       <NavigationBar />
@@ -50,7 +50,7 @@ function OpentabSeeker() {
             SeekerData.map((postData, index) => {
               return (
                 <div key={index} class="col-md-3">
-                  <span>Domain:</span>
+                  <span id={styles.domainTextMultiselect}>Domain:</span>
                   <Multiselectdropdowndomain data={postData} />
                 </div>
               )

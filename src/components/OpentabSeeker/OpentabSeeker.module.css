@@ -44,6 +44,7 @@
 {
     border-bottom: 1px solid #00A5FB;
     padding-top: 10px;
+    padding-bottom: 8px;
 }
 
 /* List of questions css */
@@ -192,4 +193,10 @@ margin:2px;
     background-color: #aaa;
     font-weight: 400;
     margin:1.2px;
+}
+
+#domainTextMultiselect
+{
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
 }
