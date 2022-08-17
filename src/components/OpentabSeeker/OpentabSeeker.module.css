@@ -175,3 +175,20 @@ margin:2px;
     font-family: 'Poppins',sans-serif;
     font-weight: bold;
 }
+
+.tagLabel
+{
+    display: inline;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+    background-color: #aaa;
+    font-weight: 400;
+    margin:1.2px;
+}

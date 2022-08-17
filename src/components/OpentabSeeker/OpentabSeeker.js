@@ -61,12 +61,12 @@ function OpentabSeeker() {
             <div class="row">
               <div className={styles.questionsList}>
                 <div class="row">
-                  <div class="col-md-6">
+                  <div class="col-md-8">
                     <h2 id={styles.openQuestionsHeader}>
-                    {que.userInitiatedCuration == true && <span className={styles.requestUpdateIcon}>Requested Update</span>}{que.text}
+                      {que.userInitiatedCuration == true && <span className={styles.requestUpdateIcon}>Requested Update</span>}{que.text}
                     </h2>
                   </div>
-                  <div class="col-md-6 text-end">
+                  <div class="col-md-4 text-end">
                     <div className={styles.openTabIcons}>
                       <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
                       <i class="fa fa-trash" aria-hidden="true"></i>
@@ -76,15 +76,18 @@ function OpentabSeeker() {
                   </div>
                 </div>
                 <div class="row">
-                  <Form>
-                    <Form.Group className="mb-3" controlId={styles.additionalContext}>
-                      <Form.Control type="text" />
-                    </Form.Group>
-                  </Form>
+                  {que.additionalContext && 
+                    // <Form>
+                    //   <Form.Group className="mb-3" controlId={styles.additionalContext}>
+                    //     <Form.Control type="text" />{que.additionalContext}
+                    //   </Form.Group>
+                    // </Form>
+                    <span class="input-group-text" id={styles.additionalContext}>{que.additionalContext}</span>
+                  }
                   <div class="row">
                     <div class="col-md-2">
                       <div className={styles.tagDomain}>
-                        <h3>Domain: <span className={styles.label}>Collaterals</span></h3>
+                        <h3>Domain: <span className={styles.label}>{que.domain}</span></h3>
                       </div>
                     </div>
                     <div class="col-md-2">
@@ -94,7 +97,7 @@ function OpentabSeeker() {
                     </div>
                     <div class="col-md-12">
                       <div className={styles.tagsinQue}>
-                        <h3>Tags: <span id={styles.tagsInQuestion}>Testing</span></h3>
+                        {(que.tags).length > 0 && <h3>Tags: {que.tags.map((tag) => { return (<span className={styles.tagLabel}>{tag}</span>) })}</h3>}
                       </div>
                     </div>
                   </div>
