@@ -8,8 +8,6 @@ const animatedComponents = makeAnimated();
 function Multiselectdropdowndomain(props) {
   const [field, setField] = useState([]);
   return (
-    <div>
-      <span>Domain: </span>
       <Select
         closeMenuOnSelect={false}
         components={animatedComponents}
@@ -20,7 +18,6 @@ function Multiselectdropdowndomain(props) {
         placeholder="Select Domain"
         container={300}
       />
-    </div>
   );
 }
 

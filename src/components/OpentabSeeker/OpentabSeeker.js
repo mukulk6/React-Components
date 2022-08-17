@@ -50,6 +50,7 @@ function OpentabSeeker() {
             SeekerData.map((postData, index) => {
               return (
                 <div key={index} class="col-md-3">
+                  <span>Domain:</span>
                   <Multiselectdropdowndomain data={postData} />
                 </div>
               )
@@ -76,12 +77,7 @@ function OpentabSeeker() {
                   </div>
                 </div>
                 <div class="row">
-                  {que.additionalContext && 
-                    // <Form>
-                    //   <Form.Group className="mb-3" controlId={styles.additionalContext}>
-                    //     <Form.Control type="text" />{que.additionalContext}
-                    //   </Form.Group>
-                    // </Form>
+                  {que.additionalContext &&
                     <span class="input-group-text" id={styles.additionalContext}>{que.additionalContext}</span>
                   }
                   <div class="row">

@@ -7,6 +7,7 @@ import OpenTabSeekerData from './components/RenderOpenTabComponent/opentabseeker
 import RenderOpenTabComponent from './components/RenderOpenTabComponent/RenderOpenTabComponent'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import OpentabSeeker from './components/OpentabSeeker/OpentabSeeker';
+import OpenTabData from './components/OpentabSeeker/OpenTabData.json';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,7 +15,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/openseeker" element={<RenderOpenTabComponent />} />
+        <Route path="/openseeker" element={<OpentabSeeker />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
