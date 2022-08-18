@@ -8,11 +8,29 @@
     background-color: #eef0f2;
 }
 
+.upvoteButton
+{
+    color: #bdbdbd;    
+}
+
+.upvoteButton > i
+{
+    cursor: pointer;
+}
+
 .midContainer
 {
     padding-bottom: 0px;
     padding-top: 101px !important;
     height: 210px;
+}
+
+.userName
+{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Poppins', 'Lato', sans-serif;
+    float:left;
 }
 
 .mid-container {
@@ -69,12 +87,13 @@
     color: #D3D3D3;
     font-size: 16px;
     font-weight: 100;
+    float: right;
 }
 
 .headTitle
 {
     font-family: 'Poppins', 'Lato', sans-serif;
-    font-size: 1.3rem !important;
+    font-size: 20px !important;
     color: #004358 !important;
     word-wrap: break-word;
     overflow-wrap: break-word;
@@ -82,4 +101,102 @@
     text-align: left;
     margin: 0px 0px 10px 0px;
     font-weight: normal;
+}
+
+.answerDiv
+{
+    word-break: break-word;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.updateIconimg
+{
+    height:26px;
+}
+
+.ratingStars
+{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 10px;
+}
+
+.ratingStars li
+{
+    color:#FFE11A;
+    display: inline-block;
+    font-size:12px;
+    padding: 2px;
+}
+
+.reqImg
+{
+    width: 40px;
+    height:25px;
+}
+
+.expertInfo
+{
+    padding:10px;
+}
+
+.showMore > i 
+{
+    color: #00A5FB;
+    display: inline-block;
+    padding: 3px;
+    text-align: center;
+}
+
+.showMore
+{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    text-transform: lowercase;
+    color: #00A5FB;
+    display: inline-block;
+    padding: 3px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#expertProfilePicture
+{
+    width:40px;
+    height:40px;
+    float:left;
+}
+
+.tagDomain 
+{
+   margin-top: 3px !important;
+    text-align: left; 
+}
+
+.tagDomain h3
+{
+    font-family: 'Poppins', 'Lato', sans-serif;
+    color: #949494;
+    font-size: 12px !important;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+
+.label
+{
+    display: inline;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+    background-color: #4BCAFF;
+    margin:2px;
 }
