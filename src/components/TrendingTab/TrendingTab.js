@@ -8,6 +8,7 @@ import TabSearch from '../TabSearch/TabSearch';
 import Elements from '../Elements/Elements';
 import Multiselectdropdowndomain from '../Multiselectdropdowndomain/Multiselectdropdowndomain';
 import Trend from './TrendingTab.json';
+import moment from 'moment';
 
 function trendingTab() {
   return Trend;
@@ -70,12 +71,12 @@ const TrendingTab = () => {
                     </div>
                   </div>
                   <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-3">
                       <div className={styles.tagDomain}>
                         <h3>Domain: <span className={styles.label}>{tre.domain}</span></h3>
                       </div>
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-3">
                       <div className={styles.tagDomain}>
                         {tre.relatedCount > 0 && <h3 className={styles.relatedQuestions}>Related Questions: <span className={styles.relatedCountNumber}>{tre.relatedCount}</span></h3>}
                       </div>
@@ -96,7 +97,7 @@ const TrendingTab = () => {
                         return (
                           <div className={styles.answerDiv}>
                             <div className={styles.expertInfo}>
-                              <img class="rounded-circle" alt="40x40" id={styles.expertProfilePicture}src={require('../../images/sample.jpg')}
+                              <img class="rounded-circle" alt="40x40" id={styles.expertProfilePicture} src={require('../../images/sample.jpg')}
                                 data-holder-rendered="true"></img>
                               <div class="row">
                                 <div class={styles.userInfo}>
@@ -116,7 +117,6 @@ const TrendingTab = () => {
                                 <div className={styles.answeredInfo}>
                                   <span className='answeredBy'>Answered</span>
                                   <span className='datestamp'>{ans.answeredTimestamp}</span>
-
                                 </div>
                               </div>
                               <span className={styles.userScore}>
