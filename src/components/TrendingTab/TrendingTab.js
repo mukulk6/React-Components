@@ -74,8 +74,6 @@ const TrendingTab = () => (
                       {question.relatedCount > 0 && <h3 className={styles.relatedQuestions}>Related Questions: <span className={styles.relatedCountNumber}>{question.relatedCount}</span></h3>}
                     </div>
                   </div>
-
-
                 </div>
                 <div class="row">
                   <div class="col-md-10">
