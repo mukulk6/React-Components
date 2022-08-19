@@ -1,1 +1,16 @@
-.SearchResult {}
+.Wrappersearchbar {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background-color: #eef0f2;
+}
+
+.midContainer
+{
+    padding-bottom: 0px;
+    padding-top: 101px !important;
+    height: 210px;
+}

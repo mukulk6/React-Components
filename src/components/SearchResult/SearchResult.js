@@ -1,11 +1,31 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './SearchResult.module.css';
+import NavigationBar from '../NavigationBar/NavigationBar';
+import SearchBar from '../SearchBar/SearchBar';
+import SeekerData from '../Elements/getprofileSeeker.json';
 
 const SearchResult = () => {
   return (
-
-)
+    <div class="container">
+      <NavigationBar />
+      <div className={styles.Wrappersearchbar}>
+        <div className={styles.midContainer}>
+          <div class="container">
+            {
+              SeekerData.map((postData, index) => {
+                return (
+                  <div key={index}>
+                    <SearchBar data={postData} />
+                  </div>
+                )
+              })
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+  )
 };
 
 // const SearchResult = (props) => {

@@ -9,6 +9,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import OpentabSeeker from './components/OpentabSeeker/OpentabSeeker';
 import OpenTabData from './components/OpentabSeeker/OpenTabData.json';
 import TrendingTab from './components/TrendingTab/TrendingTab';
+import SearchResult from './components/SearchResult/SearchResult';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/openseeker" element={<OpentabSeeker />} />
         <Route path="/trending" element={<TrendingTab />} />
+        <Route path="/search" element={<SearchResult />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
