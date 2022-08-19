@@ -54,7 +54,7 @@ const SearchResult = (props) => {
               return (
                 <div className={styles.answerDiv}>
                   <div className={styles.expertInfo}>
-                    <img class="rounded-circle" alt="40x40" src={require('../../images/sample.jpg')}
+                    <img class="rounded-circle" alt="40x40" src={require('../../images/sample.jpg')} id={styles.expertProfilePicture}
                       data-holder-rendered="true"></img>
                     <div class="row">
                       <div class={styles.userInfo}>
@@ -76,7 +76,6 @@ const SearchResult = (props) => {
                       <div className={styles.answeredInfo}>
                         <span className='answeredBy'>Answered</span>
                         <span className='datestamp'></span>
-
                       </div>
                     </div>
                     <span className={styles.userScore}>
@@ -107,9 +106,9 @@ const SearchResult = (props) => {
                         </span>
                       </div>
                       <div class="col-md-9 float-right">
-                        <div class="pull-right">
+                        <div class="text-end">
                           <div className={styles.helpfulButton}>
-                            <div class="btn">Helpful<img src={require('../../images/helpful.png')}></img></div>
+                            <div class="btn" id={styles.btnHelpful}>Helpful<img src={require('../../images/helpful.png')}></img></div>
                           </div>
                         </div>
                       </div>
