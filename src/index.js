@@ -10,6 +10,7 @@ import OpentabSeeker from './components/OpentabSeeker/OpentabSeeker';
 import OpenTabData from './components/OpentabSeeker/OpenTabData.json';
 import TrendingTab from './components/TrendingTab/TrendingTab';
 import SearchResult from './components/SearchResult/SearchResult';
+import SearchResultData from './components/SearchResult/SearchData.json';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,7 +20,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/openseeker" element={<OpentabSeeker />} />
         <Route path="/trending" element={<TrendingTab />} />
-        <Route path="/search" element={<SearchResult />} />
+        <Route path="/search" element={SearchResultData.map((data,index)=>{return(<div key={index}><SearchResult data={data}/></div>)})} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
