@@ -16,7 +16,7 @@ const SearchResult = (props) => {
               SeekerData.map((postData, index) => {
                 return (
                   <div key={index}>
-                    <SearchBar data={postData} />
+                    <SearchBar brandingText={postData.brandingText} />
                   </div>
                 )
               })
