@@ -103,7 +103,6 @@ function OpentabSeeker() {
           )
         }
         )}
-
       </section>
       <div>
       </div>

@@ -6,8 +6,6 @@ import SeekerData from '../Elements/getprofileSeeker.json';
 
 const SearchBar = ({brandingText}) => {
 
-
-
   return (
     <div class="container">
       <div class="row"> 

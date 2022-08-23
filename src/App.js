@@ -9,29 +9,32 @@ import AskanExpertlogo from './components/AskanExpertlogo/AskanExpertlogo';
 import AiToggle from './components/AiToggle/AiToggle';
 import NavigationBar from './components/NavigationBar/NavigationBar';
 import Wrappersearchbar from './components/Wrappersearchbar/Wrappersearchbar';
+import SearchResult from './components/SearchResult/SearchResult';
 import OpentabSeeker from './components/OpentabSeeker/OpentabSeeker';
 import React from 'react';
 import RenderOpenTabComponent from './components/RenderOpenTabComponent/RenderOpenTabComponent';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import SearchResultData from './components/SearchResult/SearchData.json';
 
 function App() {
   return (
     <div className="App">
-        <div class="row">
-          <Elements />
-          <TabSearch />
-          <AskanExpertlogo />
-          <AiToggle />
-          <NavigationBar />
-          <Wrappersearchbar />
-          {SeekerData.map((postData, index) => {
-            return (
-              <div key={index}>
-                <Multiselectdropdowndomain data={postData} />
-                <SearchBar data={postData} />
-              </div>
-            )
-          })}
-        </div>
+      <div class="row">
+        <Elements />
+        <TabSearch />
+        <AskanExpertlogo />
+        <AiToggle />
+        <NavigationBar />
+        <Wrappersearchbar />
+        {SeekerData.map((postData, index) => {
+          return (
+            <div key={index}>
+              <Multiselectdropdowndomain data={postData} />
+              <SearchBar data={postData} />
+            </div>
+          )
+        })}
+      </div>
     </div>
   );
 }

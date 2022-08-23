@@ -4,6 +4,7 @@ import styles from './SearchResult.module.css';
 import NavigationBar from '../NavigationBar/NavigationBar';
 import SearchBar from '../SearchBar/SearchBar';
 import SeekerData from '../Elements/getprofileSeeker.json';
+import ToggleSwitch from '../ToggleSwitch/ToggleSwitch';
 
 const SearchResult = (props) => {
   return (
@@ -13,9 +14,9 @@ const SearchResult = (props) => {
         <div className={styles.midContainer}>
           <div class="container">
             {
-              SeekerData.map((postData, index) => {
+              SeekerData.map((postData, id) => {
                 return (
-                  <div key={index}>
+                  <div key={id}>
                     <SearchBar brandingText={postData.brandingText} />
                   </div>
                 )

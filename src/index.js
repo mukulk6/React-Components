@@ -20,7 +20,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/openseeker" element={<OpentabSeeker />} />
         <Route path="/trending" element={<TrendingTab />} />
-        <Route path="/search" element={SearchResultData.map((data,index)=>{return(<div key={index}><SearchResult data={data}/></div>)})} />
+        <Route path="/search" element={SearchResultData.map((postData,index)=>{return(<div key={index}><SearchResult data={postData}/></div>)})} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
