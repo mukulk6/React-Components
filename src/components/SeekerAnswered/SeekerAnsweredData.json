@@ -1,0 +1,835 @@
+[
+    {
+      "questionUuid": "4e0c530e-0f3a-4725-b0b2-c7cf4410b536",
+      "topicUuid": "2fa3af98-d2bd-415e-8b4e-cac8ef86f520",
+      "text": "What are loaders??",
+      "additionalContext": "Details ",
+      "domain": "Capacity & Sizing",
+      "postedTimestamp": 1658500499000,
+      "status": "answered",
+      "popularityScore": 0,
+      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+      "postedUserFirstName": "Mukul",
+      "postedUserLastName": "Kale",
+      "latestAnswerUuid": "4d06a522-253f-4075-a31d-d45450ff34f2",
+      "answeredByFirstName": "Diksha",
+      "answeredByLastName": "Jadhav",
+      "expertScore": "6.95",
+      "expertPic": {
+        "uuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "img": null
+      },
+      "tags": [
+        "loaders"
+      ],
+      "express": true,
+      "favourite": false,
+      "sharing": false,
+      "sharedId": 2542,
+      "answersList": [
+        {
+          "answerUuid": "4d06a522-253f-4075-a31d-d45450ff34f2",
+          "questionUuid": "4e0c530e-0f3a-4725-b0b2-c7cf4410b536",
+          "answer": "Answered",
+          "answerStatus": "active",
+          "answeredTimestamp": 1659073012000,
+          "answerUpdatedTimestamp": 1659073012000,
+          "expertFirstName": "Diksha",
+          "expertLastName": "Jadhav",
+          "expertScore": "6.95",
+          "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+          "badges": [
+            {
+              "expertUuid": null,
+              "level": 1,
+              "type": null,
+              "email": null,
+              "name": "answered"
+            },
+            {
+              "expertUuid": null,
+              "level": 1,
+              "type": null,
+              "email": null,
+              "name": "quality"
+            },
+            {
+              "expertUuid": null,
+              "level": 1,
+              "type": null,
+              "email": null,
+              "name": "amplified"
+            }
+          ],
+          "privacy": false,
+          "originalAnswerUuid": "4d06a522-253f-4075-a31d-d45450ff34f2",
+          "popularityScore": 17,
+          "ratingAllowed": true,
+          "viewFeedbackAllowed": true,
+          "feedbackProvided": true,
+          "internal": false,
+          "curationStatus": "curated",
+          "curationCategory": 3,
+          "confidence": false,
+          "userInitiatedCuration": false,
+          "vizAnswer": false,
+          "expiration": "2023-07-29T00:00:00.000+00:00",
+          "seekerCurationVisibility": true,
+          "attachments": [],
+          "threadAttachments": []
+        }
+      ],
+      "clarificationStatus": false,
+      "expertUuid": "0+3HG7gUQ/msE4QvITBxrA==",
+      "totalCount": 69,
+      "userInitiatedCuration": false,
+      "draftExists": false
+    },
+    {
+      "questionUuid": "01658cce-2ce9-4281-8449-733e8afb0790",
+      "topicUuid": "6556435c-2277-4f74-b9a4-44941d7c5f14",
+      "text": "What are properties? ? ",
+      "additionalContext": "Details ",
+      "domain": "Capacity & Sizing",
+      "postedTimestamp": 1655114717000,
+      "status": "answered",
+      "popularityScore": 0,
+      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+      "postedUserFirstName": "Mukul",
+      "postedUserLastName": "Kale",
+      "latestAnswerUuid": "1a427295-fc5b-485d-9bc1-3e3ce7fbefac",
+      "answeredByFirstName": "Diksha",
+      "answeredByLastName": "Jadhav",
+      "expertScore": "6.95",
+      "expertPic": {
+        "uuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "img": null
+      },
+      "tags": [],
+      "express": true,
+      "favourite": false,
+      "sharing": false,
+      "sharedId": 2223,
+      "answersList": [
+        {
+          "answerUuid": "1a427295-fc5b-485d-9bc1-3e3ce7fbefac",
+          "questionUuid": "01658cce-2ce9-4281-8449-733e8afb0790",
+          "answer": "Test<div>Answer</div>",
+          "answerStatus": "active",
+          "answeredTimestamp": 1655115685000,
+          "answerUpdatedTimestamp": 1655115685000,
+          "expertFirstName": "Diksha",
+          "expertLastName": "Jadhav",
+          "expertScore": "6.95",
+          "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+          "badges": [
+            {
+              "expertUuid": null,
+              "level": 1,
+              "type": null,
+              "email": null,
+              "name": "answered"
+            },
+            {
+              "expertUuid": null,
+              "level": 1,
+              "type": null,
+              "email": null,
+              "name": "quality"
+            },
+            {
+              "expertUuid": null,
+              "level": 1,
+              "type": null,
+              "email": null,
+              "name": "amplified"
+            }
+          ],
+          "privacy": false,
+          "originalAnswerUuid": "1a427295-fc5b-485d-9bc1-3e3ce7fbefac",
+          "popularityScore": 27,
+          "ratingAllowed": true,
+          "viewFeedbackAllowed": true,
+          "feedbackProvided": true,
+          "internal": false,
+          "curationStatus": "curated",
+          "curationCategory": 3,
+          "confidence": false,
+          "userInitiatedCuration": false,
+          "vizAnswer": false,
+          "expiration": "2023-06-13T00:00:00.000+00:00",
+          "seekerCurationVisibility": true,
+          "attachments": [],
+          "threadAttachments": []
+        }
+      ],
+      "clarificationStatus": false,
+      "expertUuid": "0+3HG7gUQ/msE4QvITBxrA==",
+      "totalCount": 69,
+      "userInitiatedCuration": false,
+      "draftExists": false
+    },
+    {
+      "questionUuid": "0ba5e3e6-3ff6-44c1-9fe1-402cb06dd32d",
+      "topicUuid": "735de0e9-623f-4d39-9198-70843db84750",
+      "text": "What are test scripts?",
+      "domain": "Collaterals",
+      "postedTimestamp": 1661333802000,
+      "status": "answered",
+      "popularityScore": 0,
+      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+      "postedUserFirstName": "Mukul",
+      "postedUserLastName": "Kale",
+      "latestAnswerUuid": "ddf3eba6-71f4-4c7e-8f7c-86bdf5f90fd0",
+      "answeredByFirstName": "Diksha",
+      "answeredByLastName": "Jadhav",
+      "expertScore": "6.95",
+      "expertPic": {
+        "uuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "img": null
+      },
+      "tags": [
+        "test",
+        "scripts"
+      ],
+      "express": false,
+      "favourite": false,
+      "sharing": false,
+      "answersList": [
+        {
+          "answerUuid": "ddf3eba6-71f4-4c7e-8f7c-86bdf5f90fd0",
+          "questionUuid": "0ba5e3e6-3ff6-44c1-9fe1-402cb06dd32d",
+          "answer": "test",
+          "answerStatus": "active",
+          "answeredTimestamp": 1661503360000,
+          "answerUpdatedTimestamp": 1661503360000,
+          "expertFirstName": "Diksha",
+          "expertLastName": "Jadhav",
+          "expertScore": "6.95",
+          "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+          "badges": [
+            {
+              "expertUuid": null,
+              "level": 1,
+              "type": null,
+              "email": null,
+              "name": "answered"
+            },
+            {
+              "expertUuid": null,
+              "level": 1,
+              "type": null,
+              "email": null,
+              "name": "quality"
+            },
+            {
+              "expertUuid": null,
+              "level": 1,
+              "type": null,
+              "email": null,
+              "name": "amplified"
+            }
+          ],
+          "privacy": false,
+          "originalAnswerUuid": "ddf3eba6-71f4-4c7e-8f7c-86bdf5f90fd0",
+          "popularityScore": 2,
+          "ratingAllowed": true,
+          "viewFeedbackAllowed": true,
+          "feedbackProvided": true,
+          "internal": false,
+          "curationStatus": "curated",
+          "confidence": false,
+          "userInitiatedCuration": false,
+          "vizAnswer": false,
+          "expiration": "2023-08-26T00:00:00.000+00:00",
+          "seekerCurationVisibility": true,
+          "attachments": [],
+          "threadAttachments": []
+        }
+      ],
+      "clarificationStatus": false,
+      "expertUuid": "0+3HG7gUQ/msE4QvITBxrA==",
+      "totalCount": 69,
+      "userInitiatedCuration": false,
+      "draftExists": false
+    },
+    {
+      "questionUuid": "ccfa46fb-93de-4a8d-8602-9a6b4a1d150c",
+      "topicUuid": "5f0d8454-fb5d-49c5-9708-bbe8d959d662",
+      "text": "What are domains?",
+      "additionalContext": "follow up",
+      "domain": "Collaterals",
+      "postedTimestamp": 1661330348000,
+      "status": "answered",
+      "popularityScore": 0,
+      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+      "postedUserFirstName": "Mukul",
+      "postedUserLastName": "Kale",
+      "latestAnswerUuid": "c98b7b8c-cc8c-4d0d-84f8-14e93fbc2763",
+      "answeredByFirstName": "Mukul",
+      "answeredByLastName": "Kale",
+      "expertScore": "6.50",
+      "expertPic": {
+        "uuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "img": null
+      },
+      "tags": [],
+      "express": false,
+      "favourite": false,
+      "sharing": false,
+      "answersList": [
+        {
+          "answerUuid": "c98b7b8c-cc8c-4d0d-84f8-14e93fbc2763",
+          "questionUuid": "ccfa46fb-93de-4a8d-8602-9a6b4a1d150c",
+          "answer": "Ans Check 1",
+          "answerStatus": "active",
+          "answeredTimestamp": 1661330616000,
+          "answerUpdatedTimestamp": 1661330616000,
+          "expertFirstName": "Mukul",
+          "expertLastName": "Kale",
+          "expertScore": "6.50",
+          "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+          "badges": [
+            {
+              "expertUuid": null,
+              "level": 2,
+              "type": null,
+              "email": null,
+              "name": "answered"
+            },
+            {
+              "expertUuid": null,
+              "level": 4,
+              "type": null,
+              "email": null,
+              "name": "quality"
+            },
+            {
+              "expertUuid": null,
+              "level": 2,
+              "type": null,
+              "email": null,
+              "name": "amplified"
+            }
+          ],
+          "privacy": false,
+          "originalAnswerUuid": "c98b7b8c-cc8c-4d0d-84f8-14e93fbc2763",
+          "popularityScore": 9,
+          "ratingAllowed": true,
+          "viewFeedbackAllowed": true,
+          "feedbackProvided": true,
+          "internal": false,
+          "curationStatus": "curated",
+          "confidence": false,
+          "userInitiatedCuration": true,
+          "vizAnswer": false,
+          "expiration": "2023-08-24T00:00:00.000+00:00",
+          "seekerCurationVisibility": true,
+          "attachments": [],
+          "threadAttachments": []
+        }
+      ],
+      "clarificationStatus": false,
+      "expertUuid": "PFHQAwVuT8CgV2SGq+f1Yg==",
+      "totalCount": 69,
+      "userInitiatedCuration": false,
+      "draftExists": false
+    },
+    {
+      "questionUuid": "5f7b01f4-f5fb-4342-8e0e-f75426681fe7",
+      "topicUuid": "19a807f3-bec7-4009-b1c3-8448b757e3d8",
+      "text": "What are test scripts?",
+      "additionalContext": "details",
+      "domain": "Collaterals",
+      "postedTimestamp": 1661325396000,
+      "status": "answered",
+      "popularityScore": 0,
+      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+      "postedUserFirstName": "Mukul",
+      "postedUserLastName": "Kale",
+      "latestAnswerUuid": "01f8bcd6-4bad-4acd-8f27-41cfd3c30476",
+      "answeredByFirstName": "Mukul",
+      "answeredByLastName": "Kale",
+      "expertScore": "6.50",
+      "expertPic": {
+        "uuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "img": null
+      },
+      "tags": [
+        "test",
+        "scripts"
+      ],
+      "express": false,
+      "favourite": false,
+      "sharing": false,
+      "answersList": [
+        {
+          "answerUuid": "01f8bcd6-4bad-4acd-8f27-41cfd3c30476",
+          "questionUuid": "5f7b01f4-f5fb-4342-8e0e-f75426681fe7",
+          "answer": "test scripts answer",
+          "answerStatus": "active",
+          "answeredTimestamp": 1661325483000,
+          "answerUpdatedTimestamp": 1661325483000,
+          "expertFirstName": "Mukul",
+          "expertLastName": "Kale",
+          "expertScore": "6.50",
+          "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+          "badges": [
+            {
+              "expertUuid": null,
+              "level": 2,
+              "type": null,
+              "email": null,
+              "name": "answered"
+            },
+            {
+              "expertUuid": null,
+              "level": 4,
+              "type": null,
+              "email": null,
+              "name": "quality"
+            },
+            {
+              "expertUuid": null,
+              "level": 2,
+              "type": null,
+              "email": null,
+              "name": "amplified"
+            }
+          ],
+          "privacy": false,
+          "originalAnswerUuid": "01f8bcd6-4bad-4acd-8f27-41cfd3c30476",
+          "popularityScore": 4,
+          "ratingAllowed": true,
+          "viewFeedbackAllowed": true,
+          "feedbackProvided": true,
+          "internal": false,
+          "curationStatus": "curated",
+          "confidence": false,
+          "userInitiatedCuration": true,
+          "vizAnswer": false,
+          "expiration": "2023-08-24T00:00:00.000+00:00",
+          "seekerCurationVisibility": true,
+          "attachments": [],
+          "threadAttachments": []
+        }
+      ],
+      "clarificationStatus": false,
+      "expertUuid": "PFHQAwVuT8CgV2SGq+f1Yg==",
+      "totalCount": 69,
+      "userInitiatedCuration": false,
+      "draftExists": false
+    },
+    {
+      "questionUuid": "efd8165a-5110-402f-b7cf-ed9b379b8a5b",
+      "topicUuid": "5cddbac7-518a-4b64-a826-21b2a5e5b6f2",
+      "text": "What are ratings?",
+      "additionalContext": "details",
+      "domain": "Customer-Success",
+      "postedTimestamp": 1661324580000,
+      "status": "answered",
+      "popularityScore": 0,
+      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+      "postedUserFirstName": "Mukul",
+      "postedUserLastName": "Kale",
+      "latestAnswerUuid": "8853875a-8ed5-4b85-9d51-bfa32f9f633e",
+      "answeredByFirstName": "Mukul",
+      "answeredByLastName": "Kale",
+      "expertScore": "6.50",
+      "expertPic": {
+        "uuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "img": null
+      },
+      "tags": [
+        "ratings"
+      ],
+      "express": false,
+      "favourite": false,
+      "sharing": false,
+      "answersList": [
+        {
+          "answerUuid": "8853875a-8ed5-4b85-9d51-bfa32f9f633e",
+          "questionUuid": "efd8165a-5110-402f-b7cf-ed9b379b8a5b",
+          "answer": "Ans Check",
+          "answerStatus": "active",
+          "answeredTimestamp": 1661324632000,
+          "answerUpdatedTimestamp": 1661324632000,
+          "expertFirstName": "Mukul",
+          "expertLastName": "Kale",
+          "expertScore": "6.50",
+          "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+          "badges": [
+            {
+              "expertUuid": null,
+              "level": 2,
+              "type": null,
+              "email": null,
+              "name": "answered"
+            },
+            {
+              "expertUuid": null,
+              "level": 4,
+              "type": null,
+              "email": null,
+              "name": "quality"
+            },
+            {
+              "expertUuid": null,
+              "level": 2,
+              "type": null,
+              "email": null,
+              "name": "amplified"
+            }
+          ],
+          "privacy": false,
+          "originalAnswerUuid": "8853875a-8ed5-4b85-9d51-bfa32f9f633e",
+          "popularityScore": 1,
+          "ratingAllowed": true,
+          "viewFeedbackAllowed": true,
+          "feedbackProvided": true,
+          "internal": false,
+          "curationStatus": "curated",
+          "confidence": false,
+          "userInitiatedCuration": true,
+          "vizAnswer": false,
+          "expiration": "2023-08-24T00:00:00.000+00:00",
+          "seekerCurationVisibility": true,
+          "attachments": [],
+          "threadAttachments": []
+        }
+      ],
+      "clarificationStatus": false,
+      "expertUuid": "PFHQAwVuT8CgV2SGq+f1Yg==",
+      "totalCount": 69,
+      "userInitiatedCuration": false,
+      "draftExists": false
+    },
+    {
+      "questionUuid": "07499582-6fe7-4ca1-93b2-4e9636a23290",
+      "topicUuid": "a0dc5747-3e58-4e7b-9118-790dd7ddf370",
+      "text": "What are functions?",
+      "domain": "Customer Success",
+      "postedTimestamp": 1661323495000,
+      "status": "answered",
+      "popularityScore": 0,
+      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+      "postedUserFirstName": "Mukul",
+      "postedUserLastName": "Kale",
+      "latestAnswerUuid": "9cc16c9d-dea8-41c9-97e6-fceae8be97f7",
+      "answeredByFirstName": "Mukul",
+      "answeredByLastName": "Kale",
+      "expertScore": "6.50",
+      "expertPic": {
+        "uuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "img": null
+      },
+      "tags": [
+        "functions"
+      ],
+      "express": false,
+      "favourite": false,
+      "sharing": false,
+      "answersList": [
+        {
+          "answerUuid": "9cc16c9d-dea8-41c9-97e6-fceae8be97f7",
+          "questionUuid": "07499582-6fe7-4ca1-93b2-4e9636a23290",
+          "answer": "Ans Check update",
+          "answerStatus": "active",
+          "answeredTimestamp": 1661323759000,
+          "answerUpdatedTimestamp": 1661323759000,
+          "expertFirstName": "Mukul",
+          "expertLastName": "Kale",
+          "expertScore": "6.50",
+          "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+          "badges": [
+            {
+              "expertUuid": null,
+              "level": 2,
+              "type": null,
+              "email": null,
+              "name": "answered"
+            },
+            {
+              "expertUuid": null,
+              "level": 4,
+              "type": null,
+              "email": null,
+              "name": "quality"
+            },
+            {
+              "expertUuid": null,
+              "level": 2,
+              "type": null,
+              "email": null,
+              "name": "amplified"
+            }
+          ],
+          "privacy": false,
+          "originalAnswerUuid": "9cc16c9d-dea8-41c9-97e6-fceae8be97f7",
+          "popularityScore": 3,
+          "ratingAllowed": true,
+          "viewFeedbackAllowed": true,
+          "feedbackProvided": true,
+          "internal": false,
+          "curationStatus": "curated",
+          "confidence": false,
+          "userInitiatedCuration": false,
+          "vizAnswer": false,
+          "expiration": "2023-08-24T00:00:00.000+00:00",
+          "seekerCurationVisibility": true,
+          "attachments": [],
+          "threadAttachments": []
+        }
+      ],
+      "clarificationStatus": false,
+      "expertUuid": "PFHQAwVuT8CgV2SGq+f1Yg==",
+      "totalCount": 69,
+      "userInitiatedCuration": false,
+      "draftExists": false
+    },
+    {
+      "questionUuid": "91589736-661a-407e-b6e1-32fb2bffff65",
+      "topicUuid": "5f58f7f0-db7a-499b-ad69-ba17a03d7989",
+      "text": "What are domains?",
+      "domain": "Collaterals",
+      "postedTimestamp": 1661322324000,
+      "status": "answered",
+      "popularityScore": 0,
+      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+      "postedUserFirstName": "Mukul",
+      "postedUserLastName": "Kale",
+      "latestAnswerUuid": "cf863735-c7c7-4588-aaa5-8ffca90103b3",
+      "answeredByFirstName": "Mukul",
+      "answeredByLastName": "Kale",
+      "expertScore": "6.50",
+      "expertPic": {
+        "uuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "img": null
+      },
+      "tags": [],
+      "express": false,
+      "favourite": false,
+      "sharing": false,
+      "answersList": [
+        {
+          "answerUuid": "cf863735-c7c7-4588-aaa5-8ffca90103b3",
+          "questionUuid": "91589736-661a-407e-b6e1-32fb2bffff65",
+          "answer": "ans",
+          "answerStatus": "active",
+          "answeredTimestamp": 1661322339000,
+          "answerUpdatedTimestamp": 1661322339000,
+          "expertFirstName": "Mukul",
+          "expertLastName": "Kale",
+          "expertScore": "6.50",
+          "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+          "badges": [
+            {
+              "expertUuid": null,
+              "level": 2,
+              "type": null,
+              "email": null,
+              "name": "answered"
+            },
+            {
+              "expertUuid": null,
+              "level": 4,
+              "type": null,
+              "email": null,
+              "name": "quality"
+            },
+            {
+              "expertUuid": null,
+              "level": 2,
+              "type": null,
+              "email": null,
+              "name": "amplified"
+            }
+          ],
+          "privacy": false,
+          "originalAnswerUuid": "cf863735-c7c7-4588-aaa5-8ffca90103b3",
+          "popularityScore": 7,
+          "ratingAllowed": true,
+          "viewFeedbackAllowed": true,
+          "feedbackProvided": true,
+          "internal": false,
+          "curationStatus": "curated",
+          "confidence": false,
+          "userInitiatedCuration": false,
+          "vizAnswer": false,
+          "expiration": "2023-08-24T00:00:00.000+00:00",
+          "seekerCurationVisibility": true,
+          "attachments": [],
+          "threadAttachments": []
+        }
+      ],
+      "clarificationStatus": false,
+      "expertUuid": "PFHQAwVuT8CgV2SGq+f1Yg==",
+      "totalCount": 69,
+      "userInitiatedCuration": false,
+      "draftExists": false
+    },
+    {
+      "questionUuid": "d10156d5-bb2f-4efa-bff7-9e1335ca7620",
+      "topicUuid": "446ac33b-2d37-44f1-a796-1d3b103301b8",
+      "text": "What is seeker follow up?",
+      "additionalContext": "updated",
+      "domain": "Collaterals",
+      "postedTimestamp": 1661315420000,
+      "status": "answered",
+      "popularityScore": 0,
+      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+      "postedUserFirstName": "Mukul",
+      "postedUserLastName": "Kale",
+      "latestAnswerUuid": "b69876aa-5fa8-454d-ab9c-a58e2176fabb",
+      "answeredByFirstName": "Sally",
+      "answeredByLastName": "Garcia",
+      "expertScore": "6.78",
+      "expertPic": {
+        "uuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+        "img": null
+      },
+      "tags": [],
+      "express": false,
+      "favourite": false,
+      "sharing": false,
+      "sharedId": 2663,
+      "answersList": [
+        {
+          "answerUuid": "b69876aa-5fa8-454d-ab9c-a58e2176fabb",
+          "questionUuid": "d10156d5-bb2f-4efa-bff7-9e1335ca7620",
+          "answer": "follow up<div>Updated<br><div>answered</div></div>",
+          "answerStatus": "active",
+          "answeredTimestamp": 1661316522000,
+          "answerUpdatedTimestamp": 1661316522000,
+          "expertFirstName": "Sally",
+          "expertLastName": "Garcia",
+          "expertScore": "6.78",
+          "expertUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+          "badges": [
+            {
+              "expertUuid": null,
+              "level": 3,
+              "type": null,
+              "email": null,
+              "name": "answered"
+            },
+            {
+              "expertUuid": null,
+              "level": 2,
+              "type": null,
+              "email": null,
+              "name": "quality"
+            },
+            {
+              "expertUuid": null,
+              "level": 3,
+              "type": null,
+              "email": null,
+              "name": "amplified"
+            }
+          ],
+          "privacy": false,
+          "originalAnswerUuid": "b69876aa-5fa8-454d-ab9c-a58e2176fabb",
+          "popularityScore": 11,
+          "ratingAllowed": true,
+          "viewFeedbackAllowed": true,
+          "feedbackProvided": true,
+          "internal": false,
+          "curationStatus": "curated",
+          "confidence": false,
+          "userInitiatedCuration": true,
+          "vizAnswer": false,
+          "seekerCurationVisibility": true,
+          "attachments": [],
+          "threadAttachments": []
+        }
+      ],
+      "clarificationStatus": false,
+      "expertUuid": "BWFmvfAFSrSqrKbNO0zhaA==",
+      "totalCount": 69,
+      "userInitiatedCuration": false,
+      "draftExists": false
+    },
+    {
+      "questionUuid": "cd3fd80b-b862-4d60-8aa7-18fd2777e1a9",
+      "topicUuid": "d6def218-43aa-4edd-9e14-f34ab70be32f",
+      "text": "machine learning",
+      "domain": "Collaterals",
+      "postedTimestamp": 1661259316000,
+      "status": "answered",
+      "popularityScore": 0,
+      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+      "postedUserFirstName": "Mukul",
+      "postedUserLastName": "Kale",
+      "latestAnswerUuid": "fddf1d57-e0a4-4022-a42d-c04863c653ea",
+      "answeredByFirstName": "Mukul",
+      "answeredByLastName": "Kale",
+      "expertScore": "6.50",
+      "expertPic": {
+        "uuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "img": null
+      },
+      "tags": [
+        "machine"
+      ],
+      "express": false,
+      "favourite": false,
+      "sharing": false,
+      "answersList": [
+        {
+          "answerUuid": "fddf1d57-e0a4-4022-a42d-c04863c653ea",
+          "questionUuid": "cd3fd80b-b862-4d60-8aa7-18fd2777e1a9",
+          "answer": "Update answered",
+          "answerStatus": "active",
+          "answeredTimestamp": 1661259407000,
+          "answerUpdatedTimestamp": 1661259407000,
+          "expertFirstName": "Mukul",
+          "expertLastName": "Kale",
+          "expertScore": "6.50",
+          "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+          "badges": [
+            {
+              "expertUuid": null,
+              "level": 2,
+              "type": null,
+              "email": null,
+              "name": "answered"
+            },
+            {
+              "expertUuid": null,
+              "level": 4,
+              "type": null,
+              "email": null,
+              "name": "quality"
+            },
+            {
+              "expertUuid": null,
+              "level": 2,
+              "type": null,
+              "email": null,
+              "name": "amplified"
+            }
+          ],
+          "privacy": false,
+          "originalAnswerUuid": "fddf1d57-e0a4-4022-a42d-c04863c653ea",
+          "popularityScore": 10,
+          "ratingAllowed": true,
+          "viewFeedbackAllowed": true,
+          "feedbackProvided": true,
+          "internal": false,
+          "curationStatus": "curated",
+          "confidence": false,
+          "userInitiatedCuration": false,
+          "vizAnswer": false,
+          "seekerCurationVisibility": true,
+          "attachments": [],
+          "threadAttachments": []
+        }
+      ],
+      "clarificationStatus": false,
+      "expertUuid": "PFHQAwVuT8CgV2SGq+f1Yg==",
+      "totalCount": 69,
+      "userInitiatedCuration": false,
+      "draftExists": false
+    }
+  ]
