@@ -64,7 +64,6 @@ const SearchResultDemo = (props) => {
                                                             <span>
                                                                 <i class="fa-solid fa-paste" id="pasteIcon"></i>
                                                             </span>
-
                                                         </div>
                                                     </div>
                                                 </div>
