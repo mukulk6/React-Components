@@ -1,14 +1,17 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import styles from './RenderSearchResult.module.css';
 import SearchResultData from '../SearchResult/SearchData.json';
 import BestResult from '../BestResult/BestResult';
 
-const RenderSearchResult = (props) => {
-  return (
+const RenderSearchResult = (props) => (
+  <Fragment>
+    <div class="container">
+      <span id={styles.bestResultText}><i class="fa-regular fa-lightbulb" id={styles.resultBulbIcon}></i>Best Result<span>{props.data.length > 1}s</span></span>
+      <hr></hr>
+      {props.data.confidence == true && SearchResultData.map((pdata, ind) => { return (<div key={ind}><BestResult data={pdata} /></div>) })}
+    </div>
     <div className={styles.searchOutline}>
-      {props.data.confidence == true && SearchResultData.map((pdata,ind)=>{return(<div key={ind}><BestResult data={pdata} /></div>)})
-      }
       <div class="row">
         <div className={styles.innerDiv}>
           <span className={styles.sharingButton}>
@@ -104,8 +107,8 @@ const RenderSearchResult = (props) => {
         </div>
       </div>
     </div>
-  )
-};
+  </Fragment >
+)
 
 RenderSearchResult.propTypes = {};
 

@@ -5,8 +5,10 @@ import NavigationBar from '../NavigationBar/NavigationBar';
 import SearchBar from '../SearchBar/SearchBar';
 import SeekerData from '../Elements/getprofileSeeker.json';
 import ToggleSwitch from '../ToggleSwitch/ToggleSwitch';
-import RenderSearchResult from '../RenderSearchResult/RenderSearchResult';
 import SearchResultData from './SearchData.json';
+import BestResult from '../BestResult/BestResult';
+import SearchResult2 from '../RenderSearchResult/SearchResultDemo';
+import SearchResultDemo from '../RenderSearchResult/SearchResultDemo';
 const SearchResult = () => {
   return (
     <div class="container">
@@ -27,7 +29,7 @@ const SearchResult = () => {
         </div>
       </div>
       {
-        SearchResultData.map((pdata,ind)=>{return(<div key={ind}><RenderSearchResult data ={pdata}/></div>)})
+        SearchResultData.map((pdata,ind)=>{return(<div key={ind}><SearchResultDemo data ={pdata} /></div>)})
       }
     </div>
   )

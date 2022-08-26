@@ -235,3 +235,50 @@
     margin-top: 3px;
     margin-left: 2px;
 }
+
+#bestResultText, hr
+{
+    color:#555;
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+}
+
+hr
+{
+    margin-top: 2px;
+}
+
+#resultBulbIcon
+{
+    font-size: 24px;
+    padding-right: 7px;
+    color: green;
+}
+
+.searchOutline {
+    width: 100%;
+    margin-top: 0px;
+    border: 2px solid rgba(9, 103, 10, 0.44);
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
+    position: relative;
+    margin-bottom: 20px;
+    padding: 10px 30px 10px 40px;
+    background: #fff;
+    overflow: inherit;
+}
+
+.similarSearchResultOutline{
+    width: 100%;
+    overflow: inherit;
+    margin-top: 80px;
+    border: 2px solid rgba(255, 165, 0, 0.43);
+    padding: 10px 30px 10px 40px;
+    box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
+}
+
+#resultBulbIconSimilar
+{
+    font-size: 26px;
+    color:orange;
+    padding-right: 10px;
+}

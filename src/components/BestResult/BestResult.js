@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './BestResult.module.css';
 
-const BestResult = () => (
-  <div>
+const BestResult = (props) => (
     <div class="row">
+      <div className={styles.searchOutline}>
       <div className={styles.innerDiv}>
         <span className={styles.sharingButton}>
           <i class="fa-solid fa-share-nodes"></i>
@@ -97,8 +97,8 @@ const BestResult = () => (
           )
         })}
       </div>
+      </div>
     </div>
-  </div>
 );
 
 BestResult.propTypes = {};
