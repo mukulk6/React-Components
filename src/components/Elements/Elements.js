@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Elements.module.css';
 
-const Elements = () => (
+const Elements = ({}) => (
   <div class="col-md-3">
     <span id={styles.sortBy}>Sort by:</span>
     <select class="form-select" className={styles.sortDropbox} aria-label="Default select example">
