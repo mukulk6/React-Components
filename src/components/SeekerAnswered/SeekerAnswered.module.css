@@ -225,3 +225,11 @@ color:#b4c6cc;
 {
     padding-top: 0;
 }
+
+.answeredDate
+{
+    font-size: 12px;
+    font-family: 'Poppins',sans-serif;
+    color:#949494;
+    display: grid;
+}

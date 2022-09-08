@@ -63,6 +63,7 @@ const RenderSeekerAnswered = (props) => {
                                         <div className={styles.userInfo}>
                                             <span className={styles.expertName}>{ans.expertFirstName}&nbsp;{ans.expertLastName}</span>
                                             <span className={styles.userScore}><i id={styles.starIconScore} class="fa-solid fa-star"></i><span style={{ fontWeight: "bold", fontSize: 14, color: "#444" }}>{Math.round(ans.expertScore)}</span>/10</span>
+                                             <span className={styles.answeredDate}>Answered</span>                                           
                                         </div>
                                     </div>
                                     
