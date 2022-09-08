@@ -12,10 +12,10 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 const myComponentStyle = {
-    float : 'right',
-    fontSize:14,
-    color:"#777"
- }
+    float: 'right',
+    fontSize: 14,
+    color: "#777"
+}
 
 const RenderSeekerAnswered = (props) => {
     const SeekerAnsweredCount = () => {
@@ -32,7 +32,7 @@ const RenderSeekerAnswered = (props) => {
     return (
         <Card className={styles.answeredQuestionsCard}>
             <Card.Header as="h5" class="col-md-9" className={styles.questionText}>{props.data.express == true && <i class="fa-solid fa-fire" id={styles.expressQuestion}></i>}{props.data.text}</Card.Header>
-            <Card.Body>
+            <Card.Body className={styles.spacer}>
                 <Card.Title>                  {props.data.additionalContext &&
                     <span class="input-group-text" id={styles.additionalContext}>{props.data.additionalContext}</span>
                 }</Card.Title>
@@ -47,25 +47,34 @@ const RenderSeekerAnswered = (props) => {
                     </div>
                 </div>
                 <div class="row">
-                    <Card.Text className={styles.answerTextBorder}>
-                        {props.data.answersList && props.data.answersList.map((ans) => {
-                            return (
-                                <div class="row">
+
+                    {props.data.answersList && props.data.answersList.map((ans) => {
+                        return (
+                            <div class="row">
+                                <Card.Text className={styles.answerTextBorder}>
                                     <div class="col-sm-12">
                                         <div style={myComponentStyle}>
                                             <i class="fa fa-star-o ng-scope" aria-hidden="true">
                                             </i>
                                         </div>
                                         <div className={styles.profilePicDiv}>
-                                         <img class="rounded-circle"src={require('../../images/profile.jpg')} className={styles.userPic} />   
+                                            <img class="rounded-circle" src={require('../../images/profile.jpg')} className={styles.userPic} />
                                         </div>
                                         <div className={styles.userInfo}>
-                                        <span>{ans.expertFirstName}{ans.expertLastName}</span>
+                                            <span className={styles.expertName}>{ans.expertFirstName}&nbsp;{ans.expertLastName}</span>
+                                            <span className={styles.userScore}><i id={styles.starIconScore} class="fa-solid fa-star"></i><span style={{ fontWeight: "bold", fontSize: 14, color: "#444" }}>{Math.round(ans.expertScore)}</span>/10</span>
                                         </div>
                                     </div>
-                                    <Card.Text className={styles.variheightdiv}>{ans.answer}</Card.Text></div>)
-                        })}
-                    </Card.Text>
+                                    
+                                        <div class="col-sm-12">
+                                            <div className={styles.answerBlockText}>
+                                                <Card.Text className={styles.variheightdiv}><div dangerouslySetInnerHTML={{__html: ans.answer}}></div><div className={styles.fader}></div></Card.Text>
+                                            </div>
+                                        </div>
+                                    
+                                </Card.Text>
+                            </div>)
+                    })}
                 </div>
                 <Button variant="primary" className={styles.viewAndRateButton}><i class="fa-regular fa-square-check" id={styles.squareCheck}></i>View & Rate Answers { }</Button>
             </Card.Body>

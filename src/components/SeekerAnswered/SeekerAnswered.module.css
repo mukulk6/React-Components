@@ -95,8 +95,10 @@
     border: 1px solid #ececec;
     border-radius: 5px;
     margin-bottom: 5px;
-    padding: 5px;
+    padding: 8px;
     font-family: 'Poppins', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .tagLabel {
@@ -184,9 +186,42 @@
 .profilePicDiv
 {
     padding-left: 12px;
+    float: left;
 }
 
 .userInfo
 {
-    padding-left: 55px;
+    margin-left: 55px;
+}
+
+.expertName
+{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.userScore
+{
+    color: #949494;
+    font-size: 14px;
+    padding: 12px;
+}
+
+#starIconScore
+{
+font-size: 12px;
+color:#b4c6cc;
+}
+
+.answerBlockText
+{
+    margin: 0 auto;
+    padding: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+}
+
+.spacer
+{
+    padding-top: 0;
 }
