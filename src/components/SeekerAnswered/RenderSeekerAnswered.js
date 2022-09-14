@@ -17,6 +17,8 @@ const myComponentStyle = {
     color: "#777"
 }
 
+export const TextContext = React.createContext();
+
 const RenderSeekerAnswered = (props) => {
     const SeekerAnsweredCount = () => {
         return (
