@@ -12,7 +12,7 @@ import TrendingTab from './components/TrendingTab/TrendingTab';
 import SearchResult from './components/SearchResult/SearchResult';
 import SearchResultData from './components/SearchResult/SearchData.json';
 import SeekerAnswered from './components/SeekerAnswered/SeekerAnswered';
-
+import SearchTab from './components/SearchTab/SearchTab';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -23,6 +23,7 @@ root.render(
         <Route path="/trending" element={<TrendingTab />} />
         <Route path="/search" element={<SearchResult />} />
         <Route path="/seekerans" element={<SeekerAnswered />} />
+        <Route path="/searchtab" element={<SearchTab />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
