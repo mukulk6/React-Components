@@ -78,7 +78,7 @@ const SearchResultDemo = (props) => {
                                                 </span>
                                                 <div class='row'>
                                                     <div className={styles.answerBlock}>
-                                                        <p>{answer.answerText}</p>
+                                                        <p>{<div dangerouslySetInnerHTML={{__html: answer.answerText}}></div>}</p>
                                                     </div>
                                                 </div>
                                                 <div class="row">
