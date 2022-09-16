@@ -78,7 +78,7 @@ const SearchResult = () => {
         </MDBTabsItem>
       </MDBTabs>
       <MDBTabsContent>
-        <MDBTabsPane className={styles.tabPane} show={basicActive === 'tab1'}>{if(SearchResultData.confidence==true)return(<div>Best Results</div>)}{SearchResultData.map((data, ind) => { return (<div key={ind}><SearchResultDemo data={data} /></div>) })}</MDBTabsPane>
+        <MDBTabsPane className={styles.tabPane} show={basicActive === 'tab1'}>{SearchResultData.map((data, ind) => { return (<div key={ind}><SearchResultDemo data={data} /></div>) })}</MDBTabsPane>
         <MDBTabsPane show={basicActive === 'tab2'}>Tab 2 content</MDBTabsPane>
       </MDBTabsContent>
     </div>
