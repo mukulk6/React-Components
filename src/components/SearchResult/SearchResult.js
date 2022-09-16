@@ -17,7 +17,7 @@ import {
   MDBTabsPane
 } from 'mdb-react-ui-kit';
 import Multiselectdropdowndomain from '../Multiselectdropdowndomain/Multiselectdropdowndomain';
-
+import AiToggleButton from 'bootstrap-switch-button-react';
 
 const SearchResult = () => {
   const [basicActive, setBasicActive] = useState('tab1');
@@ -65,7 +65,7 @@ const SearchResult = () => {
             </div>
           </MDBTabsLink>
         </MDBTabsItem>
-        <MDBTabsItem className='mr-auto'>
+        <MDBTabsItem>
           {
             SeekerData.map((postData, index) => {
               return (
@@ -75,6 +75,17 @@ const SearchResult = () => {
               )
             })
           }
+        </MDBTabsItem>
+        <MDBTabsItem className={styles.AiSearch}>
+          <div className={styles.searchToggleDiv}>
+          <span className={styles.AiSearchText}>AI Search</span>
+          <AiToggleButton checked={false}
+            onlabel='On'
+            offlabel='Off'
+            onChange={(checked: boolean) => {
+              this.setState({ isUserAdmin: checked })
+            }} />
+            </div>
         </MDBTabsItem>
       </MDBTabs>
       <MDBTabsContent>
