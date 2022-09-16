@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import styles from './SearchResult.module.css';
 import NavigationBar from '../NavigationBar/NavigationBar';
@@ -9,7 +9,6 @@ import SearchResultData from './SearchData.json';
 import BestResult from '../BestResult/BestResult';
 import SearchResult2 from '../RenderSearchResult/SearchResultDemo';
 import SearchResultDemo from '../RenderSearchResult/SearchResultDemo';
-import { useState } from 'react';
 import {
   MDBTabs,
   MDBTabsItem,
@@ -17,6 +16,7 @@ import {
   MDBTabsContent,
   MDBTabsPane
 } from 'mdb-react-ui-kit';
+import Multiselectdropdowndomain from '../Multiselectdropdowndomain/Multiselectdropdowndomain';
 
 
 const SearchResult = () => {
@@ -52,11 +52,17 @@ const SearchResult = () => {
         <MDBTabsItem >
           <MDBTabsLink className={styles.tabItems} onClick={() => handleBasicClick('tab1')} active={basicActive === 'tab1'}>
             Expert Sourced
+            <div className={styles.tabHeadingCount}>
+              10
+            </div>
           </MDBTabsLink>
         </MDBTabsItem>
         <MDBTabsItem>
           <MDBTabsLink className={styles.tabItems} onClick={() => handleBasicClick('tab2')} active={basicActive === 'tab2'}>
             Document Sourced
+            <div className={styles.tabHeadingCount}>
+              0
+            </div>
           </MDBTabsLink>
         </MDBTabsItem>
         <MDBTabsItem className='mr-auto'>
@@ -72,7 +78,7 @@ const SearchResult = () => {
         </MDBTabsItem>
       </MDBTabs>
       <MDBTabsContent>
-        <MDBTabsPane show={basicActive === 'tab1'}>{SearchResultData.map((data, ind) => { return (<div key={ind}><SearchResultDemo data={data} /></div>) })}</MDBTabsPane>
+        <MDBTabsPane className={styles.tabPane} show={basicActive === 'tab1'}>{if(SearchResultData.confidence==true)return(<div>Best Results</div>)}{SearchResultData.map((data, ind) => { return (<div key={ind}><SearchResultDemo data={data} /></div>) })}</MDBTabsPane>
         <MDBTabsPane show={basicActive === 'tab2'}>Tab 2 content</MDBTabsPane>
       </MDBTabsContent>
     </div>
