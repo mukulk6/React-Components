@@ -1,14 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './SearchTab.module.css';
-import { useState } from 'react';
-import {
-  MDBTabs,
-  MDBTabsItem,
-  MDBTabsLink,
-  MDBTabsContent,
-  MDBTabsPane
-} from 'mdb-react-ui-kit';
 import Multiselectdropdowndomain from '../Multiselectdropdowndomain/Multiselectdropdowndomain';
 import SeekerData from '../Multiselectdropdowndomain/getprofileSeeker.json';
 import SearchResult from '../SearchResult/SearchResult';

@@ -9,7 +9,27 @@ import SearchResultData from './SearchData.json';
 import BestResult from '../BestResult/BestResult';
 import SearchResult2 from '../RenderSearchResult/SearchResultDemo';
 import SearchResultDemo from '../RenderSearchResult/SearchResultDemo';
+import { useState } from 'react';
+import {
+  MDBTabs,
+  MDBTabsItem,
+  MDBTabsLink,
+  MDBTabsContent,
+  MDBTabsPane
+} from 'mdb-react-ui-kit';
+
+
 const SearchResult = () => {
+  const [basicActive, setBasicActive] = useState('tab1');
+
+  const handleBasicClick = (value: string) => {
+    if (value === basicActive) {
+      return;
+    }
+
+    setBasicActive(value);
+  };
+
   return (
     <div class="container">
       <NavigationBar />
@@ -28,9 +48,33 @@ const SearchResult = () => {
           </div>
         </div>
       </div>
-      {
-        SearchResultData.map((pdata,ind)=>{return(<div key={ind}><SearchResultDemo data ={pdata} /></div>)})
-      }
+      <MDBTabs className='mb-3'>
+        <MDBTabsItem >
+          <MDBTabsLink className={styles.tabItems} onClick={() => handleBasicClick('tab1')} active={basicActive === 'tab1'}>
+            Expert Sourced
+          </MDBTabsLink>
+        </MDBTabsItem>
+        <MDBTabsItem>
+          <MDBTabsLink className={styles.tabItems} onClick={() => handleBasicClick('tab2')} active={basicActive === 'tab2'}>
+            Document Sourced
+          </MDBTabsLink>
+        </MDBTabsItem>
+        <MDBTabsItem className='mr-auto'>
+          {
+            SeekerData.map((postData, index) => {
+              return (
+                <div key={index} class="col-md-3" className={styles.multiselectdropdown}>
+                  <Multiselectdropdowndomain data={postData} />
+                </div>
+              )
+            })
+          }
+        </MDBTabsItem>
+      </MDBTabs>
+      <MDBTabsContent>
+        <MDBTabsPane show={basicActive === 'tab1'}>{SearchResultData.map((data, ind) => { return (<div key={ind}><SearchResultDemo data={data} /></div>) })}</MDBTabsPane>
+        <MDBTabsPane show={basicActive === 'tab2'}>Tab 2 content</MDBTabsPane>
+      </MDBTabsContent>
     </div>
   )
 };

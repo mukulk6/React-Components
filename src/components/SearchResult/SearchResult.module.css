@@ -252,3 +252,23 @@
     margin-top: 3px;
     margin-left: 2px;
 }
+
+/* Search tabs css */
+
+.tabItems
+{
+    font-family: 'Poppins','Lato',sans-serif;
+    color: #004358;
+    font-size: 17px;
+    font-weight: normal;
+    font-weight: 500;
+}
+
+.multiselectdropdown
+{
+    right: 358px;
+    position: absolute;
+    max-height: 30px;
+}
+
+/* Search tabs css end */
