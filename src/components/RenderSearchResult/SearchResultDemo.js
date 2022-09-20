@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState } from 'react';
 import PropTypes from 'prop-types';
 import styles from './RenderSearchResult.module.css';
 import SearchResultData from '../SearchResult/SearchData.json';
@@ -10,6 +10,7 @@ const SearchData = () => {
 }
 
 const SearchResultDemo = (props) => {
+    const [showMore, setShowMore] = useState(false);
     if (props.data.confidence == true) {
         return (
             <>
@@ -77,8 +78,8 @@ const SearchResultDemo = (props) => {
 
                                                 </span>
                                                 <div class='row'>
-                                                    <div className={styles.answerBlock}>
-                                                        <p>{<div dangerouslySetInnerHTML={{__html: answer.answerText}}></div>}</p>
+                                                    <div className={styles.answerBlock}>                                                        
+                                                        {(answer.answerText).length >= 550 && showMore ? <div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div> :`${answer.answerText.substring(0, 250)}` && <button className="btn" onClick={() => setShowMore(!showMore)}>{showMore ? "Show less" : "Show more"}</button>}
                                                     </div>
                                                 </div>
                                                 <div class="row">
@@ -188,7 +189,8 @@ const SearchResultDemo = (props) => {
                                                 </span>
                                                 <div class='row'>
                                                     <div className={styles.answerBlock}>
-                                                        <p>{answer.answerText}</p>
+                                                        {/* {{ showMore? answer.answerText : `${answer.answerText.substring(0, 250)}`}<button className="btn" onClick={() => setShowMore(!showMore)}>{showMore ? "Show less" : "Show more"}</button> <div className={styles.variheightdiv}><div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div><span className={styles.showMore} role="button" type="button"><i class="fa-solid fa-angle-down"></i>Show More</span></div>} */}
+                                                        {(answer.answerText).length >= 550 && showMore ? <div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div> : `${answer.answerText.substring(0, 250)}` && <button className="btn" onClick={() => setShowMore(!showMore)}>{showMore ? "Show less" : "Show more"}</button>}
                                                     </div>
                                                 </div>
                                                 <div class="row">
@@ -225,7 +227,7 @@ const SearchResultDemo = (props) => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div >
             </>
         )
     }

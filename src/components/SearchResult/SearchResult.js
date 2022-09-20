@@ -82,6 +82,7 @@ const SearchResult = () => {
           <AiToggleButton checked={false}
             onlabel='On'
             offlabel='Off'
+            onstyle='primary'
             onChange={(checked: boolean) => {
               this.setState({ isUserAdmin: checked })
             }} />

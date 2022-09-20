@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import styles from './NavigationBar.module.css';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Nav } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const NavigationBar = () => {
   const [modalShow, setModalShow] = React.useState(false);
@@ -41,7 +43,7 @@ const NavigationBar = () => {
                 title="My Searches"
                 menuVariant="dark"
               >
-                <NavDropdown.Item ><i class="fa fa-question-circle-o" aria-hidden="true"></i> Open</NavDropdown.Item>
+                <NavDropdown.Item ><i class="fa fa-question-circle-o" aria-hidden="true"></i><Link to ="/open"></Link> Open</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
                   <i class="fa fa-envelope-o" aria-hidden="true"></i> Answered
                 </NavDropdown.Item>

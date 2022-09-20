@@ -281,3 +281,33 @@ hr
     color:orange;
     padding-right: 10px;
 }
+
+.variheightdiv {
+    top: 0px;
+    left: 0px;
+    word-break: break-word;
+    overflow: hidden;
+    -webkit-transition: 1s linear all;
+    transition: 1s linear all;
+    max-height: 67px;
+}
+
+.showMore > i 
+{
+    color: #00A5FB;
+    display: inline-block;
+    padding: 3px;
+    text-align: center;
+}
+
+.showMore
+{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    text-transform: lowercase;
+    color: #00A5FB;
+    display: inline-block;
+    padding: 3px;
+    text-align: center;
+    font-size: 14px;
+}
