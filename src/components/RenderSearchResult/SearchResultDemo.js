@@ -78,11 +78,12 @@ const SearchResultDemo = (props) => {
 
                                                 </span>
                                                 <div class='row'>
-                                                    <div className={styles.answerBlock}>                                                        
-                                                        {(answer.answerText).length >= 550 && showMore ? <div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div> :`${answer.answerText.substring(0, 250)}` && <button className="btn" onClick={() => setShowMore(!showMore)}>{showMore ? "Show less" : "Show more"}</button>}
+                                                    <div className={styles.answerBlock}>
+                                                        {/* {(answer.answerText).length >= 550 && showMore ? <div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div> : `${answer.answerText.substring(0, 250)}` && <span className={styles.showMore} onClick={() => setShowMore(!showMore)}>{showMore ? "Show less" : "Show more" + showMore ? <span className={styles.showMore}><i class="fa-solid fa-angle-down"></i>Show More</span> : <i class="fa-solid fa-angle-up"></i>}</span>} */}
+                                                        {(answer.answerText).length >=550 && <><div dangerouslySetInnerHTML={{__html:answer.answerText}}></div><span className={styles.showMore} onClick={()=>setShowMore(!showMore)}>{showMore ? answer.answerText : `${answer.answerText.substring(0, 250)}`} }</span></>}
                                                     </div>
                                                 </div>
-                                                <div class="row">
+                                                <div class="row"> 
                                                     <div class="col-md-3 pull-left">
                                                         <span className={styles.viewCount}>
                                                             <i class="fa fa-eye" aria-hidden="true"></i>
@@ -189,8 +190,8 @@ const SearchResultDemo = (props) => {
                                                 </span>
                                                 <div class='row'>
                                                     <div className={styles.answerBlock}>
-                                                        {/* {{ showMore? answer.answerText : `${answer.answerText.substring(0, 250)}`}<button className="btn" onClick={() => setShowMore(!showMore)}>{showMore ? "Show less" : "Show more"}</button> <div className={styles.variheightdiv}><div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div><span className={styles.showMore} role="button" type="button"><i class="fa-solid fa-angle-down"></i>Show More</span></div>} */}
-                                                        {(answer.answerText).length >= 550 && showMore ? <div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div> : `${answer.answerText.substring(0, 250)}` && <button className="btn" onClick={() => setShowMore(!showMore)}>{showMore ? "Show less" : "Show more"}</button>}
+                                                        {answer.answerText.length >= 550 && showMore ? <div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div> : `${answer.answerText.substring(0, 250)}` && <span className={styles.showMore} onClick={() => setShowMore(!showMore)}>{showMore ? "Show less" : "Show more" || showMore ? <span className={styles.showMore}><i class="fa-solid fa-angle-down"></i>Show More</span> : <i class="fa-solid fa-angle-up"></i>}</span>}
+
                                                     </div>
                                                 </div>
                                                 <div class="row">
