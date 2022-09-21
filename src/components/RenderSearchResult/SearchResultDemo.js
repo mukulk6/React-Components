@@ -4,10 +4,15 @@ import styles from './RenderSearchResult.module.css';
 import SearchResultData from '../SearchResult/SearchData.json';
 import BestResult from '../BestResult/BestResult';
 import SearchResult from '../SearchResult/SearchResult';
+import { Rating } from '@mui/material';
+import RatingStars from '../RatingStars/RatingStars';
 
 const SearchData = () => {
     return SearchResultData
 }
+
+
+
 
 const SearchResultDemo = (props) => {
     const [showMore, setShowMore] = useState(false);
@@ -80,10 +85,14 @@ const SearchResultDemo = (props) => {
                                                 <div class='row'>
                                                     <div className={styles.answerBlock}>
                                                         {/* {(answer.answerText).length >= 550 && showMore ? <div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div> : `${answer.answerText.substring(0, 250)}` && <span className={styles.showMore} onClick={() => setShowMore(!showMore)}>{showMore ? "Show less" : "Show more" + showMore ? <span className={styles.showMore}><i class="fa-solid fa-angle-down"></i>Show More</span> : <i class="fa-solid fa-angle-up"></i>}</span>} */}
-                                                        {(answer.answerText).length >=550 && <><div dangerouslySetInnerHTML={{__html:answer.answerText}}></div><span className={styles.showMore} onClick={()=>setShowMore(!showMore)}>{showMore ? answer.answerText : `${answer.answerText.substring(0, 250)}`} }</span></>}
+                                                        {/* {(answer.answerText).length >=550 && showMore ? answer.answerText : `${<><div dangerouslySetInnerHTML={{__html:answer.answerText.substring(0, 250)}}></div><span className={styles.showMore} onClick={()=>setShowMore{!showMore}}>{showMore ? <i class="fa-solid fa-angle-down"></i> : <i class="fa-solid fa-angle-up"></i>}</span></>}`} */}
+                                                        {(answer.answerText).length >= 550 && showMore ? answer.answerText : `${<div dangerouslySetInnerHTML={{ __html: answer.answerText.substring(0, 250) }}></div>}`}
+                                                        {/* <span className={styles.showMore} onClick={() => setShowMore(!showMore)}>{(answer.answerText).length >=550 && showMore ? <span className={styles.showMore}><i class="fa-solid fa-angle-down"></i>Show Less</span> : <span className={styles.showMore}><i class="fa-solid fa-angle-up"></i>Show More</span>}</span> */}
+                                                        {(answer.answerText).length >= 550 && <span className={styles.showMore} onClick={() => setShowMore(!showMore)}>{(answer.answerText).length >= 550 && showMore ? <span className={styles.showMore}><i class="fa-solid fa-angle-down"></i>Show Less</span> : <span className={styles.showMore}><i class="fa-solid fa-angle-up"></i>Show More</span>}</span> && <div className={styles.variheightdiv}><div className={styles.fader}><div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div></div></div>}
+                                                        {(answer.answerText).length <= 550 && <p>{answer.answerText}</p>}
                                                     </div>
                                                 </div>
-                                                <div class="row"> 
+                                                <div class="row">
                                                     <div class="col-md-3 pull-left">
                                                         <span className={styles.viewCount}>
                                                             <i class="fa fa-eye" aria-hidden="true"></i>
@@ -94,11 +103,7 @@ const SearchResultDemo = (props) => {
                                                         <span className={styles.ratingTitle}>Rating:</span>
                                                         <span>
                                                             <ul className={styles.ratingStars}>
-                                                                <li><i class="fa-solid fa-star"></i></li>
-                                                                <li><i class="fa-solid fa-star"></i></li>
-                                                                <li><i class="fa-solid fa-star"></i></li>
-                                                                <li><i class="fa-solid fa-star"></i></li>
-                                                                <li><i class="fa-solid fa-star"></i></li>
+                                                                <RatingStars />
                                                             </ul>
                                                         </span>
                                                     </div>
@@ -127,7 +132,7 @@ const SearchResultDemo = (props) => {
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <span id={styles.bestResultText}><i class="fa-regular fa-lightbulb" id={styles.resultBulbIconSimilar}></i>Similar Result<span>{props.data.length > 1}s</span></span>
+                            <span id={styles.bestResultText}><i class="fa-regular fa-lightbulb" id={styles.resultBulbIconSimilar}></i>Similar Result<span>{(props.data).length > 1}s</span></span>
                             <hr></hr>
                         </div>
                     </div>
@@ -203,14 +208,8 @@ const SearchResultDemo = (props) => {
                                                             {answer.popularityScore}
                                                         </span>
                                                         <span className={styles.ratingTitle}>Rating:</span>
-                                                        <span>
-                                                            <ul className={styles.ratingStars}>
-                                                                <li><i class="fa-solid fa-star"></i></li>
-                                                                <li><i class="fa-solid fa-star"></i></li>
-                                                                <li><i class="fa-solid fa-star"></i></li>
-                                                                <li><i class="fa-solid fa-star"></i></li>
-                                                                <li><i class="fa-solid fa-star"></i></li>
-                                                            </ul>
+                                                        <span className={styles.ratingStars}>
+                                                            <RatingStars />
                                                         </span>
                                                     </div>
                                                     <div class="col-md-9 float-right">

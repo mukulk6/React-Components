@@ -7,7 +7,7 @@ import SeekerData from '../Elements/getprofileSeeker.json';
 import ToggleSwitch from '../ToggleSwitch/ToggleSwitch';
 import SearchResultData from './SearchData.json';
 import BestResult from '../BestResult/BestResult';
-import SearchResult2 from '../RenderSearchResult/SearchResultDemo';
+import SearchResult2, { confidence } from '../RenderSearchResult/SearchResultDemo';
 import SearchResultDemo from '../RenderSearchResult/SearchResultDemo';
 import {
   MDBTabs,
