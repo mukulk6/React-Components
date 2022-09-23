@@ -11,8 +11,13 @@ const SearchData = () => {
     return SearchResultData
 }
 
-
-
+// const ToggleButton ({ isExpanded, onClick }) => {
+//     return (
+//       <span className={styles.showMore} onClick={onClick}>
+//         {isExpanded ? <i class="fa fa-angle-up"></i> : <i class="fa fa-angle-down"></i>}
+//       </button>
+//     );
+//   };
 
 const SearchResultDemo = (props) => {
     const [showMore, setShowMore] = useState(false);
@@ -86,10 +91,15 @@ const SearchResultDemo = (props) => {
                                                     <div className={styles.answerBlock}>
                                                         {/* {(answer.answerText).length >= 550 && showMore ? <div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div> : `${answer.answerText.substring(0, 250)}` && <span className={styles.showMore} onClick={() => setShowMore(!showMore)}>{showMore ? "Show less" : "Show more" + showMore ? <span className={styles.showMore}><i class="fa-solid fa-angle-down"></i>Show More</span> : <i class="fa-solid fa-angle-up"></i>}</span>} */}
                                                         {/* {(answer.answerText).length >=550 && showMore ? answer.answerText : `${<><div dangerouslySetInnerHTML={{__html:answer.answerText.substring(0, 250)}}></div><span className={styles.showMore} onClick={()=>setShowMore{!showMore}}>{showMore ? <i class="fa-solid fa-angle-down"></i> : <i class="fa-solid fa-angle-up"></i>}</span></>}`} */}
-                                                        {(answer.answerText).length >= 550 && showMore ? <div dangerouslySetInnerHTML={{ __html: answer.answerText}}></div> : `${answer.answerText.substring(0.250)}` && <span className={styles.showMore} onClick={()=>setShowMore(!showMore)}>{showMore ? <i class="fa fa-angle fa-angle-down"></i> : <i class="fa fa-angle fa-angle-up"></i>}</span>}}
+                                                        {/* {(answer.answerText).length >= 550 && showMore ? <div dangerouslySetInnerHTML={{ __html: answer.answerText}}></div> : `${answer.answerText.substring(0.250)}` && <span className={styles.showMore} onClick={()=>setShowMore(!showMore)}>{showMore ?<span className={styles.showMore}><i class="fa fa-angle fa-angle-up"></i>show less</span>: <span className={styles.showMore}><i class="fa fa-angle fa-angle-down"></i>show more</span>}</span>} */}
+                                                        {/* {(answer.answerText).length < 550 && <div dangerouslySetInnerHTML={{__html:answer.answerText}}></div>} */}
                                                         {/* <span className={styles.showMore} onClick={() => setShowMore(!showMore)}>{(answer.answerText).length >=550 && showMore ? <span className={styles.showMore}><i class="fa-solid fa-angle-down"></i>Show Less</span> : <span className={styles.showMore}><i class="fa-solid fa-angle-up"></i>Show More</span>}</span> */}
                                                         {/* {(answer.answerText).length >= 550 && <span className={styles.showMore} onClick={() => setShowMore(!showMore)}>{(answer.answerText).length >= 550 && showMore ? <span className={styles.showMore}><i class="fa-solid fa-angle-down"></i>Show Less</span> : <span className={styles.showMore}><i class="fa-solid fa-angle-up"></i>Show More</span>}</span> && <div className={styles.variheightdiv}><div className={styles.fader}><div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div></div></div>} */}
                                                         {/* {(answer.answerText).length <= 550 && <p>{answer.answerText}</p>} */}
+                                                        {/* {showMore ? (answer.answerText).length >=550 && <div dangerouslySetInnerHTML={{__html:answer.text}}></div> :`${(answer.answerText)<=550 && answer.answerText.substring(0,250)}`} */}
+                                                        {/* <span className={styles.showMore} onClick={()=>setShowMore(!showMore)}>{showMore ? <span><i class="fa fa-angle-up"></i>show less</span> : <span><i class="fa fa-angle-down"></i>show more</span> }</span> */}
+                                                        {/* {(answer.answerText).length >=550  && showMore ? <div dangerouslySetInnerHTML={{__html:answer.answerText}}></div> : `${<div className={styles.vatiheightdiv}><div class={styles.fader}><div dangerouslySetInnerHTML={{__html:(answer.answerText).substring(0,250)}}></div></div></div>}` && <span className={styles.showMore} onClick={()=>setShowMore(!showMore)}>{showMore ? <span><i class="fa fa-angle-up"></i>show less</span> : <span><i class="fa fa-angle-down"></i>show more</span>}</span>} */}
+                                                        {answer.answerText.length>=550 ? showMore ? <div dangerouslySetInnerHtml={{__html:answer.answerText.substring(0,250)}}></div> : `${<div dangerouslySetInnerHTML={{__html:answer.answerText}}></div>}` && <span className={styles.showMore} onClick>{()=>setShowMore(!showMore)}{showMore ? <span><i class="fa fa-angle-up"></i>show less</span> :<span><i class="fa fa-angle-down"></i>show more</span> }</span> : <div dangerouslySetInnerHTML={{__html:answer.answerText}}></div>}
                                                     </div>
                                                 </div>
                                                 <div class="row">
@@ -195,7 +205,7 @@ const SearchResultDemo = (props) => {
                                                 </span>
                                                 <div class='row'>
                                                     <div className={styles.answerBlock}>
-                                                        {answer.answerText.length >= 550 && showMore ? <div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div> : `${answer.answerText.substring(0, 250)}` && <span className={styles.showMore} onClick={() => setShowMore(!showMore)}>{showMore ? "Show less" : "Show more" || showMore ? <span className={styles.showMore}><i class="fa-solid fa-angle-down"></i>Show More</span> : <i class="fa-solid fa-angle-up"></i>}</span>}
+                                                        {answer.answerText.length >= 550 && showMore ? <div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div> : `${answer.answerText.substring(0, 250)}` && <span className={styles.showMore} onClick={() => setShowMore(!showMore)}>{showMore ? "Show less" : "Show more" || showMore ? <span className={styles.showMore}><i class="fa-solid fa-angle-up"></i>Show More</span> : <i class="fa-solid fa-angle-down"></i>}</span>}
 
                                                     </div>
                                                 </div>
