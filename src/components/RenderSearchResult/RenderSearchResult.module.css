@@ -161,10 +161,11 @@
     font-weight: normal;
 }
 
-.answerBlock p {
+.answerBlock  {
     font-size: 14px;
     font-family: 'Poppins',sans-serif;
     text-align: left;
+    margin-bottom: 12px;
 }
 
 .viewCount,
