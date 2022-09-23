@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Noto+Sans:400,700');
+
 .App {
   text-align: center;
 }
@@ -26,6 +27,63 @@
   color: white;
 }
 
+.dropdown-menu-dark {
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0px 5px 50px rgb(0 0 0 / 10%);
+  width: 300px;
+  max-width: 200px;
+  font-weight: normal;
+  padding-bottom: 0;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+.dropdown-menu-dark > a {
+  padding-top:20px;
+  font-size: 14px;
+  font-family: 'Poppins', 'Lato', sans-serif;
+  color: #004358;
+  font-weight: 400 !important;
+  border-bottom: 1px solid #e4e4e4;
+  line-height: 2.32;
+  padding-top:5px;
+  padding-bottom: 5px;
+  height:27px;
+  display: block;
+}
+
+.dropdown-menu:after
+{
+  bottom: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #ffffff;
+    border-width: 19px;
+    left: 41%;
+    margin-left: -32px;
+}
+
+.dropdown-menu-dark > a:hover
+{
+  background-color: #f5f5f5;
+  transition: all ease-in-out 300ms;
+  color: #004358;
+}
+
+.dropdown-menu-dark > a > i
+{
+  padding-right: 5px;
+  width: 20px;
+  color: #19556896;
+  font-size: 12px;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -34,6 +92,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

@@ -24,11 +24,12 @@ a.brandImg img
 
 .navigationBar a
 {
-    font-weight: 600;
     margin:0;
     padding-top: 0px;
     padding-bottom: 0px;
     color: #075491;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 nav {
