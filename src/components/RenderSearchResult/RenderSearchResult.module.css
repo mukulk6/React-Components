@@ -49,6 +49,7 @@
 .tagDomain {
     margin-top: 3px !important;
     text-align: left;
+    display: inline-block;
 }
 
 .tagDomain h3 {
@@ -72,6 +73,11 @@
     border-radius: 0.25em;
     background-color: #4BCAFF;
     margin: 2px;
+}
+
+.tagsinQue
+{
+    display: inline-block;
 }
 
 .tagsinQue span {
@@ -275,6 +281,7 @@ hr
     border: 2px solid rgba(255, 165, 0, 0.43);
     padding: 10px 30px 10px 40px;
     box-shadow: 0px 0px 25px rgb(0 0 0 / 10%);
+    background-color: white;
 }
 
 #resultBulbIconSimilar
@@ -322,4 +329,9 @@ hr
     height: 77px;
     opacity: 0.99;
     background: linear-gradient(to top, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+}
+
+.tab-content>.active
+{
+    background-color: white !important;
 }

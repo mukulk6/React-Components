@@ -160,15 +160,23 @@ const SearchResultDemo = (props) => {
                                     {props.data.additionalContext && <span class="input-group-text" id="additionalContextspan">{props.data.additionalContext}</span>}             </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-2">
+                                {/* <div class="col-md-2">
                                     <div className={styles.tagDomain}>
                                         <h3>Domain: <span className={styles.label}>{props.data.domain}</span></h3>
                                     </div>
-                                </div>
-                                <div class="col-md-2">
+                                </div> */}
+                                <div class="col-sm-12">
+                                <span className={styles.tagDomain}>
+                                    <h3>Domain: <span className={styles.label}>{props.data.domain}</span></h3>
+                                </span>
+                                {/* <div class="col-md-2">
                                     <div className={styles.tagsinQue}>
                                         {(props.data.tags).length > 0 && <h3>Tags: {props.data.tags.map((tag) => { return (<span className={styles.tagLabel}>{tag}</span>) })}</h3>}
                                     </div>
+                                </div> */}
+                                <span className={styles.tagsinQue}>
+                                {(props.data.tags).length > 0 && <h3>Tags: {props.data.tags.map((tag) => { return (<span className={styles.tagLabel}>{tag}</span>) })}</h3>}
+                                </span>
                                 </div>
                             </div>
                             <div class="col-md-12">

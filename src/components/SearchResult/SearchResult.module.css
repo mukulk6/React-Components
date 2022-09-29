@@ -271,6 +271,11 @@
     transition: none;
 }
 
+.tab-content>.active
+{
+    background-color: white !important;
+}
+
 .multiselectdropdown
 {
     right: 358px;

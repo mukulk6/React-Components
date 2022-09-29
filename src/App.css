@@ -84,6 +84,19 @@
   font-size: 12px;
 }
 
+.dropdown-toggle::after
+{
+  display: none;
+}
+
+.dropdown-menu .active
+{
+  border-bottom: none;
+  background-color: none;
+  color: #004358;
+  font-weight: normal;
+}
+
 .App-link {
   color: #61dafb;
 }

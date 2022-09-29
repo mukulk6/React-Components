@@ -10,6 +10,7 @@ import Elements from '../Elements/Elements';
 import Multiselectdropdowndomain from '../Multiselectdropdowndomain/Multiselectdropdowndomain';
 import Form from 'react-bootstrap/Form';
 import OpenTabData from './OpenTabData.json';
+import moment from 'moment';
 
 function questionsOpenTab() {
   return OpenTabData;
@@ -17,7 +18,6 @@ function questionsOpenTab() {
 
 function OpentabSeeker() {
   const questionsOpen = questionsOpenTab();
-  const [getQuestions, questionsData]= useState({questionsOpen});
   return (
     <div class="container">
       <NavigationBar />
@@ -41,7 +41,8 @@ function OpentabSeeker() {
           <div class="col-md-3">
             <h3 className={styles.openQuestions}>Open Questions</h3>
             <span className={styles.openQuestionCount}>
-              61
+              {/* {questionsOpen.map((data,val)=>{return(<span key={val}>{data.totalCount}</span>)})} */}
+            103
             </span>
           </div>
           <TabSearch />
@@ -88,7 +89,7 @@ function OpentabSeeker() {
                     </div>
                     <div class="col-md-2">
                       <div className={styles.tagsinQue}>
-                        <h3>Asked: </h3>
+                        <h3>Asked: {moment(que.postedTimestamp).format("MMM DD, YYYY")} </h3>
                       </div>
                     </div>
                     <div class="col-md-12">

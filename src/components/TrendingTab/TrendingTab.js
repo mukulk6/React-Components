@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import PropTypes from 'prop-types';
 import styles from './TrendingTab.module.css';
 import NavigationBar from '../NavigationBar/NavigationBar';
@@ -15,7 +15,7 @@ function trendingTab() {
 }
 
 const TrendingTab = () => {
-
+  const [showMore,setShowMore] = useState(false);
   const trending = trendingTab();
   return (
     <div class="container">
@@ -116,7 +116,7 @@ const TrendingTab = () => {
                               <div class="row">
                                 <div className={styles.answeredInfo}>
                                   <span className='answeredBy'>Answered</span>
-                                  <span className='datestamp'>{ans.answeredTimestamp}</span>
+                                  <span className='datestamp'>{(moment(ans.answeredTimestamp).format("MMM DD, YYYY"))}</span>
                                 </div>
                               </div>
                               <span className={styles.userScore}>
@@ -124,10 +124,11 @@ const TrendingTab = () => {
                               </span>
                               <div class='row'>
                                 <div className={styles.answerBlock}>
-                                  <p>{((ans.answer).length >= 550 && <div className={styles.fader} ><div className={styles.contentVar} ><p></p></div></div>)}{(ans.answer).length < 550 && <p>{ans.answer}</p>}</p>
-                                  <div class="row">
+                                  {/* <p>{((ans.answer).length >= 550 && <div className={styles.fader} ><div className={styles.contentVar} ><p></p></div></div>)}{(ans.answer).length < 550 && <p>{ans.answer}</p>}</p> */}
+                                  <p>{((ans.answer).length >=550 && showMore ?  <div dangerouslySetInnerHTML={{__html:ans.answer}}></div> : <div dangerouslySetInnerHTML={{__html:ans.answer.substring(0,250)}}></div> && <span onClick={()=>setShowMore(!showMore)}>{showMore ? "Show less" : "Show more"}</span>) && (ans.answer).length < 550 && <p>{<div dangerouslySetInnerHTML={{__html:ans.answer}}></div>}</p>}</p>
+                                  {/* <div class="row">
                                     {(ans.answer).length >= 550 && <span className={styles.showMore} role="button" type="button"><i class="fa-solid fa-angle-down"></i>Show More</span>}
-                                  </div>
+                                  </div> */}
                                   <span className='datestamp'></span>
                                 </div>
                               </div>

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styles from './NavigationBar.module.css';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Nav, NavItem } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 const NavigationBar = () => {
   const [modalShow, setModalShow] = React.useState(false);
@@ -43,9 +43,18 @@ const NavigationBar = () => {
               title="My Searches"
               menuVariant="dark"
             >
-              <NavDropdown.Item ><i class="fa fa-question-circle-o" aria-hidden="true"></i><Link to="/open"></Link> Open</NavDropdown.Item>
+              <NavDropdown.Item ><i class="fa fa-question-circle-o" aria-hidden="true"></i><NavLink
+              className="navbar-item"
+              activeClassName="is-active"
+              to="/openseeker"
+            > Open</NavLink></NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-                <i class="fa fa-envelope-o" aria-hidden="true"></i> Answered
+                <i class="fa fa-envelope-o" aria-hidden="true"></i><NavLink
+              className="navbar-item"
+              activeClassName="is-active"
+              to="/seekerans"
+            > Answered
+                </NavLink>
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2"><i class="fa fa-book" aria-hidden="true"></i> History</NavDropdown.Item>
             </NavDropdown>
