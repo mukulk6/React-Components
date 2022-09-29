@@ -1,1 +1,40 @@
-.Favorite {}
+.Wrappersearchbar {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background-color: #eef0f2;
+}
+
+.midContainer {
+    padding-bottom: 0px;
+    padding-top: 101px !important;
+    height: 210px;
+}
+
+.seekerFavoriteQuestions
+{
+    font-size: 20px;
+    color: #075491;
+    font-weight: bold;
+    font-family: 'Poppins', 'Lato', sans-serif;
+    display: inline-block;
+}
+
+#bottomRow {
+    border-bottom: 1px solid #00A5FB;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+#domainTextMultiselect
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.cardSeperator {
+    padding-top: 15px;
+}
