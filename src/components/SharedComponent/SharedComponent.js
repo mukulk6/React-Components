@@ -1,16 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './Favorite.module.css';
+import styles from './SharedComponent.module.css';
 import NavigationBar from '../NavigationBar/NavigationBar';
 import SearchBar from '../SearchBar/SearchBar';
-import SeekerData from '../Elements/getprofileSeeker.json';
-import Multiselectdropdowndomain from '../Multiselectdropdowndomain/Multiselectdropdowndomain';
 import TabSearch from '../TabSearch/TabSearch';
 import Elements from '../Elements/Elements';
-import FavoriteData from './Favorite.json';
-import ReusableCardComponent from '../ReusableCardComponent/ReusableCardComponent';
+import Multiselectdropdowndomain from '../Multiselectdropdowndomain/Multiselectdropdowndomain';
+import SharedWithMeData from './SharedWithMe.json'
 
-const Favorite = () => {
+const SharedComponent = () => {
   return (
     <div class="container">
       <NavigationBar />
@@ -49,15 +47,15 @@ const Favorite = () => {
           }
         </div >
         {
-          FavoriteData.map((data, ind) => { return (<div key={ind} className={styles.cardSeperator}><ReusableCardComponent data={data} totalCount={data.totalCount} /></div>) })
+          SharedWithMeData.map((data, ind) => { return (<div key={ind} className={styles.cardSeperator}><ReusableCardComponent data={data} totalCount={data.totalCount} /></div>) })
         }
       </section>
     </div>
   )
 };
 
-Favorite.propTypes = {};
+SharedComponent.propTypes = {};
 
-Favorite.defaultProps = {};
+SharedComponent.defaultProps = {};
 
-export default Favorite;
+export default SharedComponent;

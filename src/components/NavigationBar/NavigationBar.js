@@ -44,16 +44,16 @@ const NavigationBar = () => {
               menuVariant="dark"
             >
               <NavDropdown.Item ><i class="fa fa-question-circle-o" aria-hidden="true"></i><NavLink
-              className="navbar-item"
-              activeClassName="is-active"
-              to="/openseeker"
-            > Open</NavLink></NavDropdown.Item>
+                className="navbar-item"
+                activeClassName="is-active"
+                to="/openseeker"
+              > Open</NavLink></NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 <i class="fa fa-envelope-o" aria-hidden="true"></i><NavLink
-              className="navbar-item"
-              activeClassName="is-active"
-              to="/seekerans"
-            > Answered
+                  className="navbar-item"
+                  activeClassName="is-active"
+                  to="/seekerans"
+                > Answered
                 </NavLink>
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2"><i class="fa fa-book" aria-hidden="true"></i> History</NavDropdown.Item>
@@ -84,11 +84,11 @@ const NavigationBar = () => {
               <div className={styles.userinfo}>
                 <div class="clearfix">
                   <span>Mukul Kale</span>
-
-                  <img src={require('../../images/profile.jpg')} className={styles.avatarImg}>
-
-                  </img>
-
+                  <NavDropdown variant="success" id="dropdown-basic">
+                    <img src={require('../../images/profile.jpg')} className={styles.avatarImg}>
+                    </img>
+                    <NavDropdown.Item>Trending</NavDropdown.Item>
+                  </NavDropdown>
                   <select class="form-select form-select-sm" aria-label=".form-select-lg example">
                     <option value="1">Admin</option>
                     <option value="2">CM</option>

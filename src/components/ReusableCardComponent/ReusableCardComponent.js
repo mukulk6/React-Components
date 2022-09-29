@@ -53,7 +53,7 @@ const ReusableCardComponent = (props) => {
                     <div class="row">
                       <div class="col-sm-12">
                         <span id={styles.ratingText}>Rating: </span>
-                      <RatingStars />
+                        <RatingStars />
                       </div>
                     </div>
                   </Card.Text>
