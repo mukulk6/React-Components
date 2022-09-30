@@ -213,10 +213,7 @@ color:#b4c6cc;
 {
     position: absolute;
     right:10px;
-    padding-top: 5px;
-    font-style: normal;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
+    padding-top: 3px;
 }
 
 .actionButtonDiv > i

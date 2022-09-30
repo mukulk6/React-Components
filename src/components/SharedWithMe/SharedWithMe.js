@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './SharedComponent.module.css';
+import styles from './SharedWithMe.module.css';
 import NavigationBar from '../NavigationBar/NavigationBar';
 import SearchBar from '../SearchBar/SearchBar';
 import TabSearch from '../TabSearch/TabSearch';
@@ -8,7 +8,7 @@ import Elements from '../Elements/Elements';
 import Multiselectdropdowndomain from '../Multiselectdropdowndomain/Multiselectdropdowndomain';
 import SharedWithMeData from './SharedWithMe.json';
 import SeekerData from '../Elements/getprofileSeeker.json';
-import ReusableCardComponent from '../ReusableCardComponent/ReusableCardComponent';
+import ReusableCardComponentForSharedWithMe from '../ReusableCardComponentForSharedWithMe/ReusableCardComponentForSharedWithMe';
 
 const SharedWithMe = () => {
   return (
@@ -32,7 +32,7 @@ const SharedWithMe = () => {
       <section>
         <div class="row" id={styles.bottomRow}>
           <div class="col-md-4">
-            <h3 className={styles.seekerFavoriteQuestions}>Shared Questions By Me  </h3><span className={styles.tabHeadingCount}>{SharedWithMeData[0].count}</span>
+            <h3 className={styles.seekerFavoriteQuestions}>Shared Questions With Me  </h3><span className={styles.tabHeadingCount}>{SharedWithMeData[0].count}</span>
            
           </div>
           <TabSearch />
@@ -49,7 +49,7 @@ const SharedWithMe = () => {
           }
         </div >
         {
-          SharedWithMeData.map((data, ind) => { return (<div key={ind} className={styles.cardSeperator}><ReusableCardComponent data={data} totalCount={data.totalCount} /></div>) })
+          SharedWithMeData.map((data, ind) => { return (<div key={ind} className={styles.cardSeperator}><ReusableCardComponentForSharedWithMe data={data} totalCount={data.totalCount} /></div>) })
         }
       </section>
     </div>

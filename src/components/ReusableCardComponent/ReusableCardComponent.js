@@ -15,10 +15,9 @@ const ReusableCardComponent = (props) => {
     <div>
       <Card className={styles.answeredQuestionsCard}>
         <Card.Header as="h5" style={{ "width": "89%" }} class="col-md-9" className={styles.questionText}>{props.data.express == true && <i class="fa-solid fa-fire" id={styles.expressQuestion}></i>}{props.data.text}</Card.Header>
-        <div class="col-md-2">
-          <div className={styles.actionButtonDiv}>
-            {props.data.sharing === true || (props.data.sharedWith).length > 0 && <span id={styles.actionButtons}><i class="fa fa-share-alt-square" style={{ "color": "green", "float": "right" }}></i></span>}
-          </div>
+        <div className={styles.actionButtonDiv}>
+        {props.data.sharing === true || (props.data.sharedWith).length > 0 ? <i class="fa fa-share-alt-square" style={{"color":"green"}}></i> : <i class="fa fa-share-alt-square" style={{"color":"#d3d3d3"}}></i>}
+        {props.data.favourite===true ? <i class="fa-solid fa-heart" style={{"color":"#FFA600", "paddingLeft":"5px"}}></i> : <i class="fa-solid fa-heart" style={{"color":"#d3d3d3","paddingLeft":"5px"}}></i>}
         </div>
         <Card.Body className={styles.spacer}>
           <Card.Title>                  {props.data.additionalContext &&
@@ -46,10 +45,9 @@ const ReusableCardComponent = (props) => {
                       <div className={styles.userInfo}>
                         <span className={styles.expertName}>{ans.expertFirstName}&nbsp;{ans.expertLastName}</span>
                         <span className={styles.userScore}><i id={styles.starIconScore} class="fa-solid fa-star"></i><span style={{ fontWeight: "bold", fontSize: 14, color: "#444" }}>{Math.round(ans.expertScore)}</span>/10</span>
-                        {ans.answeredTimeStamp > ans.answerUpdatedTimestamp ? <span className={styles.answeredDate}>Last Updated: {moment(ans.answerUpdatedTimestamp).fromNow()}</span> : <span className={styles.answeredDate}>Answered {moment(ans.answeredTimeStamp).format("MMM DD, YYYY")}</span>}
+                         {ans.answeredTimestamp < ans.answerUpdatedTimestamp ? <span className={styles.answeredDate}>Last Updated: {moment(ans.answerUpdatedTimestamp).fromNow()}</span> : <span className={styles.answeredDate}>Answered: {moment(ans.answeredTimeStamp).format("MMM DD, YYYY")}</span>}                      
                       </div>
                     </div>
-
                     <div class="col-sm-12">
                       <div className={styles.answerBlockText}>
                         <Card.Text>{<div dangerouslySetInnerHTML={{ __html: ans.answer }}></div>}</Card.Text>
