@@ -14,7 +14,12 @@ const ReusableCardComponent = (props) => {
   return (
     <div>
       <Card className={styles.answeredQuestionsCard}>
-        <Card.Header as="h5" class="col-md-9" className={styles.questionText}>{props.data.express == true && <i class="fa-solid fa-fire" id={styles.expressQuestion}></i>}{props.data.text}</Card.Header>
+        <Card.Header as="h5" style={{ "width": "89%" }} class="col-md-9" className={styles.questionText}>{props.data.express == true && <i class="fa-solid fa-fire" id={styles.expressQuestion}></i>}{props.data.text}</Card.Header>
+        <div class="col-md-2">
+          <div className={styles.actionButtonDiv}>
+            {props.data.sharing === true || (props.data.sharedWith).length > 0 && <span id={styles.actionButtons}><i class="fa fa-share-alt-square" style={{ "color": "green", "float": "right" }}></i></span>}
+          </div>
+        </div>
         <Card.Body className={styles.spacer}>
           <Card.Title>                  {props.data.additionalContext &&
             <span class="input-group-text" id={styles.additionalContext}>{props.data.additionalContext}</span>

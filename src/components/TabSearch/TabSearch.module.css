@@ -27,7 +27,8 @@
 #searchIcon
 {
     position: relative;
-    right: -77px;
+    left: -12px;
+    top: -27px;
     font-size: 14px;
     color:#616061;
 }

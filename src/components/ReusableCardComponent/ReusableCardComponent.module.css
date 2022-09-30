@@ -208,3 +208,9 @@ color:#b4c6cc;
     display: inline-block;
     padding-right: 12px;
 }
+
+#actionButtons
+{
+    display: block;
+    float: right;
+}

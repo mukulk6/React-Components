@@ -14,6 +14,7 @@ import SearchResultData from './components/SearchResult/SearchData.json';
 import SeekerAnswered from './components/SeekerAnswered/SeekerAnswered';
 import SearchTab from './components/SearchTab/SearchTab';
 import Favorite from './components/Favorite/Favorite';
+import SharedComponent from './components/SharedComponent/SharedComponent';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -26,6 +27,7 @@ root.render(
         <Route path="/seekerans" element={<SeekerAnswered />} />
         <Route path="/searchtab" element={<SearchTab />} />
         <Route path="/favorite" element={<Favorite />} />
+        <Route path="/sharedwithme" element={<SharedComponent />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

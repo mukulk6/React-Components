@@ -6,7 +6,9 @@ import SearchBar from '../SearchBar/SearchBar';
 import TabSearch from '../TabSearch/TabSearch';
 import Elements from '../Elements/Elements';
 import Multiselectdropdowndomain from '../Multiselectdropdowndomain/Multiselectdropdowndomain';
-import SharedWithMeData from './SharedWithMe.json'
+import SharedWithMeData from './SharedByMe.json';
+import SeekerData from '../Elements/getprofileSeeker.json';
+import ReusableCardComponent from '../ReusableCardComponent/ReusableCardComponent';
 
 const SharedComponent = () => {
   return (
@@ -29,8 +31,8 @@ const SharedComponent = () => {
       </div>
       <section>
         <div class="row" id={styles.bottomRow}>
-          <div class="col-md-3">
-            <h3 className={styles.seekerFavoriteQuestions}>Favorite Questions  </h3><span className={styles.tabHeadingCount}>{FavoriteData[0].count}</span>
+          <div class="col-md-4">
+            <h3 className={styles.seekerFavoriteQuestions}>Shared Questions By Me  </h3><span className={styles.tabHeadingCount}>{SharedWithMeData[0].count}</span>
            
           </div>
           <TabSearch />
