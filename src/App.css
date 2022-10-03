@@ -104,6 +104,7 @@
 .tab-content
 {
   background-color: white;
+  padding: 16px;
 }
 
 .App-link {

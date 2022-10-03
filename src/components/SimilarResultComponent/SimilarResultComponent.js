@@ -7,13 +7,6 @@ const SimilarResultComponent = (props) => {
   const [showMore, setShowMore] = useState(false);
 
   return (
-    <div class="container">
-      {/* <div class="row">
-      <div class="col-md-12">
-        <span id={styles.bestResultText}><i class="fa-regular fa-lightbulb" id={styles.resultBulbIconSimilar}></i>Similar Result<span>{(props.data).length > 1}s</span></span>
-        <hr></hr>
-      </div>
-    </div> */}
       <div className={styles.similarSearchResultOutline}>
         <div class="row">
           <div className={styles.innerDiv}>
@@ -112,8 +105,7 @@ const SimilarResultComponent = (props) => {
             })}
           </div>
         </div>
-      </div>
-    </div >
+      </div>   
   )
 };
 
