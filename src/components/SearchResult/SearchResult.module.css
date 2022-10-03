@@ -320,3 +320,8 @@ span.switch-on.btn.btn-primary
 }
 /* AI Search ON/OFF text end */
 
+.suggestionsSpacer
+{
+    padding-top: 12px;
+}
+

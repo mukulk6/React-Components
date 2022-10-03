@@ -18,6 +18,8 @@ import {
 } from 'mdb-react-ui-kit';
 import Multiselectdropdowndomain from '../Multiselectdropdowndomain/Multiselectdropdowndomain';
 import AiToggleButton from 'bootstrap-switch-button-react';
+import BestResultComponent from '../BestResultComponent/BestResultComponent';
+import SimilarResultComponent from '../SimilarResultComponent/SimilarResultComponent';
 
 const SearchResult = () => {
   const [basicActive, setBasicActive] = useState('tab1');
@@ -48,7 +50,7 @@ const SearchResult = () => {
           </div>
         </div>
       </div>
-      <MDBTabs className='mb-3'>
+      <MDBTabs>
         <MDBTabsItem >
           <MDBTabsLink className={styles.tabItems} onClick={() => handleBasicClick('tab1')} active={basicActive === 'tab1'}>
             Expert Sourced
@@ -90,7 +92,7 @@ const SearchResult = () => {
         </MDBTabsItem>
       </MDBTabs>
       <MDBTabsContent>
-        <MDBTabsPane className={styles.tabPane} show={basicActive === 'tab1'}>{SearchResultData.map((data, ind) => { return (<div key={ind}><SearchResultDemo data={data} /></div>) })}</MDBTabsPane>
+        <MDBTabsPane className={styles.tabPane} show={basicActive === 'tab1'}>{}{SearchResultData.map((data, ind) => { return (<div key={ind} className={styles.suggestionsSpacer}>{ data.confidence===true ? <BestResultComponent data={data} /> : <SimilarResultComponent  data={data}/>}</div>) })}</MDBTabsPane>
         <MDBTabsPane show={basicActive === 'tab2'}>Tab 2 content</MDBTabsPane>
       </MDBTabsContent>
     </div>

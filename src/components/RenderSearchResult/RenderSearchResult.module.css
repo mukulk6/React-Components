@@ -331,7 +331,3 @@ hr
     background: linear-gradient(to top, rgb(255, 255, 255), rgba(255, 255, 255, 0));
 }
 
-.tab-content>.active
-{
-    background-color: white !important;
-}
