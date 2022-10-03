@@ -30,7 +30,7 @@ const NavigationBar = () => {
               menuVariant="dark"
               title="Trending"
             >
-              <NavDropdown.Item ><i class="fa fa-fire" aria-hidden="true"></i> Questions</NavDropdown.Item>
+              <NavDropdown.Item href="/trending"><i class="fa fa-fire" aria-hidden="true"></i> Questions</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 <i class="fa-solid fa-tags"></i> Key Terms
               </NavDropdown.Item>
@@ -43,18 +43,12 @@ const NavigationBar = () => {
               title="My Searches"
               menuVariant="dark"
             >
-              <NavDropdown.Item ><i class="fa fa-question-circle-o" aria-hidden="true"></i><NavLink
-                className="navbar-item"
-                activeClassName="is-active"
-                to="/openseeker"
-              > Open</NavLink></NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                <i class="fa fa-envelope-o" aria-hidden="true"></i><NavLink
-                  className="navbar-item"
-                  activeClassName="is-active"
-                  to="/seekerans"
-                > Answered
-                </NavLink>
+              <NavDropdown.Item href="/openseeker"><i class="fa fa-question-circle-o" aria-hidden="true"></i>
+                Open
+              </NavDropdown.Item>
+              <NavDropdown.Item href="/seekerans">
+                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                Answered
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2"><i class="fa fa-book" aria-hidden="true"></i> History</NavDropdown.Item>
             </NavDropdown>

@@ -11,7 +11,10 @@
 .upvoteButton
 {
     color: #bdbdbd;
-    float: right;    
+    float: right;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'Poppins','Lato',sans-serif;    
 }
 
 .upvoteButton > i
