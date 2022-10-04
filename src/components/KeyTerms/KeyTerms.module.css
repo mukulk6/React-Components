@@ -1,11 +1,11 @@
 
-.keyTermDiv
+/* .keyTermDiv
 {
     width:46%;
     border:1px solid #a29a9a; 
     border-radius: 12px; 
     margin: 10px 10px 10px 25px;
-}
+} */
 
 .keyTermsHeading
 {
@@ -17,23 +17,24 @@
     padding: 15px 15px 5px 15px;
 }
 
-.domainKeyTerm
+.domainKeyTerms
 {
     font-weight: 700;
-    font-size: 12px;
+    font-size: 13px;
     font-family: 'Poppins',sans-serif;
+    color: #716e6e;
 }
 
 .domainName
 {
     font-family: 'Poppins',sans-serif;
+    font-size: 13px;
 }
 
 .countQuestions
 {
     font-family: 'Poppins',sans-serif;
-    font-size: 12px;
-    float: right;
+    font-size: 14px;
 }
 
 

@@ -1,8 +1,6 @@
 [
-{
-    "totalCount": 86,
-    "tagsData": [
       {
+        "totalCount": 86,
         "tag": "test life cycle",
         "count": 5,
         "domains": [
@@ -66,6 +64,4 @@
           "Collaterals"
         ]
       }
-    ]
-  }
 ]

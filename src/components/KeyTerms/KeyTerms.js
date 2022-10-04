@@ -7,16 +7,22 @@ const KeyTerms = (props) => {
     <div className={styles.keyTermDiv}>
       <div class="row">
         <div class="col-sm-12">
-          <h3 className={styles.keyTermsHeading}>{props.data.tagsData.tag}</h3>
+          <h3 className={styles.keyTermsHeading}>{props.data.tag}</h3>
         </div>
       </div>
       <div class="row">
-        <span className={styles.domainKeyTerms}>Domain: </span>
-        <span className={styles.domainName}>{props.data.tagsData.domains}</span>
-        <span className={styles.countQuestions}>{props.data.tagsData.count} Questions</span>
+        <div class="container">
+          <div class="col-md-8">
+            <span className={styles.domainKeyTerms}>Domain: </span>
+            {(props.data.domains).length > 0 ? <span className={styles.domainName}>{props.data.domains}</span> : <span className={styles.domainName}>Unclassified</span>}
+          </div>
+          <div class="col-md-4">
+            <span className={styles.countQuestions}>{props.data.count} Questions</span>
+          </div>
+        </div>
       </div>
     </div>
- )
+  )
 };
 
 KeyTerms.propTypes = {};
