@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import styles from './SimilarResultComponent.module.css';
 import RatingStars from '../RatingStars/RatingStars';
+import moment from 'moment';
 
 const SimilarResultComponent = (props) => {
   const [showMore, setShowMore] = useState(false);
@@ -35,9 +36,9 @@ const SimilarResultComponent = (props) => {
                       {(props.data.tags).length > 0 && <h3>Tags: {props.data.tags.map((tag) => { return (<span className={styles.tagLabel}>{tag}</span>) })}</h3>}
                   </div>
               </div> */}
-              <span className={styles.tagsinQue}>
-                {(props.data.tags).length > 0 && <h3>Tags: {props.data.tags.map((tag) => { return (<span className={styles.tagLabel}>{tag}</span>) })}</h3>}
-              </span>
+             
+                {(props.data.tags).length > 0 &&  <span className={styles.tagsinQue}><h3>Tags: {props.data.tags.map((tag) => { return (<span className={styles.tagLabel}>{tag}</span>) })}</h3></span>}
+              
             </div>
           </div>
           <div class="col-md-12">
@@ -65,7 +66,7 @@ const SimilarResultComponent = (props) => {
                     </div>
                     <div class="row">
                       <div className={styles.answeredInfo}>
-                        <span className='answeredBy'>Answered</span>
+                        <span className={styles.answeredBy}>Answered {moment(answer.answeredTimestamp).format("MMM DD, YYYY")}</span>
                         <span className='datestamp'></span>
                       </div>
                     </div>
@@ -74,7 +75,7 @@ const SimilarResultComponent = (props) => {
                     </span>
                     <div class='row'>
                       <div className={styles.answerBlock}>
-                        {answer.answerText.length >= 550 && showMore ? <div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div> : `${answer.answerText.substring(0, 250)}` && <span className={styles.showMore} onClick={() => setShowMore(!showMore)}>{showMore ? "Show less" : "Show more" || showMore ? <span className={styles.showMore}><i class="fa-solid fa-angle-up"></i>Show More</span> : <i class="fa-solid fa-angle-down"></i>}</span>}
+                        {answer.answerText.length >= 550 && showMore ? <div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div> : `${answer.answerText.substring(0,250)}` && <span className={styles.showMore} onClick={() => setShowMore(!showMore)}>{showMore ? "Show less" : "Show more" || showMore ? <span className={styles.showMore}><i class="fa-solid fa-angle-up"></i>Show More</span> : <i class="fa-solid fa-angle-down"></i>}</span>}
 
                       </div>
                     </div>

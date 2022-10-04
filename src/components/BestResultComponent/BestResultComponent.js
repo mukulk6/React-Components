@@ -2,6 +2,7 @@ import React,{useState} from 'react';
 import PropTypes from 'prop-types';
 import styles from './BestResultComponent.module.css';
 import RatingStars from '../RatingStars/RatingStars';
+import moment from 'moment';
 
 const BestResultComponent = (props) => {
   const [showMore, setShowMore] = useState(false);
@@ -62,7 +63,7 @@ const BestResultComponent = (props) => {
                     </div>
                     <div class="row">
                       <div className={styles.answeredInfo}>
-                        <span className='answeredBy'>Answered</span>
+                        <span className='answeredBy'>Answered {moment(answer.answeredTimestamp).format("MMM DD, YYYY")}</span>
                         <span className='datestamp'></span>
                       </div>
                     </div>
@@ -81,7 +82,8 @@ const BestResultComponent = (props) => {
                         {/* {showMore ? (answer.answerText).length >=550 && <div dangerouslySetInnerHTML={{__html:answer.text}}></div> :`${(answer.answerText)<=550 && answer.answerText.substring(0,250)}`} */}
                         {/* <span className={styles.showMore} onClick={()=>setShowMore(!showMore)}>{showMore ? <span><i class="fa fa-angle-up"></i>show less</span> : <span><i class="fa fa-angle-down"></i>show more</span> }</span> */}
                         {/* {(answer.answerText).length >=550  && showMore ? <div dangerouslySetInnerHTML={{__html:answer.answerText}}></div> : `${<div className={styles.vatiheightdiv}><div class={styles.fader}><div dangerouslySetInnerHTML={{__html:(answer.answerText).substring(0,250)}}></div></div></div>}` && <span className={styles.showMore} onClick={()=>setShowMore(!showMore)}>{showMore ? <span><i class="fa fa-angle-up"></i>show less</span> : <span><i class="fa fa-angle-down"></i>show more</span>}</span>} */}
-                        {answer.answerText.length >= 550 ? showMore ? <div dangerouslySetInnerHtml={{ __html: answer.answerText.substring(0, 250) }}></div> : `${<div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div>}` && <span className={styles.showMore} onClick>{() => setShowMore(!showMore)}{showMore ? <span><i class="fa fa-angle-up"></i>show less</span> : <span><i class="fa fa-angle-down"></i>show more</span>}</span> : <div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div>}
+                        {/* {answer.answerText.length >= 550 ? showMore ? <div dangerouslySetInnerHtml={{ __html: answer.answerText.substring(0, 250) }}></div> : `${<div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div>}` && <span className={styles.showMore} onClick>{() => setShowMore(!showMore)}{showMore ? <span><i class="fa fa-angle-up"></i>show less</span> : <span><i class="fa fa-angle-down"></i>show more</span>}</span> : <div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div>} */}
+                        {answer.answerText.length >= 550 && showMore ? <div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div> : `${answer.answerText.substring(0,250)}` && <span className={styles.showMore} onClick={() => setShowMore(!showMore)}>{showMore ? "Show less" : "Show more" || showMore ? <span className={styles.showMore}><i class="fa-solid fa-angle-up"></i>Show More</span> : <i class="fa-solid fa-angle-down"></i>}</span>}
                       </div>
                     </div>
                     <div class="row">

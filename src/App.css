@@ -107,6 +107,14 @@
   padding: 16px;
 }
 
+.nav-tabs .nav-link.active
+{
+  border-width: 0px 0 2px !important;
+    border-style: solid;
+    border-color: #00A5FB;
+    background-color: none;
+}
+
 .App-link {
   color: #61dafb;
 }

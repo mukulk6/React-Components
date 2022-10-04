@@ -104,7 +104,7 @@
                 "expertScore": null,
                 "reroute": null
               },
-              "answeredTimestamp": "1657804767000",
+              "answeredTimestamp": 1657804767000,
               "docId": null,
               "attachments": [
                 {
@@ -235,7 +235,7 @@
                 "expertScore": null,
                 "reroute": null
               },
-              "answeredTimestamp": "1653659665000",
+              "answeredTimestamp": 1653659665000,
               "docId": null,
               "attachments": [],
               "privacy": false,

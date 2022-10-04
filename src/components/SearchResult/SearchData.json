@@ -141,7 +141,7 @@
               "expertScore": null,
               "reroute": null
             },
-            "answeredTimestamp": "1661249615000",
+            "answeredTimestamp": 1661249615000,
             "docId": null,
             "attachments": [
               {
@@ -311,7 +311,7 @@
               "expertScore": null,
               "reroute": null
             },
-            "answeredTimestamp": "1655228821000",
+            "answeredTimestamp": 1655228821000,
             "docId": null,
             "attachments": [],
             "privacy": false,
@@ -428,7 +428,7 @@
               "expertScore": null,
               "reroute": null
             },
-            "answeredTimestamp": "1656611941000",
+            "answeredTimestamp": 1656611941000,
             "docId": null,
             "attachments": [],
             "privacy": false,
@@ -545,7 +545,7 @@
               "expertScore": null,
               "reroute": null
             },
-            "answeredTimestamp": "1656611928000",
+            "answeredTimestamp": 1656611928000,
             "docId": null,
             "attachments": [],
             "privacy": false,
@@ -701,7 +701,7 @@
               "expertScore": null,
               "reroute": null
             },
-            "answeredTimestamp": "1653451840000",
+            "answeredTimestamp": 1653451840000,
             "docId": null,
             "attachments": [],
             "privacy": false,
@@ -858,7 +858,7 @@
               "expertScore": null,
               "reroute": null
             },
-            "answeredTimestamp": "1653924461000",
+            "answeredTimestamp": 1653924461000,
             "docId": null,
             "attachments": [],
             "privacy": false,
@@ -1014,7 +1014,7 @@
               "expertScore": null,
               "reroute": null
             },
-            "answeredTimestamp": "1653403573000",
+            "answeredTimestamp": 1653403573000,
             "docId": null,
             "attachments": [
               {
@@ -1188,7 +1188,7 @@
               "expertScore": null,
               "reroute": null
             },
-            "answeredTimestamp": "1653907485000",
+            "answeredTimestamp": 1653907485000,
             "docId": null,
             "attachments": [
               {
@@ -1362,7 +1362,7 @@
               "expertScore": null,
               "reroute": null
             },
-            "answeredTimestamp": "1654191839000",
+            "answeredTimestamp": 1654191839000,
             "docId": null,
             "attachments": [],
             "privacy": false,
@@ -1521,7 +1521,7 @@
               "expertScore": null,
               "reroute": null
             },
-            "answeredTimestamp": "1661142199000",
+            "answeredTimestamp": 1661142199000,
             "docId": null,
             "attachments": [
               {
@@ -1643,7 +1643,7 @@
               "expertScore": null,
               "reroute": null
             },
-            "answeredTimestamp": "1661141823000",
+            "answeredTimestamp": 1661141823000,
             "docId": "ce020f78-ee93-4449-943e-190124a19521",
             "attachments": [
               {
