@@ -1,0 +1,71 @@
+[
+{
+    "totalCount": 86,
+    "tagsData": [
+      {
+        "tag": "test life cycle",
+        "count": 5,
+        "domains": [
+          "Terms & Conditions"
+        ]
+      },
+      {
+        "tag": "standard lead time",
+        "count": 4,
+        "domains": []
+      },
+      {
+        "tag": "database management system",
+        "count": 6,
+        "domains": [
+          "Collaterals"
+        ]
+      },
+      {
+        "tag": "rest client api",
+        "count": 5,
+        "domains": [
+          "Collaterals"
+        ]
+      },
+      {
+        "tag": "cloud block store",
+        "count": 6,
+        "domains": []
+      },
+      {
+        "tag": "status codes code",
+        "count": 4,
+        "domains": [
+          "Collaterals"
+        ]
+      },
+      {
+        "tag": "script execution order",
+        "count": 4,
+        "domains": []
+      },
+      {
+        "tag": "application programming interface",
+        "count": 5,
+        "domains": [
+          "Collaterals"
+        ]
+      },
+      {
+        "tag": "taking the user",
+        "count": 1,
+        "domains": [
+          "Collaterals"
+        ]
+      },
+      {
+        "tag": "recognized test automation",
+        "count": 4,
+        "domains": [
+          "Collaterals"
+        ]
+      }
+    ]
+  }
+]
