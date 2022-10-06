@@ -10,11 +10,11 @@ const KeyTerms = (props) => {
           <h3 className={styles.keyTermsHeading}>{props.data.tag}</h3>
         </div>
       </div>
+      <div class="container">
       <div class="row">
-        <div class="container">
           <div class="col-md-8">
             <span className={styles.domainKeyTerms}>Domain: </span>
-            {(props.data.domains).length > 0 ? <span className={styles.domainName}>{props.data.domains}</span> : <span className={styles.domainName}>Unclassified</span>}
+            {(props.data.domains).length > 0 ? <span className={styles.domainName}>&nbsp;{props.data.domains}&nbsp;</span> : <span className={styles.domainName}>Unclassified</span> && (props.data.domains).length > 1 && <span>&nbsp;{props.data.domains}&nbsp;</span>}
           </div>
           <div class="col-md-4">
             <span className={styles.countQuestions}>{props.data.count} Questions</span>
