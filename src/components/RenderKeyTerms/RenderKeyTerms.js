@@ -3,13 +3,13 @@ import PropTypes from 'prop-types';
 import styles from './RenderKeyTerms.module.css';
 import KeyTerms from '../KeyTerms/KeyTerms';
 import { MDBTabs, MDBTabsItem, MDBTabsLink, MDBTabsContent, MDBTabsPane } from 'mdb-react-ui-kit';
-import Multiselectdropdowndomain from '../Multiselectdropdowndomain/Multiselectdropdowndomain';
 import KeyTermsData from '../KeyTerms/KeyTermsData.json';
 import AiToggleButton from '../AiToggle/AiToggle';
-import SeekerData from '../Elements/getprofileSeeker.json';
 import NavigationBar from '../NavigationBar/NavigationBar';
 import TabSearch from '../TabSearch/TabSearch';
 import SearchBar from '../SearchBar/SearchBar';
+import Multiselectdropdowndomain from '../Multiselectdropdowndomain/Multiselectdropdowndomain';
+import SeekerData from '../Elements/getprofileSeeker.json';
 
 const RenderKeyTerms = () => {
   const [basicActive, setBasicActive] = useState('tab1');
@@ -44,17 +44,21 @@ const RenderKeyTerms = () => {
             <h3 className={styles.seekerKeyTerms}>Key Terms  </h3><span className={styles.keyTermsHeadingCount}>{KeyTermsData[0].totalCount}</span>
            
           </div>
-          <TabSearch />
-          {/* {
+          <div class="col-md-8">
+          {
             SeekerData.map((postData, index) => {
               return (
-                <div key={index} class="col-md-3">
+                <div key={index} class="col-md-6" style={{float:"right"}}>
                   <span id={styles.domainTextMultiselect}>Domain:</span>
                   <Multiselectdropdowndomain data={postData} />
                 </div>
               )
             })
-          } */}
+          }
+          <div class="col-md-2">
+           <TabSearch />
+           </div>
+          </div>
         </div>
       <MDBTabs>
         <MDBTabsItem >

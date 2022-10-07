@@ -40,7 +40,9 @@ const TrendingTab = () => {
           <div class="col-md-3">
             <h3 className={styles.openQuestions}>Trending Questions</h3>
           </div>
+          <div class="col-md-3">
           <TabSearch />
+          </div>
           <Elements />
           {
             SeekerData.map((postData, index) => {

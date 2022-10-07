@@ -7,16 +7,16 @@ import GetProfileSeeker from './getprofile.json';
 import ProgressBar from 'react-bootstrap/esm/ProgressBar';
 
 const AwardsModal = (props) => {
-  const [show, setShow] = useState(false);
+  // const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  // const handleClose = () => setShow(false);
+  // const handleShow = () => setShow(true);
   return (
     <div class="container">
-    <Button variant="primary" onClick={handleShow}>
+    {/* <Button variant="primary" onClick={handleShow}>
     Launch demo modal
-  </Button>
-  <Modal show={show} onHide={handleClose}>
+  </Button> */}
+  <Modal>
    <Modal.Header className={styles.modalTitle} closeButton >
    <Modal.Title style={{fontSize:"18px" ,fontWeight:"bold",textAlign:"center", display:"flex", justifyContent:"center", alignItems:"center"}}>Seeker Awards</Modal.Title>
    </Modal.Header>

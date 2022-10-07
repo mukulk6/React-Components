@@ -35,7 +35,9 @@ const SharedComponent = () => {
             <h3 className={styles.seekerFavoriteQuestions}>Shared Questions By Me  </h3><span className={styles.tabHeadingCount}>{SharedWithMeData[0].count}</span>
            
           </div>
+          <div class="col-md-2">
           <TabSearch />
+          </div>
           <Elements />
           {
             SeekerData.map((postData, index) => {

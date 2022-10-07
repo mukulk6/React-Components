@@ -33,7 +33,7 @@ const NavigationBar = () => {
               title="Trending"
             >
               <NavDropdown.Item href="/trending"><i class="fa fa-fire" aria-hidden="true"></i> Questions</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="/keyterms">
                 <i class="fa-solid fa-tags"></i> Key Terms
               </NavDropdown.Item>
 
@@ -55,7 +55,8 @@ const NavigationBar = () => {
               <NavDropdown.Item href="#action/3.2"><i class="fa fa-book" aria-hidden="true"></i> History</NavDropdown.Item>
             </NavDropdown>
           </li>
-          <li class="nav-item" className={styles.iconCenter}> 
+          <li class="nav-item" className={styles.iconCenter} onClick={handleShow}>
+            <AwardsModal show={handleShow} onHide={handleClose} /> 
             <i class="fa fa-star" aria-hidden="true"></i>
             <a class="nav-link" href="#">Awards <span class="sr-only">(current)</span></a>
           </li>
