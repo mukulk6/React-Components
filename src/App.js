@@ -15,6 +15,7 @@ import React from 'react';
 import RenderOpenTabComponent from './components/RenderOpenTabComponent/RenderOpenTabComponent';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import SearchResultData from './components/SearchResult/SearchData.json';
+import AwardsModal from './components/AwardsModal/AwardsModal';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <AiToggle />
         <NavigationBar />
         <Wrappersearchbar />
+        <AwardsModal />
         {SeekerData.map((postData, index) => {
           return (
             <div key={index}>

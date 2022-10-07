@@ -4,6 +4,7 @@ import styles from './NavigationBar.module.css';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Nav, NavItem } from 'react-bootstrap';
 import { NavLink, Link } from 'react-router-dom';
+import AwardsModal from '../AwardsModal/AwardsModal';
 
 const NavigationBar = () => {
   const [modalShow, setModalShow] = React.useState(false);
@@ -11,6 +12,7 @@ const NavigationBar = () => {
   const [lgShow, setLgShow] = React.useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
   return (
     <nav class="navbar navbar-default navbar-light bg-light navbar-expand-lg fixed-top">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,15 +55,11 @@ const NavigationBar = () => {
               <NavDropdown.Item href="#action/3.2"><i class="fa fa-book" aria-hidden="true"></i> History</NavDropdown.Item>
             </NavDropdown>
           </li>
-          <li class="nav-item" onClick={() => setModalShow(true)} className={styles.iconCenter}>
-
-
+          <li class="nav-item" className={styles.iconCenter}> 
             <i class="fa fa-star" aria-hidden="true"></i>
             <a class="nav-link" href="#">Awards <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item" onClick={handleShow} className={styles.className}>
-
-
+          <li class="nav-item" className={styles.className}>
             <div class={styles.fireIcon}>
               <i class="fa fa-fire"></i>
               <span>2/3</span>

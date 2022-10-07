@@ -14,7 +14,7 @@ const KeyTerms = (props) => {
       <div class="row">
           <div class="col-md-8">
             <span className={styles.domainKeyTerms}>Domain: </span>
-            {(props.data.domains).length > 0 ? <span className={styles.domainName}>&nbsp;{props.data.domains}&nbsp;</span> : <span className={styles.domainName}>Unclassified</span> && (props.data.domains).length > 1 && <span>&nbsp;{props.data.domains}&nbsp;</span>}
+            {(props.data.domains).length > 0 ? <span className={styles.domainName}>&nbsp;{props.data.domains}&nbsp;</span> : <span className={styles.domainName}>Unclassified</span>}
           </div>
           <div class="col-md-4">
             <span className={styles.countQuestions}>{props.data.count} Questions</span>
