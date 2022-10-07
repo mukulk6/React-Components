@@ -36,7 +36,6 @@ const NavigationBar = () => {
               <NavDropdown.Item href="/keyterms">
                 <i class="fa-solid fa-tags"></i> Key Terms
               </NavDropdown.Item>
-
             </NavDropdown>
           </li>
           <li class="nav-item" className={styles.iconCenter}>
