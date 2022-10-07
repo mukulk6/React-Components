@@ -5,8 +5,16 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import GetProfileSeeker from './getprofile.json';
 import ProgressBar from 'react-bootstrap/esm/ProgressBar';
+import { fontWeight } from '@mui/system';
 
 const AwardsModal = (props) => {
+  const categoryBadge ={
+    width: "30%",
+    textAlign: "center",
+    fontSize: "19px",
+    fontFamily:"Poppins, Lato, sans-serif",
+    fontWeight:"bold"
+  }
   // const [show, setShow] = useState(false);
 
   // const handleClose = () => setShow(false);
@@ -16,17 +24,17 @@ const AwardsModal = (props) => {
     {/* <Button variant="primary" onClick={handleShow}>
     Launch demo modal
   </Button> */}
-  <Modal>
+  <Modal {...props} centered={true} size="lg">
    <Modal.Header className={styles.modalTitle} closeButton >
    <Modal.Title style={{fontSize:"18px" ,fontWeight:"bold",textAlign:"center", display:"flex", justifyContent:"center", alignItems:"center"}}>Seeker Awards</Modal.Title>
    </Modal.Header>
-   <Modal.Body>
+   <Modal.Body style={{paddingTop:0}}>
     <div className={styles.profileinfo}>
-      <div class="row">
-        <div class="col-md-4" className={styles.awardsAtrributes}>Category</div>
-          <div class="col-md-4" className={styles.awardsAtrributes}>Badge</div>
+      <div class="row align-items-center">
+        <div class="col-6 col-sm-3 text-center" style={categoryBadge}>Category</div>
+          <div class="col-6 col-sm-3 text-center" style={categoryBadge}>Badge</div>
         </div>
-        {GetProfileSeeker.map((data,ind)=>{return(<tbody key={ind}>{data.userBadges.map((cat)=>{return(<tr><td className={styles.awardCategory}>{cat.category}</td><td>{cat.level ===3 && <img className={styles.badges} src={require('../../images/bronze_badge.png')}></img> || cat.level===2 && <img className={styles.badges} src={require('../../images/silver_badge.png')} ></img>}</td><td><ProgressBar min={0} max={100} striped variant="warning" animated now={60} style={{width:"85%"}}/></td></tr>)})}</tbody>)})}
+        {GetProfileSeeker.map((data,ind)=>{return(<tbody key={ind}>{data.userBadges.map((cat)=>{return(<tr><td className={styles.awardCategory}>{cat.category}</td><td className={styles.awardCategory} style={{width:"50%"}}>{cat.level ===3 && <img className={styles.badges} src={require('../../images/bronze_badge.png')}></img> || cat.level===2 && <img className={styles.badges} src={require('../../images/silver_badge.png')} ></img>}</td><td style={{width:"85%"}}><ProgressBar min={0} now={cat.currentLevelCount} max={100} striped variant="warning" animated now={60} style={{width:"85%",backgroundColor: "#f5f5f5",height:"20px"}}/></td></tr>)})}</tbody>)})}
     </div>
    </Modal.Body>
   </Modal>

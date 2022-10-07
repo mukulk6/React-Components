@@ -8,7 +8,7 @@ import AwardsModal from '../AwardsModal/AwardsModal';
 
 const NavigationBar = () => {
   const [modalShow, setModalShow] = React.useState(false);
-  const [show, setShow] = React.useState(false);
+  const [show, setShow] = useState(false);
   const [lgShow, setLgShow] = React.useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -55,7 +55,7 @@ const NavigationBar = () => {
             </NavDropdown>
           </li>
           <li class="nav-item" className={styles.iconCenter} onClick={handleShow}>
-            <AwardsModal show={handleShow} onHide={handleClose} /> 
+            <AwardsModal show={show} onHide={handleClose} /> 
             <i class="fa fa-star" aria-hidden="true"></i>
             <a class="nav-link" href="#">Awards <span class="sr-only">(current)</span></a>
           </li>
