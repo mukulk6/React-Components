@@ -2462,20 +2462,20 @@
       {
         "category": "Curious Mind",
         "level": 3,
-        "nextAwardLevelCount": "68.50",
-        "currentLevelCount": "39.50"
+        "nextAwardLevelCount": "125.00",
+        "currentLevelCount": "57.50"
       },
       {
         "category": "Helping Hand",
-        "level": 2,
-        "nextAwardLevelCount": "70.00",
-        "currentLevelCount": "17.00"
+        "level": 3,
+        "nextAwardLevelCount": "62.00",
+        "currentLevelCount": "33.00"
       },
       {
         "category": "Engagement",
         "level": 3,
-        "nextAwardLevelCount": "134.00",
-        "currentLevelCount": "74.50"
+        "nextAwardLevelCount": "296.00",
+        "currentLevelCount": "85.50"
       }
     ]
   }
