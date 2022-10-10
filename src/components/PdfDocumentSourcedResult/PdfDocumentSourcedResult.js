@@ -28,7 +28,8 @@ const PdfDocumentSourcedResult = (props) => {
                 <span><RatingStars /></span>
                 <div class="col-md-8">
                   <span>Verify with Experts</span>
-                  <span className={styles.searchSuggestionVerifyButton}><span>Yes</span><img src={require('../../images/verify_now.jpg')}></img></span>
+                  <span className={styles.searchSuggestionVerifyButton}><span>Yes</span><img style={{width:"18px"}}src={require('../../images/verify_now.jpg')}></img></span>
+                  <span className={styles.helpfulButton}>Helpful<img src={require('../../images/helpful.png')}></img></span>
                 </div>
               </div>
             </div>
