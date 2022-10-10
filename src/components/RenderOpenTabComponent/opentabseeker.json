@@ -1,1634 +1,3348 @@
 [
-    {
-      "questionUuid": "cd7f09d9-3435-423d-a209-1a4c48445b57",
-      "topicUuid": "1cc14fbb-bb95-44de-bd87-9e246111a774",
-      "text": "What is cross browser testing?",
-      "additionalContext": "request for update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1660108544000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "browser",
-        "testing",
-        "cross"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "759739b9-33e2-4fab-9fb1-2c9b13c19e2d",
-      "topicUuid": "ef548a15-ca37-47e4-8196-31d4553e5cfe",
-      "text": "Implementing and Testing the Array-Based",
-      "additionalContext": "additional context",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1660049392000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "Array-Based"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": false,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "326b8fcf-18de-4442-aca6-4f6522a2e8cb",
-      "topicUuid": "d5759b5b-fbc9-4cd3-b1d7-2254753e3ff8",
-      "text": "What are domains?",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1660024656000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": false,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "9823f55c-0e2c-4e98-9b20-f7bbe32231d1",
-      "topicUuid": "2e76fb79-fec0-4a59-85bf-94fe07486e6b",
-      "text": "testing ehcache ??",
-      "additionalContext": "update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1659939381000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "ehcache"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "818c4399-de2c-4931-b191-56bef14c0df0",
-      "topicUuid": "100834d7-2cf2-4585-bc3b-60715c4ecb49",
-      "text": "What is TestNg?",
-      "additionalContext": "request for update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1659934127000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "d54851a9-93a3-444b-b64d-ac9b59a5c9b8",
-      "topicUuid": "6c705a11-9482-489e-b900-a1576116ebe5",
-      "text": "Explain the agile software development model?",
-      "additionalContext": "request update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1659521203000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "development",
-        "software",
-        "Explain",
-        "model",
-        "agile"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [
-        {
-          "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
-          "email": "akash.kalsare@digitalmain.com"
-        }
-      ],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "fb93c6e1-87f2-43cc-bd11-246f97f8396c",
-      "topicUuid": "3652d2ab-7c92-4136-aec2-25a4fc793c6c",
-      "text": "When is meeting?",
-      "additionalContext": "details",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1659460521000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "meeting"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": false,
-      "watchlist": [
-        {
-          "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
-          "email": "akash.kalsare@digitalmain.com"
-        }
-      ],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "3f608f37-825a-40d9-afea-8fcca0dab9dd",
-      "topicUuid": "0c3f6adf-03eb-48eb-9b3a-22e75f8ccf0c",
-      "text": "What is tabcount?",
-      "additionalContext": "additional details",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1659416191000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": false,
-      "watchlist": [
-        {
-          "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
-          "email": "akash.kalsare@digitalmain.com"
-        }
-      ],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "1f3e66d8-0cf0-4cbe-a823-0eb4f0d5e0fb",
-      "topicUuid": "f3cd6149-c026-4e34-97d0-a74921631c3a",
-      "text": "What are functions??",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1659337000000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "functions"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": false,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "eda86c90-bcfa-464f-9f89-c8fe7dcc1e70",
-      "topicUuid": "e505257f-c4e7-4cc0-89bc-bd96f882320c",
-      "text": "How to click on a hyperlink in Selenium?",
-      "additionalContext": "request for update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1658833813000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "hyperlink",
-        "Selenium"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [
-        {
-          "userUuidStr": "3c51d003-056e-4fc0-a057-6486abe7f562",
-          "email": "mukul.kale@digitalmain.com"
-        }
-      ],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "34cb17a1-c30b-4306-8ff7-883cf7860e98",
-      "topicUuid": "e2d5b91e-b849-40e5-be70-a1f40e0a48b1",
-      "text": "What are components?",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1658832419000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": false,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "4c181bad-d8b6-455e-9275-ae44cfa0dc5e",
-      "topicUuid": "2b2cf2ca-5431-4647-a521-b22cced244c5",
-      "text": "What are functions?",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1658749558000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "functions"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": false,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "4b5bf8fc-935d-4a4d-865b-6b767e9ca34f",
-      "topicUuid": "4c01891c-7451-425a-a16a-2b5a844a2dfe",
-      "text": "Java provides a set of standard collection classes that implement Collection interfaces.",
-      "additionalContext": "request for update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1658296485000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "Java",
-        "set",
-        "classes",
-        "Collection"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "394aa459-6d3f-4580-93c4-25a8ea1ce45c",
-      "topicUuid": "5a8f6f78-9497-4131-8dd7-e8fd19627d2d",
-      "text": "what is helping hand award???",
-      "additionalContext": "request for update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1658232082000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "hand"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [
-        {
-          "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
-          "email": "akash.kalsare@digitalmain.com"
-        }
-      ],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "3fde184f-6472-4bca-a8a3-ebd2431f852d",
-      "topicUuid": "6f170901-ad29-42d5-83ae-f69ac4046245",
-      "text": "What is TCP/ip?",
-      "additionalContext": "request for update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1658205461000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "TCPip"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [
-        {
-          "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
-          "email": "akash.kalsare@digitalmain.com"
-        }
-      ],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "9c8e4d52-876b-4e48-8969-cd1419ab6597",
-      "topicUuid": "0d162368-b3f8-4c7c-a92b-ef46dabeb435",
-      "text": "What are tools for automation?",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1658134404000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "automation",
-        "tools"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": false,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "06ab2051-5d19-46f1-a0f1-8444f66298d6",
-      "topicUuid": "ae84483d-d8bc-4a7e-9a12-3df80a00d0ee",
-      "text": "what are the different phases in stlc?",
-      "additionalContext": "request for update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1658123219000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "different",
-        "stlc",
-        "phases"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "d8cbc581-25d0-42e2-b9d9-48f1549eb582",
-      "topicUuid": "769347b9-9893-42f1-869f-8bcbd436ceda",
-      "text": "Purity ensures business continuity by reducing your risk of downtime",
-      "additionalContext": "request for update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1658121689000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "downtime",
-        "business",
-        "continuity",
-        "Purity",
-        "risk"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "3c58825c-103a-43c1-9a83-b5a51d9e174e",
-      "topicUuid": "376ff191-6c04-4926-893c-9fcf5d1f073e",
-      "text": "What are progress bars?",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1658121477000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "progress",
-        "bars"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": false,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "fb2f930d-c0ae-41fe-b7af-254bd8b0c456",
-      "topicUuid": "b3a5cc09-a947-441c-80e4-570b1f3a61a0",
-      "text": "What is action event?",
-      "additionalContext": "request for update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1658121424000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "action"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "e3457c68-519a-483e-8d69-bdee75a20762",
-      "topicUuid": "96acacbf-8ad2-4876-a474-452f4d99daa0",
-      "text": "What is alpha testing???",
-      "additionalContext": "request for update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1657906618000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "alpha",
-        "testing"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "a1c06e07-b4de-4265-bc61-4e9db6fe8a0e",
-      "topicUuid": "fa194607-ed22-463b-8e79-be113f01dc4e",
-      "text": "What is IOT?",
-      "additionalContext": "request to be updated",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1657899713000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [
-        {
-          "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
-          "email": "akash.kalsare@digitalmain.com"
-        }
-      ],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "8b5f897b-277e-4154-81c4-f81ae5d0c882",
-      "topicUuid": "232a58d8-19c0-46e5-94e6-3adeb2381307",
-      "text": "What are domains??",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1657885681000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": false,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "cf87e3c0-bc32-49b8-b70f-908aff15871d",
-      "topicUuid": "f6efd4b8-5711-461f-960b-c008d2b002b5",
-      "text": "What is Application Programming Interface (API) testing tool?",
-      "additionalContext": "request for update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1657794153000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "testing",
-        "Programming",
-        "API",
-        "Application",
-        "Interface"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [
-        {
-          "userId": null,
-          "firstName": "Diksha",
-          "lastName": "Jadhav",
-          "email": "diksha.jadhav@digitalmain.com",
-          "userUuidStr": "d3edc71b-b814-43f9-ac13-842f213071ac",
-          "userUuidBin": "0+3HG7gUQ/msE4QvITBxrA==",
-          "userStatus": null,
-          "orgId": null,
-          "modifiedDate": null,
-          "id": null,
-          "password": null,
-          "createdDate": null,
-          "newQuestion": null,
-          "expertAnswered": null,
-          "anotherExpertAnswered": null,
-          "seekerRated": null,
-          "questionShared": null,
-          "newExpQuestion": null,
-          "phoneNumber": null,
-          "token": null,
-          "expDate": null,
-          "tourFlag": null,
-          "accountnonlocked": null,
-          "title": null,
-          "timezone": null,
-          "locale": null,
-          "department": null,
-          "costCenter": null,
-          "country": null,
-          "zipcode": null,
-          "userType": null,
-          "seekerIdentity": null,
-          "expertScore": null,
-          "reroute": null
-        }
-      ],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "0aed7b9f-b5fe-428c-b7b1-93deb3cdcd27",
-      "topicUuid": "4afb2512-1c53-4038-a080-95bc31f1fb55",
-      "text": "What are bugs?",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1657787768000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "bugs"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": false,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "e532cf1d-6031-4d84-af77-70450036e6aa",
-      "topicUuid": "f13bef98-d01c-4cc2-876b-fa7d216e8f70",
-      "text": "What are test script?",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1657787558000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "test",
-        "script"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": false,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "b72e386c-dbb5-4908-96f3-6011224cb632",
-      "topicUuid": "655a50df-4749-473c-910d-8e57cb5cf028",
-      "text": "What are bugs?",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1657787359000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "bugs"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": false,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "8e4b7a86-1768-41e9-a3a4-3bb38860f388",
-      "topicUuid": "c29efc70-5ff6-4984-9d74-32bca3a5df08",
-      "text": "How do i get a quote out at the pricing that has committed to? Just use deeper discounts? They are already at 35% off",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1657692535000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "quote",
-        "discounts",
-        "i",
-        "pricing",
-        "They"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": false,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "56bf999a-6d28-44c3-a92a-f394e75463ce",
-      "topicUuid": "5757934d-4157-4fa9-b7f7-9999e56173a9",
-      "text": "What is test automation?",
-      "additionalContext": "request for update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1657688486000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "automation",
-        "test"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [
-        {
-          "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
-          "email": "akash.kalsare@digitalmain.com"
-        },
-        {
-          "userUuidStr": "d3edc71b-b814-43f9-ac13-842f213071ac",
-          "email": "diksha.jadhav@digitalmain.com"
-        }
-      ],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "87348b9f-e6bd-446f-8bf9-1eb5879a17cf",
-      "topicUuid": "0b06b8b6-40cf-4847-89f2-1224822352f5",
-      "text": "What is software?",
-      "additionalContext": "request for update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1657606404000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "software"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "5747f07f-89b8-4c1f-b830-1abb43b16e93",
-      "topicUuid": "abe166d8-9591-4d59-8f80-0e54e788cc1e",
-      "text": "What are logs ?",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1657514328000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "logs"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": false,
-      "watchlist": [
-        {
-          "userUuidStr": "3c51d003-056e-4fc0-a057-6486abe7f562",
-          "email": "mukul.kale@digitalmain.com"
-        }
-      ],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "7e77666f-37d1-496d-98ec-c02eb39632cd",
-      "topicUuid": "2684f851-2cde-4476-96ce-52dac87a88ea",
-      "text": "Which languages are supported to selenium?",
-      "additionalContext": "update request",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1657013254000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "languages"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [
-        {
-          "userUuidStr": "3c51d003-056e-4fc0-a057-6486abe7f562",
-          "email": "mukul.kale@digitalmain.com"
-        }
-      ],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "af5204c6-0134-4e2f-adfe-10142f120eb2",
-      "topicUuid": "ec716470-c1c1-40c7-a50b-270de084ae9c",
-      "text": "What are functions ?",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1656913665000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "functions"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": false,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "c15e627a-8762-47ae-9613-5d56acd0b4fd",
-      "topicUuid": "9c7a2393-4da8-4ed9-9c5c-c2df0008b785",
-      "text": "HTTP/1.1 Status Codes Code Name Notes 100 Continue 101 Switching Protocols Everything is normal 300 Multiple Choices??",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1656504037000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "Status",
-        "Codes",
-        "Code",
-        "Switching",
-        "Name"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "f7faeeff-2dbc-4a59-9ad7-245424f0495f",
-      "topicUuid": "9f0f265f-f7e8-4335-8b3a-eef74aebb1fc",
-      "text": "What are types of testing?",
-      "additionalContext": "update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1656493315000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "types",
-        "testing"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [
-        {
-          "userUuidStr": "3c51d003-056e-4fc0-a057-6486abe7f562",
-          "email": "mukul.kale@digitalmain.com"
-        }
-      ],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "2fe619d1-02e8-4599-9f13-becfed054b14",
-      "topicUuid": "cd49b10f-a1be-425f-a573-da3bb8c3c7a4",
-      "text": "how are you?",
-      "additionalContext": "request for update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1656480050000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [
-        {
-          "userUuidStr": "3c51d003-056e-4fc0-a057-6486abe7f562",
-          "email": "mukul.kale@digitalmain.com"
-        }
-      ],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "f5d0019f-765c-47a9-a582-75a570f6fd18",
-      "topicUuid": "bd56f238-1047-4a0e-a8dc-1c52a9432b1f",
-      "text": "what is appium???",
-      "additionalContext": "request for update request",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1656398286000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "a16f80bd-c45c-47fe-97cd-3470c14cc3af",
-      "topicUuid": "c997e394-c18e-47fc-b5f8-91804ac9a8a0",
-      "text": "What are tabs ?",
-      "additionalContext": "details",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1656396565000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "tabs"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": false,
-      "watchlist": [
-        {
-          "userUuidStr": "3c51d003-056e-4fc0-a057-6486abe7f562",
-          "email": "mukul.kale@digitalmain.com"
-        }
-      ],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "18debf72-badb-4969-a16d-a5c5ef4d1cdd",
-      "topicUuid": "f44f6fd6-756e-463f-80bd-4be4e065adb9",
-      "text": "What are functions ?",
-      "additionalContext": "details",
-      "domain": "Insight Discovery Analytics",
-      "postedTimestamp": 1656396420000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "functions"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": false,
-      "watchlist": [
-        {
-          "userUuidStr": "3c51d003-056e-4fc0-a057-6486abe7f562",
-          "email": "mukul.kale@digitalmain.com"
-        }
-      ],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "7f6e7387-7cad-47bd-bbd9-9778021f3a74",
-      "topicUuid": "c384f060-6470-4bd7-9fe5-f8819cc10b8b",
-      "text": "What are test types ? ? ?",
-      "additionalContext": "details....",
-      "domain": "Insight Discovery Analytics",
-      "postedTimestamp": 1655792319000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "types",
-        "test"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": false,
-      "watchlist": [
-        {
-          "userUuidStr": "3c51d003-056e-4fc0-a057-6486abe7f562",
-          "email": "mukul.kale@digitalmain.com"
-        },
-        {
-          "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
-          "email": "akash.kalsare@digitalmain.com"
-        }
-      ],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "86831bb0-c613-4df4-8487-d5b94e0f1ffb",
-      "topicUuid": "228297f6-d157-47a0-8944-23286081902d",
-      "text": "What are functions???",
-      "additionalContext": "request for update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1655199189000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "functions"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "9466f772-3a40-4080-ba3b-198aa7ec1f16",
-      "topicUuid": "b00cc518-3b2e-4572-801f-775fa2b6dad2",
-      "text": "Scope of Topics",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1654667062000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "Scope"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": false,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "082fd0ae-7f96-4677-820d-fd17610b2652",
-      "topicUuid": "e542d201-1123-4598-8329-055773b9a764",
-      "text": "Hi team, I have two quotes with a non-standard reserve length (15 months) in order to align with the customer's existing Evergreen//One (formerly Pure as-a-Service) contract. Anything need to be done to approve those quote terms?",
-      "additionalContext": "request for update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1654506165000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "months",
-        "reserve",
-        "length",
-        "team",
-        "order"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "e48e8077-c505-46f7-94a3-41e24b11a081",
-      "topicUuid": "8705b538-a5df-4f3c-bde5-6785080d9cd3",
-      "text": "who does testing?",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1654267947000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "testing"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": false,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "e7bb335d-4aa8-4328-bf25-55406b8b055a",
-      "topicUuid": "76edb1fe-7272-4034-9cfa-8a9f5caca16f",
-      "text": "how can I engage with vizerto using email?",
-      "additionalContext": "request for update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1654168408000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "I",
-        "vizerto",
-        "email"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "538101b5-6a6f-4367-8861-60395ad5ed29",
-      "topicUuid": "509ac953-315c-4089-9bb0-5b83a6770a1c",
-      "text": "Is there any reason we couldn't sell a Pure-aaS contract for a solution providing storage for an AWS Outposts configuration?",
-      "additionalContext": "request for update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1654078306000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "reason",
-        "solution",
-        "contract",
-        "Pure-aaS",
-        "storage"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "d1f61356-fc12-48a0-974e-dfdcd1f9d15a",
-      "topicUuid": "c210f1d9-5e9f-48c1-b8dd-5b82f7edc82a",
-      "text": "The OSI model describes computer networking in seven layers",
-      "additionalContext": "request for update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1653991737000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "computer",
-        "OSI",
-        "layers",
-        "model"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "b67e5b01-184a-4e33-94ab-e9c03406b1a9",
-      "topicUuid": "1535273b-cf8a-4015-adae-7e41adb7eeee",
-      "text": "What is \"automation testing\"?",
-      "additionalContext": "request for update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1653988459000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "automation",
-        "testing"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "f1b3eeba-a46d-4cb7-94d9-6af144c0b78a",
-      "topicUuid": "49107869-a620-440b-8b5e-29e45c58ecf4",
-      "text": "What is functional testing?",
-      "additionalContext": "request for update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1653988328000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "functional",
-        "testing"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [
-        {
-          "userUuidStr": "3c51d003-056e-4fc0-a057-6486abe7f562",
-          "email": "mukul.kale@digitalmain.com"
-        },
-        {
-          "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
-          "email": "akash.kalsare@digitalmain.com"
-        }
-      ],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "4f275170-f525-44c9-a0c9-cf6c1bb82335",
-      "topicUuid": "794cd01c-dc60-47a3-b4f4-04f2e5d818a5",
-      "text": "Selenium WebDriver",
-      "additionalContext": "request for update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1653988279000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "WebDriver",
-        "Selenium"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "11e68d46-fabf-4261-9f9e-e860f56d45a9",
-      "topicUuid": "c7d8b6ee-1e40-47c0-bbeb-aa682252d4cc",
-      "text": "What is \"Bug\" & \"Defect\"??",
-      "additionalContext": "request for update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1653987794000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "Bug",
-        "Defect"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "610313fb-33a5-422a-b800-09cfdd6ba60a",
-      "topicUuid": "796ee091-9910-40e6-9c53-3af6beac5cfc",
-      "text": "Welcome to White role programming where we simplify programming",
-      "additionalContext": "additional context",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1653987334000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "role",
-        "White",
-        "programming",
-        "we"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": false,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "cd23fe53-fa8f-458c-8977-797553180bda",
-      "topicUuid": "8c1bb966-b37c-4f4a-acf6-3c61c5eacf50",
-      "text": "What is {} and [] ? ?",
-      "additionalContext": "request for update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1653972219000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "8c73b00d-1563-411e-af1c-a01653b0b8ca",
-      "topicUuid": "23b62490-4115-455b-97b6-9f8052a26ddb",
-      "text": "What is pure storage?",
-      "additionalContext": "update check",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1653907816000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "storage",
-        "pure"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "da7d65b4-ced5-4aff-9164-1a5d9a32af70",
-      "topicUuid": "71a5d606-4566-4a8f-99e4-3b90885c1329",
-      "text": "What are automation libraries???",
-      "additionalContext": "answer update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1653891413000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "automation",
-        "libraries"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "650efefc-3dec-4721-a1c1-dd19fed8fdac",
-      "topicUuid": "5da3489c-1b80-496d-9c4a-904c00610486",
-      "text": "What are test cases?",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1653675775000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "cases",
-        "test"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": false,
-      "watchlist": [
-        {
-          "userUuidStr": "3c51d003-056e-4fc0-a057-6486abe7f562",
-          "email": "mukul.kale@digitalmain.com"
-        }
-      ],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "fddb77de-a497-487b-8b3f-05cf331538bc",
-      "topicUuid": "9b3994a3-5dc0-4b99-b1be-841aac7c098d",
-      "text": "What is webex?",
-      "domain": "Insight Discovery Analytics",
-      "postedTimestamp": 1653472183000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": false,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "41758553-3830-46b8-bf19-4f389f93f559",
-      "topicUuid": "94de277b-b61e-43d8-8f75-24e58fd03fbb",
-      "text": "What is automation?",
-      "additionalContext": "automation type",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1653366107000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "automation"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "774f1545-f63c-4aa7-8ac8-7b1a869f70c9",
-      "topicUuid": "5354d6d7-bc94-4ce7-afaa-2f1d6fba4beb",
-      "text": "What is the software testing life cycle???",
-      "additionalContext": "expert update",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1653323453000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "software",
-        "testing",
-        "cycle",
-        "life"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "387e917d-ff50-4ac4-85c3-f22cc9d4716d",
-      "topicUuid": "5182f4db-b2da-4ab8-8209-1a8e1447ac24",
-      "text": "DATA: My name is CHADD Kenney from pure storage today we're??",
-      "additionalContext": "update request",
-      "domain": "Collaterals",
-      "postedTimestamp": 1651638515000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "DATA",
-        "today",
-        "name",
-        "storage",
-        "CHADD"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "questionUuid": "7b8d60c1-f11b-4498-b420-442bb0fee2b0",
-      "topicUuid": "0ee245ac-f1c0-4681-83bc-a456565c5770",
-      "text": "Do we have any options, other than selling unneeded capacity, to help customers who require more than 2000 IOPS/TiB???",
-      "additionalContext": "\"update request\"",
-      "domain": "Capacity & Sizing",
-      "postedTimestamp": 1651552306000,
-      "status": "open",
-      "popularityScore": 0,
-      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-      "postedUserFirstName": "Mukul",
-      "postedUserLastName": "Kale",
-      "tags": [
-        "other",
-        "unneeded",
-        "options",
-        "customers",
-        "capacity"
-      ],
-      "express": false,
-      "favourite": false,
-      "sharing": false,
-      "sharedWith": [],
-      "clarificationStatus": false,
-      "userInitiatedCuration": true,
-      "watchlist": [],
-      "draftExists": false
-    },
-    {
-      "count":61
-    }
-  ]
+  {
+    "questionUuid": "c693278d-5495-4692-ae00-b5d1a948d1c6",
+    "topicUuid": "63713637-c506-4f70-9ed0-a859b476aa08",
+    "text": "Once the installation is completed, the Postman registration page is opened.",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1665376941000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "installation",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "opened",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "completed",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "postman registration page",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": true,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "5dda717d-3c76-4e4a-8544-6f6fad1ff710",
+    "topicUuid": "1bcf5150-699c-45b4-8e7b-9947f2ce6adf",
+    "text": "What are loaders?",
+    "domain": "Capacity & Sizing",
+    "postedTimestamp": 1665126355000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "loaders",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": true,
+    "clarifications": [
+      {
+        "id": "a66c5c8d-bb7e-4657-a76e-21dd9c5dc25c",
+        "context": "test",
+        "status": "wip"
+      },
+      {
+        "id": "76710676-73e4-4da8-8ecd-28e57e014454",
+        "context": "test",
+        "status": "wip"
+      }
+    ],
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "c5a4c2b2-b726-4516-91c9-2080a881212d",
+    "topicUuid": "ee8bf274-c5fd-4c65-8375-e81776b5f49d",
+    "text": "A criteria for knowing white box testing is \"complete\" • statement coverage • write tests until all statements have been executed",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1664858755000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "executed",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "criteria",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "complete",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "knowing white box",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": true,
+    "clarifications": [
+      {
+        "id": "1b67e83e-0e08-4ba0-8111-672e0b1fa4bb",
+        "context": "clarification ",
+        "status": "wip"
+      }
+    ],
+    "userInitiatedCuration": true,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "74740996-c600-474e-b624-f5f53eba3994",
+    "topicUuid": "27d306bc-4c13-4e1d-8099-caa61828290c",
+    "text": "What is a Relational Database Management System?",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1664772595000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "relational",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "database management system",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": true,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "c1b0c1cf-9b72-4bf5-8935-bc98899d0ae7",
+    "topicUuid": "1ffca913-5a20-4722-b16d-5e922b2f3d39",
+    "text": "What are index?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1664345600000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "index",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "3ea7200d-cef1-4b13-a6b5-837d8a9cb2e1",
+    "topicUuid": "afd0deaf-aed4-43ee-973d-825f51caae90",
+    "text": "What are functions?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1664344629000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "functions",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "734ba185-63b9-4c38-b9bb-30c92ae1402c",
+    "topicUuid": "01bfb7a7-b6fd-415f-b104-465c95a43dbb",
+    "text": "What are loaders?",
+    "additionalContext": "additional details",
+    "domain": "Collaterals",
+    "postedTimestamp": 1664344306000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "loaders",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "6ce10fdb-cf62-4048-8286-6da43b3067f0",
+    "topicUuid": "4c32f644-3bbc-44dc-ae98-53740002d22a",
+    "text": "What are domains?",
+    "domain": "Partner Specific",
+    "postedTimestamp": 1664343971000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "domains",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "d6e22771-f6ae-4220-9e72-417382db36be",
+    "topicUuid": "e505257f-c4e7-4cc0-89bc-bd96f882320c",
+    "text": "How to click on a hyperlink in Selenium?",
+    "additionalContext": "request for updated",
+    "domain": "Collaterals",
+    "postedTimestamp": 1664339942000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "hyperlink in selenium",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": true,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "ed3ecfff-e840-4671-82b2-df154b5f2802",
+    "topicUuid": "92ec375d-b503-4d12-966e-4495075d55d6",
+    "text": "what is bug?",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1664255852000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "bug",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": true,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "6deed7c2-710c-43a2-8b7f-621faeb29540",
+    "topicUuid": "a3fd64f1-43d7-41d5-b8ee-02af63924995",
+    "text": "Gain instant data-access from both traditional enterprise applications and new webscale workloads?",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1664195058000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "workloads",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "webscale",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "applications",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "enterprise",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "gain instant data-access",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": true,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "bc5e8fd9-ee50-4b2a-ab42-db0b5ed4f6fc",
+    "topicUuid": "5dca117f-3e05-4d79-b183-f9725602601a",
+    "text": "quick question: where can i find python material?",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1663761703000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "quick",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "find python material",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": true,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "f704184f-4e7c-4ce9-a87b-241cd7247090",
+    "topicUuid": "3d08f34a-31bb-4a84-855e-43f0f852031d",
+    "text": "What are functions?",
+    "domain": "Terms & Conditions",
+    "postedTimestamp": 1663669548000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "functions",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "40add2f3-3c56-463b-b079-ca5fd5084466",
+    "topicUuid": "d25e2a98-85f9-4829-8f87-f86cad55ff91",
+    "text": "what is the difference between manual testing and automation testing?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1663570364000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "testing",
+        "source": "orig_question",
+        "clickable": true
+      },
+      {
+        "term": "automation",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "difference between manual",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "26b3f74c-c285-4e72-bb22-fee3011eb2f5",
+    "topicUuid": "941be68a-e478-428c-b00d-a5652efe6140",
+    "text": "test automation architect",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1663570044000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "test automation architect",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": true,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "8b41a681-d5a9-4c89-97ab-c20ec64beedd",
+    "topicUuid": "9325a453-80eb-44e8-8f0d-eca4bef98840",
+    "text": "what is machine learning ?",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1663565138000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "machine learning",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": true,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "b7e718f9-3e6a-47da-bda3-5ba1fcf0f202",
+    "topicUuid": "231df079-8b2f-46f6-85c4-1349a29f5d61",
+    "text": "What is seeker follow up functionality?",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1663564693000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "follow up functionality",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "seeker",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": true,
+    "clarifications": [
+      {
+        "id": "3131b53f-260a-48a8-9950-880b6749ed85",
+        "context": "whatis machine?<div><br></div>",
+        "status": "wip"
+      }
+    ],
+    "userInitiatedCuration": true,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "d38a48e9-6969-4b56-8187-38724c2768f4",
+    "topicUuid": "ba32db4f-f823-4415-90af-c7d712693b72",
+    "text": "What is component?",
+    "additionalContext": "follow up text",
+    "domain": "Terms & Conditions",
+    "postedTimestamp": 1662975151000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "component",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "adf94b71-7ae2-4353-9591-7ffa5f4700ca",
+    "topicUuid": "2701f6c0-0804-4bff-a6a4-29b2d233591a",
+    "text": "When to Start Testing?",
+    "domain": "CBS",
+    "postedTimestamp": 1662537256000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "start testing",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "b0163e76-b418-41c9-b085-8e675a97f870",
+    "topicUuid": "a0990600-8021-4233-98ed-cf646b04e1d4",
+    "text": "What are properties?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1662471947000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "properties",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "e23dd490-ba85-45df-ad82-91f887f34451",
+    "topicUuid": "723ee135-68ff-4c36-ab50-dc63f126a5fe",
+    "text": "how to retrieve CSS properties of an element?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1662471917000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "element",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "retrieve css properties",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "3064d45b-8fdf-43ab-a4a5-8b176d7fbbcd",
+    "topicUuid": "b2351fd6-af21-4b36-8d62-8b2d36e6ea13",
+    "text": "what is instinctive drive?",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1662456580000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "instinctive drive",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "7a975d4f-b18c-4ef2-b1ae-030d13b80922",
+    "topicUuid": "2116f038-45be-43a8-8b4f-baaf63bc3e58",
+    "text": "What are the testing types supported by Selenium?",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1662439309000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "selenium",
+        "source": "orig_question",
+        "clickable": true
+      },
+      {
+        "term": "testing types supported",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "afcf383a-bb07-4fc9-98a0-a0d1b05d3db0",
+    "topicUuid": "2e2ece63-9cd5-4b56-b9ec-b211715128c4",
+    "text": "What are keys?",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1662367538000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "keys",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "e8cd93dc-beec-456e-8de1-b650cbcef4f2",
+    "topicUuid": "ea5125a0-227b-403d-8fb4-151015832912",
+    "text": "What are variables???",
+    "additionalContext": "details",
+    "domain": "Collaterals",
+    "postedTimestamp": 1662362690000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "variables",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [
+      {
+        "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+        "email": "akash.kalsare@digitalmain.com"
+      },
+      {
+        "userUuidStr": "37f97773-e321-49e5-b8f5-f8ad790db0fd",
+        "email": "kondba.ambhore@digitalmain.com"
+      }
+    ],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "ac4dc807-1816-4c53-999b-ece68f7a2af5",
+    "topicUuid": "b5f795f5-5d1f-4966-8f36-c226988e7968",
+    "text": "What are functions? ",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1662357592000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "functions",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "54b73d67-7005-4ab0-91fd-8217926a4fcb",
+    "topicUuid": "3a35991d-611d-42ec-8335-c0e80ecee95f",
+    "text": "What are apis?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1662142070000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "apis",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [
+      {
+        "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+        "email": "akash.kalsare@digitalmain.com"
+      },
+      {
+        "userUuidStr": "f18064df-ae00-425f-8fea-50f5ee75e8d1",
+        "email": "tejal.kunjir@digitalmain.com"
+      }
+    ],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "1ced8e5a-13b9-48a2-a9c0-e606e8744298",
+    "topicUuid": "d3197fc4-5e31-49b1-83d5-df8a348a1616",
+    "text": "What are test types?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1662138019000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "test types",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "4fe5b014-c839-4732-b73d-24113a8cc5d0",
+    "topicUuid": "f543e75a-eb50-477e-8949-a4098d441bb6",
+    "text": "What are functions???",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1662104306000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "functions",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "35efe4b9-5488-41b5-84e9-808bc530bec8",
+    "topicUuid": "b15e2bf5-6df0-4f50-8b7a-a43781ea76da",
+    "text": "The name and version of text editors can vary on different operating systems",
+    "domain": "Collaterals",
+    "postedTimestamp": 1662038761000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "version",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "editors",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "text",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "operating systems",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "00dcfd35-5616-4f69-83b9-8097ed4418f4",
+    "topicUuid": "150518de-7b9c-4c37-9e44-f4578d7c2d98",
+    "text": "What are test cases?",
+    "additionalContext": "follow-up reason",
+    "domain": "Collaterals",
+    "postedTimestamp": 1662022345000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "test cases",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "ba3def73-2c08-4a57-a6a1-ff8dbf52ce01",
+    "topicUuid": "42382433-c8e6-44cf-8ea3-e6cde178ff19",
+    "text": "What are test cases?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1661758679000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "test cases",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "4469d08a-2416-4deb-b58f-1d8a8d05a63f",
+    "topicUuid": "bd6c68b3-2392-40cf-a917-b32a1ec282d3",
+    "text": "What are properties?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1661758614000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "539143f6-e947-4d8f-8269-221d534d3b98",
+    "topicUuid": "6266ab8f-d658-48b9-aae2-acaf51b87284",
+    "text": "What are functions???",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1661758501000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "30bbdb01-1918-4981-b547-577924033d4d",
+    "topicUuid": "25679a59-2ee9-4155-9fe8-d22873a5ddf2",
+    "text": "What are domains?",
+    "additionalContext": "details",
+    "domain": "Collaterals",
+    "postedTimestamp": 1661345278000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "domains",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "a9112e47-b7fe-4f65-9643-eb9dba47576f",
+    "topicUuid": "2e4860a8-bf91-40b9-8b88-92dff09b857d",
+    "text": "What are test scripts?",
+    "additionalContext": "follow up reason",
+    "domain": "Collaterals",
+    "postedTimestamp": 1661335285000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "test scripts",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "0c8514e7-03d7-4325-8a95-8ee4ca589525",
+    "topicUuid": "1e629ce1-9530-458f-9bbe-ec183a644e64",
+    "text": "What are domains?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1661332482000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "domains",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "a8a74dc3-7183-456e-9729-d1ee6018ea02",
+    "topicUuid": "9eb9fd46-c7ec-4d37-9deb-4910264cd311",
+    "text": "What are functions?",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1661326066000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "functions",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "35df530e-9069-45cd-aaa6-d8380ef13e6d",
+    "topicUuid": "5cddbac7-518a-4b64-a826-21b2a5e5b6f2",
+    "text": "What are ratings?",
+    "additionalContext": "reason",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1661324677000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "ratings",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "bfd22921-290c-4f87-aeda-906997101ab8",
+    "topicUuid": "091bcc2a-f313-46e9-a677-cda1808635ed",
+    "text": "What are scripts?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1661322018000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "scripts",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "7a62cb32-1d38-4d4d-bad4-31dc5c6b8e76",
+    "topicUuid": "8f270b57-d673-48a2-af42-9586ae241217",
+    "text": "What are suggestions?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1661317968000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "suggestions",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "a0d228d9-5187-4d77-9a7d-84bb64f301f6",
+    "topicUuid": "75776d73-7aa7-41b4-9de4-4d85d22a7613",
+    "text": "What are functions?",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1661259205000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "functions",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "ef05e150-e15f-40e2-b931-3493b1a6ff87",
+    "topicUuid": "d8b979c5-98d1-4a99-aa25-e51d9e2a6fe7",
+    "text": "What are loaders?",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1661251460000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "loaders",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": true,
+    "clarifications": [
+      {
+        "id": "67c33906-3f29-46ab-9a98-b1467faa2f2b",
+        "context": "test",
+        "status": "wip"
+      }
+    ],
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "29c4e645-9f7f-408b-b756-6470af07b2bc",
+    "topicUuid": "7e3505d6-dec5-4d4b-b7eb-d4e7e99b24f2",
+    "text": "What are functions?",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1661251138000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "functions",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "d9277a53-d6eb-4844-bde4-55e31461dfea",
+    "topicUuid": "203e2219-bfde-41ba-b951-3b8558eaef78",
+    "text": "what is the difference between manual testing and automation testing?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1661230734000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "testing",
+        "source": "orig_question",
+        "clickable": true
+      },
+      {
+        "term": "automation",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "difference between manual",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "cccbf381-6926-44de-8ab2-baf95709e614",
+    "topicUuid": "6fd43fbb-cf6e-43d8-baa7-a1fc5404e23b",
+    "text": "what is email rating?",
+    "additionalContext": "update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1661229809000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "email rating",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "e1f4b0e3-dd1b-496b-b2f4-ec8c0d9723d7",
+    "topicUuid": "f6efd4b8-5711-461f-960b-c008d2b002b5",
+    "text": "What is Application Programming Interface (API) testing tool?",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1661164888000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "testing",
+        "source": "orig_question",
+        "clickable": true
+      },
+      {
+        "term": "api",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "application programming interface",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [
+      {
+        "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+        "email": "akash.kalsare@digitalmain.com"
+      },
+      {
+        "userUuidStr": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "email": "diksha.jadhav@digitalmain.com"
+      }
+    ],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "5eee68be-aadc-4f6d-8054-6c66b55a6e64",
+    "topicUuid": "e6ca4521-3d80-4f83-ae93-1df0e0695cd4",
+    "text": "What is slack??",
+    "additionalContext": "additional context",
+    "domain": "Collaterals",
+    "postedTimestamp": 1660833490000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "slack",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "56030b2e-92e1-4e0a-ad08-1801c41a0538",
+    "topicUuid": "842d582a-bf2c-4820-9b65-c5acd8e1d9b0",
+    "text": "What are objects?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1660832311000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "objects",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "51dbd643-ae94-491c-80a9-df05444edf8d",
+    "topicUuid": "f5115d7d-2c25-4f2c-80e7-5a4a9225fe5c",
+    "text": "The design of a DB depends on its architecture..",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1660802393000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "design",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "depends",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "architecture.",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "01120395-b0be-4c0e-b972-dd7787ab1179",
+    "topicUuid": "d5759b5b-fbc9-4cd3-b1d7-2254753e3ff8",
+    "text": "What are domains?",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1660798397000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "domains",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "cb6ab7fa-f1bf-413e-bc73-da715b924ca6",
+    "topicUuid": "dde8f2d5-2dbd-44b5-853a-ff3bd5c56ae9",
+    "text": "What are the possible types of errors that one can encounter in UFT?",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1660797401000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "errors",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "types",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "encounter in uft",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "cd7f09d9-3435-423d-a209-1a4c48445b57",
+    "topicUuid": "1cc14fbb-bb95-44de-bd87-9e246111a774",
+    "text": "What is cross browser testing?",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1660108544000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "cross browser testing",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "759739b9-33e2-4fab-9fb1-2c9b13c19e2d",
+    "topicUuid": "ef548a15-ca37-47e4-8196-31d4553e5cfe",
+    "text": "Implementing and Testing the Array-Based",
+    "additionalContext": "additional context",
+    "domain": "Collaterals",
+    "postedTimestamp": 1660049392000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "array-based",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "implementing and testing",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "9823f55c-0e2c-4e98-9b20-f7bbe32231d1",
+    "topicUuid": "2e76fb79-fec0-4a59-85bf-94fe07486e6b",
+    "text": "testing ehcache ??",
+    "additionalContext": "update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1659939381000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "testing ehcache",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "818c4399-de2c-4931-b191-56bef14c0df0",
+    "topicUuid": "100834d7-2cf2-4585-bc3b-60715c4ecb49",
+    "text": "What is TestNg?",
+    "additionalContext": "request for update",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1659934127000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "testng",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "d54851a9-93a3-444b-b64d-ac9b59a5c9b8",
+    "topicUuid": "6c705a11-9482-489e-b900-a1576116ebe5",
+    "text": "Explain the agile software development model?",
+    "additionalContext": "request update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1659521203000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "agile",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "explain",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "software development model",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [
+      {
+        "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+        "email": "akash.kalsare@digitalmain.com"
+      }
+    ],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "fb93c6e1-87f2-43cc-bd11-246f97f8396c",
+    "topicUuid": "3652d2ab-7c92-4136-aec2-25a4fc793c6c",
+    "text": "When is meeting?",
+    "additionalContext": "details",
+    "domain": "Collaterals",
+    "postedTimestamp": 1659460521000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "meeting",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [
+      {
+        "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+        "email": "akash.kalsare@digitalmain.com"
+      }
+    ],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "3f608f37-825a-40d9-afea-8fcca0dab9dd",
+    "topicUuid": "0c3f6adf-03eb-48eb-9b3a-22e75f8ccf0c",
+    "text": "What is tabcount?",
+    "additionalContext": "additional details",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1659416191000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "tabcount",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [
+      {
+        "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+        "email": "akash.kalsare@digitalmain.com"
+      },
+      {
+        "userUuidStr": "af273bdd-cb86-42d4-aac9-35da0b7cedd6",
+        "email": "manoj.kumar@digitalmain.com"
+      }
+    ],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "1f3e66d8-0cf0-4cbe-a823-0eb4f0d5e0fb",
+    "topicUuid": "f3cd6149-c026-4e34-97d0-a74921631c3a",
+    "text": "What are functions??",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1659337000000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "functions",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "eda86c90-bcfa-464f-9f89-c8fe7dcc1e70",
+    "topicUuid": "e505257f-c4e7-4cc0-89bc-bd96f882320c",
+    "text": "How to click on a hyperlink in Selenium?",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1658833813000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "hyperlink in selenium",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [
+      {
+        "userUuidStr": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "email": "mukul.kale@digitalmain.com"
+      }
+    ],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "4c181bad-d8b6-455e-9275-ae44cfa0dc5e",
+    "topicUuid": "2b2cf2ca-5431-4647-a521-b22cced244c5",
+    "text": "What are functions?",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1658749558000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "functions",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "4b5bf8fc-935d-4a4d-865b-6b767e9ca34f",
+    "topicUuid": "4c01891c-7451-425a-a16a-2b5a844a2dfe",
+    "text": "Java provides a set of standard collection classes that implement Collection interfaces.",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1658296485000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "classes",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "standard",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "implement collection interfaces",
+        "source": "orig_question",
+        "clickable": true
+      },
+      {
+        "term": "java",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "394aa459-6d3f-4580-93c4-25a8ea1ce45c",
+    "topicUuid": "5a8f6f78-9497-4131-8dd7-e8fd19627d2d",
+    "text": "what is helping hand award???",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1658232082000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "helping hand award",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [
+      {
+        "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+        "email": "akash.kalsare@digitalmain.com"
+      }
+    ],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "3fde184f-6472-4bca-a8a3-ebd2431f852d",
+    "topicUuid": "6f170901-ad29-42d5-83ae-f69ac4046245",
+    "text": "What is TCP/ip?",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1658205461000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "tcp",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [
+      {
+        "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+        "email": "akash.kalsare@digitalmain.com"
+      }
+    ],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "9c8e4d52-876b-4e48-8969-cd1419ab6597",
+    "topicUuid": "0d162368-b3f8-4c7c-a92b-ef46dabeb435",
+    "text": "What are tools for automation?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1658134404000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "tools for automation",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "06ab2051-5d19-46f1-a0f1-8444f66298d6",
+    "topicUuid": "ae84483d-d8bc-4a7e-9a12-3df80a00d0ee",
+    "text": "what are the different phases in stlc?",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1658123219000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "phases in stlc",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "d8cbc581-25d0-42e2-b9d9-48f1549eb582",
+    "topicUuid": "769347b9-9893-42f1-869f-8bcbd436ceda",
+    "text": "Purity ensures business continuity by reducing your risk of downtime",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1658121689000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "reducing",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "risk",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "continuity",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "downtime",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "purity ensures business",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "3c58825c-103a-43c1-9a83-b5a51d9e174e",
+    "topicUuid": "376ff191-6c04-4926-893c-9fcf5d1f073e",
+    "text": "What are progress bars?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1658121477000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "progress bars",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "fb2f930d-c0ae-41fe-b7af-254bd8b0c456",
+    "topicUuid": "b3a5cc09-a947-441c-80e4-570b1f3a61a0",
+    "text": "What is action event?",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1658121424000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "action event",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "e3457c68-519a-483e-8d69-bdee75a20762",
+    "topicUuid": "96acacbf-8ad2-4876-a474-452f4d99daa0",
+    "text": "What is alpha testing???",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1657906618000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "alpha testing",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "a1c06e07-b4de-4265-bc61-4e9db6fe8a0e",
+    "topicUuid": "fa194607-ed22-463b-8e79-be113f01dc4e",
+    "text": "What is IOT?",
+    "additionalContext": "request to be updated",
+    "domain": "Collaterals",
+    "postedTimestamp": 1657899713000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "iot",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [
+      {
+        "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+        "email": "akash.kalsare@digitalmain.com"
+      }
+    ],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "8b5f897b-277e-4154-81c4-f81ae5d0c882",
+    "topicUuid": "232a58d8-19c0-46e5-94e6-3adeb2381307",
+    "text": "What are domains??",
+    "domain": "Collaterals",
+    "postedTimestamp": 1657885681000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "domains",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "cf87e3c0-bc32-49b8-b70f-908aff15871d",
+    "topicUuid": "f6efd4b8-5711-461f-960b-c008d2b002b5",
+    "text": "What is Application Programming Interface (API) testing tool?",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1657794153000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "testing",
+        "source": "orig_question",
+        "clickable": true
+      },
+      {
+        "term": "api",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "application programming interface",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [
+      {
+        "userId": null,
+        "firstName": "Diksha",
+        "lastName": "Jadhav",
+        "email": "diksha.jadhav@digitalmain.com",
+        "userUuidStr": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "userUuidBin": "0+3HG7gUQ/msE4QvITBxrA==",
+        "userStatus": null,
+        "orgId": null,
+        "modifiedDate": null,
+        "id": null,
+        "password": null,
+        "createdDate": null,
+        "newQuestion": null,
+        "expertAnswered": null,
+        "anotherExpertAnswered": null,
+        "seekerRated": null,
+        "questionShared": null,
+        "newExpQuestion": null,
+        "phoneNumber": null,
+        "token": null,
+        "expDate": null,
+        "tourFlag": null,
+        "accountnonlocked": null,
+        "title": null,
+        "timezone": null,
+        "locale": null,
+        "department": null,
+        "costCenter": null,
+        "country": null,
+        "zipcode": null,
+        "userType": null,
+        "seekerIdentity": null,
+        "expertScore": null,
+        "reroute": null
+      }
+    ],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "0aed7b9f-b5fe-428c-b7b1-93deb3cdcd27",
+    "topicUuid": "4afb2512-1c53-4038-a080-95bc31f1fb55",
+    "text": "What are bugs?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1657787768000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "bugs",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "e532cf1d-6031-4d84-af77-70450036e6aa",
+    "topicUuid": "f13bef98-d01c-4cc2-876b-fa7d216e8f70",
+    "text": "What are test script?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1657787558000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "test script",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "b72e386c-dbb5-4908-96f3-6011224cb632",
+    "topicUuid": "655a50df-4749-473c-910d-8e57cb5cf028",
+    "text": "What are bugs?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1657787359000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "bugs",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "8e4b7a86-1768-41e9-a3a4-3bb38860f388",
+    "topicUuid": "c29efc70-5ff6-4984-9d74-32bca3a5df08",
+    "text": "How do i get a quote out at the pricing that has committed to? Just use deeper discounts? They are already at 35% off",
+    "domain": "Quote & Price",
+    "postedTimestamp": 1657692535000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "quote",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "pricing",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "committed",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "deeper discounts",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "56bf999a-6d28-44c3-a92a-f394e75463ce",
+    "topicUuid": "5757934d-4157-4fa9-b7f7-9999e56173a9",
+    "text": "What is test automation?",
+    "additionalContext": "request for update",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1657688486000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "test automation",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [
+      {
+        "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+        "email": "akash.kalsare@digitalmain.com"
+      },
+      {
+        "userUuidStr": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "email": "diksha.jadhav@digitalmain.com"
+      }
+    ],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "87348b9f-e6bd-446f-8bf9-1eb5879a17cf",
+    "topicUuid": "0b06b8b6-40cf-4847-89f2-1224822352f5",
+    "text": "What is software?",
+    "additionalContext": "request for update",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1657606404000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "software",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "5747f07f-89b8-4c1f-b830-1abb43b16e93",
+    "topicUuid": "abe166d8-9591-4d59-8f80-0e54e788cc1e",
+    "text": "What are logs ?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1657514328000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "logs",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [
+      {
+        "userUuidStr": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "email": "mukul.kale@digitalmain.com"
+      }
+    ],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "7e77666f-37d1-496d-98ec-c02eb39632cd",
+    "topicUuid": "2684f851-2cde-4476-96ce-52dac87a88ea",
+    "text": "Which languages are supported to selenium?",
+    "additionalContext": "update request",
+    "domain": "Collaterals",
+    "postedTimestamp": 1657013254000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "languages",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "supported to selenium",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [
+      {
+        "userUuidStr": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "email": "mukul.kale@digitalmain.com"
+      }
+    ],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "af5204c6-0134-4e2f-adfe-10142f120eb2",
+    "topicUuid": "ec716470-c1c1-40c7-a50b-270de084ae9c",
+    "text": "What are functions ?",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1656913665000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "functions",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "c15e627a-8762-47ae-9613-5d56acd0b4fd",
+    "topicUuid": "9c7a2393-4da8-4ed9-9c5c-c2df0008b785",
+    "text": "HTTP/1.1 Status Codes Code Name Notes 100 Continue 101 Switching Protocols Everything is normal 300 Multiple Choices??",
+    "domain": "Collaterals",
+    "postedTimestamp": 1656504037000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "switching",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "protocols",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "code",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "http",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "status codes code",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "f7faeeff-2dbc-4a59-9ad7-245424f0495f",
+    "topicUuid": "9f0f265f-f7e8-4335-8b3a-eef74aebb1fc",
+    "text": "What are types of testing?",
+    "additionalContext": "update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1656493315000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "types of testing",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [
+      {
+        "userUuidStr": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "email": "mukul.kale@digitalmain.com"
+      }
+    ],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "2fe619d1-02e8-4599-9f13-becfed054b14",
+    "topicUuid": "cd49b10f-a1be-425f-a573-da3bb8c3c7a4",
+    "text": "how are you?",
+    "additionalContext": "request for update",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1656480050000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [
+      {
+        "userUuidStr": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "email": "mukul.kale@digitalmain.com"
+      }
+    ],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "f5d0019f-765c-47a9-a582-75a570f6fd18",
+    "topicUuid": "bd56f238-1047-4a0e-a8dc-1c52a9432b1f",
+    "text": "what is appium???",
+    "additionalContext": "request for update request",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1656398286000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "appium",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "a16f80bd-c45c-47fe-97cd-3470c14cc3af",
+    "topicUuid": "c997e394-c18e-47fc-b5f8-91804ac9a8a0",
+    "text": "What are tabs ?",
+    "additionalContext": "details",
+    "domain": "Collaterals",
+    "postedTimestamp": 1656396565000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "tabs",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [
+      {
+        "userUuidStr": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "email": "mukul.kale@digitalmain.com"
+      }
+    ],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "18debf72-badb-4969-a16d-a5c5ef4d1cdd",
+    "topicUuid": "f44f6fd6-756e-463f-80bd-4be4e065adb9",
+    "text": "What are functions ?",
+    "additionalContext": "details",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1656396420000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "functions",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": true,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [
+      {
+        "userUuidStr": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "email": "mukul.kale@digitalmain.com"
+      }
+    ],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "7f6e7387-7cad-47bd-bbd9-9778021f3a74",
+    "topicUuid": "c384f060-6470-4bd7-9fe5-f8819cc10b8b",
+    "text": "What are test types ? ? ?",
+    "additionalContext": "details....",
+    "domain": "Collaterals",
+    "postedTimestamp": 1655792319000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "test types",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [
+      {
+        "userUuidStr": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "email": "mukul.kale@digitalmain.com"
+      },
+      {
+        "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+        "email": "akash.kalsare@digitalmain.com"
+      }
+    ],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "789d609d-7394-4281-b1a9-7a393ac0fe17",
+    "topicUuid": "19d91874-d93f-45d2-b7e7-5ca20329178d",
+    "text": "What are test scripts?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1655467418000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "test scripts",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": true,
+    "sharing": false,
+    "sharedWith": [
+      {
+        "userId": null,
+        "firstName": "Diksha",
+        "lastName": "Jadhav",
+        "email": "diksha.jadhav@digitalmain.com",
+        "userUuidStr": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "userUuidBin": "0+3HG7gUQ/msE4QvITBxrA==",
+        "userStatus": null,
+        "orgId": null,
+        "modifiedDate": null,
+        "id": null,
+        "password": null,
+        "createdDate": null,
+        "newQuestion": null,
+        "expertAnswered": null,
+        "anotherExpertAnswered": null,
+        "seekerRated": null,
+        "questionShared": null,
+        "newExpQuestion": null,
+        "phoneNumber": null,
+        "token": null,
+        "expDate": null,
+        "tourFlag": null,
+        "accountnonlocked": null,
+        "title": null,
+        "timezone": null,
+        "locale": null,
+        "department": null,
+        "costCenter": null,
+        "country": null,
+        "zipcode": null,
+        "userType": null,
+        "seekerIdentity": null,
+        "expertScore": null,
+        "reroute": null
+      }
+    ],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "86831bb0-c613-4df4-8487-d5b94e0f1ffb",
+    "topicUuid": "228297f6-d157-47a0-8944-23286081902d",
+    "text": "What are functions???",
+    "additionalContext": "request for update",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1655199189000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "functions",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "9466f772-3a40-4080-ba3b-198aa7ec1f16",
+    "topicUuid": "b00cc518-3b2e-4572-801f-775fa2b6dad2",
+    "text": "Scope of Topics",
+    "domain": "Collaterals",
+    "postedTimestamp": 1654667062000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "scope of topics",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "e48e8077-c505-46f7-94a3-41e24b11a081",
+    "topicUuid": "8705b538-a5df-4f3c-bde5-6785080d9cd3",
+    "text": "who does testing?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1654267947000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "testing",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "e7bb335d-4aa8-4328-bf25-55406b8b055a",
+    "topicUuid": "76edb1fe-7272-4034-9cfa-8a9f5caca16f",
+    "text": "how can I engage with vizerto using email?",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1654168408000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "engage",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "using",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "vizerto using email",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "d1f61356-fc12-48a0-974e-dfdcd1f9d15a",
+    "topicUuid": "c210f1d9-5e9f-48c1-b8dd-5b82f7edc82a",
+    "text": "The OSI model describes computer networking in seven layers",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1653991737000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "networking",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "layers",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "computer",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "osi model describes",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "b67e5b01-184a-4e33-94ab-e9c03406b1a9",
+    "topicUuid": "1535273b-cf8a-4015-adae-7e41adb7eeee",
+    "text": "What is \"automation testing\"?",
+    "additionalContext": "request for update",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1653988459000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "automation testing",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "f1b3eeba-a46d-4cb7-94d9-6af144c0b78a",
+    "topicUuid": "49107869-a620-440b-8b5e-29e45c58ecf4",
+    "text": "What is functional testing?",
+    "additionalContext": "request for update",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1653988328000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "functional testing",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [
+      {
+        "userUuidStr": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "email": "mukul.kale@digitalmain.com"
+      },
+      {
+        "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+        "email": "akash.kalsare@digitalmain.com"
+      }
+    ],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "4f275170-f525-44c9-a0c9-cf6c1bb82335",
+    "topicUuid": "794cd01c-dc60-47a3-b4f4-04f2e5d818a5",
+    "text": "Selenium WebDriver",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1653988279000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "selenium webdriver",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "11e68d46-fabf-4261-9f9e-e860f56d45a9",
+    "topicUuid": "c7d8b6ee-1e40-47c0-bbeb-aa682252d4cc",
+    "text": "What is \"Bug\" & \"Defect\"??",
+    "additionalContext": "request for update",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1653987794000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "bug",
+        "source": "orig_question",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "610313fb-33a5-422a-b800-09cfdd6ba60a",
+    "topicUuid": "796ee091-9910-40e6-9c53-3af6beac5cfc",
+    "text": "Welcome to White role programming where we simplify programming",
+    "additionalContext": "additional context",
+    "domain": "Collaterals",
+    "postedTimestamp": 1653987334000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "simplify",
+        "source": "orig_question",
+        "clickable": false
+      },
+      {
+        "term": "white role programming",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "cd23fe53-fa8f-458c-8977-797553180bda",
+    "topicUuid": "8c1bb966-b37c-4f4a-acf6-3c61c5eacf50",
+    "text": "What is {} and [] ? ?",
+    "additionalContext": "request for update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1653972219000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "da7d65b4-ced5-4aff-9164-1a5d9a32af70",
+    "topicUuid": "71a5d606-4566-4a8f-99e4-3b90885c1329",
+    "text": "What are automation libraries???",
+    "additionalContext": "answer update",
+    "domain": "Collaterals",
+    "postedTimestamp": 1653891413000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "automation libraries",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  },
+  {
+    "questionUuid": "41758553-3830-46b8-bf19-4f389f93f559",
+    "topicUuid": "94de277b-b61e-43d8-8f75-24e58fd03fbb",
+    "text": "What is automation?",
+    "additionalContext": "automation type",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1653366107000,
+    "status": "open",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "automation",
+        "source": "orig_question",
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "clarificationStatus": false,
+    "userInitiatedCuration": false,
+    "watchlist": [],
+    "draftExists": false
+  }
+]

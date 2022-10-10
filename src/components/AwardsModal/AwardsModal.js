@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import styles from './AwardsModal.module.css';
 import Button from 'react-bootstrap/Button';
@@ -20,12 +20,13 @@ const AwardsModal = (props) => {
 
   // const handleClose = () => setShow(false);
   // const handleShow = () => setShow(true);
+
   return (
     <div class="container">
       {/* <Button variant="primary" onClick={handleShow}>
     Launch demo modal
   </Button> */}
-      <Modal {...props} centered={true} size="lg">
+      <Modal show={props.show} onHide={props.setModal(false)} centered={true} size="lg">
         <Modal.Header className={styles.modalTitle} closeButton >
           <Modal.Title style={{ fontSize: "18px", fontWeight: "bold", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center" }}>Seeker Awards</Modal.Title>
         </Modal.Header>
