@@ -4,6 +4,7 @@ import styles from './PdfDocumentSourcedResult.module.css';
 import { style } from '@mui/system';
 import Image from 'react-bootstrap/Image';
 import RatingStars from '../RatingStars/RatingStars';
+import moment from 'moment';
 
 const PdfDocumentSourcedResult = (props) => {
   return(
@@ -28,7 +29,7 @@ const PdfDocumentSourcedResult = (props) => {
                 <span><RatingStars /></span>
                 <div class="col-md-8">
                   <span>Verify with Experts</span>
-                  <span className={styles.searchSuggestionVerifyButton}><span>Yes</span><img style={{width:"18px"}}src={require('../../images/verify_now.jpg')}></img></span>
+                  <span className={styles.searchSuggestionVerifyButton}><span>Yes</span><img style={{width:"18px"}}src={require('../../images/verify_now.png')}></img></span>
                   <span className={styles.helpfulButton}>Helpful<img src={require('../../images/helpful.png')}></img></span>
                 </div>
               </div>

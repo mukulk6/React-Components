@@ -20,6 +20,7 @@ import Multiselectdropdowndomain from '../Multiselectdropdowndomain/Multiselectd
 import AiToggleButton from 'bootstrap-switch-button-react';
 import BestResultComponent from '../BestResultComponent/BestResultComponent';
 import SimilarResultComponent from '../SimilarResultComponent/SimilarResultComponent';
+import PdfDocumentSourcedResult from '../PdfDocumentSourcedResult/PdfDocumentSourcedResult';
 
 const SearchResult = () => {
   const [basicActive, setBasicActive] = useState('tab1');
@@ -93,7 +94,7 @@ const SearchResult = () => {
       </MDBTabs>
       <MDBTabsContent>
         <MDBTabsPane className={styles.tabPane} show={basicActive === 'tab1'}>{}{SearchResultData.map((data, ind) => { return (<div key={ind} className={styles.suggestionsSpacer}>{ data.confidence===true ? <BestResultComponent data={data} /> : <SimilarResultComponent  data={data}/>}</div>) })}</MDBTabsPane>
-        <MDBTabsPane show={basicActive === 'tab2'}>Tab 2 content</MDBTabsPane>
+        <MDBTabsPane show={basicActive === 'tab2'}>{SearchResultData.map((data,ind)=>{return(<div key={ind}>{(data.docData).length > 0 && <PdfDocumentSourcedResult  data={data}/>}</div>)})}</MDBTabsPane>
       </MDBTabsContent>
     </div>
   )
