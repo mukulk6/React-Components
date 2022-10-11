@@ -87,7 +87,7 @@ const TrendingTab = () => {
                   <div class="row">
                     <div class="col-md-10">
                       <div className={styles.tagsinQue}>
-                        {(tre.tags).length > 0 && <h3>Tags: {tre.tags.map((tag) => { return (<span className={styles.tagLabel}>{tag}</span>) })}</h3>}
+                        {(tre.tags).length > 0 && <h3>Tags: {tre.tags.map((tag)=>{return(tag.clickable === true ? <span className={styles.tagLabel}>{tag.term}</span> : <span id={styles.clickabletag}>{tag.term}</span>)})}</h3>  }
                       </div>
                     </div>
                   </div>

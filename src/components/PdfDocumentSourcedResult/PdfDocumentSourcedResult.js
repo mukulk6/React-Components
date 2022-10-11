@@ -17,7 +17,7 @@ const PdfDocumentSourcedResult = (props) => {
               <Image roundedCircle={true} />
               <div className={styles.userInfo}>
                 <span className={styles.userNameBot}>Vizerto Bot</span>
-                <div>{props.answeredTimestamp && <span>Answered {moment(props.data.answeredTimestamp).format("LL")}</span>}</div>
+                <div>{props.data.docData.expertAnsweredTimestamp && <span>Answered {moment(props.data.docData.expertAnsweredTimestamp).format("LL")}</span>}</div>
               </div>
             </div>
             <div className={styles.answerTextBlock}>

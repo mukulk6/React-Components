@@ -16,17 +16,12 @@ const AwardsModal = (props) => {
     fontFamily: "Poppins, Lato, sans-serif",
     fontWeight: "bold"
   }
-  // const [show, setShow] = useState(false);
-
-  // const handleClose = () => setShow(false);
-  // const handleShow = () => setShow(true);
-
   return (
     <div class="container">
       {/* <Button variant="primary" onClick={handleShow}>
     Launch demo modal
   </Button> */}
-      <Modal show={props.show} onHide={props.setModal(false)} centered={true} size="lg">
+      <Modal show={props.modalShow} onHide={props.setModal(false)} centered={true} size="lg">
         <Modal.Header className={styles.modalTitle} closeButton >
           <Modal.Title style={{ fontSize: "18px", fontWeight: "bold", textAlign: "center", display: "flex", justifyContent: "center", alignItems: "center" }}>Seeker Awards</Modal.Title>
         </Modal.Header>
@@ -39,7 +34,7 @@ const AwardsModal = (props) => {
             {GetProfileSeeker.map((data, ind) => {
               return (<tbody key={ind}>{data.userBadges.map((cat) => {
                 return (<tr><td className={styles.awardCategory}>{cat.category}</td><td className={styles.awardCategory} style={{ width: "50%" }}>{cat.level === 3 && <img className={styles.badges} src={require('../../images/bronze_badge.png')}></img> || cat.level === 2 && <img className={styles.badges} src={require('../../images/silver_badge.png')} ></img>}</td><td style={{ width: "85%" }}>
-                  <ProgressBar min={0} now={cat.currentLevelCount / cat.nextAwardLevelCount * 100} max={100} striped variant="warning" animated style={{backgroundColor: "#f5f5f5", height: "20px" }} /></td></tr>)
+                  <ProgressBar min={0} now={cat.currentLevelCount / cat.nextAwardLevelCount * 100} max={100} striped variant="warning" animated style={{ backgroundColor: "#f5f5f5", height: "20px" }} /></td></tr>)
               })}</tbody>)
             })}
           </div>

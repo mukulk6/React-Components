@@ -1,21 +1,21 @@
 [
   {
-    "questionUuid": "63ec72f4-13f1-4079-a662-022be0044eb7",
-    "topicUuid": "742343e3-9420-401c-bfa0-6088fac185be",
-    "text": "Does anyone know when will be shipping as part of EG 1 UFFO contracts??",
-    "domain": "Capacity & Sizing",
-    "postedTimestamp": 1664339915000,
+    "questionUuid": "1ff86f2b-0f16-45ea-803b-eb6645eafccf",
+    "topicUuid": "9f0f265f-f7e8-4335-8b3a-eef74aebb1fc",
+    "text": "What are types of testing?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1665480199000,
     "status": "answered",
     "popularityScore": 0,
     "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
     "postedUserFirstName": "Diksha",
     "postedUserLastName": "Jadhav",
     "tags": [
-      "EG",
-      "anyone",
-      "part",
-      "contracts",
-      "UFFO"
+      {
+        "term": "types of testing",
+        "source": "viz",
+        "clickable": true
+      }
     ],
     "express": false,
     "favourite": false,
@@ -23,20 +23,20 @@
     "sharedWith": [],
     "answersList": [
       {
-        "answerUuid": "4b09760f-1209-41f7-bf03-8fd49cdedc33",
-        "questionUuid": "63ec72f4-13f1-4079-a662-022be0044eb7",
-        "answer": "Ans Check 1 <div><br></div><div><b><i>Ans Check 2 </i></b></div>",
-        "answerStatus": "Ans Check ",
-        "answeredTimestamp": 1664344744000,
-        "answerUpdatedTimestamp": 1664344744000,
+        "answerUuid": "c066e16d-0ea5-4bcf-8ce8-6127a4bc82b0",
+        "questionUuid": "1ff86f2b-0f16-45ea-803b-eb6645eafccf",
+        "answer": "<div>Accessibility testing.</div><div>Acceptance testing.</div><div>End-to-end testing.</div><div>Functional testing.</div><div>Interactive testing.</div><div>Load testing.</div><div>Usability testing></div><div><br></div><div>ans updated 1  </div><div>abc</div><div>xyz</div>",
+        "answerStatus": "<div>Acces",
+        "answeredTimestamp": 1665482717000,
+        "answerUpdatedTimestamp": 1665482717000,
         "expertFirstName": "Mukul",
         "expertLastName": "Kale",
-        "expertScore": "6.36",
+        "expertScore": "6.43",
         "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
         "badges": [
           {
             "expertUuid": null,
-            "level": 2,
+            "level": 3,
             "type": null,
             "email": null,
             "name": "answered"
@@ -50,7 +50,7 @@
           },
           {
             "expertUuid": null,
-            "level": 2,
+            "level": 3,
             "type": null,
             "email": null,
             "name": "amplified"
@@ -61,7 +61,7 @@
           "upvoteCount": 0,
           "downvoteCount": 0
         },
-        "expertRequestUuid": "fea3cac7-9098-4684-be74-017dd5c8d220",
+        "expertRequestUuid": "5af57960-7ac4-49ac-bec3-d7898447c5f7",
         "privacy": false,
         "popularityScore": 1,
         "ratingAllowed": false,
@@ -72,32 +72,36 @@
         "confidence": false,
         "userInitiatedCuration": false,
         "vizAnswer": false,
-        "expiration": "2023-09-28T00:00:00.000+00:00",
+        "expiration": "2023-10-11T00:00:00.000+00:00",
         "seekerCurationVisibility": true,
         "attachments": [],
         "threadAttachments": []
       }
     ],
     "clarificationStatus": false,
-    "totalCount": 420,
+    "totalCount": 439,
     "userInitiatedCuration": false,
     "userType": "Employee",
     "draftExists": false,
     "viewCount": 1
   },
   {
-    "questionUuid": "69edd765-0ffb-4ea9-9968-d0f5224e2ded",
-    "topicUuid": "eeccbf90-6f88-4e8e-8098-982e2700ec08",
-    "text": "reroiuting testing???",
+    "questionUuid": "e730cf37-7537-4962-bb08-b0f7b4bf10ad",
+    "topicUuid": "08cd9f71-7847-407f-87ee-b9c60cc21fdb",
+    "text": "what is stress? and stress testing?",
     "domain": "Collaterals",
-    "postedTimestamp": 1664344100000,
+    "postedTimestamp": 1665476332000,
     "status": "answered",
     "popularityScore": 0,
-    "postedUserUuid": "af273bdd-cb86-42d4-aac9-35da0b7cedd6",
-    "postedUserFirstName": "Manoj",
-    "postedUserLastName": "Kumar",
+    "postedUserUuid": "f18064df-ae00-425f-8fea-50f5ee75e8d1",
+    "postedUserFirstName": "Tejal",
+    "postedUserLastName": "Kunjir",
     "tags": [
-      "testing"
+      {
+        "term": "stress",
+        "source": null,
+        "clickable": false
+      }
     ],
     "express": false,
     "favourite": false,
@@ -105,37 +109,23 @@
     "sharedWith": [],
     "answersList": [
       {
-        "answerUuid": "f886ea92-abc4-4e2e-85ec-557f5c51be78",
-        "questionUuid": "69edd765-0ffb-4ea9-9968-d0f5224e2ded",
-        "answer": "ans",
-        "answerStatus": "ans",
-        "answeredTimestamp": 1664344143000,
-        "answerUpdatedTimestamp": 1664344143000,
-        "expertFirstName": "Mukul",
-        "expertLastName": "Kale",
-        "expertScore": "6.36",
-        "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "answerUuid": "294e6b5f-06ed-49fc-b5db-3933bd9a3d54",
+        "questionUuid": "e730cf37-7537-4962-bb08-b0f7b4bf10ad",
+        "answer": "stress testing",
+        "answerStatus": "stress tes",
+        "answeredTimestamp": 1665481003000,
+        "answerUpdatedTimestamp": 1665481003000,
+        "expertFirstName": "Tejal",
+        "expertLastName": "Kunjir",
+        "expertScore": "6.97",
+        "expertUuid": "f18064df-ae00-425f-8fea-50f5ee75e8d1",
         "badges": [
           {
             "expertUuid": null,
-            "level": 2,
-            "type": null,
-            "email": null,
-            "name": "answered"
-          },
-          {
-            "expertUuid": null,
-            "level": 2,
+            "level": 5,
             "type": null,
             "email": null,
             "name": "quality"
-          },
-          {
-            "expertUuid": null,
-            "level": 2,
-            "type": null,
-            "email": null,
-            "name": "amplified"
           }
         ],
         "voteInfo": {
@@ -143,9 +133,9 @@
           "upvoteCount": 0,
           "downvoteCount": 0
         },
-        "expertRequestUuid": "9a7977c8-8d4a-42c4-93b7-8a86ea855d2b",
+        "expertRequestUuid": "525b5228-db99-4d46-9145-7187a04c20f5",
         "privacy": false,
-        "popularityScore": 2,
+        "popularityScore": 3,
         "ratingAllowed": false,
         "viewFeedbackAllowed": false,
         "feedbackProvided": false,
@@ -154,38 +144,41 @@
         "confidence": false,
         "userInitiatedCuration": false,
         "vizAnswer": false,
-        "expiration": "2023-09-28T00:00:00.000+00:00",
+        "expiration": "2023-10-11T00:00:00.000+00:00",
         "seekerCurationVisibility": true,
         "attachments": [],
         "threadAttachments": []
       }
     ],
     "clarificationStatus": false,
-    "totalCount": 420,
+    "totalCount": 439,
     "userInitiatedCuration": false,
     "userType": "Employee",
     "draftExists": false,
-    "viewCount": 2
+    "viewCount": 3
   },
   {
-    "questionUuid": "6e81e48b-18da-4121-9a68-1fcbb8e9fc6f",
-    "topicUuid": "7603c4f7-e1ca-4ac5-bc6c-03883983bc80",
-    "text": "What is award functionality?",
+    "questionUuid": "d0182f4f-7b36-452f-bf4f-48aa1e2a3293",
+    "topicUuid": "567db439-b433-4986-bad8-647638e11279",
+    "text": "what is instinctive drive?",
     "domain": "Collaterals",
-    "postedTimestamp": 1664344065000,
+    "postedTimestamp": 1665475325000,
     "status": "answered",
     "popularityScore": 0,
-    "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
-    "postedUserFirstName": "Diksha",
-    "postedUserLastName": "Jadhav",
+    "postedUserUuid": "f18064df-ae00-425f-8fea-50f5ee75e8d1",
+    "postedUserFirstName": "Tejal",
+    "postedUserLastName": "Kunjir",
     "tags": [
-      "award",
-      "functionality"
+      {
+        "term": "instinctive drive",
+        "source": null,
+        "clickable": false
+      }
     ],
     "express": false,
     "favourite": false,
     "sharing": false,
-    "sharedId": 2959,
+    "sharedId": 2995,
     "sharedWith": [
       {
         "userId": null,
@@ -222,124 +215,76 @@
         "seekerIdentity": null,
         "expertScore": null,
         "reroute": null
-      },
-      {
-        "userId": null,
-        "firstName": "Diksha",
-        "lastName": "Jadhav",
-        "email": "diksha.jadhav@digitalmain.com",
-        "userUuidStr": "d3edc71b-b814-43f9-ac13-842f213071ac",
-        "userUuidBin": "0+3HG7gUQ/msE4QvITBxrA==",
-        "userStatus": null,
-        "orgId": null,
-        "modifiedDate": null,
-        "id": null,
-        "password": null,
-        "createdDate": null,
-        "newQuestion": null,
-        "expertAnswered": null,
-        "anotherExpertAnswered": null,
-        "seekerRated": null,
-        "questionShared": null,
-        "newExpQuestion": null,
-        "phoneNumber": null,
-        "token": null,
-        "expDate": null,
-        "tourFlag": null,
-        "accountnonlocked": null,
-        "title": null,
-        "timezone": null,
-        "locale": null,
-        "department": null,
-        "costCenter": null,
-        "country": null,
-        "zipcode": null,
-        "userType": null,
-        "seekerIdentity": null,
-        "expertScore": null,
-        "reroute": null
       }
     ],
     "answersList": [
       {
-        "answerUuid": "4658e4e4-4945-4586-911a-78265cd73851",
-        "questionUuid": "6e81e48b-18da-4121-9a68-1fcbb8e9fc6f",
-        "answer": "Expert answered",
-        "answerStatus": "Expert ans",
-        "answeredTimestamp": 1664344089000,
-        "answerUpdatedTimestamp": 1664344089000,
-        "expertFirstName": "Diksha",
-        "expertLastName": "Jadhav",
-        "expertScore": "6.90",
-        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "answerUuid": "a165ad2b-6e45-4275-a3f9-2c0f95e61e21",
+        "questionUuid": "d0182f4f-7b36-452f-bf4f-48aa1e2a3293",
+        "answer": "drive instinctive<div><br></div><div>ans updated </div><div><br></div><div>ans</div><div>ans</div><div>ans</div><div><br></div>",
+        "answerStatus": "drive inst",
+        "answeredTimestamp": 1665476869000,
+        "answerUpdatedTimestamp": 1665476869000,
+        "expertFirstName": "Tejal",
+        "expertLastName": "Kunjir",
+        "expertScore": "6.97",
+        "expertUuid": "f18064df-ae00-425f-8fea-50f5ee75e8d1",
         "badges": [
           {
             "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "answered"
-          },
-          {
-            "expertUuid": null,
-            "level": 1,
+            "level": 5,
             "type": null,
             "email": null,
             "name": "quality"
-          },
-          {
-            "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "amplified"
           }
         ],
         "voteInfo": {
           "upvote": null,
-          "upvoteCount": 1,
+          "upvoteCount": 0,
           "downvoteCount": 0
         },
-        "expertRequestUuid": "02bbb81f-f0f6-4e7f-867b-ad3ad522b7e1",
+        "expertRequestUuid": "4bd29e9d-1da3-4091-a216-2b5080109e71",
         "privacy": false,
-        "popularityScore": 1,
+        "popularityScore": 10,
         "ratingAllowed": false,
         "viewFeedbackAllowed": false,
         "feedbackProvided": false,
         "internal": false,
         "curationStatus": "curated",
         "confidence": false,
-        "userInitiatedCuration": false,
+        "userInitiatedCuration": true,
         "vizAnswer": false,
-        "expiration": "2023-09-28T00:00:00.000+00:00",
+        "expiration": "2023-10-11T00:00:00.000+00:00",
         "seekerCurationVisibility": true,
         "attachments": [],
         "threadAttachments": []
       }
     ],
     "clarificationStatus": false,
-    "totalCount": 420,
+    "totalCount": 439,
     "userInitiatedCuration": false,
     "userType": "Employee",
     "draftExists": false,
-    "viewCount": 1
+    "viewCount": 10
   },
   {
-    "questionUuid": "69d33ef1-992c-4dde-a5dd-92b2b57062e8",
-    "topicUuid": "d1aa3ab8-84a5-418f-91cf-0cba353ae6f4",
-    "text": "what is new message for NO question in Queue?",
+    "questionUuid": "ea7778c0-45e0-4885-8ed3-4df902e4855b",
+    "topicUuid": "9b44cc4c-c06a-49ef-acac-d70e6af23d24",
+    "text": "what is NodeJS?",
+    "additionalContext": "explain NodeJS computer technology",
     "domain": "Collaterals",
-    "postedTimestamp": 1664308083000,
+    "postedTimestamp": 1665135523000,
     "status": "answered",
     "popularityScore": 0,
     "postedUserUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
     "postedUserFirstName": "Sally",
     "postedUserLastName": "Garcia",
     "tags": [
-      "new",
-      "question",
-      "message",
-      "Queue"
+      {
+        "term": "nodejs",
+        "source": null,
+        "clickable": false
+      }
     ],
     "express": false,
     "favourite": false,
@@ -347,34 +292,34 @@
     "sharedWith": [],
     "answersList": [
       {
-        "answerUuid": "7c763c97-dd1d-4fe9-bdb1-feae557f92cc",
-        "questionUuid": "69d33ef1-992c-4dde-a5dd-92b2b57062e8",
-        "answer": "<b>Ans Check 1</b><div><b><br></b></div><div><i style=\"\">Ans Check 2</i></div>",
-        "answerStatus": "<b>Ans Che",
-        "answeredTimestamp": 1664344084000,
-        "answerUpdatedTimestamp": 1664344084000,
-        "expertFirstName": "Mukul",
-        "expertLastName": "Kale",
-        "expertScore": "6.36",
-        "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "answerUuid": "c0057b4d-1322-4706-8f10-13d5138aa3db",
+        "questionUuid": "ea7778c0-45e0-4885-8ed3-4df902e4855b",
+        "answer": "test answer",
+        "answerStatus": "test answe",
+        "answeredTimestamp": 1665144465000,
+        "answerUpdatedTimestamp": 1665144465000,
+        "expertFirstName": "Diksha",
+        "expertLastName": "Jadhav",
+        "expertScore": "6.88",
+        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
         "badges": [
           {
             "expertUuid": null,
-            "level": 2,
+            "level": 1,
             "type": null,
             "email": null,
             "name": "answered"
           },
           {
             "expertUuid": null,
-            "level": 2,
+            "level": 1,
             "type": null,
             "email": null,
             "name": "quality"
           },
           {
             "expertUuid": null,
-            "level": 2,
+            "level": 1,
             "type": null,
             "email": null,
             "name": "amplified"
@@ -385,9 +330,9 @@
           "upvoteCount": 0,
           "downvoteCount": 0
         },
-        "expertRequestUuid": "4c3e206d-d4ae-4fef-b0c8-fe24b60d5929",
+        "expertRequestUuid": "73cd7ebd-e0cd-4712-94aa-8d3f01ad54d9",
         "privacy": false,
-        "popularityScore": 1,
+        "popularityScore": 29,
         "ratingAllowed": false,
         "viewFeedbackAllowed": false,
         "feedbackProvided": false,
@@ -396,192 +341,88 @@
         "confidence": false,
         "userInitiatedCuration": false,
         "vizAnswer": false,
-        "expiration": "2023-09-28T00:00:00.000+00:00",
+        "expiration": "2023-10-07T00:00:00.000+00:00",
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
+      },
+      {
+        "answerUuid": "eeb6f78b-7c5b-49d9-ba97-8c00e47332f3",
+        "questionUuid": "ea7778c0-45e0-4885-8ed3-4df902e4855b",
+        "answer": "node <div>node.js</div>",
+        "answerStatus": "node <div>",
+        "answeredTimestamp": 1665476507000,
+        "answerUpdatedTimestamp": 1665476507000,
+        "expertFirstName": "Tejal",
+        "expertLastName": "Kunjir",
+        "expertScore": "6.97",
+        "expertUuid": "f18064df-ae00-425f-8fea-50f5ee75e8d1",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 5,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          }
+        ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 0,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "fcb90ecb-dc6e-4043-9b76-ef2a35746a4f",
+        "privacy": false,
+        "popularityScore": 29,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": false,
+        "expiration": "2023-10-11T00:00:00.000+00:00",
         "seekerCurationVisibility": true,
         "attachments": [],
         "threadAttachments": []
       }
     ],
     "clarificationStatus": false,
-    "totalCount": 420,
+    "totalCount": 439,
     "userInitiatedCuration": false,
     "userType": "Employee",
     "draftExists": false,
-    "viewCount": 1
+    "viewCount": 29
   },
   {
-    "questionUuid": "827d70e6-d648-4173-be07-0f83c49a6b73",
-    "topicUuid": "25d34d89-20a6-4fc4-9f91-e9e00e298f39",
-    "text": "we are very interested in how you would suggest we report it ? If a clone is sharing space , how would you track it ?",
-    "domain": "Collaterals",
-    "postedTimestamp": 1663831223000,
+    "questionUuid": "f2cd191a-c80d-459d-bdc5-ac94768259ec",
+    "topicUuid": "c9768280-9b70-4264-8f1a-7c7592a486d5",
+    "text": "Name some Automation Testing tools used worldwide.",
+    "additionalContext": "test tool",
+    "domain": "Partner Specific",
+    "postedTimestamp": 1665474058000,
     "status": "answered",
     "popularityScore": 0,
     "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
     "postedUserFirstName": "Diksha",
     "postedUserLastName": "Jadhav",
     "tags": [
-      "clone",
-      "interested",
-      "space",
-      "we",
-      "you"
-    ],
-    "express": false,
-    "favourite": false,
-    "sharing": false,
-    "sharedId": 2951,
-    "sharedWith": [
       {
-        "userId": null,
-        "firstName": "Diksha",
-        "lastName": "Jadhav",
-        "email": "diksha.jadhav@digitalmain.com",
-        "userUuidStr": "d3edc71b-b814-43f9-ac13-842f213071ac",
-        "userUuidBin": "0+3HG7gUQ/msE4QvITBxrA==",
-        "userStatus": null,
-        "orgId": null,
-        "modifiedDate": null,
-        "id": null,
-        "password": null,
-        "createdDate": null,
-        "newQuestion": null,
-        "expertAnswered": null,
-        "anotherExpertAnswered": null,
-        "seekerRated": null,
-        "questionShared": null,
-        "newExpQuestion": null,
-        "phoneNumber": null,
-        "token": null,
-        "expDate": null,
-        "tourFlag": null,
-        "accountnonlocked": null,
-        "title": null,
-        "timezone": null,
-        "locale": null,
-        "department": null,
-        "costCenter": null,
-        "country": null,
-        "zipcode": null,
-        "userType": null,
-        "seekerIdentity": null,
-        "expertScore": null,
-        "reroute": null
+        "term": "popular automation testing",
+        "source": null,
+        "clickable": false
       },
       {
-        "userId": null,
-        "firstName": "Sally",
-        "lastName": "Garcia",
-        "email": "akash.kalsare@digitalmain.com",
-        "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
-        "userUuidBin": "BWFmvfAFSrSqrKbNO0zhaA==",
-        "userStatus": null,
-        "orgId": null,
-        "modifiedDate": null,
-        "id": null,
-        "password": null,
-        "createdDate": null,
-        "newQuestion": null,
-        "expertAnswered": null,
-        "anotherExpertAnswered": null,
-        "seekerRated": null,
-        "questionShared": null,
-        "newExpQuestion": null,
-        "phoneNumber": null,
-        "token": null,
-        "expDate": null,
-        "tourFlag": null,
-        "accountnonlocked": null,
-        "title": null,
-        "timezone": null,
-        "locale": null,
-        "department": null,
-        "costCenter": null,
-        "country": null,
-        "zipcode": null,
-        "userType": null,
-        "seekerIdentity": null,
-        "expertScore": null,
-        "reroute": null
-      }
-    ],
-    "answersList": [
+        "term": "tools",
+        "source": null,
+        "clickable": false
+      },
       {
-        "answerUuid": "0d34c186-94ca-47cb-834e-3967cf7761f8",
-        "questionUuid": "827d70e6-d648-4173-be07-0f83c49a6b73",
-        "answer": "<span style=\"color: rgb(51, 51, 51); font-family: hero-new, sans-serif; font-size: 16.2px;\">I am as happy as a tick on a big, fat dog.</span><br>",
-        "answerStatus": "<span styl",
-        "answeredTimestamp": 1663846878000,
-        "answerUpdatedTimestamp": 1664339555000,
-        "expertFirstName": "Diksha",
-        "expertLastName": "Jadhav",
-        "expertScore": "6.90",
-        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
-        "badges": [
-          {
-            "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "answered"
-          },
-          {
-            "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "quality"
-          },
-          {
-            "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "amplified"
-          }
-        ],
-        "voteInfo": {
-          "upvote": null,
-          "upvoteCount": 0,
-          "downvoteCount": 0
-        },
-        "expertRequestUuid": "4302e1f1-ba60-46a5-9794-902eb918307f",
-        "privacy": false,
-        "popularityScore": 13,
-        "ratingAllowed": false,
-        "viewFeedbackAllowed": false,
-        "feedbackProvided": false,
-        "internal": false,
-        "curationStatus": "curated",
-        "confidence": false,
-        "userInitiatedCuration": false,
-        "vizAnswer": false,
-        "seekerCurationVisibility": true,
-        "attachments": [],
-        "threadAttachments": []
+        "term": "worldwide",
+        "source": null,
+        "clickable": false
       }
-    ],
-    "clarificationStatus": false,
-    "totalCount": 420,
-    "userInitiatedCuration": false,
-    "userType": "Employee",
-    "draftExists": false,
-    "viewCount": 13
-  },
-  {
-    "questionUuid": "139065fb-bcbf-4915-8f82-bd0db1adda49",
-    "topicUuid": "19d91874-d93f-45d2-b7e7-5ca20329178d",
-    "text": "What are test scripts?",
-    "domain": "Collaterals",
-    "postedTimestamp": 1660627873000,
-    "status": "answered",
-    "popularityScore": 0,
-    "postedUserUuid": "015195ab-f97d-4d69-a78e-b0c613e45a98",
-    "postedUserFirstName": "Ujjawal",
-    "postedUserLastName": "Kriti",
-    "tags": [
-      "test",
-      "scripts"
     ],
     "express": false,
     "favourite": false,
@@ -589,69 +430,15 @@
     "sharedWith": [],
     "answersList": [
       {
-        "answerUuid": "8c38574d-8269-4a8b-a331-2af8b425a0a1",
-        "questionUuid": "139065fb-bcbf-4915-8f82-bd0db1adda49",
-        "answer": "Test <div><br></div><div>Ans Check </div>",
-        "answerStatus": "Test <div>",
-        "answeredTimestamp": 1660641902000,
-        "answerUpdatedTimestamp": 1664297751000,
-        "expertFirstName": "Mukul",
-        "expertLastName": "Kale",
-        "expertScore": "6.36",
-        "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-        "badges": [
-          {
-            "expertUuid": null,
-            "level": 2,
-            "type": null,
-            "email": null,
-            "name": "answered"
-          },
-          {
-            "expertUuid": null,
-            "level": 2,
-            "type": null,
-            "email": null,
-            "name": "quality"
-          },
-          {
-            "expertUuid": null,
-            "level": 2,
-            "type": null,
-            "email": null,
-            "name": "amplified"
-          }
-        ],
-        "voteInfo": {
-          "upvote": null,
-          "upvoteCount": 0,
-          "downvoteCount": 0
-        },
-        "expertRequestUuid": "5b398ab4-7950-4eeb-9a7e-244681f9c72c",
-        "privacy": false,
-        "popularityScore": 62,
-        "ratingAllowed": false,
-        "viewFeedbackAllowed": false,
-        "feedbackProvided": false,
-        "internal": false,
-        "curationStatus": "curated",
-        "confidence": false,
-        "userInitiatedCuration": false,
-        "vizAnswer": false,
-        "seekerCurationVisibility": true,
-        "attachments": [],
-        "threadAttachments": []
-      },
-      {
-        "answerUuid": "0eff03d9-f423-45fe-91a7-a16f42d16541",
-        "questionUuid": "139065fb-bcbf-4915-8f82-bd0db1adda49",
-        "answer": "Test script <span style=\"color: rgb(32, 33, 36); font-family: arial, sans-serif; font-size: 16px;\"> is </span><span style=\"color: rgb(32, 33, 36); font-family: arial, sans-serif; font-size: 16px;\">a set of instructions that describes an application's state, some actions and expected results from the actions performed</span><span style=\"color: rgb(32, 33, 36); font-family: arial, sans-serif; font-size: 16px;\">.</span>",
-        "answerStatus": "Test scrip",
-        "answeredTimestamp": 1664338937000,
-        "answerUpdatedTimestamp": 1664338937000,
+        "answerUuid": "809a42df-2e14-48b9-b47e-4d8cc501f1f0",
+        "questionUuid": "f2cd191a-c80d-459d-bdc5-ac94768259ec",
+        "answer": "<span style=\"color: rgb(74, 74, 74); font-family: \"Open Sans\", sans-serif; font-size: 16px; text-align: justify;\">Some of the most popular automation testing tools include Selenium, Watir, Ranorex, Appium, UFT, Tosca, and </span><div><span style=\"color: rgb(74, 74, 74); font-family: \"Open Sans\", sans-serif; font-size: 16px; text-align: justify;\">SoapUI.</span></div>",
+        "answerStatus": "<span styl",
+        "answeredTimestamp": 1665474059000,
+        "answerUpdatedTimestamp": 1665474059000,
         "expertFirstName": "Diksha",
         "expertLastName": "Jadhav",
-        "expertScore": "6.90",
+        "expertScore": "6.88",
         "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
         "badges": [
           {
@@ -681,9 +468,109 @@
           "upvoteCount": 0,
           "downvoteCount": 0
         },
-        "expertRequestUuid": "96f3b038-f115-406b-96ac-1db60027a439",
+        "expertRequestUuid": "afa4b81a-74d1-4872-82ac-8ac1b4ec6b21",
         "privacy": false,
-        "popularityScore": 62,
+        "popularityScore": 10,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "confidence": false,
+        "userInitiatedCuration": true,
+        "vizAnswer": false,
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 439,
+    "userInitiatedCuration": false,
+    "userType": "Employee",
+    "draftExists": false,
+    "viewCount": 10
+  },
+  {
+    "questionUuid": "73d58716-95c5-41ff-a484-ed2f0d1d4735",
+    "topicUuid": "38381525-4302-4186-a73d-9618b837ec83",
+    "text": "What are the factors that determine the effectiveness of Automation Testing?",
+    "domain": "Capacity & Sizing",
+    "postedTimestamp": 1665473968000,
+    "status": "answered",
+    "popularityScore": 0,
+    "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+    "postedUserFirstName": "Diksha",
+    "postedUserLastName": "Jadhav",
+    "tags": [
+      {
+        "term": "automation testing",
+        "source": "viz",
+        "clickable": true
+      },
+      {
+        "term": "determine",
+        "source": null,
+        "clickable": false
+      },
+      {
+        "term": "effectiveness",
+        "source": null,
+        "clickable": false
+      },
+      {
+        "term": "factors",
+        "source": null,
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "answersList": [
+      {
+        "answerUuid": "75df1eca-1c38-4166-994a-8e697452c22c",
+        "questionUuid": "73d58716-95c5-41ff-a484-ed2f0d1d4735",
+        "answer": "<p style=\"margin-bottom: 1rem; font-size: 16px; line-height: 1.7; word-break: break-word; color: rgb(74, 74, 74); font-family: \"Open Sans\", sans-serif; text-align: justify;\">The factors that determine the success of automation are:</p><ul style=\"margin-bottom: 1rem; color: rgb(74, 74, 74); font-family: \"Open Sans\", sans-serif; font-size: 16px; text-align: justify;\"><li>Time saved</li><li>Number of defects found</li><li>Test coverage</li><li>Maintenance Time</li><li>Installment cost</li><li>Test re-usability</li><li>Quality of software under test</li></ul>",
+        "answerStatus": "<p style=\"",
+        "answeredTimestamp": 1665473969000,
+        "answerUpdatedTimestamp": 1665473969000,
+        "expertFirstName": "Diksha",
+        "expertLastName": "Jadhav",
+        "expertScore": "6.88",
+        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 0,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "54dd00f6-1124-48b4-9b84-358f7ea6b50a",
+        "privacy": false,
+        "popularityScore": 12,
         "ratingAllowed": false,
         "viewFeedbackAllowed": false,
         "feedbackProvided": false,
@@ -692,18 +579,17 @@
         "confidence": false,
         "userInitiatedCuration": false,
         "vizAnswer": false,
-        "expiration": "2022-09-29T00:00:00.000+00:00",
         "seekerCurationVisibility": true,
         "attachments": [],
         "threadAttachments": []
       }
     ],
     "clarificationStatus": false,
-    "totalCount": 420,
+    "totalCount": 439,
     "userInitiatedCuration": false,
     "userType": "Employee",
     "draftExists": false,
-    "viewCount": 62
+    "viewCount": 12
   },
   {
     "questionUuid": "2ec813c8-f11a-4a1e-b3c5-eb04ad6d803c",
@@ -718,10 +604,16 @@
     "postedUserFirstName": "Diksha",
     "postedUserLastName": "Jadhav",
     "tags": [
-      "software",
-      "testing",
-      "cycle",
-      "life"
+      {
+        "term": "software",
+        "source": null,
+        "clickable": false
+      },
+      {
+        "term": "testing life cycle",
+        "source": null,
+        "clickable": false
+      }
     ],
     "express": false,
     "favourite": false,
@@ -847,7 +739,7 @@
         "answerUpdatedTimestamp": 1663820958000,
         "expertFirstName": "Diksha",
         "expertLastName": "Jadhav",
-        "expertScore": "6.90",
+        "expertScore": "6.88",
         "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
         "badges": [
           {
@@ -874,19 +766,20 @@
         ],
         "voteInfo": {
           "upvote": null,
-          "upvoteCount": 1,
+          "upvoteCount": 3,
           "downvoteCount": 0
         },
         "expertRequestUuid": "45d63d5a-5a89-4a01-9fbe-a1def5b8eb5c",
         "privacy": false,
-        "popularityScore": 745,
+        "popularityScore": 908,
         "ratingAllowed": false,
         "viewFeedbackAllowed": false,
         "feedbackProvided": false,
         "internal": false,
         "curationStatus": "curated",
+        "curationCategory": 3,
         "confidence": false,
-        "userInitiatedCuration": false,
+        "userInitiatedCuration": true,
         "vizAnswer": false,
         "expiration": "2023-09-06T00:00:00.000+00:00",
         "seekerCurationVisibility": true,
@@ -895,31 +788,34 @@
       }
     ],
     "clarificationStatus": false,
-    "totalCount": 420,
+    "totalCount": 439,
     "userInitiatedCuration": false,
     "userType": "Employee",
     "draftExists": false,
-    "viewCount": 745
+    "viewCount": 908
   },
   {
-    "questionUuid": "4312fb71-6321-4586-ab92-400101df92f4",
-    "topicUuid": "28cacddc-6172-45b9-baaf-2971c4a5b21c",
-    "text": "what is machine learning?",
+    "questionUuid": "f5b25786-bdb0-41c4-b1b4-dd9a0c7c3b4f",
+    "topicUuid": "e637ef54-6423-4722-aa43-b4170c16b50e",
+    "text": "What is testing?",
     "domain": "Collaterals",
-    "postedTimestamp": 1662372958000,
+    "postedTimestamp": 1663149571000,
     "status": "answered",
     "popularityScore": 0,
-    "postedUserUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
-    "postedUserFirstName": "Sally",
-    "postedUserLastName": "Garcia",
+    "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+    "postedUserFirstName": "Diksha",
+    "postedUserLastName": "Jadhav",
     "tags": [
-      "machine",
-      "learning"
+      {
+        "term": "testing",
+        "source": "expert",
+        "clickable": true
+      }
     ],
     "express": false,
     "favourite": false,
     "sharing": false,
-    "sharedId": 2771,
+    "sharedId": 2863,
     "sharedWith": [
       {
         "userId": null,
@@ -959,11 +855,47 @@
       },
       {
         "userId": null,
-        "firstName": "Agreem",
-        "lastName": "Ghosh",
-        "email": "agreem.ghosh@digitalmain.com",
-        "userUuidStr": "2c642351-f4b5-4595-b6e1-c972ad6d294c",
-        "userUuidBin": "LGQjUfS1RZW24clyrW0pTA==",
+        "firstName": "Diksha",
+        "lastName": "Jadhav",
+        "email": "diksha.jadhav@digitalmain.com",
+        "userUuidStr": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "userUuidBin": "0+3HG7gUQ/msE4QvITBxrA==",
+        "userStatus": null,
+        "orgId": null,
+        "modifiedDate": null,
+        "id": null,
+        "password": null,
+        "createdDate": null,
+        "newQuestion": null,
+        "expertAnswered": null,
+        "anotherExpertAnswered": null,
+        "seekerRated": null,
+        "questionShared": null,
+        "newExpQuestion": null,
+        "phoneNumber": null,
+        "token": null,
+        "expDate": null,
+        "tourFlag": null,
+        "accountnonlocked": null,
+        "title": null,
+        "timezone": null,
+        "locale": null,
+        "department": null,
+        "costCenter": null,
+        "country": null,
+        "zipcode": null,
+        "userType": null,
+        "seekerIdentity": null,
+        "expertScore": null,
+        "reroute": null
+      },
+      {
+        "userId": null,
+        "firstName": "Tejal",
+        "lastName": "Kunjir",
+        "email": "tejal.kunjir@digitalmain.com",
+        "userUuidStr": "f18064df-ae00-425f-8fea-50f5ee75e8d1",
+        "userUuidBin": "8YBk364AQl+P6lD17nXo0Q==",
         "userStatus": null,
         "orgId": null,
         "modifiedDate": null,
@@ -996,16 +928,16 @@
     ],
     "answersList": [
       {
-        "answerUuid": "285192e2-25cb-4e67-b103-3d9234a30315",
-        "questionUuid": "4312fb71-6321-4586-ab92-400101df92f4",
-        "answer": "broadly speaking, all machine learning models can be categorized as supervised or unsupervised will uncover each them and what all types they have. Number one supervised learning, it involves a series of function that maps an input to an output based on a series of example input output pairs. For example if we have a data set of two variables, one being age, which is the input and other being the shoe size as output. We could implement a supervised learning models to predict the shoe size of a person based on their age. Further with supervised learning there are two subcategories, one is regression and other is classification. In regression model. We find a target value based on independent predictors. That means you can use this to find relationship between a dependent Variable and an independent Variable integration, models the output is continuous. Some of the most common types of relation model include number one linear regression which is simply finding a line that fits the data. Its extensions include multiple linear, that is finding a plain of fit and polynomial regression that is finding occurred for fit. Next one decisions it looks something like this where each square above is called the node and the more nodes you have the more accurate your decision we will be in general Next in the third type random forest, these are assemble learning techniques that builds off over decision trees and involved creating multiple decision trees using bootstrapped data sets of original data and randomly selecting a subset of variables at each step of the decision to the model, then select the mode of all the predictions of each decision trees and by relying on the majority winds model, it reduces the risk of error from individual tree.<br><br><span style=\"color: rgb(58, 52, 58); font-family: Europa, \" helvetica=\"\" neue\",=\"\" arial,=\"\" sans-serif;=\"\" font-size:=\"\" 20px;\"=\"\">A function is simply a “chunk” of code that you can use over and over again, rather than writing it out multiple times. Functions enable programmers to break down or </span><span style=\"font-weight: 700; -webkit-font-smoothing: antialiased; color: rgb(58, 52, 58); font-family: Europa, \" helvetica=\"\" neue\",=\"\" arial,=\"\" sans-serif;=\"\" font-size:=\"\" 20px;\"=\"\">decompose</span><span style=\"color: rgb(58, 52, 58); font-family: Europa, \" helvetica=\"\" neue\",=\"\" arial,=\"\" sans-serif;=\"\" font-size:=\"\" 20px;\"=\"\"> a problem into smaller chunks, each of which performs a particular task</span>",
-        "answerStatus": "broadly sp",
-        "answeredTimestamp": 1662442154000,
-        "answerUpdatedTimestamp": 1662442154000,
-        "expertFirstName": "Mukul",
-        "expertLastName": "Kale",
-        "expertScore": "6.36",
-        "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "answerUuid": "5ec33ad8-6444-44e9-afd4-606816e30443",
+        "questionUuid": "f5b25786-bdb0-41c4-b1b4-dd9a0c7c3b4f",
+        "answer": "Request for update Answer",
+        "answerStatus": "Request fo",
+        "answeredTimestamp": 1663150054000,
+        "answerUpdatedTimestamp": 1663150054000,
+        "expertFirstName": "Sally",
+        "expertLastName": "Garcia",
+        "expertScore": "6.71",
+        "expertUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
         "badges": [
           {
             "expertUuid": null,
@@ -1016,7 +948,7 @@
           },
           {
             "expertUuid": null,
-            "level": 2,
+            "level": 3,
             "type": null,
             "email": null,
             "name": "quality"
@@ -1034,9 +966,9 @@
           "upvoteCount": 1,
           "downvoteCount": 0
         },
-        "expertRequestUuid": "ebfff8f9-9e2d-443e-8b9d-cd9cc8996adc",
+        "expertRequestUuid": "6ced93a1-7be2-4674-86e8-402a207b5ef5",
         "privacy": false,
-        "popularityScore": 228,
+        "popularityScore": 181,
         "ratingAllowed": false,
         "viewFeedbackAllowed": false,
         "feedbackProvided": false,
@@ -1046,36 +978,21 @@
         "confidence": false,
         "userInitiatedCuration": true,
         "vizAnswer": false,
-        "expiration": "2023-09-06T00:00:00.000+00:00",
+        "expiration": "2023-09-14T00:00:00.000+00:00",
         "seekerCurationVisibility": true,
-        "attachments": [
-          {
-            "name": "All Machine Learning Models Explained in 5 Minutes _ Types of ML Models Basics.mp4",
-            "size": null,
-            "src": null,
-            "type": null,
-            "data": null,
-            "caption": null,
-            "answerId": null,
-            "objectUrl": null,
-            "targetStream": null,
-            "metaData": null,
-            "attachmentType": null,
-            "thumbnail": false
-          }
-        ],
+        "attachments": [],
         "threadAttachments": []
       },
       {
-        "answerUuid": "668df19a-6d4b-4b6a-96b8-11ffb02534c0",
-        "questionUuid": "4312fb71-6321-4586-ab92-400101df92f4",
-        "answer": "broadly speaking, all machine learning models can be categorized as supervised or unsupervised will uncover each them and what all types they have. Number one supervised learning, it involves a series of function that maps an input to an output based on a series of example input output pairs. For example if we have a data set of two variables, one being age, which is the input and other being the shoe size as output. We could implement a supervised learning models to predict the shoe size of a person based on their age. Further with supervised learning there are two subcategories, one is regression and other is classification. In regression model. We find a target value based on independent predictors. That means you can use this to find relationship between a dependent Variable and an independent Variable integration, models the output is continuous. Some of the most common types of relation model include number one linear regression which is simply finding a line that fits the data. Its extensions include multiple linear, that is finding a plain of fit and polynomial regression that is finding occurred for fit. Next one decisions it looks something like this where each square above is called the node and the more nodes you have the more accurate your decision we will be in general Next in the third type random forest, these are assemble learning techniques that builds off over decision trees and involved creating multiple decision trees using bootstrapped data sets of original data and randomly selecting a subset of variables at each step of the decision to the model, then select the mode of all the predictions of each decision trees and by relying on the majority winds model, it reduces the risk of error from individual tree.",
-        "answerStatus": "broadly sp",
-        "answeredTimestamp": 1662379097000,
-        "answerUpdatedTimestamp": 1662379097000,
+        "answerUuid": "e99bd505-6d63-4534-a517-2fc2f261dbfd",
+        "questionUuid": "f5b25786-bdb0-41c4-b1b4-dd9a0c7c3b4f",
+        "answer": "Expert answered",
+        "answerStatus": "Expert ans",
+        "answeredTimestamp": 1663149626000,
+        "answerUpdatedTimestamp": 1663149626000,
         "expertFirstName": "Diksha",
         "expertLastName": "Jadhav",
-        "expertScore": "6.90",
+        "expertScore": "6.88",
         "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
         "badges": [
           {
@@ -1102,12 +1019,12 @@
         ],
         "voteInfo": {
           "upvote": null,
-          "upvoteCount": 0,
+          "upvoteCount": 2,
           "downvoteCount": 0
         },
-        "expertRequestUuid": "07df3c94-4131-4660-a53e-b76572d14058",
+        "expertRequestUuid": "9884c53e-57a8-419b-a21f-0f2bfa375238",
         "privacy": false,
-        "popularityScore": 228,
+        "popularityScore": 181,
         "ratingAllowed": false,
         "viewFeedbackAllowed": false,
         "feedbackProvided": false,
@@ -1117,11 +1034,98 @@
         "confidence": false,
         "userInitiatedCuration": false,
         "vizAnswer": false,
-        "expiration": "2023-09-05T00:00:00.000+00:00",
+        "expiration": "2023-09-14T00:00:00.000+00:00",
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 439,
+    "userInitiatedCuration": false,
+    "userType": "Employee",
+    "draftExists": false,
+    "viewCount": 181
+  },
+  {
+    "questionUuid": "ed555bc9-37b7-4cb3-994b-5807edcc99ab",
+    "topicUuid": "8f6733fe-2df1-43d7-b608-1c3372d4db5c",
+    "text": "what is python?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1651222873000,
+    "status": "answered",
+    "popularityScore": 0,
+    "postedUserUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+    "postedUserFirstName": "Sally",
+    "postedUserLastName": "Garcia",
+    "tags": [
+      {
+        "term": "python",
+        "source": null,
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "answersList": [
+      {
+        "answerUuid": "82000383-2295-4dfa-9aef-0008fc4e1487",
+        "questionUuid": "ed555bc9-37b7-4cb3-994b-5807edcc99ab",
+        "answer": "But you could also use something outside of the compress observed Director, but we would recommend using either the observed or the Director. The once you download the script, you're going to see something called complex underscore tool strategy, easy and that's the zipped up part of the whole script. You can put this into a specific location and target, and then within that, you have a couple of these two. install the required python modules that it runs efficiently or runs without any issues depending upon the host mission critical, install it, depending on whether it has internet or it doesn't have internet, there are different ways to install the dependencies and once you have the dependencies installed, you go into that specific directory and then you can run the script any questions still. Now, that's pretty much about how the introduction and how to deploy the script.",
+        "answerStatus": "But you co",
+        "answeredTimestamp": 1651223033000,
+        "answerUpdatedTimestamp": 1663824418000,
+        "expertFirstName": "Diksha",
+        "expertLastName": "Jadhav",
+        "expertScore": "6.88",
+        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 2,
+          "downvoteCount": 0
+        },
+        "expertRequestUuid": "41dfadc9-00c1-4a87-aae6-cf7533aa12c0",
+        "privacy": false,
+        "popularityScore": 194,
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "feedbackProvided": false,
+        "internal": false,
+        "curationStatus": "curated",
+        "curationCategory": 3,
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": false,
+        "expiration": "2023-08-04T00:00:00.000+00:00",
         "seekerCurationVisibility": true,
         "attachments": [
           {
-            "name": "All Machine Learning Models Explained in 5 Minutes _ Types of ML Models Basics.mp4",
+            "name": "Komprise Script - Offical Demonstration - 10-06-2021.mp4",
             "size": null,
             "src": null,
             "type": null,
@@ -1139,10 +1143,10 @@
       }
     ],
     "clarificationStatus": false,
-    "totalCount": 420,
+    "totalCount": 439,
     "userInitiatedCuration": false,
     "userType": "Employee",
     "draftExists": false,
-    "viewCount": 228
+    "viewCount": 194
   }
 ]

@@ -35,7 +35,7 @@ const BestResultComponent = (props) => {
             </div>
             <div class="col-md-2">
               <div className={styles.tagsinQue}>
-                {(props.data.tags).length > 0 && <h3>Tags: {props.data.tags.map((tag) => { return (<span className={styles.tagLabel}>{tag}</span>) })}</h3>}
+                {(props.data.tags).length > 0 && <h3>Tags: {props.data.tags.map((tag) => { return (<span className={styles.tagLabel}>{tag.term}</span>) })}</h3>}
               </div>
             </div>
           </div>

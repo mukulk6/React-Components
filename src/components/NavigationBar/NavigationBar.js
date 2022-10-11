@@ -7,7 +7,7 @@ import { NavLink, Link } from 'react-router-dom';
 import AwardsModal from '../AwardsModal/AwardsModal';
 
 const NavigationBar = () => {
-  const [show, setModal] = useState(false);
+  const [modalShow, setModal] = useState(false);
   const [lgShow, setLgShow] = React.useState(false);
   // const handleClose = () => setShow(false);
   // const handleShow = () => setShow(true);
@@ -54,7 +54,7 @@ const NavigationBar = () => {
             </NavDropdown>
           </li>
           <li class="nav-item" className={styles.iconCenter} eventKey="modal" onClick={() => setModal(true)}>
-            <AwardsModal show={show} setModal={setModal} /> 
+            <AwardsModal modalShow={modalShow} setModal={setModal} /> 
             <i class="fa fa-star" aria-hidden="true"></i>
             <a class="nav-link" href="#">Awards <span class="sr-only">(current)</span></a>
           </li>
