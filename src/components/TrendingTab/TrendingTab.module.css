@@ -281,8 +281,14 @@
     white-space: nowrap;
     vertical-align: baseline;
     border-radius: 0.25em;
+    font-family: 'Poppins','Lato',sans-serif;
 }
 
+.additionalCont
+{
+    font-family: 'Poppins','Lato',sans-serif;
+    font-size: 14px;
+}
 .answeredInfo span
 {
      float: left;

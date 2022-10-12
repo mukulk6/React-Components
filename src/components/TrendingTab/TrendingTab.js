@@ -87,7 +87,7 @@ const TrendingTab = () => {
                   <div class="row">
                     <div class="col-md-10">
                       <div className={styles.tagsinQue}>
-                        {(tre.tags).length > 0 && <h3>Tags: {tre.tags.map((tag)=>{return(tag.clickable === true ? <span className={styles.tagLabel}>{tag.term}</span> : <span id={styles.clickabletag}>{tag.term}</span>)})}</h3>  }
+                        {(tre.tags).length > 0 && <h3>Tags: {tre.tags.map((tag)=>{return(tag.clickable === true ? <span id={styles.clickabletag}>{tag.term}</span> : <span className={styles.tagLabel}>{tag.term}</span>)})}</h3>  }
                       </div>
                     </div>
                   </div>
@@ -147,11 +147,11 @@ const TrendingTab = () => {
                                   </span>
                                 </div>
                                 <div class="col-md-9 float-right">
-                                  <div class="pull-right">
+                                  {/* <div class="pull-right">
                                     <div>
                                       {ans.voteInfo.upvoteCount > 0 ? <span className={styles.upvoteButton} style={{"color":"#009ff1"}}><i class="fa-solid fa-thumbs-up" style={{"fontSize":"18px"}}><span style={{"fontSize":"12px","paddingLeft":"5px"}}>{ans.voteInfo.upvoteCount}</span></i></span> : <span className={styles.upvoteButton}><i class="fa-solid fa-thumbs-up" style={{"fontSize":"20px"}}></i><span className={styles.upvoteLikeText}>Like</span></span>}
                                     </div>
-                                  </div>
+                                  </div> */}
                                 </div>
                               </div>
                             </div>
