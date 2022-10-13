@@ -37,60 +37,10 @@ const RatingStars = () => {
       name="simple-controlled"
       value={value}
       size='small'
-      sx={{marginBottom:'15px',}}
+      sx={{marginBottom:'5px',fontSize:'16px'}}
       onChange={(event, newValue) => {
         setValue(newValue);
-        // switch (true) {
-        //   case newValue <= 1: {
-        //     setIconFilled(classes.iconFilled1);
-        //     break;
-        //   }
-        //   case newValue <= 2 && newValue > 1: {
-        //     setIconFilled(classes.iconFilled2);
-        //     break;
-        //   }
-        //   case newValue <= 3 && newValue > 2: {
-        //     setIconFilled(classes.iconFilled3);
-        //     break;
-        //   }
-        //   case newValue <= 4 && newValue > 3: {
-        //     setIconFilled(classes.iconFilled4);
-        //     break;
-        //   }
-        //   case newValue > 4: {
-        //     setIconFilled(classes.iconFilled5);
-        //     break;
-        //   }
-        // }
       }}
-      // onChangeActive={(event, newHover) => {
-      //   switch (true) {
-      //     case newHover <= 1: {
-      //       setIconHover(classes.iconHover1);
-      //       break;
-      //     }
-      //     case newHover <= 2 && newHover > 1: {
-      //       setIconHover(classes.iconHover2);
-      //       break;
-      //     }
-      //     case newHover <= 3 && newHover > 2: {
-      //       setIconHover(classes.iconHover3);
-      //       break;
-      //     }
-      //     case newHover <= 4 && newHover > 3: {
-      //       setIconHover(classes.iconHover4);
-      //       break;
-      //     }
-      //     case newHover > 4: {
-      //       setIconHover(classes.iconHover5);
-      //       break;
-      //     }
-      //   }
-      // }}
-      // classes={{
-      //   iconFilled: iconFilledVar,
-      //   iconHover: iconHoverVar
-      // }}
     />
   </div>
 )

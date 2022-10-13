@@ -127,7 +127,7 @@ const TrendingTab = () => {
                               <div class='row'>
                                 <div className={styles.answerBlock}>
                                   {/* <p>{((ans.answer).length >= 550 && <div className={styles.fader} ><div className={styles.contentVar} ><p></p></div></div>)}{(ans.answer).length < 550 && <p>{ans.answer}</p>}</p> */}
-                                  <p>{((ans.answer).length >=550 && showMore ?  <div dangerouslySetInnerHTML={{__html:ans.answer}}></div> : <div dangerouslySetInnerHTML={{__html:ans.answer.substring(0,250)}}></div> && <span onClick={()=>setShowMore(!showMore)}>{showMore ? "Show less" : "Show more"}</span>) && (ans.answer).length < 550 && <p>{<div dangerouslySetInnerHTML={{__html:ans.answer}}></div>}</p>}</p>
+                                  <p>{(ans.answer).length >=550 && <div dangerouslySetInnerHTML={{__html:ans.answer.substring(0,250)}}></div>}</p>
                                   
                                   {/* <div class="row">
                                     {(ans.answer).length >= 550 && <span className={styles.showMore} role="button" type="button"><i class="fa-solid fa-angle-down"></i>Show More</span>}

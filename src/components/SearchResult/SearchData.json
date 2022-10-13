@@ -1657,7 +1657,7 @@
       {
         "questionUuid": "976255b6-661d-4aa1-b42f-99f93d7bf5ac",
         "score": 0.36544487,
-        "expertAnsweredTimestamp": "1665569484000",
+        "expertAnsweredTimestamp": 1665569484000,
         "favourite": false,
         "sharing": false,
         "actionUuid": "e2f0d4d3-5531-41af-8fa0-b1e45891b8d9",
