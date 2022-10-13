@@ -73,3 +73,9 @@
     font-weight: bold;
     
 }
+
+.answerTextBlock
+{
+    font-family: 'Poppins','Lato',sans-serif;
+    font-weight: 300;
+}

@@ -220,3 +220,22 @@ color:#b4c6cc;
 {
     padding:5px;
 }
+
+#clickabletag
+{
+    background-color: #f98d8d;
+    font-weight: 400;
+    margin:1.2px;
+    display: inline;
+    font-family: 'Poppins','Lato',sans-serif;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 75%;
+    font-weight: 400;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+    cursor: pointer;   
+}

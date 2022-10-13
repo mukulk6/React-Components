@@ -17,11 +17,11 @@ const PdfDocumentSourcedResult = (props) => {
               <Image roundedCircle={true} />
               <div className={styles.userInfo}>
                 <span className={styles.userNameBot}>Vizerto Bot</span>
-                <div>{props.data.docData.expertAnsweredTimestamp && <span>Answered {moment(props.data.docData.expertAnsweredTimestamp).format("LL")}</span>}</div>
+                {/* <div>{props.data.docData.expertAnsweredTimestamp && <span>Answered {moment(props.data.docData.expertAnsweredTimestamp).format("LL")}</span>}</div> */}
               </div>
             </div>
             <div className={styles.answerTextBlock}>
-              {}
+            {props.ans.answers.map((answer)=>{return(<p>{answer.answerText}</p>)})}
             </div>
             <div class="row">
               <div class="col-md-4">

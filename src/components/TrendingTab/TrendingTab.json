@@ -1,124 +1,10 @@
 [
   {
-    "questionUuid": "652c4362-5c6e-41c6-98fe-3377895a262a",
-    "topicUuid": "2b0ebf7f-4c43-4604-adcb-4ed4ad9457a2",
-    "text": "what is test java?",
-    "domain": "Collaterals",
-    "postedTimestamp": 1665489589000,
-    "status": "accepted",
-    "popularityScore": 0,
-    "postedUserUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
-    "postedUserFirstName": "Sally",
-    "postedUserLastName": "Garcia",
-    "tags": [
-      {
-        "term": "test java",
-        "source": null,
-        "clickable": false
-      }
-    ],
-    "express": false,
-    "favourite": false,
-    "sharing": false,
-    "sharedWith": [],
-    "answersList": [
-      {
-        "answerUuid": "76508da2-9c26-49cb-9eef-a400c978b5d2",
-        "answer": "What is the use of train_on_batch() in keras? vizsep train_on_batch() gives you greater control of the state of the LSTM for example when using a stateful LSTM and controlling calls to model.reset_states() is needed. You may have multiseries data and need to reset the state after each series which you can do with train_on_batch() but if you used .fit() then the network would be trained on the series of data without resetting the state. There's no right or wrong it depends on what data you're using and how you want the network to behave. vizsep For this question it's a simple answer from the primary author:With fit_generator you can use a generator for the validation data as well. In general I would recommend using fit_generator but using train_on_batch works fine too. These methods only exist for the sake of convenience in different use cases there is no \"correct\" method.train_on_batch allows you to expressly update weights based on a collection of samples you provide without regard to any fixed batch size. You would use this in cases when that is what you want: to train on an explicit collection of samples. You could use that approach to maintain your own iteration over multiple batches of a traditional training set but allowing fit or fit_generator to iterate batches for you is likely simpler.One case when it might be nice to use train_on_batch is for updating a pretrained model on a single new batch of samples. Suppose you've already trained and deployed a model and sometime later you've received a new set of training samples previously never used. You could use train_on_batch to directly update the existing model only on those samples. Other methods can do this too but it is rather explicit to use train_on_batch for this case.Apart from special cases like this (either where you have some pedagogical reason to maintain your own cursor across different training batches or else for some type of semionline training update on a special batch) it is probably better to just always use fit (for data that fits in memory) or fit_generator (for streaming batches of data as a generator).",
-        "answerStatus": "accepted",
-        "answeredTimestamp": 1665489594000,
-        "answerUpdatedTimestamp": 1665489594000,
-        "expertFirstName": "Vizerto",
-        "expertLastName": "Bot",
-        "expertUuid": "e1725586-591d-4c54-9df3-67cba6be081b",
-        "badges": [],
-        "ratingAllowed": false,
-        "viewFeedbackAllowed": false,
-        "feedbackProvided": false,
-        "answerType": "internal",
-        "internal": false,
-        "confidence": false,
-        "userInitiatedCuration": false,
-        "vizAnswer": true,
-        "seekerCurationVisibility": false,
-        "attachments": [],
-        "threadAttachments": [
-          [],
-          [],
-          []
-        ]
-      }
-    ],
-    "clarificationStatus": false,
-    "totalCount": 869,
-    "userInitiatedCuration": false,
-    "draftExists": false
-  },
-  {
-    "questionUuid": "7614a79c-85c2-431a-891b-b7d4612263a3",
-    "topicUuid": "44d6fc89-bd89-4725-9e79-be528ec8c10c",
-    "text": "What are tests? ",
-    "domain": "Terms & Conditions",
-    "postedTimestamp": 1665485258000,
-    "status": "answered",
-    "popularityScore": 0,
-    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-    "postedUserFirstName": "Mukul",
-    "postedUserLastName": "Kale",
-    "tags": [
-      {
-        "term": "tests",
-        "source": null,
-        "clickable": false
-      }
-    ],
-    "express": false,
-    "favourite": false,
-    "sharing": false,
-    "sharedWith": [],
-    "answersList": [
-      {
-        "answerUuid": "b2466194-0598-4852-9293-077ca6f5a894",
-        "questionUuid": "7614a79c-85c2-431a-891b-b7d4612263a3",
-        "answer": "Test Answer",
-        "answerStatus": "active",
-        "answeredTimestamp": 1665486390000,
-        "answerUpdatedTimestamp": 1665486390000,
-        "expertFirstName": "Ivan",
-        "expertLastName": "Drago",
-        "expertScore": "6.94",
-        "expertUuid": "47586266-94a7-4cd3-bc5d-21e172e3efc3",
-        "badges": [],
-        "privacy": false,
-        "originalAnswerUuid": "b2466194-0598-4852-9293-077ca6f5a894",
-        "popularityScore": 4,
-        "ratingAllowed": true,
-        "viewFeedbackAllowed": true,
-        "feedbackProvided": true,
-        "internal": false,
-        "curationStatus": "curated",
-        "confidence": false,
-        "userInitiatedCuration": false,
-        "vizAnswer": false,
-        "expiration": "2023-10-11T00:00:00.000+00:00",
-        "seekerCurationVisibility": true,
-        "attachments": [],
-        "threadAttachments": []
-      }
-    ],
-    "clarificationStatus": false,
-    "totalCount": 869,
-    "userInitiatedCuration": false,
-    "userType": "Employee",
-    "draftExists": false,
-    "viewCount": 4
-  },
-  {
-    "questionUuid": "236550a9-47d2-4e89-8ba9-98c18475dfa1",
-    "topicUuid": "3800bcac-ea4b-44c0-bf4b-b94e401f7481",
-    "text": "what is rest api?",
-    "domain": "Collaterals",
-    "postedTimestamp": 1665485606000,
+    "questionUuid": "7ba37a29-2d85-48b6-b2fe-4e4dc6c60da1",
+    "topicUuid": "7575ca74-043e-4220-a6b0-e5a00f97b65b",
+    "text": "What is data structure?",
+    "domain": "Customer Success",
+    "postedTimestamp": 1665554714000,
     "status": "answered",
     "popularityScore": 0,
     "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
@@ -126,7 +12,7 @@
     "postedUserLastName": "Jadhav",
     "tags": [
       {
-        "term": "rest api",
+        "term": "data structure",
         "source": null,
         "clickable": false
       }
@@ -134,200 +20,7 @@
     "express": false,
     "favourite": false,
     "sharing": false,
-    "sharedWith": [],
-    "answersList": [
-      {
-        "answerUuid": "cec523f9-e313-4d99-a5ea-cde2b5180eb3",
-        "questionUuid": "236550a9-47d2-4e89-8ba9-98c18475dfa1",
-        "answer": "Test Answer",
-        "answerStatus": "active",
-        "answeredTimestamp": 1665486263000,
-        "answerUpdatedTimestamp": 1665486263000,
-        "expertFirstName": "Ivan",
-        "expertLastName": "Drago",
-        "expertScore": "6.94",
-        "expertUuid": "47586266-94a7-4cd3-bc5d-21e172e3efc3",
-        "badges": [],
-        "privacy": false,
-        "originalAnswerUuid": "cec523f9-e313-4d99-a5ea-cde2b5180eb3",
-        "popularityScore": 6,
-        "ratingAllowed": true,
-        "viewFeedbackAllowed": true,
-        "feedbackProvided": true,
-        "internal": false,
-        "curationStatus": "curated",
-        "confidence": false,
-        "userInitiatedCuration": false,
-        "vizAnswer": false,
-        "expiration": "2023-10-11T00:00:00.000+00:00",
-        "seekerCurationVisibility": true,
-        "attachments": [],
-        "threadAttachments": []
-      }
-    ],
-    "clarificationStatus": false,
-    "totalCount": 869,
-    "userInitiatedCuration": false,
-    "userType": "Employee",
-    "draftExists": false,
-    "viewCount": 6
-  },
-  {
-    "questionUuid": "cee2acc4-3ca7-42d9-83f6-91bfed6558ff",
-    "topicUuid": "fc54b5ca-0033-4674-841a-98bc7708adc4",
-    "text": "what is testing?",
-    "domain": "Collaterals",
-    "postedTimestamp": 1665485628000,
-    "status": "answered",
-    "popularityScore": 0,
-    "postedUserUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
-    "postedUserFirstName": "Sally",
-    "postedUserLastName": "Garcia",
-    "tags": [
-      {
-        "term": "testing",
-        "source": "expert",
-        "clickable": true
-      }
-    ],
-    "express": false,
-    "favourite": false,
-    "sharing": false,
-    "sharedWith": [],
-    "answersList": [
-      {
-        "answerUuid": "26679553-6274-4a5a-b46c-f2589f925958",
-        "questionUuid": "cee2acc4-3ca7-42d9-83f6-91bfed6558ff",
-        "answer": "Test Answer",
-        "answerStatus": "active",
-        "answeredTimestamp": 1665485913000,
-        "answerUpdatedTimestamp": 1665485913000,
-        "expertFirstName": "Ivan",
-        "expertLastName": "Drago",
-        "expertScore": "6.94",
-        "expertUuid": "47586266-94a7-4cd3-bc5d-21e172e3efc3",
-        "badges": [],
-        "privacy": false,
-        "originalAnswerUuid": "26679553-6274-4a5a-b46c-f2589f925958",
-        "popularityScore": 6,
-        "ratingAllowed": true,
-        "viewFeedbackAllowed": true,
-        "feedbackProvided": true,
-        "internal": false,
-        "curationStatus": "curated",
-        "confidence": false,
-        "userInitiatedCuration": false,
-        "vizAnswer": false,
-        "expiration": "2023-10-11T00:00:00.000+00:00",
-        "seekerCurationVisibility": true,
-        "attachments": [],
-        "threadAttachments": []
-      }
-    ],
-    "clarificationStatus": false,
-    "totalCount": 869,
-    "userInitiatedCuration": false,
-    "userType": "Employee",
-    "draftExists": false,
-    "viewCount": 6
-  },
-  {
-    "questionUuid": "dd51f07b-4f12-4a46-896f-610bd895ace1",
-    "topicUuid": "e7a46e19-5240-46a8-94ca-ecbec74de2d9",
-    "text": "What is Test Life Cycle",
-    "domain": "Terms & Conditions",
-    "postedTimestamp": 1665484630000,
-    "status": "accepted",
-    "popularityScore": 0,
-    "postedUserUuid": "47586266-94a7-4cd3-bc5d-21e172e3efc3",
-    "postedUserFirstName": "Ivan",
-    "postedUserLastName": "Drago",
-    "tags": [
-      {
-        "term": "test life cycle",
-        "source": "viz",
-        "clickable": true
-      }
-    ],
-    "express": false,
-    "favourite": false,
-    "sharing": false,
-    "sharedWith": [],
-    "answersList": [
-      {
-        "answerUuid": "595df999-0efe-4e1a-aa51-b9d0bb260aba",
-        "answer": "Ans edit",
-        "answerStatus": "accepted",
-        "answeredTimestamp": 1665484633000,
-        "answerUpdatedTimestamp": 1665484633000,
-        "expertFirstName": "Diksha",
-        "expertLastName": "Jadhav",
-        "expertScore": "6.88",
-        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
-        "badges": [
-          {
-            "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "answered"
-          },
-          {
-            "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "quality"
-          },
-          {
-            "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "amplified"
-          }
-        ],
-        "originalAnswerUuid": "595df999-0efe-4e1a-aa51-b9d0bb260aba",
-        "ratingAllowed": false,
-        "viewFeedbackAllowed": false,
-        "feedbackProvided": false,
-        "answerType": "public",
-        "internal": false,
-        "confidence": false,
-        "userInitiatedCuration": false,
-        "vizAnswer": true,
-        "seekerCurationVisibility": false,
-        "attachments": [],
-        "threadAttachments": []
-      }
-    ],
-    "clarificationStatus": false,
-    "totalCount": 869,
-    "userInitiatedCuration": false,
-    "draftExists": false
-  },
-  {
-    "questionUuid": "1ff86f2b-0f16-45ea-803b-eb6645eafccf",
-    "topicUuid": "9f0f265f-f7e8-4335-8b3a-eef74aebb1fc",
-    "text": "What are types of testing?",
-    "domain": "Collaterals",
-    "postedTimestamp": 1665480199000,
-    "status": "answered",
-    "popularityScore": 0,
-    "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
-    "postedUserFirstName": "Diksha",
-    "postedUserLastName": "Jadhav",
-    "tags": [
-      {
-        "term": "types of testing",
-        "source": "viz",
-        "clickable": true
-      }
-    ],
-    "express": false,
-    "favourite": false,
-    "sharing": false,
-    "sharedId": 2998,
+    "sharedId": 3009,
     "sharedWith": [
       {
         "userId": null,
@@ -364,19 +57,151 @@
         "seekerIdentity": null,
         "expertScore": null,
         "reroute": null
+      },
+      {
+        "userId": null,
+        "firstName": "Diksha",
+        "lastName": "Jadhav",
+        "email": "diksha.jadhav@digitalmain.com",
+        "userUuidStr": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "userUuidBin": "0+3HG7gUQ/msE4QvITBxrA==",
+        "userStatus": null,
+        "orgId": null,
+        "modifiedDate": null,
+        "id": null,
+        "password": null,
+        "createdDate": null,
+        "newQuestion": null,
+        "expertAnswered": null,
+        "anotherExpertAnswered": null,
+        "seekerRated": null,
+        "questionShared": null,
+        "newExpQuestion": null,
+        "phoneNumber": null,
+        "token": null,
+        "expDate": null,
+        "tourFlag": null,
+        "accountnonlocked": null,
+        "title": null,
+        "timezone": null,
+        "locale": null,
+        "department": null,
+        "costCenter": null,
+        "country": null,
+        "zipcode": null,
+        "userType": null,
+        "seekerIdentity": null,
+        "expertScore": null,
+        "reroute": null
       }
     ],
     "answersList": [
       {
-        "answerUuid": "c066e16d-0ea5-4bcf-8ce8-6127a4bc82b0",
-        "questionUuid": "1ff86f2b-0f16-45ea-803b-eb6645eafccf",
-        "answer": "<div>Accessibility testing.</div><div>Acceptance testing.</div><div>End-to-end testing.</div><div>Functional testing.</div><div>Interactive testing.</div><div>Load testing.</div><div>Usability testing></div><div><br></div><div>ans updated 1  </div><div>abc</div><div>xyz</div>",
+        "answerUuid": "a25b3f33-37ea-4117-b024-d02030bb2df3",
+        "questionUuid": "7ba37a29-2d85-48b6-b2fe-4e4dc6c60da1",
+        "answer": "I'm talking about all the company's, there's a matter of google facebook oracle, they will start asking the question on data structures but why now? It's because the world is changing. concept of big data, every company they have huge amount of data with them. How do you process them? How do you Store them. we have frameworks like spark to process the data and the base of all those things is data structures if you understand structure it will be easier for you to understand the big data frameworks. to AI and machine learning, how will you implement ai if you don't have data and to store the data structures. the base for everything is data structures. it's important for you now to understand data structures if you want to get into big companies and plus there is one more thing here, your learning data structure will be helpful for you when you start learning different languages because every language have their own way of implementing it may be Python or see your java they have some in build things, you can use it only when how that works. that's how you should in data structures and data structures is all about storing data and using it efficiently. in the coming upcoming series we'll talk about how do we implement data structures and what are the algorithms available that you can implement it, I hope you like this video let me know in the comment section if you like it and pick up the like button if you enjoyed it. And this is for the videos you for watching",
         "answerStatus": "active",
-        "answeredTimestamp": 1665482717000,
-        "answerUpdatedTimestamp": 1665482717000,
+        "answeredTimestamp": 1665555379000,
+        "answerUpdatedTimestamp": 1665555379000,
+        "expertFirstName": "Diksha",
+        "expertLastName": "Jadhav",
+        "expertScore": "6.87",
+        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "privacy": false,
+        "originalAnswerUuid": "a25b3f33-37ea-4117-b024-d02030bb2df3",
+        "popularityScore": 8,
+        "ratingAllowed": true,
+        "viewFeedbackAllowed": true,
+        "feedbackProvided": true,
+        "internal": false,
+        "curationStatus": "curated",
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": false,
+        "expiration": "2023-10-12T00:00:00.000+00:00",
+        "seekerCurationVisibility": true,
+        "attachments": [
+          {
+            "name": "#1 What is Data Structure_ _ Why it is so Important_.mp4",
+            "size": null,
+            "src": null,
+            "type": "video/mp4",
+            "data": null,
+            "caption": null,
+            "answerId": null,
+            "objectUrl": "https://s3-us-west-1.amazonaws.com/vizerto-stage/attachments/%231%20What%20is%20Data%20Structure_%20_%20Why%20it%20is%20so%20Important_.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20221012T063518Z&X-Amz-SignedHeaders=host&X-Amz-Expires=259200&X-Amz-Credential=AKIA35QADK4R7GUI5X5X%2F20221012%2Fus-west-1%2Fs3%2Faws4_request&X-Amz-Signature=8d89826aa18c1f70d918bd5d7918b451bb77ad4b4697902d75ca383a4a640ed7",
+            "targetStream": null,
+            "metaData": null,
+            "attachmentType": null,
+            "thumbnail": false
+          }
+        ],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 881,
+    "userInitiatedCuration": false,
+    "userType": "Employee",
+    "draftExists": false,
+    "viewCount": 8
+  },
+  {
+    "questionUuid": "6283850e-f1c4-4c6b-9e1f-2a85fad09053",
+    "topicUuid": "20bca90d-48f5-4292-8468-8bacee00cb80",
+    "text": "what is fog computing???",
+    "domain": "Collaterals",
+    "postedTimestamp": 1665551627000,
+    "status": "answered",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "fog computing",
+        "source": "expert",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "answersList": [
+      {
+        "answerUuid": "2c862dbd-8bc8-4493-8267-08861cf65c26",
+        "questionUuid": "6283850e-f1c4-4c6b-9e1f-2a85fad09053",
+        "answer": "Updated.... Fog computing is a computing architecture in which a series of nodes receives data from IoT devices in real time. These nodes perform real-time processing of the data that they receive, with millisecond response time. The nodes periodically send analytical summary information to the cloud. A cloud-based application then analyzes the data that has been received from the various nodes with the goal of providing actionable insight.Updated.... Updated.... This architecture requires more than just computing capabilities. It requires high-speed connectivity between IoT devices and nodes. Remember, the goal is to be able to process data in a matter of milliseconds. Of course, the connectivity options vary by use case. An IoT sensor on a factory floor, for example, can likely use a wired connection. However, a mobile resource, such as an autonomous vehicle, or an isolated resource, such as a wind turbine in the middle of a field, will require an alternate form of connectivity. 5G is an especially compelling option because it provides the high-speed connectivity that is required for data to be analyzed in near-real time. Ans updated",
+        "answerStatus": "active",
+        "answeredTimestamp": 1665551728000,
+        "answerUpdatedTimestamp": 1665551728000,
         "expertFirstName": "Mukul",
         "expertLastName": "Kale",
-        "expertScore": "6.43",
+        "expertScore": "6.42",
         "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
         "badges": [
           {
@@ -402,8 +227,183 @@
           }
         ],
         "privacy": false,
-        "originalAnswerUuid": "c066e16d-0ea5-4bcf-8ce8-6127a4bc82b0",
-        "popularityScore": 38,
+        "originalAnswerUuid": "2c862dbd-8bc8-4493-8267-08861cf65c26",
+        "popularityScore": 9,
+        "ratingAllowed": true,
+        "viewFeedbackAllowed": true,
+        "feedbackProvided": true,
+        "internal": false,
+        "curationStatus": "curated",
+        "confidence": false,
+        "userInitiatedCuration": true,
+        "vizAnswer": false,
+        "expiration": "2023-10-12T00:00:00.000+00:00",
+        "seekerCurationVisibility": true,
+        "attachments": [
+          {
+            "name": "Fog_Computing_Modified.pdf",
+            "size": null,
+            "src": null,
+            "type": "application/pdf",
+            "data": null,
+            "caption": null,
+            "answerId": null,
+            "objectUrl": "attachments/Fog_Computing_Modified.pdf",
+            "targetStream": null,
+            "metaData": null,
+            "attachmentType": null,
+            "thumbnail": false
+          }
+        ],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 881,
+    "userInitiatedCuration": false,
+    "userType": "Employee",
+    "draftExists": false,
+    "viewCount": 9
+  },
+  {
+    "questionUuid": "2b5714b9-bd0a-4b77-a8fc-ac57ef4556b3",
+    "topicUuid": "e5481f34-c8d6-4fd9-899f-cff6313e10e2",
+    "text": "What's the difference between \"hidden\" and \"output\" in PyTorch LSTM?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1665508960000,
+    "status": "accepted",
+    "popularityScore": 0,
+    "postedUserUuid": "015195ab-f97d-4d69-a78e-b0c613e45a98",
+    "postedUserFirstName": "Ujjawal",
+    "postedUserLastName": "Kriti",
+    "tags": [
+      {
+        "term": "hidden",
+        "source": null,
+        "clickable": false
+      },
+      {
+        "term": "lstm",
+        "source": null,
+        "clickable": false
+      },
+      {
+        "term": "pytorch",
+        "source": null,
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "answersList": [
+      {
+        "answerUuid": "52c2cf11-367c-4b80-a2fb-d96bfae992fc",
+        "answer": "What's the difference between \"hidden\" and \"output\" in PyTorch LSTM? vizsep I made a diagram. The names follow the PyTorch docs although I renamed num_layers to w.output comprises the hidden states in the last layer (\"last\" depthwise not timewise). (h_n c_n) comprises the hidden states after the last timestep t = n so you could potentially feed them into another LSTM.The batch dimension is not included.",
+        "answerStatus": "accepted",
+        "answeredTimestamp": 1665508986000,
+        "answerUpdatedTimestamp": 1665508986000,
+        "expertFirstName": "Vizerto",
+        "expertLastName": "Bot",
+        "expertUuid": "e1725586-591d-4c54-9df3-67cba6be081b",
+        "badges": [],
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "feedbackProvided": false,
+        "answerType": "internal",
+        "internal": false,
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": true,
+        "seekerCurationVisibility": false,
+        "attachments": [],
+        "threadAttachments": [
+          [],
+          [
+            {
+              "name": "image.png",
+              "size": null,
+              "src": null,
+              "type": "image/png",
+              "data": null,
+              "caption": null,
+              "answerId": null,
+              "objectUrl": "attachments/image.png",
+              "targetStream": null,
+              "metaData": null,
+              "attachmentType": null,
+              "thumbnail": false
+            }
+          ]
+        ]
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 881,
+    "userInitiatedCuration": false,
+    "draftExists": false
+  },
+  {
+    "questionUuid": "76730b1d-0e63-44c6-84d1-b319309d2398",
+    "topicUuid": "8b03de0e-258e-4467-82f8-e6664b68875a",
+    "text": "How and why is fog computing used?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1665490116000,
+    "status": "answered",
+    "popularityScore": 0,
+    "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+    "postedUserFirstName": "Diksha",
+    "postedUserLastName": "Jadhav",
+    "tags": [
+      {
+        "term": "fog computing",
+        "source": "expert",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "answersList": [
+      {
+        "answerUuid": "115ae9ff-1275-495a-acfc-fcdc76d90831",
+        "questionUuid": "76730b1d-0e63-44c6-84d1-b319309d2398",
+        "answer": "There are any number of potential use cases for fog computing. One increasingly common use case for fog computing is traffic control. Because sensors --such as those used to detect testdatacm often connected to cellular networks, cities sometimes deploy computing resources near the cell tower. These computing capabilities enable real-time analytics of traffic data, thereby enabling traffic signals to respond in real time to changing conditions. This basic concept is also being extended to autonomous vehicles. Autonomous vehicles essentially function as edge devices because of their vast onboard computing power. These vehicles must be able to ingest data from a huge number of sensors, perform real- time data analytics and then respond accordingly. Because an autonomous vehicle is designed to function without the need for cloud connectivity, it's tempting to think of autonomous vehicles as not being connected devices. Even though an autonomous vehicle must be able to drive safely in the total absence of cloud connectivity, it's still possible to use connectivity when available. Some cities are considering how an autonomous vehicle might operate with the same computing resources used to control traffic lights. Such a vehicle might, for example, function as an edge device and use its own computing capabilities to relay real-time data to the system that ingests traffic data from other sources. The underlying computing platform can then use this data to operate traffic signals more effectively. What are the benefits of fog computing? Like any other technology, fog computing has its pros and cons. Some of the advantages to fog computing include the following:  Bandwidth conservation. Fog computing reduces the volume of data that is sent to the cloud, thereby reducing bandwidth consumption and related costs.  Improved response time. Because the initial data processing occurs near the data, latency is reduced, and overall responsiveness is improved. The goal is to provide millisecond-level responsiveness, enabling data to be processed in near-real time.  Network-agnostic. Although fog computing generally places compute resources at the LAN level --as opposed to the device level, which is the case with edge computing --the network could be considered part of the fog computing architecture. At the same time, though, fog computing is network-agnostic in the sense that the network can be wired, Wi-Fi or even 5G. Updated review data",
+        "answerStatus": "active",
+        "answeredTimestamp": 1665491330000,
+        "answerUpdatedTimestamp": 1665491330000,
+        "expertFirstName": "Diksha",
+        "expertLastName": "Jadhav",
+        "expertScore": "6.87",
+        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "privacy": false,
+        "originalAnswerUuid": "115ae9ff-1275-495a-acfc-fcdc76d90831",
+        "popularityScore": 14,
         "ratingAllowed": true,
         "viewFeedbackAllowed": true,
         "feedbackProvided": true,
@@ -414,16 +414,163 @@
         "vizAnswer": false,
         "expiration": "2023-10-11T00:00:00.000+00:00",
         "seekerCurationVisibility": true,
-        "attachments": [],
+        "attachments": [
+          {
+            "name": "Fog_Computing.pdf",
+            "size": null,
+            "src": null,
+            "type": "application/pdf",
+            "data": null,
+            "caption": null,
+            "answerId": null,
+            "objectUrl": "attachments/Fog_Computing.pdf",
+            "targetStream": null,
+            "metaData": null,
+            "attachmentType": null,
+            "thumbnail": false
+          }
+        ],
         "threadAttachments": []
       }
     ],
     "clarificationStatus": false,
-    "totalCount": 869,
+    "totalCount": 881,
     "userInitiatedCuration": false,
     "userType": "Employee",
     "draftExists": false,
-    "viewCount": 38
+    "viewCount": 14
+  },
+  {
+    "questionUuid": "9dce7fc8-0080-40bf-bcce-f74cbe13ab05",
+    "topicUuid": "1b9c2764-8651-482d-9229-5b104537f546",
+    "text": "what is fog computing?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1665491243000,
+    "status": "accepted",
+    "popularityScore": 0,
+    "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+    "postedUserFirstName": "Diksha",
+    "postedUserLastName": "Jadhav",
+    "tags": [
+      {
+        "term": "fog computing",
+        "source": "viz",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "answersList": [
+      {
+        "answerUuid": "f4f20aea-0322-4271-9d4c-468d4c7ecc21",
+        "answer": "Updated.... Fog computing is a computing architecture in which a series of nodes receives data from IoT devices in real time. These nodes perform real-time processing of the data that they receive, with millisecond response time. The nodes periodically send analytical summary information to the cloud. A cloud-based application then analyzes the data that has been received from the various nodes with the goal of providing actionable insight.Updated.... Updated.... This architecture requires more than just computing capabilities. It requires high-speed connectivity between IoT devices and nodes. Remember, the goal is to be able to process data in a matter of milliseconds. Of course, the connectivity options vary by use case. An IoT sensor on a factory floor, for example, can likely use a wired connection. However, a mobile resource, such as an autonomous vehicle, or an isolated resource, such as a wind turbine in the middle of a field, will require an alternate form of connectivity. 5G is an especially compelling option because it provides the high-speed connectivity that is required for data to be analyzed in near-real time.Updated....",
+        "answerStatus": "accepted",
+        "answeredTimestamp": 1665491267000,
+        "answerUpdatedTimestamp": 1665491267000,
+        "expertFirstName": "Vizerto",
+        "expertLastName": "Bot",
+        "expertUuid": "e1725586-591d-4c54-9df3-67cba6be081b",
+        "badges": [],
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "feedbackProvided": false,
+        "answerType": "internal",
+        "internal": false,
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": true,
+        "seekerCurationVisibility": false,
+        "attachments": [
+          {
+            "name": "Fog_Computing_Modified.pdf",
+            "size": null,
+            "src": null,
+            "type": "application/pdf",
+            "data": null,
+            "caption": null,
+            "answerId": null,
+            "objectUrl": "attachments/Fog_Computing_Modified.pdf",
+            "targetStream": null,
+            "metaData": null,
+            "attachmentType": null,
+            "thumbnail": false
+          }
+        ],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 881,
+    "userInitiatedCuration": false,
+    "draftExists": false
+  },
+  {
+    "questionUuid": "48d49d4f-d908-4e11-9598-dce029826ff8",
+    "topicUuid": "166880fa-c73f-4bf6-9229-a9305c638681",
+    "text": "what is fog computing?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1665491139000,
+    "status": "accepted",
+    "popularityScore": 0,
+    "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+    "postedUserFirstName": "Diksha",
+    "postedUserLastName": "Jadhav",
+    "tags": [
+      {
+        "term": "fog computing",
+        "source": "viz",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "answersList": [
+      {
+        "answerUuid": "37ec562a-b7d5-4595-baa2-abe2474ad6bc",
+        "answer": "Updated.... Fog computing is a computing architecture in which a series of nodes receives data from IoT devices in real time. These nodes perform real-time processing of the data that they receive, with millisecond response time. The nodes periodically send analytical summary information to the cloud. A cloud-based application then analyzes the data that has been received from the various nodes with the goal of providing actionable insight.Updated.... Updated.... This architecture requires more than just computing capabilities. It requires high-speed connectivity between IoT devices and nodes. Remember, the goal is to be able to process data in a matter of milliseconds. Of course, the connectivity options vary by use case. An IoT sensor on a factory floor, for example, can likely use a wired connection. However, a mobile resource, such as an autonomous vehicle, or an isolated resource, such as a wind turbine in the middle of a field, will require an alternate form of connectivity. 5G is an especially compelling option because it provides the high-speed connectivity that is required for data to be analyzed in near-real time.Updated....",
+        "answerStatus": "accepted",
+        "answeredTimestamp": 1665491206000,
+        "answerUpdatedTimestamp": 1665491206000,
+        "expertFirstName": "Vizerto",
+        "expertLastName": "Bot",
+        "expertUuid": "e1725586-591d-4c54-9df3-67cba6be081b",
+        "badges": [],
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "feedbackProvided": false,
+        "answerType": "internal",
+        "internal": false,
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": true,
+        "seekerCurationVisibility": false,
+        "attachments": [
+          {
+            "name": "Fog_Computing_Modified.pdf",
+            "size": null,
+            "src": null,
+            "type": "application/pdf",
+            "data": null,
+            "caption": null,
+            "answerId": null,
+            "objectUrl": "attachments/Fog_Computing_Modified.pdf",
+            "targetStream": null,
+            "metaData": null,
+            "attachmentType": null,
+            "thumbnail": false
+          }
+        ],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 881,
+    "userInitiatedCuration": false,
+    "draftExists": false
   },
   {
     "questionUuid": "2ec813c8-f11a-4a1e-b3c5-eb04ad6d803c",
@@ -565,6 +712,56 @@
     ],
     "answersList": [
       {
+        "answerUuid": "0b8465a3-5c8e-4b14-bf9a-dc088930852d",
+        "questionUuid": "2ec813c8-f11a-4a1e-b3c5-eb04ad6d803c",
+        "answer": "Ans Check  1 & 2",
+        "answerStatus": "active",
+        "answeredTimestamp": 1665491151000,
+        "answerUpdatedTimestamp": 1665491151000,
+        "expertFirstName": "Mukul",
+        "expertLastName": "Kale",
+        "expertScore": "6.42",
+        "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 3,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 2,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 3,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "privacy": false,
+        "originalAnswerUuid": "0b8465a3-5c8e-4b14-bf9a-dc088930852d",
+        "popularityScore": 11,
+        "ratingAllowed": true,
+        "viewFeedbackAllowed": true,
+        "feedbackProvided": true,
+        "internal": false,
+        "curationStatus": "curated",
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": false,
+        "expiration": "2023-10-11T00:00:00.000+00:00",
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
+      },
+      {
         "answerUuid": "595df999-0efe-4e1a-aa51-b9d0bb260aba",
         "questionUuid": "2ec813c8-f11a-4a1e-b3c5-eb04ad6d803c",
         "answer": "Ans edit",
@@ -573,7 +770,7 @@
         "answerUpdatedTimestamp": 1663820958000,
         "expertFirstName": "Diksha",
         "expertLastName": "Jadhav",
-        "expertScore": "6.88",
+        "expertScore": "6.87",
         "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
         "badges": [
           {
@@ -600,7 +797,7 @@
         ],
         "privacy": false,
         "originalAnswerUuid": "595df999-0efe-4e1a-aa51-b9d0bb260aba",
-        "popularityScore": 937,
+        "popularityScore": 946,
         "ratingAllowed": true,
         "viewFeedbackAllowed": true,
         "feedbackProvided": true,
@@ -617,11 +814,11 @@
       }
     ],
     "clarificationStatus": false,
-    "totalCount": 869,
+    "totalCount": 881,
     "userInitiatedCuration": false,
     "userType": "Employee",
     "draftExists": false,
-    "viewCount": 937
+    "viewCount": 946
   },
   {
     "questionUuid": "f5b25786-bdb0-41c4-b1b4-dd9a0c7c3b4f",
@@ -765,7 +962,7 @@
         "answerUpdatedTimestamp": 1663150054000,
         "expertFirstName": "Sally",
         "expertLastName": "Garcia",
-        "expertScore": "6.71",
+        "expertScore": "6.72",
         "expertUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
         "badges": [
           {
@@ -792,7 +989,7 @@
         ],
         "privacy": false,
         "originalAnswerUuid": "5ec33ad8-6444-44e9-afd4-606816e30443",
-        "popularityScore": 191,
+        "popularityScore": 197,
         "ratingAllowed": true,
         "viewFeedbackAllowed": true,
         "feedbackProvided": true,
@@ -816,7 +1013,7 @@
         "answerUpdatedTimestamp": 1663149626000,
         "expertFirstName": "Diksha",
         "expertLastName": "Jadhav",
-        "expertScore": "6.88",
+        "expertScore": "6.87",
         "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
         "badges": [
           {
@@ -843,7 +1040,7 @@
         ],
         "privacy": false,
         "originalAnswerUuid": "e99bd505-6d63-4534-a517-2fc2f261dbfd",
-        "popularityScore": 174,
+        "popularityScore": 180,
         "ratingAllowed": true,
         "viewFeedbackAllowed": true,
         "feedbackProvided": true,
@@ -860,11 +1057,11 @@
       }
     ],
     "clarificationStatus": false,
-    "totalCount": 869,
+    "totalCount": 881,
     "userInitiatedCuration": false,
     "userType": "Employee",
     "draftExists": false,
-    "viewCount": 174
+    "viewCount": 180
   },
   {
     "questionUuid": "ed555bc9-37b7-4cb3-994b-5807edcc99ab",
@@ -898,7 +1095,7 @@
         "answerUpdatedTimestamp": 1663824418000,
         "expertFirstName": "Diksha",
         "expertLastName": "Jadhav",
-        "expertScore": "6.88",
+        "expertScore": "6.87",
         "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
         "badges": [
           {
@@ -925,7 +1122,7 @@
         ],
         "privacy": false,
         "originalAnswerUuid": "82000383-2295-4dfa-9aef-0008fc4e1487",
-        "popularityScore": 197,
+        "popularityScore": 205,
         "ratingAllowed": true,
         "viewFeedbackAllowed": true,
         "feedbackProvided": true,
@@ -946,7 +1143,7 @@
             "data": null,
             "caption": null,
             "answerId": null,
-            "objectUrl": "https://s3-us-west-1.amazonaws.com/vizerto-stage/attachments/Komprise%20Script%20-%20Offical%20Demonstration%20-%2010-06-2021.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20221011T120113Z&X-Amz-SignedHeaders=host&X-Amz-Expires=259200&X-Amz-Credential=AKIA35QADK4R7GUI5X5X%2F20221011%2Fus-west-1%2Fs3%2Faws4_request&X-Amz-Signature=6d0ea13be2a1481edc770ee03bfb7f5e5561291f0dc11c428b81aa6df5ed82e5",
+            "objectUrl": "https://s3-us-west-1.amazonaws.com/vizerto-stage/attachments/Komprise%20Script%20-%20Offical%20Demonstration%20-%2010-06-2021.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20221012T063519Z&X-Amz-SignedHeaders=host&X-Amz-Expires=259200&X-Amz-Credential=AKIA35QADK4R7GUI5X5X%2F20221012%2Fus-west-1%2Fs3%2Faws4_request&X-Amz-Signature=8b7ee1ac9a32c65494f3d3adc37f0447614a49dd9a310891af7a709e7c275df5",
             "targetStream": null,
             "metaData": null,
             "attachmentType": null,
@@ -957,10 +1154,10 @@
       }
     ],
     "clarificationStatus": false,
-    "totalCount": 869,
+    "totalCount": 881,
     "userInitiatedCuration": false,
     "userType": "Employee",
     "draftExists": false,
-    "viewCount": 197
+    "viewCount": 205
   }
 ]

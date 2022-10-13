@@ -29,7 +29,7 @@ const ReusableCardComponent = (props) => {
           <div class="row">
             <div class="col-sm-12">
               <div className={styles.tagsinQue}>
-                {(props.data.tags).length > 0 && <h3>Tags: {props.data.tags.map((tag) => { return (<span className={styles.tagLabel}>{tag}</span>) })}</h3>}
+                {(props.data.tags).length > 0 && <h3>Tags: {props.data.tags.map((tag) => { return (tag.clickable === true ? <span id={styles.clickabletag}>{tag.term}</span> :<span className={styles.tagLabel}>{tag.term}</span>) })}</h3>}
               </div>
             </div>
           </div>

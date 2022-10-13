@@ -64,7 +64,7 @@ const SearchResult = () => {
           <MDBTabsLink className={styles.tabItems} onClick={() => handleBasicClick('tab2')} active={basicActive === 'tab2'}>
             Document Sourced
             <div className={styles.tabHeadingCount}>
-              0
+              {/* {SearchResultData.map((data,ind)=>{return(<div className={styles.tabHeadingCount} key={ind}>{data.docData.length}</div>)})} */}
             </div>
           </MDBTabsLink>
         </MDBTabsItem>
@@ -94,7 +94,7 @@ const SearchResult = () => {
       </MDBTabs>
       <MDBTabsContent>
         <MDBTabsPane className={styles.tabPane} show={basicActive === 'tab1'}>{}{SearchResultData.map((data, ind) => { return (<div key={ind} className={styles.suggestionsSpacer}>{ data.confidence===true ? <BestResultComponent data={data} /> : <SimilarResultComponent  data={data}/>}</div>) })}</MDBTabsPane>
-        <MDBTabsPane show={basicActive === 'tab2'}>{SearchResultData.map((data,ind)=>{return(<div key={ind}>{ data.docData > 0 || data.docType === "Pdf" && <PdfDocumentSourcedResult  data={data}/>}</div>)})}</MDBTabsPane>
+        <MDBTabsPane show={basicActive === 'tab2'}>{SearchResultData.map((data,ind)=>{return(<div key={data.docData}>{data.docData && data.docData.map((ans)=><PdfDocumentSourcedResult ans={ans}/>)}</div>)})}</MDBTabsPane>
       </MDBTabsContent>
     </div>
   )
