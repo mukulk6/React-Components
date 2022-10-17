@@ -21,6 +21,29 @@ import AiToggleButton from 'bootstrap-switch-button-react';
 import BestResultComponent from '../BestResultComponent/BestResultComponent';
 import SimilarResultComponent from '../SimilarResultComponent/SimilarResultComponent';
 import PdfDocumentSourcedResult from '../PdfDocumentSourcedResult/PdfDocumentSourcedResult';
+import ThreadResultComponent from '../ThreadResultComponent/ThreadResultComponent';
+
+// function ComponentRendering() {  
+//   SearchResultData.map((data, ind) => {
+//     return (<div key={ind}>
+//       {
+//           data.docData && data.docData.map((result)=>{
+//             if(result.docType==="Pdf")
+//             {
+//               return( <PdfDocumentSourcedResult ans={ans} />)
+            
+//             }
+//             else if(result.docType==="thread")
+//             {
+//               return (<ThreadResultComponent />)
+//             }
+//             else (result.docType==="Image")
+//             return(<PdfDocumentSourcedResult />)
+//           }) 
+//       }
+//     </div>)
+//   })
+// }
 
 const SearchResult = () => {
   const [basicActive, setBasicActive] = useState('tab1');
@@ -56,7 +79,7 @@ const SearchResult = () => {
           <MDBTabsLink className={styles.tabItems} onClick={() => handleBasicClick('tab1')} active={basicActive === 'tab1'}>
             Expert Sourced
             <div className={styles.tabHeadingCount}>
-            {SearchResultData.length}
+              {SearchResultData.length}
             </div>
           </MDBTabsLink>
         </MDBTabsItem>
@@ -65,6 +88,7 @@ const SearchResult = () => {
             Document Sourced
             <div className={styles.tabHeadingCount}>
               {/* {SearchResultData.map((data,ind)=>{return(<div className={styles.tabHeadingCount} key={ind}>{data.docData.length}</div>)})} */}
+              {SearchResultData.map((data, ind) => { return (data.docData > 0 && <div key={data.docData}><span>{data.docData > 0 && (data.docData).length}</span></div>) })}
             </div>
           </MDBTabsLink>
         </MDBTabsItem>
@@ -81,20 +105,21 @@ const SearchResult = () => {
         </MDBTabsItem>
         <MDBTabsItem className={styles.AiSearch}>
           <div className={styles.searchToggleDiv}>
-          <span className={styles.AiSearchText}>AI Search</span>
-          <AiToggleButton checked={false}
-            onlabel='On'
-            offlabel='Off'
-            onstyle='primary'
-            onChange={(checked: boolean) => {
-              this.setState({ isUserAdmin: checked })
-            }} />
-            </div>
+            <span className={styles.AiSearchText}>AI Search</span>
+            <AiToggleButton checked={false}
+              onlabel='On'
+              offlabel='Off'
+              onstyle='primary'
+              onChange={(checked: boolean) => {
+                this.setState({ isUserAdmin: checked })
+              }} />
+          </div>
         </MDBTabsItem>
       </MDBTabs>
       <MDBTabsContent>
-        <MDBTabsPane className={styles.tabPane} show={basicActive === 'tab1'}>{}{SearchResultData.map((data, ind) => { return (<div key={ind} className={styles.suggestionsSpacer}>{ data.confidence===true ? <BestResultComponent data={data} /> : <SimilarResultComponent  data={data}/>}</div>) })}</MDBTabsPane>
-        <MDBTabsPane show={basicActive === 'tab2'}>{SearchResultData.map((data,ind)=>{return(<div key={data.docData}>{data.docData && data.docData.map((ans)=><PdfDocumentSourcedResult ans={ans}/>)}</div>)})}</MDBTabsPane>
+        <MDBTabsPane className={styles.tabPane} show={basicActive === 'tab1'}>{ }{SearchResultData.map((data, ind) => { return (<div key={ind} className={styles.suggestionsSpacer}>{data.confidence === true ? <BestResultComponent data={data} /> : <SimilarResultComponent data={data} />}</div>) })}</MDBTabsPane>
+        {/* <MDBTabsPane show={basicActive === 'tab2'}>{SearchResultData.map((data,ind)=>{return(<div key={data.docData}>{data.docData && data.docData.map((ans)=><PdfDocumentSourcedResult ans={ans}/>)}</div>)})}</MDBTabsPane> */}
+        <MDBTabsPane show={basicActive === 'tab2'}>{SearchResultData.map((data, ind) => { return (<div key={data.docData}>{data.docData && data.docData.map((ans) => <PdfDocumentSourcedResult ans={ans} />)}</div>) })}</MDBTabsPane>
       </MDBTabsContent>
     </div>
   )
