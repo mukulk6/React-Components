@@ -1,6 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './ThreadResultComponent.module.css';
+import ThreadResultReply from '../ThreadResultReply/ThreadResultReply';
+import moment from 'moment';
+import RatingStars from '../RatingStars/RatingStars';
+import { Image } from 'react-bootstrap';
 
 const ThreadResultComponent = (props) => {
   return(
@@ -19,7 +23,7 @@ const ThreadResultComponent = (props) => {
                 </div>
               </div>
               <div className={styles.answerTextBlock}>
-                {props.ans.answers.map((answer) => { return (<p>{answer.answerText}</p>) })}
+                <ThreadResultReply />
               </div>
               <div class="row">
                 <div class="col-md-4">

@@ -1,0 +1,9 @@
+.ThreadReply
+{
+    background: rgb(251, 251, 251);
+    padding: 4px;
+    margin-left: 50px;
+    margin-top: 3px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}

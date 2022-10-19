@@ -23,27 +23,24 @@ import SimilarResultComponent from '../SimilarResultComponent/SimilarResultCompo
 import PdfDocumentSourcedResult from '../PdfDocumentSourcedResult/PdfDocumentSourcedResult';
 import ThreadResultComponent from '../ThreadResultComponent/ThreadResultComponent';
 
-// function ComponentRendering() {  
-//   SearchResultData.map((data, ind) => {
-//     return (<div key={ind}>
-//       {
-//           data.docData && data.docData.map((result)=>{
-//             if(result.docType==="Pdf")
-//             {
-//               return( <PdfDocumentSourcedResult ans={ans} />)
-            
-//             }
-//             else if(result.docType==="thread")
-//             {
-//               return (<ThreadResultComponent />)
-//             }
-//             else (result.docType==="Image")
-//             return(<PdfDocumentSourcedResult />)
-//           }) 
-//       }
-//     </div>)
-//   })
-// }
+function RenderComponent()
+{
+  return(
+  SearchResultData.map((data,ind)=>{
+    return(
+      data.docData && data.docData.map((ans)=>{
+          if(ans.docType=="Pdf" || ans.docType=="Image")
+          {
+            return <PdfDocumentSourcedResult ans={ans} />
+          }
+          else
+          {
+              return <ThreadResultComponent ans={ans}/>
+          }
+      })
+    )
+  })
+)}
 
 const SearchResult = () => {
   const [basicActive, setBasicActive] = useState('tab1');
@@ -88,7 +85,7 @@ const SearchResult = () => {
             Document Sourced
             <div className={styles.tabHeadingCount}>
               {/* {SearchResultData.map((data,ind)=>{return(<div className={styles.tabHeadingCount} key={ind}>{data.docData.length}</div>)})} */}
-              {SearchResultData.map((data, ind) => { return (data.docData > 0 && <div key={data.docData}><span>{data.docData > 0 && (data.docData).length}</span></div>) })}
+              {SearchResultData.map((data, ind) => { return (data.docData && <div key={data.docData}><span>{(data.docData).length}</span></div>) })}
             </div>
           </MDBTabsLink>
         </MDBTabsItem>
@@ -119,7 +116,24 @@ const SearchResult = () => {
       <MDBTabsContent>
         <MDBTabsPane className={styles.tabPane} show={basicActive === 'tab1'}>{ }{SearchResultData.map((data, ind) => { return (<div key={ind} className={styles.suggestionsSpacer}>{data.confidence === true ? <BestResultComponent data={data} /> : <SimilarResultComponent data={data} />}</div>) })}</MDBTabsPane>
         {/* <MDBTabsPane show={basicActive === 'tab2'}>{SearchResultData.map((data,ind)=>{return(<div key={data.docData}>{data.docData && data.docData.map((ans)=><PdfDocumentSourcedResult ans={ans}/>)}</div>)})}</MDBTabsPane> */}
-        <MDBTabsPane show={basicActive === 'tab2'}>{SearchResultData.map((data, ind) => { return (<div key={data.docData}>{data.docData && data.docData.map((ans) => <PdfDocumentSourcedResult ans={ans} />)}</div>) })}</MDBTabsPane>
+        {/* <MDBTabsPane show={basicActive === 'tab2'}>{SearchResultData.map((data, ind) => { return (<div key={data.docData}>{data.docData && data.docData.map((ans) => <PdfDocumentSourcedResult ans={ans} />)}</div>) })}</MDBTabsPane> */}
+        <MDBTabsPane show={basicActive === 'tab2'}>{
+          // SearchResultData.map((data,ind)=>{
+          //   return(
+          //     data.docData && data.docData.map((ans)=>{
+          //         if(ans.docType=="Pdf" || ans.docType=="Image")
+          //         {
+          //           return <PdfDocumentSourcedResult ans={ans} />
+          //         }
+          //         else
+          //         {
+          //             return <ThreadResultComponent ans={ans}/>
+          //         }
+          //     })
+          //   )
+          // })
+          RenderComponent
+        }</MDBTabsPane>
       </MDBTabsContent>
     </div>
   )

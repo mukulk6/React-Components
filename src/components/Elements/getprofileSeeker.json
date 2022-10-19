@@ -2376,25 +2376,25 @@
     },
     "outOfOffice": [],
     "expirationMonths": 12,
-    "userBadges": [
-      {
-        "category": "Curious Mind",
-        "level": 2,
-        "nextAwardLevelCount": "825.00",
-        "currentLevelCount": "313.00"
-      },
-      {
-        "category": "Helping Hand",
-        "level": 2,
-        "nextAwardLevelCount": "561.50",
-        "currentLevelCount": "210.00"
-      },
-      {
-        "category": "Engagement",
-        "level": 2,
-        "nextAwardLevelCount": "1013.25",
-        "currentLevelCount": "678.00"
-      }
-    ]
+     "userBadges": [
+    {
+      "category": "Curious Mind",
+      "level": 2,
+      "nextAwardLevelCount": "557.50",
+      "currentLevelCount": "279.50"
+    },
+    {
+      "category": "Helping Hand",
+      "level": 2,
+      "nextAwardLevelCount": "1251.00",
+      "currentLevelCount": "199.00"
+    },
+    {
+      "category": "Engagement",
+      "level": 2,
+      "nextAwardLevelCount": "1424.75",
+      "currentLevelCount": "434.00"
+    }
+  ]
   }
 ]
