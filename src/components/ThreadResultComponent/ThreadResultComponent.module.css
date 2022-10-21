@@ -141,3 +141,31 @@ border-radius: 2px;
     font-size: 20px;
     color:#777;
 }
+
+.firstThreadLayout
+{
+    background: rgb(251 251 251);
+    padding: 4px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+
+.innerThreadDiv
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.firstReply
+{
+    font-family: 'Poppins','Lato',sans-serif;
+    overflow-y: hidden;
+    padding: 0px 10px;
+    margin: 7px 0px 7px 0px;
+    display: inline;
+    font-size: 14px;
+    font-weight: normal;
+}
