@@ -31,21 +31,27 @@ const ThreadResultComponent = (props) => {
                             props.data.answers.map((data,ind)=>{
                               return(
                                 <div key={ind}>
-                                  {data.threads[0]}
+                                  {<div>{data.threads[0]}</div>}
                                 </div>
                               )
                             })
                         }
                       </h4>
                     </div>
-                    {/* {
-                      props.data.threads.map((thread) => {
-                        return (
-                          <ThreadResultReply thread={thread} />
-                        )
-                      })
-                    } */}
                   </div>
+                }
+                {
+                  props.data.answers.map((data,ind)=>{
+                    return(
+                      <div key={ind}>
+                        {data.threads.slice(1).map((thr)=>{
+                          return(
+                            <ThreadResultReply thr={thr}></ThreadResultReply>
+                          )
+                        })}
+                      </div>
+                    )
+                  })
                 }
               </div>
               <div class="row">
