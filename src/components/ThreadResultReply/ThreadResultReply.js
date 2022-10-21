@@ -5,7 +5,9 @@ import styles from './ThreadResultReply.module.css';
 const ThreadResultReply = (props) => {
   return (
     <div className={styles.ThreadReply}>
+      <h4 className={styles.repliesDiv}>
     {props.thr}
+    </h4>
     </div>
   )
 };
