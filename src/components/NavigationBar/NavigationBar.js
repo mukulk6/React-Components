@@ -23,7 +23,7 @@ const NavigationBar = () => {
         <ul class="navbar-nav ms-auto navbar-right" className={styles.navigationBar}>
           <li class="nav-item active" className={styles.iconCenter}>
             <i class="fa fa-search" aria-hidden="true"></i>
-            <a class="nav-link" href="#">Ask a Question <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/">Ask a Question <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item" className={styles.iconCenter}>
             <i class="fa fa-fire" aria-hidden="true"></i>

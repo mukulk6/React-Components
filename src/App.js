@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import styles from'./App.css';
 import SeekerData from '../src/components/Elements/getprofileSeeker.json';
 import Elements from './components/Elements/Elements';
 import TabSearch from './components/TabSearch/TabSearch';
@@ -21,21 +21,21 @@ function App() {
   return (
     <div className="App">
       <div class="row">
+        <div className={styles.pageTopContainer}>
         <Elements />
         <TabSearch />
         <AskanExpertlogo />
-        <AiToggle />
         <NavigationBar />
         <Wrappersearchbar />
         <AwardsModal />
         {SeekerData.map((postData, index) => {
           return (
             <div key={index}>
-              <Multiselectdropdowndomain data={postData} />
               <SearchBar data={postData} />
             </div>
           )
         })}
+        </div>
       </div>
     </div>
   );

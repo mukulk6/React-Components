@@ -37,8 +37,9 @@ const SimilarResultComponent = (props) => {
                   </div>
               </div> */}
              
+             <div className={styles.tagsinQue}>
              {(props.data.tags).length > 0 && <h3>Tags: {props.data.tags.map((tag)=>{return(tag.clickable === true ? <span id={styles.clickabletag}>{tag.term}</span> : <span className={styles.tagLabel}>{tag.term}</span>)})}</h3>  }
-              
+              </div>
             </div>
           </div>
           <div class="col-md-12">
