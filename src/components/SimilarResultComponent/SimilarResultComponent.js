@@ -76,8 +76,8 @@ const SimilarResultComponent = (props) => {
                     </span>
                     <div class='row'>
                       <div className={styles.answerBlock}>
-                        {answer.answerText.length >= 550 && showMore ? <div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div> : `${answer.answerText.substring(0,250)}` && <span className={styles.showMore} onClick={() => setShowMore(!showMore)}>{showMore ? "Show less" : "Show more" || showMore ? <span className={styles.showMore}><i class="fa-solid fa-angle-up"></i>Show More</span> : <i class="fa-solid fa-angle-down"></i>}</span>}
-
+                        {/* {answer.answerText.length >= 550 && showMore ? <div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div> : `${answer.answerText.substring(0,250)}` && <span className={styles.showMore} onClick={() => setShowMore(!showMore)}>{showMore ? "Show less" : "Show more" || showMore ? <span className={styles.showMore}><i class="fa-solid fa-angle-up"></i>Show More</span> : <i class="fa-solid fa-angle-down"></i>}</span>} */}
+                        {answer.answerText.length >=550 ? showMore ? <div dangerouslySetInnerHTML={{__html:answer.answerText}}></div> :`${answer.answerText.substring(0,250)}` && <span className={styles.showMore} onClick={() => setShowMore(!showMore)}>{showMore ? "Show less" : "Show more" || showMore ? <span className={styles.showMore}><i class="fa-solid fa-angle-up"></i>Show More</span> : <i class="fa-solid fa-angle-down"></i>}</span> : <div dangerouslySetInnerHTML={{__html:answer.answerText}}></div>}
                       </div>
                     </div>
                     <div class="row">

@@ -77,8 +77,8 @@
                     "expertScore": null,
                     "reroute": null
                 },
-                "answeredTimestamp": "1657168943000",
-                "lastUpdatedTimestamp": "1657168943000",
+                "answeredTimestamp": 1657168943000,
+                "lastUpdatedTimestamp": 1657168943000,
                 "docId": null,
                 "attachments": [],
                 "privacy": false,
