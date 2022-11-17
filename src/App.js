@@ -22,15 +22,13 @@ function App() {
     <div className="App">
       <div class="row">
         <div className={styles.pageTopContainer}>
-        <Elements />
-        <TabSearch />
         <AskanExpertlogo />
         <NavigationBar />
         <Wrappersearchbar />
         <AwardsModal />
         {SeekerData.map((postData, index) => {
           return (
-            <div key={index}>
+            <div key={index} style={{'marginLeft':'auto','marginRight':'auto'}}>
               <SearchBar data={postData} />
             </div>
           )

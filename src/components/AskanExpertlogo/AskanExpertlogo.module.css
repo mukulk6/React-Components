@@ -5,6 +5,8 @@
     font-size: 40px;
     font-weight: bold;
     display: block;
+    padding-top: calc(135vh / 4);
+    padding-bottom: 15px;
 }
 
 #anExpertText

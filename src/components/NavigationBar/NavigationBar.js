@@ -2,9 +2,12 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import styles from './NavigationBar.module.css';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Nav, NavItem } from 'react-bootstrap';
+import Dropdown from 'react-bootstrap/Dropdown';
+import { Nav, NavItem, Image } from 'react-bootstrap';
 import { NavLink, Link } from 'react-router-dom';
 import AwardsModal from '../AwardsModal/AwardsModal';
+import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
+import { Navbar } from 'react-bootstrap';
 
 const NavigationBar = () => {
   const [show, setShow] = useState(false);
@@ -53,8 +56,8 @@ const NavigationBar = () => {
               <NavDropdown.Item href="#action/3.2"><i class="fa fa-book" aria-hidden="true"></i> History</NavDropdown.Item>
             </NavDropdown>
           </li>
-          <li class="nav-item" className={styles.iconCenter} eventKey="modal" onClick={() => setShow(true)}>
-            <AwardsModal show={show} onHide={handleClose} /> 
+          <li class="nav-item" className={styles.iconCenter} eventKey="modal" onClick={handleShow}>
+            <AwardsModal show={show} onHide={handleClose} />
             <i class="fa fa-star" aria-hidden="true"></i>
             <a class="nav-link" href="#">Awards <span class="sr-only">(current)</span></a>
           </li>
@@ -74,12 +77,7 @@ const NavigationBar = () => {
             <div class="dropdown dropdown-right">
               <div className={styles.userinfo}>
                 <div class="clearfix">
-                  <span>Mukul Kale</span>
-                  <NavDropdown variant="success" id="dropdown-basic">
-                    <img src={require('../../images/profile.jpg')} className={styles.avatarImg}>
-                    </img>
-                    <NavDropdown.Item>Trending</NavDropdown.Item>
-                  </NavDropdown>
+                  <span>Mukul Kale</span> 
                   <select class="form-select form-select-sm" aria-label=".form-select-lg example">
                     <option value="1">Admin</option>
                     <option value="2">CM</option>

@@ -9,6 +9,7 @@ import Elements from '../Elements/Elements';
 import Multiselectdropdowndomain from '../Multiselectdropdowndomain/Multiselectdropdowndomain';
 import Trend from './TrendingTab.json';
 import moment from 'moment';
+import { style } from '@mui/system';
 
 function trendingTab() {
   return Trend;
@@ -105,6 +106,7 @@ const TrendingTab = () => {
                                 <div class={styles.userInfo}>
                                   <span className={styles.userName}>
                                     {ans.expertFirstName}&nbsp;{ans.expertLastName}
+                                  
                                   </span>
                                   <div className={styles.paste}>
                                     <span className={styles.reqImg}>
@@ -127,7 +129,7 @@ const TrendingTab = () => {
                               <div class='row'>
                                 <div className={styles.answerBlock}>
                                   {/* <p>{((ans.answer).length >= 550 && <div className={styles.fader} ><div className={styles.contentVar} ><p></p></div></div>)}{(ans.answer).length < 550 && <p>{ans.answer}</p>}</p> */}
-                                  <p>{(ans.answer).length >=550 && <div dangerouslySetInnerHTML={{__html:ans.answer.substring(0,250)}}></div>}</p>
+                                  <p>{(ans.answer).length >=550 ? <div dangerouslySetInnerHTML={{__html:ans.answer.substring(0,250)}}></div> : <div dangerouslySetInnerHTML={{__html:ans.answer}}></div>}</p>
                                   
                                   {/* <div class="row">
                                     {(ans.answer).length >= 550 && <span className={styles.showMore} role="button" type="button"><i class="fa-solid fa-angle-down"></i>Show More</span>}
@@ -140,12 +142,10 @@ const TrendingTab = () => {
                               </span>
                               <div class="row">
                                 <div class="col-md-3 pull-left">
-                                  <span className={styles.viewCount}>
-                                    <i class="fa fa-eye" aria-hidden="true"></i>
-                                  </span>
+                                {ans.popularityScore == 0 ? <span className={styles.viewScore}><i  class="fa fa-eye" aria-hidden="true" style={{display:'none'}}></i></span>: <span className={styles.viewScore}><i class="fa fa-eye" aria-hidden="true"></i></span>}
                                   <span className={styles.viewScore}>
                                     {ans.popularityScore}
-                                  </span>
+                                  </span>                      
                                 </div>
                                 <div class="col-md-9 float-right">
                                   {/* <div class="pull-right">

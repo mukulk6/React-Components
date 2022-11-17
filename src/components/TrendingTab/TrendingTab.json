@@ -1,10 +1,10 @@
 [
   {
-    "questionUuid": "7ba37a29-2d85-48b6-b2fe-4e4dc6c60da1",
-    "topicUuid": "7575ca74-043e-4220-a6b0-e5a00f97b65b",
-    "text": "What is data structure?",
-    "domain": "Customer Success",
-    "postedTimestamp": 1665554714000,
+    "questionUuid": "34633f5d-f76d-4a97-8773-1480ee838571",
+    "topicUuid": "ae0aa072-480e-470d-990e-0b7db2f36ebf",
+    "text": "What is docker?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1667889621000,
     "status": "answered",
     "popularityScore": 0,
     "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
@@ -12,7 +12,7 @@
     "postedUserLastName": "Jadhav",
     "tags": [
       {
-        "term": "data structure",
+        "term": "docker",
         "source": null,
         "clickable": false
       }
@@ -20,92 +20,18 @@
     "express": false,
     "favourite": false,
     "sharing": false,
-    "sharedId": 3009,
-    "sharedWith": [
-      {
-        "userId": null,
-        "firstName": "Sally",
-        "lastName": "Garcia",
-        "email": "akash.kalsare@digitalmain.com",
-        "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
-        "userUuidBin": "BWFmvfAFSrSqrKbNO0zhaA==",
-        "userStatus": null,
-        "orgId": null,
-        "modifiedDate": null,
-        "id": null,
-        "password": null,
-        "createdDate": null,
-        "newQuestion": null,
-        "expertAnswered": null,
-        "anotherExpertAnswered": null,
-        "seekerRated": null,
-        "questionShared": null,
-        "newExpQuestion": null,
-        "phoneNumber": null,
-        "token": null,
-        "expDate": null,
-        "tourFlag": null,
-        "accountnonlocked": null,
-        "title": null,
-        "timezone": null,
-        "locale": null,
-        "department": null,
-        "costCenter": null,
-        "country": null,
-        "zipcode": null,
-        "userType": null,
-        "seekerIdentity": null,
-        "expertScore": null,
-        "reroute": null
-      },
-      {
-        "userId": null,
-        "firstName": "Diksha",
-        "lastName": "Jadhav",
-        "email": "diksha.jadhav@digitalmain.com",
-        "userUuidStr": "d3edc71b-b814-43f9-ac13-842f213071ac",
-        "userUuidBin": "0+3HG7gUQ/msE4QvITBxrA==",
-        "userStatus": null,
-        "orgId": null,
-        "modifiedDate": null,
-        "id": null,
-        "password": null,
-        "createdDate": null,
-        "newQuestion": null,
-        "expertAnswered": null,
-        "anotherExpertAnswered": null,
-        "seekerRated": null,
-        "questionShared": null,
-        "newExpQuestion": null,
-        "phoneNumber": null,
-        "token": null,
-        "expDate": null,
-        "tourFlag": null,
-        "accountnonlocked": null,
-        "title": null,
-        "timezone": null,
-        "locale": null,
-        "department": null,
-        "costCenter": null,
-        "country": null,
-        "zipcode": null,
-        "userType": null,
-        "seekerIdentity": null,
-        "expertScore": null,
-        "reroute": null
-      }
-    ],
+    "sharedWith": [],
     "answersList": [
       {
-        "answerUuid": "a25b3f33-37ea-4117-b024-d02030bb2df3",
-        "questionUuid": "7ba37a29-2d85-48b6-b2fe-4e4dc6c60da1",
-        "answer": "I'm talking about all the company's, there's a matter of google facebook oracle, they will start asking the question on data structures but why now? It's because the world is changing. concept of big data, every company they have huge amount of data with them. How do you process them? How do you Store them. we have frameworks like spark to process the data and the base of all those things is data structures if you understand structure it will be easier for you to understand the big data frameworks. to AI and machine learning, how will you implement ai if you don't have data and to store the data structures. the base for everything is data structures. it's important for you now to understand data structures if you want to get into big companies and plus there is one more thing here, your learning data structure will be helpful for you when you start learning different languages because every language have their own way of implementing it may be Python or see your java they have some in build things, you can use it only when how that works. that's how you should in data structures and data structures is all about storing data and using it efficiently. in the coming upcoming series we'll talk about how do we implement data structures and what are the algorithms available that you can implement it, I hope you like this video let me know in the comment section if you like it and pick up the like button if you enjoyed it. And this is for the videos you for watching",
+        "answerUuid": "fb1fe6f8-30e7-475a-8a3b-fc5e535fba9f",
+        "questionUuid": "34633f5d-f76d-4a97-8773-1480ee838571",
+        "answer": "What is a \"Python\" layer in caffe? , Prune's and Bharat's answers gives the overall purpose of a \"Python\" layer: a general purpose layer which is implemented in python rather than c++.I intend this answer to serve as a tutorial for using \"Python\" layer.A Tutorial for \"Python\" layerwhat is a \"Python\" layer?Please see the excellent answers of Prune and Bharat.PrerequisiteIn order to use 'Python\" layer you need to compile with flagWITH_PYTHON_LAYER := 1set in 'Makefile.config'.How to implement a \"Python\" layer?A \"Python\" layer should be implemented as a python class derived from caffe.Layer base class. This class must have the following four methods:import caffeclass my_py_layer(caffe.Layer):def setup(self bottom top):passdef reshape(self bottom top):passdef forward(self bottom top):passdef backward(self top propagate_down bottom):passWhat are these methods?def setup(self bottom top): This method is called once when builds the net. This function should check that number of inputs (len(bottom)) and number of outputs (len(top)) is as expected.You should also allocate internal parameters of the net here (i.e. self.add_blobs()) see this thread for more information.This method has access to self.param_str a string passed from the prototxt to the layer. See this thread for more information.def reshape(self bottom top): This method is called whenever reshapes the net. This function should allocate the outputs (each of the top blobs). The outputs' shape is usually related to the bottoms' shape.def forward(self bottom top): Implementing the forward pass from bottom to top.def backward(self top propagate_down bottom): This method implements the backpropagation it propagates the gradients from top to bottom. propagate_down is a Boolean vector of len(bottom) indicating to which of the bottoms the gradient should be propagated.Some more information about bottom and top inputs you can find in this post.ExamplesYou can see some examples of simplified python layers here here and here.Example of \"moving average\" output layer can be found here.Trainable parameters\"Python\" layer can have trainable parameters (like \"Conv\" \"InnerProduct\" etc.).You can find more information on adding trainable parameters in this thread and this one. There's also a very simplified example in git.How to add a \"Python\" layer in a prototxt?See Bharat's answer for details.You need to add the following to your prototxt:layer {name: 'rpndata'type: 'Python'bottom: 'rpn_cls_score'bottom: 'gt_boxes'bottom: 'im_info'bottom: 'data'top: 'rpn_labels'top: 'rpn_bbox_targets'top: 'rpn_bbox_inside_weights'top: 'rpn_bbox_outside_weights'python_param {module: 'rpn.anchor_target_layer' # python module name where your implementation islayer: 'AnchorTargetLayer' # the name of the class implementationparam_str: \"'feat_stride': 16\" # optional parameters to the layer}}How to add a \"Python\" layer using pythonic NetSpec interface?It's very simple:import caffefrom layers as Lns = caffe.NetSpec()define layers here...ns.rpn_labels ns.rpn_bbox_targets ns.rpn_bbox_inside_weights ns.rpn_bbox_outside_weights = L.Python(ns.rpn_cls_score ns.gt_boxes ns.im_info ns.dataname='rpndata'ntop=4 # tell to expect four output blobspython_param={'module': 'rpn.anchor_target_layer''layer': 'AnchorTargetLayer''param_str': '\"'feat_stride': 16\"'})How to use a net with a \"Python\" layer?Invoking python code from is nothing you need to worry about. uses boost API to call python code from compiled c++.What do you do need to do?Make sure the python module implementing your layer is in $PYTHONPATH so that when imports it it can be found.For instance if your module my_python_layer.py is in /path/to/my_python_layer.py thenPYTHONPATH=/path/to:$PYTHONPATH $CAFFE_ROOT/build/tools/caffe train solver my_solver.prototxtshould work just fine.How to test my layer?You should always test your layer before putting it to use.Testing the forward function is entirely up to you as each layer has a different functionality.Testing the backward method is easy as this method only implements a gradient of forward it can be numerically tested automaticallyCheck out test_gradient_for_python_layer testing utility:import numpy as npfrom test_gradient_for_python_layer test_gradient_for_python_layerset the inputsinput_names_and_values = [('in_cont' np.random.randn(34))('in_binary' np.random.binomial(1 0.4 (31))]output_names = ['out1' 'out2']py_module = 'folder.my_layer_module_name'py_layer = 'my_layer_class_name'param_str = 'some params'propagate_down = [True False]call the ********** output_namespy_module py_layer are doneSpecial NoticeIt is worth while noting that python code runs on CPU only. Thus if you plan to have a Python layer in the middle of your net you will see a significant degradation in performance if you plan on using GPU. This happens because needs to copy blobs from GPU to CPU before calling python layer and then copy back to GPU to proceed with the forward/backward pass.This degradation is far less significant if the python layer is either an input layer or the topmost loss layer.Update: On Sep 19th 2017 PR #5904 was merged into master. This PR exposes GPU pointers of blobs via the python interface. You may access blob._gpu_data_ptr and blob._gpu_diff_ptr directly from python at your own risk. , Very simply it's a layer in which you provide the implementation code rather than using one of the predefined types which are backed by efficient functions. If you want to define a custom loss function go ahead: write it yourself and create the layer with type Python. If you have nonstandard input needs perhaps some dataspecific preprocessing no problem: write it yourself and create the layer with type Python.",
         "answerStatus": "active",
-        "answeredTimestamp": 1665555379000,
-        "answerUpdatedTimestamp": 1665555379000,
+        "answeredTimestamp": 1667889673000,
+        "answerUpdatedTimestamp": 1667889673000,
         "expertFirstName": "Diksha",
         "expertLastName": "Jadhav",
-        "expertScore": "6.87",
+        "expertScore": "6.85",
         "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
         "badges": [
           {
@@ -130,9 +56,14 @@
             "name": "amplified"
           }
         ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 0,
+          "downvoteCount": 0
+        },
         "privacy": false,
-        "originalAnswerUuid": "a25b3f33-37ea-4117-b024-d02030bb2df3",
-        "popularityScore": 8,
+        "originalAnswerUuid": "fb1fe6f8-30e7-475a-8a3b-fc5e535fba9f",
+        "popularityScore": 1,
         "ratingAllowed": true,
         "viewFeedbackAllowed": true,
         "feedbackProvided": true,
@@ -141,154 +72,33 @@
         "confidence": false,
         "userInitiatedCuration": false,
         "vizAnswer": false,
-        "expiration": "2023-10-12T00:00:00.000+00:00",
+        "expiration": "2023-11-08T00:00:00.000+00:00",
         "seekerCurationVisibility": true,
-        "attachments": [
-          {
-            "name": "#1 What is Data Structure_ _ Why it is so Important_.mp4",
-            "size": null,
-            "src": null,
-            "type": "video/mp4",
-            "data": null,
-            "caption": null,
-            "answerId": null,
-            "objectUrl": "https://s3-us-west-1.amazonaws.com/vizerto-stage/attachments/%231%20What%20is%20Data%20Structure_%20_%20Why%20it%20is%20so%20Important_.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20221012T063518Z&X-Amz-SignedHeaders=host&X-Amz-Expires=259200&X-Amz-Credential=AKIA35QADK4R7GUI5X5X%2F20221012%2Fus-west-1%2Fs3%2Faws4_request&X-Amz-Signature=8d89826aa18c1f70d918bd5d7918b451bb77ad4b4697902d75ca383a4a640ed7",
-            "targetStream": null,
-            "metaData": null,
-            "attachmentType": null,
-            "thumbnail": false
-          }
-        ],
+        "attachments": [],
         "threadAttachments": []
       }
     ],
     "clarificationStatus": false,
-    "totalCount": 881,
+    "totalCount": 1051,
     "userInitiatedCuration": false,
     "userType": "Employee",
     "draftExists": false,
-    "viewCount": 8
+    "viewCount": 1
   },
   {
-    "questionUuid": "6283850e-f1c4-4c6b-9e1f-2a85fad09053",
-    "topicUuid": "20bca90d-48f5-4292-8468-8bacee00cb80",
-    "text": "what is fog computing???",
+    "questionUuid": "7cc110dd-0e10-480a-bf71-0b35f436dc94",
+    "topicUuid": "56eab26d-2ce5-4c53-b241-eba5b184711b",
+    "text": "TypeScript",
     "domain": "Collaterals",
-    "postedTimestamp": 1665551627000,
-    "status": "answered",
+    "postedTimestamp": 1667889471000,
+    "status": "accepted",
     "popularityScore": 0,
     "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
     "postedUserFirstName": "Mukul",
     "postedUserLastName": "Kale",
     "tags": [
       {
-        "term": "fog computing",
-        "source": "expert",
-        "clickable": true
-      }
-    ],
-    "express": false,
-    "favourite": false,
-    "sharing": false,
-    "sharedWith": [],
-    "answersList": [
-      {
-        "answerUuid": "2c862dbd-8bc8-4493-8267-08861cf65c26",
-        "questionUuid": "6283850e-f1c4-4c6b-9e1f-2a85fad09053",
-        "answer": "Updated.... Fog computing is a computing architecture in which a series of nodes receives data from IoT devices in real time. These nodes perform real-time processing of the data that they receive, with millisecond response time. The nodes periodically send analytical summary information to the cloud. A cloud-based application then analyzes the data that has been received from the various nodes with the goal of providing actionable insight.Updated.... Updated.... This architecture requires more than just computing capabilities. It requires high-speed connectivity between IoT devices and nodes. Remember, the goal is to be able to process data in a matter of milliseconds. Of course, the connectivity options vary by use case. An IoT sensor on a factory floor, for example, can likely use a wired connection. However, a mobile resource, such as an autonomous vehicle, or an isolated resource, such as a wind turbine in the middle of a field, will require an alternate form of connectivity. 5G is an especially compelling option because it provides the high-speed connectivity that is required for data to be analyzed in near-real time. Ans updated",
-        "answerStatus": "active",
-        "answeredTimestamp": 1665551728000,
-        "answerUpdatedTimestamp": 1665551728000,
-        "expertFirstName": "Mukul",
-        "expertLastName": "Kale",
-        "expertScore": "6.42",
-        "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
-        "badges": [
-          {
-            "expertUuid": null,
-            "level": 3,
-            "type": null,
-            "email": null,
-            "name": "answered"
-          },
-          {
-            "expertUuid": null,
-            "level": 2,
-            "type": null,
-            "email": null,
-            "name": "quality"
-          },
-          {
-            "expertUuid": null,
-            "level": 3,
-            "type": null,
-            "email": null,
-            "name": "amplified"
-          }
-        ],
-        "privacy": false,
-        "originalAnswerUuid": "2c862dbd-8bc8-4493-8267-08861cf65c26",
-        "popularityScore": 9,
-        "ratingAllowed": true,
-        "viewFeedbackAllowed": true,
-        "feedbackProvided": true,
-        "internal": false,
-        "curationStatus": "curated",
-        "confidence": false,
-        "userInitiatedCuration": true,
-        "vizAnswer": false,
-        "expiration": "2023-10-12T00:00:00.000+00:00",
-        "seekerCurationVisibility": true,
-        "attachments": [
-          {
-            "name": "Fog_Computing_Modified.pdf",
-            "size": null,
-            "src": null,
-            "type": "application/pdf",
-            "data": null,
-            "caption": null,
-            "answerId": null,
-            "objectUrl": "attachments/Fog_Computing_Modified.pdf",
-            "targetStream": null,
-            "metaData": null,
-            "attachmentType": null,
-            "thumbnail": false
-          }
-        ],
-        "threadAttachments": []
-      }
-    ],
-    "clarificationStatus": false,
-    "totalCount": 881,
-    "userInitiatedCuration": false,
-    "userType": "Employee",
-    "draftExists": false,
-    "viewCount": 9
-  },
-  {
-    "questionUuid": "2b5714b9-bd0a-4b77-a8fc-ac57ef4556b3",
-    "topicUuid": "e5481f34-c8d6-4fd9-899f-cff6313e10e2",
-    "text": "What's the difference between \"hidden\" and \"output\" in PyTorch LSTM?",
-    "domain": "Collaterals",
-    "postedTimestamp": 1665508960000,
-    "status": "accepted",
-    "popularityScore": 0,
-    "postedUserUuid": "015195ab-f97d-4d69-a78e-b0c613e45a98",
-    "postedUserFirstName": "Ujjawal",
-    "postedUserLastName": "Kriti",
-    "tags": [
-      {
-        "term": "hidden",
-        "source": null,
-        "clickable": false
-      },
-      {
-        "term": "lstm",
-        "source": null,
-        "clickable": false
-      },
-      {
-        "term": "pytorch",
+        "term": "typescript",
         "source": null,
         "clickable": false
       }
@@ -299,84 +109,14 @@
     "sharedWith": [],
     "answersList": [
       {
-        "answerUuid": "52c2cf11-367c-4b80-a2fb-d96bfae992fc",
-        "answer": "What's the difference between \"hidden\" and \"output\" in PyTorch LSTM? vizsep I made a diagram. The names follow the PyTorch docs although I renamed num_layers to w.output comprises the hidden states in the last layer (\"last\" depthwise not timewise). (h_n c_n) comprises the hidden states after the last timestep t = n so you could potentially feed them into another LSTM.The batch dimension is not included.",
+        "answerUuid": "d5542127-4590-448d-9cf2-f54b0138421a",
+        "answer": "programming language",
         "answerStatus": "accepted",
-        "answeredTimestamp": 1665508986000,
-        "answerUpdatedTimestamp": 1665508986000,
-        "expertFirstName": "Vizerto",
-        "expertLastName": "Bot",
-        "expertUuid": "e1725586-591d-4c54-9df3-67cba6be081b",
-        "badges": [],
-        "ratingAllowed": false,
-        "viewFeedbackAllowed": false,
-        "feedbackProvided": false,
-        "answerType": "internal",
-        "internal": false,
-        "confidence": false,
-        "userInitiatedCuration": false,
-        "vizAnswer": true,
-        "seekerCurationVisibility": false,
-        "attachments": [],
-        "threadAttachments": [
-          [],
-          [
-            {
-              "name": "image.png",
-              "size": null,
-              "src": null,
-              "type": "image/png",
-              "data": null,
-              "caption": null,
-              "answerId": null,
-              "objectUrl": "attachments/image.png",
-              "targetStream": null,
-              "metaData": null,
-              "attachmentType": null,
-              "thumbnail": false
-            }
-          ]
-        ]
-      }
-    ],
-    "clarificationStatus": false,
-    "totalCount": 881,
-    "userInitiatedCuration": false,
-    "draftExists": false
-  },
-  {
-    "questionUuid": "76730b1d-0e63-44c6-84d1-b319309d2398",
-    "topicUuid": "8b03de0e-258e-4467-82f8-e6664b68875a",
-    "text": "How and why is fog computing used?",
-    "domain": "Collaterals",
-    "postedTimestamp": 1665490116000,
-    "status": "answered",
-    "popularityScore": 0,
-    "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
-    "postedUserFirstName": "Diksha",
-    "postedUserLastName": "Jadhav",
-    "tags": [
-      {
-        "term": "fog computing",
-        "source": "expert",
-        "clickable": true
-      }
-    ],
-    "express": false,
-    "favourite": false,
-    "sharing": false,
-    "sharedWith": [],
-    "answersList": [
-      {
-        "answerUuid": "115ae9ff-1275-495a-acfc-fcdc76d90831",
-        "questionUuid": "76730b1d-0e63-44c6-84d1-b319309d2398",
-        "answer": "There are any number of potential use cases for fog computing. One increasingly common use case for fog computing is traffic control. Because sensors --such as those used to detect testdatacm often connected to cellular networks, cities sometimes deploy computing resources near the cell tower. These computing capabilities enable real-time analytics of traffic data, thereby enabling traffic signals to respond in real time to changing conditions. This basic concept is also being extended to autonomous vehicles. Autonomous vehicles essentially function as edge devices because of their vast onboard computing power. These vehicles must be able to ingest data from a huge number of sensors, perform real- time data analytics and then respond accordingly. Because an autonomous vehicle is designed to function without the need for cloud connectivity, it's tempting to think of autonomous vehicles as not being connected devices. Even though an autonomous vehicle must be able to drive safely in the total absence of cloud connectivity, it's still possible to use connectivity when available. Some cities are considering how an autonomous vehicle might operate with the same computing resources used to control traffic lights. Such a vehicle might, for example, function as an edge device and use its own computing capabilities to relay real-time data to the system that ingests traffic data from other sources. The underlying computing platform can then use this data to operate traffic signals more effectively. What are the benefits of fog computing? Like any other technology, fog computing has its pros and cons. Some of the advantages to fog computing include the following:  Bandwidth conservation. Fog computing reduces the volume of data that is sent to the cloud, thereby reducing bandwidth consumption and related costs.  Improved response time. Because the initial data processing occurs near the data, latency is reduced, and overall responsiveness is improved. The goal is to provide millisecond-level responsiveness, enabling data to be processed in near-real time.  Network-agnostic. Although fog computing generally places compute resources at the LAN level --as opposed to the device level, which is the case with edge computing --the network could be considered part of the fog computing architecture. At the same time, though, fog computing is network-agnostic in the sense that the network can be wired, Wi-Fi or even 5G. Updated review data",
-        "answerStatus": "active",
-        "answeredTimestamp": 1665491330000,
-        "answerUpdatedTimestamp": 1665491330000,
+        "answeredTimestamp": 1667889664000,
+        "answerUpdatedTimestamp": 1667889664000,
         "expertFirstName": "Diksha",
         "expertLastName": "Jadhav",
-        "expertScore": "6.87",
+        "expertScore": "6.85",
         "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
         "badges": [
           {
@@ -401,9 +141,90 @@
             "name": "amplified"
           }
         ],
+        "originalAnswerUuid": "d5542127-4590-448d-9cf2-f54b0138421a",
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "feedbackProvided": false,
+        "answerType": "public",
+        "internal": false,
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": true,
+        "seekerCurationVisibility": false,
+        "attachments": [],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 1051,
+    "userInitiatedCuration": false,
+    "draftExists": false
+  },
+  {
+    "questionUuid": "e123d736-eba7-44d3-bf19-13d06e3e4ac8",
+    "topicUuid": "9f0f265f-f7e8-4335-8b3a-eef74aebb1fc",
+    "text": "What are types of testing?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1667882604000,
+    "status": "answered",
+    "popularityScore": 0,
+    "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+    "postedUserFirstName": "Diksha",
+    "postedUserLastName": "Jadhav",
+    "tags": [
+      {
+        "term": "types of testing",
+        "source": "viz",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "answersList": [
+      {
+        "answerUuid": "bbcef641-312c-47fc-87a3-638a532ac307",
+        "questionUuid": "e123d736-eba7-44d3-bf19-13d06e3e4ac8",
+        "answer": "<div>Accessibility testing.</div><div>Acceptance testing.</div><div>End-to-end testing.</div><div>Functional testing.</div><div>Interactive testing.</div><div>Load testing.</div><div>Usability testing></div><div><br></div><div>ans updated 1  </div><div>abc</div><div>xyz</div>",
+        "answerStatus": "active",
+        "answeredTimestamp": 1667888995000,
+        "answerUpdatedTimestamp": 1667888995000,
+        "expertFirstName": "Diksha",
+        "expertLastName": "Jadhav",
+        "expertScore": "6.85",
+        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 0,
+          "downvoteCount": 0
+        },
         "privacy": false,
-        "originalAnswerUuid": "115ae9ff-1275-495a-acfc-fcdc76d90831",
-        "popularityScore": 14,
+        "originalAnswerUuid": "bbcef641-312c-47fc-87a3-638a532ac307",
+        "popularityScore": 1,
         "ratingAllowed": true,
         "viewFeedbackAllowed": true,
         "feedbackProvided": true,
@@ -412,40 +233,25 @@
         "confidence": false,
         "userInitiatedCuration": false,
         "vizAnswer": false,
-        "expiration": "2023-10-11T00:00:00.000+00:00",
+        "expiration": "2023-11-08T00:00:00.000+00:00",
         "seekerCurationVisibility": true,
-        "attachments": [
-          {
-            "name": "Fog_Computing.pdf",
-            "size": null,
-            "src": null,
-            "type": "application/pdf",
-            "data": null,
-            "caption": null,
-            "answerId": null,
-            "objectUrl": "attachments/Fog_Computing.pdf",
-            "targetStream": null,
-            "metaData": null,
-            "attachmentType": null,
-            "thumbnail": false
-          }
-        ],
+        "attachments": [],
         "threadAttachments": []
       }
     ],
     "clarificationStatus": false,
-    "totalCount": 881,
+    "totalCount": 1051,
     "userInitiatedCuration": false,
     "userType": "Employee",
     "draftExists": false,
-    "viewCount": 14
+    "viewCount": 1
   },
   {
-    "questionUuid": "9dce7fc8-0080-40bf-bcce-f74cbe13ab05",
-    "topicUuid": "1b9c2764-8651-482d-9229-5b104537f546",
-    "text": "what is fog computing?",
-    "domain": "Collaterals",
-    "postedTimestamp": 1665491243000,
+    "questionUuid": "90c16191-8011-4f1f-8d84-11d0bd42b210",
+    "topicUuid": "3cc9b3e3-bb61-41eb-ba36-8c7a44c7773e",
+    "text": "What is jmeter?",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1667888938000,
     "status": "accepted",
     "popularityScore": 0,
     "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
@@ -453,7 +259,7 @@
     "postedUserLastName": "Jadhav",
     "tags": [
       {
-        "term": "fog computing",
+        "term": "jmeter",
         "source": "viz",
         "clickable": true
       }
@@ -464,19 +270,43 @@
     "sharedWith": [],
     "answersList": [
       {
-        "answerUuid": "f4f20aea-0322-4271-9d4c-468d4c7ecc21",
-        "answer": "Updated.... Fog computing is a computing architecture in which a series of nodes receives data from IoT devices in real time. These nodes perform real-time processing of the data that they receive, with millisecond response time. The nodes periodically send analytical summary information to the cloud. A cloud-based application then analyzes the data that has been received from the various nodes with the goal of providing actionable insight.Updated.... Updated.... This architecture requires more than just computing capabilities. It requires high-speed connectivity between IoT devices and nodes. Remember, the goal is to be able to process data in a matter of milliseconds. Of course, the connectivity options vary by use case. An IoT sensor on a factory floor, for example, can likely use a wired connection. However, a mobile resource, such as an autonomous vehicle, or an isolated resource, such as a wind turbine in the middle of a field, will require an alternate form of connectivity. 5G is an especially compelling option because it provides the high-speed connectivity that is required for data to be analyzed in near-real time.Updated....",
+        "answerUuid": "457eebfe-4da1-4aed-939d-90c5b127fb42",
+        "answer": "JMeter is a software that can perform load test, performance-oriented business (functional) test, regression test, etc., on different protocols or technologies. Stefano Mazzocchi of the Apache Software Foundation was the original developer of JMeter. He wrote it primarily to test the performance of Apache JServ (now called as Apache Tomcat project). Apache later redesigned JMeter to enhance the GUI and to add functional testing capabilities. JMeter is a Java desktop application with a graphical interface that uses the Swing graphical API. It can therefore run on any environment / workstation that accepts a Java virtual machine, for example: Windows, Linux, Mac, etc. The protocols supported by JMeter are:  Web: HTTP, HTTPS sites 'web 1.0' web 2.0 (ajax, flex and flex-ws-amf)<div><br></div><div>verified</div>",
         "answerStatus": "accepted",
-        "answeredTimestamp": 1665491267000,
-        "answerUpdatedTimestamp": 1665491267000,
-        "expertFirstName": "Vizerto",
-        "expertLastName": "Bot",
-        "expertUuid": "e1725586-591d-4c54-9df3-67cba6be081b",
-        "badges": [],
+        "answeredTimestamp": 1667888944000,
+        "answerUpdatedTimestamp": 1667888944000,
+        "expertFirstName": "Diksha",
+        "expertLastName": "Jadhav",
+        "expertScore": "6.85",
+        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "originalAnswerUuid": "457eebfe-4da1-4aed-939d-90c5b127fb42",
         "ratingAllowed": false,
         "viewFeedbackAllowed": false,
         "feedbackProvided": false,
-        "answerType": "internal",
+        "answerType": "public",
         "internal": false,
         "confidence": false,
         "userInitiatedCuration": false,
@@ -484,17 +314,17 @@
         "seekerCurationVisibility": false,
         "attachments": [
           {
-            "name": "Fog_Computing_Modified.pdf",
+            "name": "jmeter_tutorial.pdf",
             "size": null,
             "src": null,
             "type": "application/pdf",
             "data": null,
             "caption": null,
             "answerId": null,
-            "objectUrl": "attachments/Fog_Computing_Modified.pdf",
+            "objectUrl": "attachments/jmeter_tutorial.pdf",
             "targetStream": null,
             "metaData": null,
-            "attachmentType": null,
+            "crawling": false,
             "thumbnail": false
           }
         ],
@@ -502,16 +332,16 @@
       }
     ],
     "clarificationStatus": false,
-    "totalCount": 881,
+    "totalCount": 1051,
     "userInitiatedCuration": false,
     "draftExists": false
   },
   {
-    "questionUuid": "48d49d4f-d908-4e11-9598-dce029826ff8",
-    "topicUuid": "166880fa-c73f-4bf6-9229-a9305c638681",
-    "text": "what is fog computing?",
-    "domain": "Collaterals",
-    "postedTimestamp": 1665491139000,
+    "questionUuid": "a5c44c15-e49f-4a71-a177-9a173ac9f31a",
+    "topicUuid": "ca6ef375-5646-4d9d-b1d7-9aa26d045ac5",
+    "text": "What is jmeter?",
+    "domain": "Customer-Success",
+    "postedTimestamp": 1667888859000,
     "status": "accepted",
     "popularityScore": 0,
     "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
@@ -519,7 +349,7 @@
     "postedUserLastName": "Jadhav",
     "tags": [
       {
-        "term": "fog computing",
+        "term": "jmeter",
         "source": "viz",
         "clickable": true
       }
@@ -530,19 +360,43 @@
     "sharedWith": [],
     "answersList": [
       {
-        "answerUuid": "37ec562a-b7d5-4595-baa2-abe2474ad6bc",
-        "answer": "Updated.... Fog computing is a computing architecture in which a series of nodes receives data from IoT devices in real time. These nodes perform real-time processing of the data that they receive, with millisecond response time. The nodes periodically send analytical summary information to the cloud. A cloud-based application then analyzes the data that has been received from the various nodes with the goal of providing actionable insight.Updated.... Updated.... This architecture requires more than just computing capabilities. It requires high-speed connectivity between IoT devices and nodes. Remember, the goal is to be able to process data in a matter of milliseconds. Of course, the connectivity options vary by use case. An IoT sensor on a factory floor, for example, can likely use a wired connection. However, a mobile resource, such as an autonomous vehicle, or an isolated resource, such as a wind turbine in the middle of a field, will require an alternate form of connectivity. 5G is an especially compelling option because it provides the high-speed connectivity that is required for data to be analyzed in near-real time.Updated....",
+        "answerUuid": "457eebfe-4da1-4aed-939d-90c5b127fb42",
+        "answer": "JMeter is a software that can perform load test, performance-oriented business (functional) test, regression test, etc., on different protocols or technologies. Stefano Mazzocchi of the Apache Software Foundation was the original developer of JMeter. He wrote it primarily to test the performance of Apache JServ (now called as Apache Tomcat project). Apache later redesigned JMeter to enhance the GUI and to add functional testing capabilities. JMeter is a Java desktop application with a graphical interface that uses the Swing graphical API. It can therefore run on any environment / workstation that accepts a Java virtual machine, for example: Windows, Linux, Mac, etc. The protocols supported by JMeter are:  Web: HTTP, HTTPS sites 'web 1.0' web 2.0 (ajax, flex and flex-ws-amf)<div><br></div><div>verified</div>",
         "answerStatus": "accepted",
-        "answeredTimestamp": 1665491206000,
-        "answerUpdatedTimestamp": 1665491206000,
-        "expertFirstName": "Vizerto",
-        "expertLastName": "Bot",
-        "expertUuid": "e1725586-591d-4c54-9df3-67cba6be081b",
-        "badges": [],
+        "answeredTimestamp": 1667888871000,
+        "answerUpdatedTimestamp": 1667888871000,
+        "expertFirstName": "Diksha",
+        "expertLastName": "Jadhav",
+        "expertScore": "6.85",
+        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "originalAnswerUuid": "457eebfe-4da1-4aed-939d-90c5b127fb42",
         "ratingAllowed": false,
         "viewFeedbackAllowed": false,
         "feedbackProvided": false,
-        "answerType": "internal",
+        "answerType": "public",
         "internal": false,
         "confidence": false,
         "userInitiatedCuration": false,
@@ -550,17 +404,17 @@
         "seekerCurationVisibility": false,
         "attachments": [
           {
-            "name": "Fog_Computing_Modified.pdf",
+            "name": "jmeter_tutorial.pdf",
             "size": null,
             "src": null,
             "type": "application/pdf",
             "data": null,
             "caption": null,
             "answerId": null,
-            "objectUrl": "attachments/Fog_Computing_Modified.pdf",
+            "objectUrl": "attachments/jmeter_tutorial.pdf",
             "targetStream": null,
             "metaData": null,
-            "attachmentType": null,
+            "crawling": false,
             "thumbnail": false
           }
         ],
@@ -568,7 +422,82 @@
       }
     ],
     "clarificationStatus": false,
-    "totalCount": 881,
+    "totalCount": 1051,
+    "userInitiatedCuration": false,
+    "draftExists": false
+  },
+  {
+    "questionUuid": "3535b4a4-fe8e-4770-a7b7-148942bbae35",
+    "topicUuid": "82e48939-ed62-46d0-94c4-19bcbba877d8",
+    "text": "What are nodes?",
+    "domain": "Collaterals",
+    "postedTimestamp": 1667888552000,
+    "status": "accepted",
+    "popularityScore": 0,
+    "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+    "postedUserFirstName": "Mukul",
+    "postedUserLastName": "Kale",
+    "tags": [
+      {
+        "term": "nodes",
+        "source": null,
+        "clickable": false
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedWith": [],
+    "answersList": [
+      {
+        "answerUuid": "e146aeee-c7e8-44c6-93f5-987108cbc14c",
+        "answer": "test",
+        "answerStatus": "accepted",
+        "answeredTimestamp": 1667888566000,
+        "answerUpdatedTimestamp": 1667888566000,
+        "expertFirstName": "Sally",
+        "expertLastName": "Garcia",
+        "expertScore": "6.77",
+        "expertUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 2,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 3,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 2,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "originalAnswerUuid": "e146aeee-c7e8-44c6-93f5-987108cbc14c",
+        "ratingAllowed": false,
+        "viewFeedbackAllowed": false,
+        "feedbackProvided": false,
+        "answerType": "public",
+        "internal": false,
+        "confidence": false,
+        "userInitiatedCuration": false,
+        "vizAnswer": true,
+        "seekerCurationVisibility": false,
+        "attachments": [],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 1051,
     "userInitiatedCuration": false,
     "draftExists": false
   },
@@ -592,8 +521,8 @@
       },
       {
         "term": "testing life cycle",
-        "source": null,
-        "clickable": false
+        "source": "expert",
+        "clickable": true
       }
     ],
     "express": false,
@@ -712,6 +641,62 @@
     ],
     "answersList": [
       {
+        "answerUuid": "811c1bef-e366-4c13-99a4-ef5b5c4a2ac4",
+        "questionUuid": "2ec813c8-f11a-4a1e-b3c5-eb04ad6d803c",
+        "answer": "updated answer at 12-10-2022",
+        "answerStatus": "active",
+        "answeredTimestamp": 1665576429000,
+        "answerUpdatedTimestamp": 1665576429000,
+        "expertFirstName": "Sally",
+        "expertLastName": "Garcia",
+        "expertScore": "6.77",
+        "expertUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 2,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 3,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 2,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 3,
+          "downvoteCount": 0
+        },
+        "privacy": false,
+        "originalAnswerUuid": "811c1bef-e366-4c13-99a4-ef5b5c4a2ac4",
+        "popularityScore": 242,
+        "ratingAllowed": true,
+        "viewFeedbackAllowed": true,
+        "feedbackProvided": true,
+        "internal": false,
+        "curationStatus": "curated",
+        "curationCategory": 3,
+        "confidence": false,
+        "userInitiatedCuration": true,
+        "vizAnswer": false,
+        "expiration": "2023-10-12T00:00:00.000+00:00",
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
+      },
+      {
         "answerUuid": "0b8465a3-5c8e-4b14-bf9a-dc088930852d",
         "questionUuid": "2ec813c8-f11a-4a1e-b3c5-eb04ad6d803c",
         "answer": "Ans Check  1 & 2",
@@ -720,16 +705,9 @@
         "answerUpdatedTimestamp": 1665491151000,
         "expertFirstName": "Mukul",
         "expertLastName": "Kale",
-        "expertScore": "6.42",
+        "expertScore": "6.34",
         "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
         "badges": [
-          {
-            "expertUuid": null,
-            "level": 3,
-            "type": null,
-            "email": null,
-            "name": "answered"
-          },
           {
             "expertUuid": null,
             "level": 2,
@@ -745,16 +723,22 @@
             "name": "amplified"
           }
         ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 1,
+          "downvoteCount": 0
+        },
         "privacy": false,
         "originalAnswerUuid": "0b8465a3-5c8e-4b14-bf9a-dc088930852d",
-        "popularityScore": 11,
+        "popularityScore": 239,
         "ratingAllowed": true,
         "viewFeedbackAllowed": true,
         "feedbackProvided": true,
         "internal": false,
         "curationStatus": "curated",
+        "curationCategory": 3,
         "confidence": false,
-        "userInitiatedCuration": false,
+        "userInitiatedCuration": true,
         "vizAnswer": false,
         "expiration": "2023-10-11T00:00:00.000+00:00",
         "seekerCurationVisibility": true,
@@ -770,7 +754,7 @@
         "answerUpdatedTimestamp": 1663820958000,
         "expertFirstName": "Diksha",
         "expertLastName": "Jadhav",
-        "expertScore": "6.87",
+        "expertScore": "6.85",
         "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
         "badges": [
           {
@@ -795,9 +779,14 @@
             "name": "amplified"
           }
         ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 3,
+          "downvoteCount": 0
+        },
         "privacy": false,
         "originalAnswerUuid": "595df999-0efe-4e1a-aa51-b9d0bb260aba",
-        "popularityScore": 946,
+        "popularityScore": 1161,
         "ratingAllowed": true,
         "viewFeedbackAllowed": true,
         "feedbackProvided": true,
@@ -814,71 +803,35 @@
       }
     ],
     "clarificationStatus": false,
-    "totalCount": 881,
+    "totalCount": 1051,
     "userInitiatedCuration": false,
     "userType": "Employee",
     "draftExists": false,
-    "viewCount": 946
+    "viewCount": 239
   },
   {
-    "questionUuid": "f5b25786-bdb0-41c4-b1b4-dd9a0c7c3b4f",
-    "topicUuid": "e637ef54-6423-4722-aa43-b4170c16b50e",
-    "text": "What is testing?",
+    "questionUuid": "e88e4955-0798-455f-bee3-377ba7c32139",
+    "topicUuid": "f8ff92b2-6882-404c-980d-54c056bacd78",
+    "text": "What is Test Life Cycle",
     "domain": "Collaterals",
-    "postedTimestamp": 1663149571000,
+    "postedTimestamp": 1665643887000,
     "status": "answered",
     "popularityScore": 0,
-    "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
-    "postedUserFirstName": "Diksha",
-    "postedUserLastName": "Jadhav",
+    "postedUserUuid": "47586266-94a7-4cd3-bc5d-21e172e3efc3",
+    "postedUserFirstName": "Ivan",
+    "postedUserLastName": "Drago",
     "tags": [
       {
-        "term": "testing",
-        "source": "expert",
-        "clickable": true
+        "term": "test life cycle",
+        "source": null,
+        "clickable": false
       }
     ],
     "express": false,
     "favourite": false,
     "sharing": false,
-    "sharedId": 2863,
+    "sharedId": 3017,
     "sharedWith": [
-      {
-        "userId": null,
-        "firstName": "Sally",
-        "lastName": "Garcia",
-        "email": "akash.kalsare@digitalmain.com",
-        "userUuidStr": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
-        "userUuidBin": "BWFmvfAFSrSqrKbNO0zhaA==",
-        "userStatus": null,
-        "orgId": null,
-        "modifiedDate": null,
-        "id": null,
-        "password": null,
-        "createdDate": null,
-        "newQuestion": null,
-        "expertAnswered": null,
-        "anotherExpertAnswered": null,
-        "seekerRated": null,
-        "questionShared": null,
-        "newExpQuestion": null,
-        "phoneNumber": null,
-        "token": null,
-        "expDate": null,
-        "tourFlag": null,
-        "accountnonlocked": null,
-        "title": null,
-        "timezone": null,
-        "locale": null,
-        "department": null,
-        "costCenter": null,
-        "country": null,
-        "zipcode": null,
-        "userType": null,
-        "seekerIdentity": null,
-        "expertScore": null,
-        "reroute": null
-      },
       {
         "userId": null,
         "firstName": "Diksha",
@@ -914,14 +867,172 @@
         "seekerIdentity": null,
         "expertScore": null,
         "reroute": null
+      }
+    ],
+    "answersList": [
+      {
+        "answerUuid": "0f36e531-8414-4d9d-a2a8-ed5384032368",
+        "questionUuid": "e88e4955-0798-455f-bee3-377ba7c32139",
+        "answer": "kjhdfs",
+        "answerStatus": "active",
+        "answeredTimestamp": 1666015359000,
+        "answerUpdatedTimestamp": 1666015359000,
+        "expertFirstName": "Tanuj",
+        "expertLastName": "Doyee",
+        "expertScore": "6.86",
+        "expertUuid": "4c844caf-38ee-4b15-839a-d19c39a1de43",
+        "badges": [],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 1,
+          "downvoteCount": 0
+        },
+        "privacy": false,
+        "originalAnswerUuid": "0f36e531-8414-4d9d-a2a8-ed5384032368",
+        "popularityScore": 105,
+        "ratingAllowed": true,
+        "viewFeedbackAllowed": true,
+        "feedbackProvided": true,
+        "internal": false,
+        "curationStatus": "curated",
+        "curationCategory": 3,
+        "confidence": false,
+        "userInitiatedCuration": true,
+        "vizAnswer": false,
+        "expiration": "2023-10-17T00:00:00.000+00:00",
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
       },
       {
+        "answerUuid": "224ba6fb-1114-4ef8-8875-b7176268d322",
+        "questionUuid": "e88e4955-0798-455f-bee3-377ba7c32139",
+        "answer": "ans edit check",
+        "answerStatus": "active",
+        "answeredTimestamp": 1665645926000,
+        "answerUpdatedTimestamp": 1665645926000,
+        "expertFirstName": "Mukul",
+        "expertLastName": "Kale",
+        "expertScore": "6.34",
+        "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 2,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 3,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 3,
+          "downvoteCount": 0
+        },
+        "privacy": false,
+        "originalAnswerUuid": "224ba6fb-1114-4ef8-8875-b7176268d322",
+        "popularityScore": 164,
+        "ratingAllowed": true,
+        "viewFeedbackAllowed": true,
+        "feedbackProvided": true,
+        "internal": true,
+        "curationStatus": "curated",
+        "curationCategory": 3,
+        "confidence": false,
+        "userInitiatedCuration": true,
+        "vizAnswer": false,
+        "expiration": "2023-10-13T00:00:00.000+00:00",
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
+      },
+      {
+        "answerUuid": "32dd3155-1f9a-4289-91ea-1c6f10b16b59",
+        "questionUuid": "e88e4955-0798-455f-bee3-377ba7c32139",
+        "answer": "Test Answer",
+        "answerStatus": "active",
+        "answeredTimestamp": 1665643911000,
+        "answerUpdatedTimestamp": 1665643911000,
+        "expertFirstName": "Ivan",
+        "expertLastName": "Drago",
+        "expertScore": "6.08",
+        "expertUuid": "47586266-94a7-4cd3-bc5d-21e172e3efc3",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 3,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          }
+        ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 3,
+          "downvoteCount": 0
+        },
+        "privacy": false,
+        "originalAnswerUuid": "32dd3155-1f9a-4289-91ea-1c6f10b16b59",
+        "popularityScore": 164,
+        "ratingAllowed": true,
+        "viewFeedbackAllowed": true,
+        "feedbackProvided": true,
+        "internal": false,
+        "curationStatus": "curated",
+        "curationCategory": 3,
+        "confidence": false,
+        "userInitiatedCuration": true,
+        "vizAnswer": false,
+        "expiration": "2023-10-13T00:00:00.000+00:00",
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
+      }
+    ],
+    "clarificationStatus": false,
+    "totalCount": 1051,
+    "userInitiatedCuration": false,
+    "userType": "Customer",
+    "draftExists": false,
+    "viewCount": 105
+  },
+  {
+    "questionUuid": "f89b663f-8b99-41e1-8ac0-d647153ecf33",
+    "topicUuid": "d038b02a-2aee-44a1-b0cc-0e514a97c016",
+    "text": "Database management system?",
+    "domain": "Capacity & Sizing",
+    "postedTimestamp": 1655355401000,
+    "status": "answered",
+    "popularityScore": 0,
+    "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+    "postedUserFirstName": "Diksha",
+    "postedUserLastName": "Jadhav",
+    "tags": [
+      {
+        "term": "database management system",
+        "source": "expert",
+        "clickable": true
+      }
+    ],
+    "express": false,
+    "favourite": false,
+    "sharing": false,
+    "sharedId": 2264,
+    "sharedWith": [
+      {
         "userId": null,
-        "firstName": "Tejal",
-        "lastName": "Kunjir",
-        "email": "tejal.kunjir@digitalmain.com",
-        "userUuidStr": "f18064df-ae00-425f-8fea-50f5ee75e8d1",
-        "userUuidBin": "8YBk364AQl+P6lD17nXo0Q==",
+        "firstName": "Mukul",
+        "lastName": "Kale",
+        "email": "mukul.kale@digitalmain.com",
+        "userUuidStr": "3c51d003-056e-4fc0-a057-6486abe7f562",
+        "userUuidBin": "PFHQAwVuT8CgV2SGq+f1Yg==",
         "userStatus": null,
         "orgId": null,
         "modifiedDate": null,
@@ -954,42 +1065,40 @@
     ],
     "answersList": [
       {
-        "answerUuid": "5ec33ad8-6444-44e9-afd4-606816e30443",
-        "questionUuid": "f5b25786-bdb0-41c4-b1b4-dd9a0c7c3b4f",
-        "answer": "Request for update Answer",
+        "answerUuid": "11583386-a023-4558-937b-369a39726cd5",
+        "questionUuid": "f89b663f-8b99-41e1-8ac0-d647153ecf33",
+        "answer": "Ans edit with attachment <div><br></div><div><br></div><div contentEditable=\"false\" id=\"inlineimages\" style=\"width:100px;height:100px;\">11583386-a023-4558-937b-369a39726cd5_0</div>",
         "answerStatus": "active",
-        "answeredTimestamp": 1663150054000,
-        "answerUpdatedTimestamp": 1663150054000,
-        "expertFirstName": "Sally",
-        "expertLastName": "Garcia",
-        "expertScore": "6.72",
-        "expertUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+        "answeredTimestamp": 1660625218000,
+        "answerUpdatedTimestamp": 1666000525000,
+        "expertFirstName": "Mukul",
+        "expertLastName": "Kale",
+        "expertScore": "6.34",
+        "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
         "badges": [
           {
             "expertUuid": null,
             "level": 2,
             "type": null,
             "email": null,
-            "name": "answered"
+            "name": "quality"
           },
           {
             "expertUuid": null,
             "level": 3,
             "type": null,
             "email": null,
-            "name": "quality"
-          },
-          {
-            "expertUuid": null,
-            "level": 2,
-            "type": null,
-            "email": null,
             "name": "amplified"
           }
         ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 0,
+          "downvoteCount": 0
+        },
         "privacy": false,
-        "originalAnswerUuid": "5ec33ad8-6444-44e9-afd4-606816e30443",
-        "popularityScore": 197,
+        "originalAnswerUuid": "11583386-a023-4558-937b-369a39726cd5",
+        "popularityScore": 183,
         "ratingAllowed": true,
         "viewFeedbackAllowed": true,
         "feedbackProvided": true,
@@ -999,165 +1108,88 @@
         "confidence": false,
         "userInitiatedCuration": true,
         "vizAnswer": false,
-        "expiration": "2023-09-14T00:00:00.000+00:00",
-        "seekerCurationVisibility": true,
-        "attachments": [],
-        "threadAttachments": []
-      },
-      {
-        "answerUuid": "e99bd505-6d63-4534-a517-2fc2f261dbfd",
-        "questionUuid": "f5b25786-bdb0-41c4-b1b4-dd9a0c7c3b4f",
-        "answer": "Expert answered",
-        "answerStatus": "active",
-        "answeredTimestamp": 1663149626000,
-        "answerUpdatedTimestamp": 1663149626000,
-        "expertFirstName": "Diksha",
-        "expertLastName": "Jadhav",
-        "expertScore": "6.87",
-        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
-        "badges": [
-          {
-            "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "answered"
-          },
-          {
-            "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "quality"
-          },
-          {
-            "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "amplified"
-          }
-        ],
-        "privacy": false,
-        "originalAnswerUuid": "e99bd505-6d63-4534-a517-2fc2f261dbfd",
-        "popularityScore": 180,
-        "ratingAllowed": true,
-        "viewFeedbackAllowed": true,
-        "feedbackProvided": true,
-        "internal": false,
-        "curationStatus": "curated",
-        "curationCategory": 3,
-        "confidence": false,
-        "userInitiatedCuration": false,
-        "vizAnswer": false,
-        "expiration": "2023-09-14T00:00:00.000+00:00",
-        "seekerCurationVisibility": true,
-        "attachments": [],
-        "threadAttachments": []
-      }
-    ],
-    "clarificationStatus": false,
-    "totalCount": 881,
-    "userInitiatedCuration": false,
-    "userType": "Employee",
-    "draftExists": false,
-    "viewCount": 180
-  },
-  {
-    "questionUuid": "ed555bc9-37b7-4cb3-994b-5807edcc99ab",
-    "topicUuid": "8f6733fe-2df1-43d7-b608-1c3372d4db5c",
-    "text": "what is python?",
-    "domain": "Collaterals",
-    "postedTimestamp": 1651222873000,
-    "status": "answered",
-    "popularityScore": 0,
-    "postedUserUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
-    "postedUserFirstName": "Sally",
-    "postedUserLastName": "Garcia",
-    "tags": [
-      {
-        "term": "python",
-        "source": null,
-        "clickable": false
-      }
-    ],
-    "express": false,
-    "favourite": false,
-    "sharing": false,
-    "sharedWith": [],
-    "answersList": [
-      {
-        "answerUuid": "82000383-2295-4dfa-9aef-0008fc4e1487",
-        "questionUuid": "ed555bc9-37b7-4cb3-994b-5807edcc99ab",
-        "answer": "But you could also use something outside of the compress observed Director, but we would recommend using either the observed or the Director. The once you download the script, you're going to see something called complex underscore tool strategy, easy and that's the zipped up part of the whole script. You can put this into a specific location and target, and then within that, you have a couple of these two. install the required python modules that it runs efficiently or runs without any issues depending upon the host mission critical, install it, depending on whether it has internet or it doesn't have internet, there are different ways to install the dependencies and once you have the dependencies installed, you go into that specific directory and then you can run the script any questions still. Now, that's pretty much about how the introduction and how to deploy the script.",
-        "answerStatus": "active",
-        "answeredTimestamp": 1651223033000,
-        "answerUpdatedTimestamp": 1663824418000,
-        "expertFirstName": "Diksha",
-        "expertLastName": "Jadhav",
-        "expertScore": "6.87",
-        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
-        "badges": [
-          {
-            "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "answered"
-          },
-          {
-            "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "quality"
-          },
-          {
-            "expertUuid": null,
-            "level": 1,
-            "type": null,
-            "email": null,
-            "name": "amplified"
-          }
-        ],
-        "privacy": false,
-        "originalAnswerUuid": "82000383-2295-4dfa-9aef-0008fc4e1487",
-        "popularityScore": 205,
-        "ratingAllowed": true,
-        "viewFeedbackAllowed": true,
-        "feedbackProvided": true,
-        "internal": false,
-        "curationStatus": "curated",
-        "curationCategory": 3,
-        "confidence": false,
-        "userInitiatedCuration": false,
-        "vizAnswer": false,
-        "expiration": "2023-08-04T00:00:00.000+00:00",
+        "expiration": "2023-08-16T00:00:00.000+00:00",
         "seekerCurationVisibility": true,
         "attachments": [
           {
-            "name": "Komprise Script - Offical Demonstration - 10-06-2021.mp4",
+            "name": "sdimage.jpg",
             "size": null,
             "src": null,
-            "type": "video/mp4",
+            "type": "image/jpeg",
             "data": null,
-            "caption": null,
+            "caption": "caption_01",
             "answerId": null,
-            "objectUrl": "https://s3-us-west-1.amazonaws.com/vizerto-stage/attachments/Komprise%20Script%20-%20Offical%20Demonstration%20-%2010-06-2021.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20221012T063519Z&X-Amz-SignedHeaders=host&X-Amz-Expires=259200&X-Amz-Credential=AKIA35QADK4R7GUI5X5X%2F20221012%2Fus-west-1%2Fs3%2Faws4_request&X-Amz-Signature=8b7ee1ac9a32c65494f3d3adc37f0447614a49dd9a310891af7a709e7c275df5",
+            "objectUrl": "attachments/sdimage.jpg",
             "targetStream": null,
             "metaData": null,
-            "attachmentType": null,
+            "crawling": false,
             "thumbnail": false
           }
         ],
         "threadAttachments": []
+      },
+      {
+        "answerUuid": "7033c1a2-7ca1-4f2b-a649-e49c068c6168",
+        "questionUuid": "f89b663f-8b99-41e1-8ac0-d647153ecf33",
+        "answer": "Does work with any api that extracts data from data sheets? , The APIs wouldn't extract anything the data sheet tool would need its own API that an app could use to extract the data from the data sheet and then the APIs could the take that data and send it to a Teams space or similar use case. , is there a site that I see the updates that cisco does?",
+        "answerStatus": "active",
+        "answeredTimestamp": 1655355401000,
+        "answerUpdatedTimestamp": 1665747824000,
+        "expertFirstName": "Diksha",
+        "expertLastName": "Jadhav",
+        "expertScore": "6.85",
+        "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+        "badges": [
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "answered"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "quality"
+          },
+          {
+            "expertUuid": null,
+            "level": 1,
+            "type": null,
+            "email": null,
+            "name": "amplified"
+          }
+        ],
+        "voteInfo": {
+          "upvote": null,
+          "upvoteCount": 0,
+          "downvoteCount": 0
+        },
+        "privacy": false,
+        "originalAnswerUuid": "7033c1a2-7ca1-4f2b-a649-e49c068c6168",
+        "popularityScore": 145,
+        "ratingAllowed": true,
+        "viewFeedbackAllowed": true,
+        "feedbackProvided": true,
+        "internal": false,
+        "curationStatus": "curated",
+        "curationCategory": 3,
+        "confidence": false,
+        "userInitiatedCuration": true,
+        "vizAnswer": false,
+        "expiration": "2023-06-16T00:00:00.000+00:00",
+        "seekerCurationVisibility": true,
+        "attachments": [],
+        "threadAttachments": []
       }
     ],
     "clarificationStatus": false,
-    "totalCount": 881,
+    "totalCount": 1051,
     "userInitiatedCuration": false,
     "userType": "Employee",
     "draftExists": false,
-    "viewCount": 205
+    "viewCount": 145
   }
 ]
