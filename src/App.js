@@ -28,7 +28,7 @@ function App() {
         <AwardsModal />
         {SeekerData.map((postData, index) => {
           return (
-            <div key={index} style={{'marginLeft':'auto','marginRight':'auto'}}>
+            <div key={index}>
               <SearchBar data={postData} />
             </div>
           )
