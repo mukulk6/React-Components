@@ -11,8 +11,8 @@ const KeyTerms = (props) => {
         </div>
       </div>
       <div class="container">
-      <div class="row">
-          <div class="col-md-8">
+      <div class="row" style={{'padding': '7px 7px 7px 12px'}}>
+          <div class="col-md-8" style={{'paddingLeft':'0'}}>
             <span className={styles.domainKeyTerms}>Domain: </span>
             {(props.data.domains).length > 0 ? <span className={styles.domainName}>&nbsp;{props.data.domains}&nbsp;</span> : <span className={styles.domainName}>Unclassified</span>}
           </div>

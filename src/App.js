@@ -28,7 +28,7 @@ function App() {
         <AwardsModal />
         {SeekerData.map((postData, index) => {
           return (
-            <div key={index}>
+            <div key={index} class="container">
               <SearchBar data={postData} />
             </div>
           )

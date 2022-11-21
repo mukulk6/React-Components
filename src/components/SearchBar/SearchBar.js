@@ -8,10 +8,9 @@ import { Grid } from '@mui/material';
 const SearchBar = ({ brandingText }) => {
 
   return (
-    <div class="container">
     <Grid>
       <Row className="text-center">
-        <InputGroup>
+        <InputGroup style={{'width':"80%",'margin':'0 auto'}}>
           <Form.Control
             placeholder="Ask a Question"
             aria-label="Ask a Question"
@@ -24,7 +23,7 @@ const SearchBar = ({ brandingText }) => {
         </InputGroup>
       </Row>
       <Row>
-        <Col xs={10} className={styles.brandText}>
+        <Col md={{ span: 8, offset: 1 }} className={styles.brandText}>
           {SeekerData[0].brandingText}
         </Col>
         <Col xs={2} className={styles.characterLengthDiv}>
@@ -33,7 +32,6 @@ const SearchBar = ({ brandingText }) => {
         </Col>
       </Row>
     </Grid>
-    </div>
   )
 };
 
