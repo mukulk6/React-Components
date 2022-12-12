@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import styles from './BestResultComponent.module.css';
 import RatingStars from '../RatingStars/RatingStars';
@@ -6,6 +6,7 @@ import moment from 'moment';
 
 const BestResultComponent = (props) => {
   const [showMore, setShowMore] = useState(false);
+  const toggleReadMore = () => setShowMore((show) => !show);
   return (
     <div class="container">
       {/* <div class="row">
@@ -35,7 +36,7 @@ const BestResultComponent = (props) => {
             </div>
             <div class="col-md-2">
               <div className={styles.tagsinQue}>
-                {(props.data.tags).length > 0 && <h3>Tags: {props.data.tags.map((tag)=>{return(tag.clickable === true ? <span id={styles.clickabletag}>{tag.term}</span> : <span className={styles.tagLabel}>{tag.term}</span>)})}</h3>  }
+                {(props.data.tags).length > 0 && <h3>Tags: {props.data.tags.map((tag) => { return (tag.clickable === true ? <span id={styles.clickabletag}>{tag.term}</span> : <span className={styles.tagLabel}>{tag.term}</span>) })}</h3>}
               </div>
             </div>
           </div>
@@ -84,8 +85,9 @@ const BestResultComponent = (props) => {
                         {/* {(answer.answerText).length >=550  && showMore ? <div dangerouslySetInnerHTML={{__html:answer.answerText}}></div> : `${<div className={styles.vatiheightdiv}><div class={styles.fader}><div dangerouslySetInnerHTML={{__html:(answer.answerText).substring(0,250)}}></div></div></div>}` && <span className={styles.showMore} onClick={()=>setShowMore(!showMore)}>{showMore ? <span><i class="fa fa-angle-up"></i>show less</span> : <span><i class="fa fa-angle-down"></i>show more</span>}</span>} */}
                         {/* {answer.answerText.length >= 550 ? showMore ? <div dangerouslySetInnerHtml={{ __html: answer.answerText.substring(0, 250) }}></div> : `${<div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div>}` && <span className={styles.showMore} onClick>{() => setShowMore(!showMore)}{showMore ? <span><i class="fa fa-angle-up"></i>show less</span> : <span><i class="fa fa-angle-down"></i>show more</span>}</span> : <div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div>} */}
                         {/* {answer.answerText.length >= 550 && showMore ? <div dangerouslySetInnerHTML={{ __html: answer.answerText }}></div> : `${answer.answerText.substring(0,250)}` && <span className={styles.showMore} onClick={() => setShowMore(!showMore)}>{showMore ? "Show less" : "Show more" || showMore ? <span className={styles.showMore}><i class="fa-solid fa-angle-up"></i>Show More</span> : <i class="fa-solid fa-angle-down"></i>}</span>} */}
-                      {/* {answer.answerText.length >=550 ? showMore ? <div dangerouslySetInnerHTML={{__html:answer.answerText}}></div>: answer.answerText.length >=550 && <button className="btn" onClick={() => setShowMore(!showMore)}>Show more</button>`${answer.answerText.substring(0,250)}`:<div dangerouslySetInnerHTML={{__html:answer.answerText}}></div>} */}
-                      {answer.answerText.length >=550 ? <div dangerouslySetInnerHTML={{__html:answer.answerText.substring(0,250)}}></div><button onClick={()=>setShowMore(!showMore)}>{showMore ? "Show less" : "Show more"}</button>:<div dangerouslySetInnerHTML={{__html:answer.answerText}}></div>}
+                        {/* {answer.answerText.length >=550 ? showMore ? <div dangerouslySetInnerHTML={{__html:answer.answerText}}></div>: answer.answerText.length >=550 && <button className="btn" onClick={() => setShowMore(!showMore)}>Show more</button>`${answer.answerText.substring(0,250)}`:<div dangerouslySetInnerHTML={{__html:answer.answerText}}></div>} */}
+                        {/* {showMore ? <div dangerouslySetInnerHTML={{__html:answer.answerText}}></div> : answer.answerText.length >=550 && <div dangerouslySetInnerHTML={{__html:answer.answerText.substring(0,250)}}></div> }<button className="btn" onClick={() => setShowMore(!showMore)}>{showMore ? "Show less" : "Show more"}</button> */}
+                        {showMore ? <div dangerouslySetInnerHTML={{__html:answer.answerText}}></div>:<div dangerouslySetInnerHTML={{__html:answer.answerText}}></div>}{answer.answerText.length >=550 ? <><div dangerouslySetInnerHTML={{__html:answer.answerText.substring(0,250)}}></div><button onClick={toggleReadMore}>{showMore ? "Show more..." : "Show less"}</button></> :<><div dangerouslySetInnerHTML={{__html:answer.answerText}}></div></> }
                       </div>
                     </div>
                     <div class="row">

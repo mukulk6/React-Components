@@ -1,0 +1,74 @@
+.Wrappersearchbar {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background-color: #eef0f2;
+}
+
+.midContainer {
+    padding-bottom: 0px;
+    padding-top: 101px !important;
+    height: 210px;
+}
+
+#bottomRow {
+    border-bottom: 1px solid #00A5FB;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.seekerFavoriteQuestions
+{
+    font-size: 20px;
+    color: #075491;
+    font-weight: bold;
+    font-family: 'Poppins', 'Lato', sans-serif;
+    display: inline-block;
+}
+
+.keytermheading
+{
+    font-size: 20px;
+    color: #075491;
+    display: block !important;
+    margin-bottom: 12px;
+    font-family: 'Poppins','Lato',sans-serif;
+}
+
+.backIconKeyTerm
+{
+    padding-bottom: 3px;
+    margin-right: 7px;
+    max-height: 20px;
+}
+
+.keyTermName
+{
+    font-size: 20px;
+    color: #075491;
+    float: left;
+    padding-bottom: 6px;
+    font-family: 'Poppins','Lato',sans-serif;
+    font-weight: bold;
+}
+
+.keyTermCount
+{
+    color: #fff;
+    background: #4BCAFF;
+    border-radius: 5px;
+    padding: 0px 5px 0px 5px;
+    margin-left: 8px;
+    font-size: 15px;
+    float: left;
+}
+
+.selectKeyTerm
+{
+    font-family: 'Poppins','Lato',sans-serif;
+    font-size: 12px;
+    display: inline-block;
+}
