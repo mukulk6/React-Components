@@ -14,6 +14,7 @@ import ReusableCardComponent from '../ReusableCardComponent/ReusableCardComponen
 const KeyTermsInnerSection = () => {
   return (
     <>
+    <div className={styles.pageTop}>
       <NavigationBar />
       <div class="container">
         <div className={styles.Wrappersearchbar}>
@@ -63,6 +64,7 @@ const KeyTermsInnerSection = () => {
             })
           }
         </section>
+      </div>
       </div>
     </>
   )

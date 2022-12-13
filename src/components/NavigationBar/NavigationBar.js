@@ -53,7 +53,7 @@ const NavigationBar = () => {
                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
                 Answered
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2"><i class="fa fa-book" aria-hidden="true"></i> History</NavDropdown.Item>
+              <NavDropdown.Item href="/history"><i class="fa fa-book" aria-hidden="true"></i> History</NavDropdown.Item>
             </NavDropdown>
           </li>
           <li class="nav-item" className={styles.iconCenter} eventKey="modal" onClick={handleShow}>

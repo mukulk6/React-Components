@@ -18,6 +18,7 @@ import SharedComponent from './components/SharedComponent/SharedComponent';
 import SharedWithMe from './components/SharedWithMe/SharedWithMe';
 import RenderKeyTerms from './components/RenderKeyTerms/RenderKeyTerms';
 import KeyTermsInnerSection from './components/KeyTermsInnerSection/KeyTermsInnerSection';
+import MyHistory from './components/MyHistory/MyHistory';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -36,6 +37,7 @@ root.render(
         <Route path="/sharedwithme" element={<SharedWithMe />} />
         <Route path="/keyterms" element={<RenderKeyTerms />} />
         <Route path="/keyterms/keyterm" element={<KeyTermsInnerSection />} />
+        <Route path="/history" element={<MyHistory />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
