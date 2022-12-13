@@ -71,4 +71,12 @@
     font-family: 'Poppins','Lato',sans-serif;
     font-size: 12px;
     display: inline-block;
+    width:70%;
+}
+
+.viewByText
+{
+    font-family: 'Poppins','Lato',sans-serif;
+    font-size: 14px;
+    padding-right: 10px;
 }
