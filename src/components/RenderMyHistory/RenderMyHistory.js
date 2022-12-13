@@ -9,7 +9,7 @@ const RenderMyHistory = (props) => {
     <div className={styles.RenderMyHistory}>
       <h2 className={styles.historyHeading}>{moment(props.data.timestamp).format("ddd MMM DD, YYYY")}</h2>
     <div class="d-flex">
-      <p>{moment(props.data.timestamp).format("HH:MM")}</p><p className={styles.historyContent}>{props.data.question}</p>
+      <p className={styles.timestamp}>{moment(props.data.timestamp).format("HH:mm")}</p><p className={styles.historyContent}>{props.data.question}</p>
     </div>
     </div>
   )
