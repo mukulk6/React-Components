@@ -33,7 +33,7 @@ function App() {
             </div>
           )
         })}
-        <AutoSuggestions />
+        {/* <AutoSuggestions /> */}
         </div>      
     </div>
   );

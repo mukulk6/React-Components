@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import Autosuggest from 'react-autosuggest';
 import styles from './AutoSuggestions.module.css';
 
-
 const languages = [
   {
     name: 'C',
@@ -87,7 +86,7 @@ function getSuggestionValue(suggestion) {
 function renderSuggestion(suggestion) {
   return (
     <span>{suggestion.name}</span>
-  );
+  )
 }
 
 class AutoSuggestions extends React.Component {
@@ -133,7 +132,7 @@ class AutoSuggestions extends React.Component {
         onSuggestionsClearRequested={this.onSuggestionsClearRequested}
         getSuggestionValue={getSuggestionValue}
         renderSuggestion={renderSuggestion}
-        inputProps={inputProps} />
+        inputProps={inputProps}/>
     );
   }
 }
