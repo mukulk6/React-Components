@@ -16,11 +16,11 @@ import RenderOpenTabComponent from './components/RenderOpenTabComponent/RenderOp
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import SearchResultData from './components/SearchResult/SearchData.json';
 import AwardsModal from './components/AwardsModal/AwardsModal';
+import AutoSuggestions from './components/AutoSuggest/AutoSuggestions';
 
 function App() {
   return (
     <div className="App">
-      <div class="row">
         <div className={styles.pageTopContainer}>
         <AskanExpertlogo />
         <NavigationBar />
@@ -33,8 +33,8 @@ function App() {
             </div>
           )
         })}
-        </div>
-      </div>
+        <AutoSuggestions />
+        </div>      
     </div>
   );
 }
