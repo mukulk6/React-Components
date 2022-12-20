@@ -167,6 +167,7 @@ class SearchBar extends React.Component {
               getSuggestionValue={getSuggestionValue}
               renderSuggestion={renderSuggestion}
               inputProps={inputProps}
+              highlightFirstSuggestion={true}
               id={styles.searchControl}
                />
             <Button variant="outline-secondary" id={styles.searchButton}>
