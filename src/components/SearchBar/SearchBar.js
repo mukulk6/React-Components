@@ -175,7 +175,7 @@ class SearchBar extends React.Component {
             </Button>
           </InputGroup>
         </Row>
-      </Grid>
+        </Grid>
     )
   }
 }
