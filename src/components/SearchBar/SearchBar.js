@@ -159,7 +159,7 @@ class SearchBar extends React.Component {
     return (
       <Grid>
         <Row className="text-center">
-          <InputGroup style={{ 'width':'100%','margin': '0 auto' }}>
+          <InputGroup style={{ 'width':'auto','margin': '0 auto' }}>
             <Autosuggest
               suggestions={suggestions}
               onSuggestionsFetchRequested={this.onSuggestionsFetchRequested}
