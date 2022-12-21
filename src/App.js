@@ -17,6 +17,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import SearchResultData from './components/SearchResult/SearchData.json';
 import AwardsModal from './components/AwardsModal/AwardsModal';
 import AutoSuggestions from './components/AutoSuggest/AutoSuggestions';
+import EditorImageRender from './components/EditorImageRender/EditorImageRender';
 
 function App() {
   return (

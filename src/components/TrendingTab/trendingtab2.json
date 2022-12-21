@@ -1,0 +1,1047 @@
+[
+    {
+      "questionUuid": "d5842adf-8517-464d-86da-38cdad7e1ef0",
+      "topicUuid": "2c666170-9ead-4070-a092-d5f81cdd36ca",
+      "text": "What are functions?",
+      "domain": "Collaterals",
+      "postedTimestamp": 1671621243000,
+      "acceptedTimestamp": 0,
+      "status": "answered",
+      "popularityScore": 0,
+      "postedUserUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+      "postedUserFirstName": "Mukul",
+      "postedUserLastName": "Kale",
+      "tags": [
+        {
+          "term": "functions",
+          "source": null,
+          "clickable": false
+        }
+      ],
+      "express": false,
+      "favourite": false,
+      "sharing": false,
+      "sharedWith": [],
+      "answersList": [
+        {
+          "answerUuid": "246d4b66-cfcb-4efc-a6d8-39f15302f396",
+          "questionUuid": "d5842adf-8517-464d-86da-38cdad7e1ef0",
+          "answer": "Ans Check <div contenteditable=\"false\" id=\"inlineimages\" style=\"width:100px;height:100px;\">246d4b66-cfcb-4efc-a6d8-39f15302f396_0</div>",
+          "answerStatus": "active",
+          "answeredTimestamp": 1671621302000,
+          "answerUpdatedTimestamp": 1671621345000,
+          "expertFirstName": "Mukul",
+          "expertLastName": "Kale",
+          "expertScore": "6.44",
+          "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+          "badges": [
+            {
+              "expertUuid": null,
+              "level": 3,
+              "type": null,
+              "email": null,
+              "name": "quality"
+            }
+          ],
+          "voteInfo": {
+            "upvote": null,
+            "upvoteCount": 0,
+            "downvoteCount": 0
+          },
+          "privacy": false,
+          "originalAnswerUuid": "246d4b66-cfcb-4efc-a6d8-39f15302f396",
+          "popularityScore": 1,
+          "ratingAllowed": true,
+          "viewFeedbackAllowed": true,
+          "feedbackProvided": true,
+          "internal": false,
+          "curationStatus": "curated",
+          "confidence": false,
+          "userInitiatedCuration": false,
+          "vizAnswer": false,
+          "expiration": "2023-12-21T00:00:00.000+00:00",
+          "seekerCurationVisibility": true,
+          "attachments": [],
+          "threadAttachments": []
+        }
+      ],
+      "clarificationStatus": false,
+      "totalCount": 639,
+      "userInitiatedCuration": false,
+      "userType": "Employee",
+      "draftExists": false,
+      "viewCount": 1
+    },
+    {
+      "questionUuid": "71383e50-72f7-487f-9d9e-6c8967ce31bb",
+      "topicUuid": "e7d63f61-e6ad-4257-9d88-710481e9598b",
+      "text": "What is the definition of Meaningful Structure?",
+      "domain": "Collaterals",
+      "postedTimestamp": 1671616042000,
+      "acceptedTimestamp": 0,
+      "status": "answered",
+      "popularityScore": 0,
+      "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+      "postedUserFirstName": "Diksha",
+      "postedUserLastName": "Jadhav",
+      "tags": [
+        {
+          "term": "definition",
+          "source": null,
+          "clickable": false
+        },
+        {
+          "term": "meaningful structure",
+          "source": null,
+          "clickable": false
+        }
+      ],
+      "express": false,
+      "favourite": false,
+      "sharing": false,
+      "sharedWith": [],
+      "answersList": [
+        {
+          "answerUuid": "d62af9f5-c960-4e6c-9e52-4c5d7d12ab88",
+          "questionUuid": "71383e50-72f7-487f-9d9e-6c8967ce31bb",
+          "answer": "Meaningful Structure . c | Image Customer Retention ompression Discovery Classification Big data Dimensionality Feature Visualistaion Idenity Fraud elecryiife\\erong etection Reduction Elicitation Diagnostics Recommender Unsupervised Supervised ystems Taal lat-4 Yana 3 Osu Population MENT ome = Rae Advertising Popularity Prediction Targetted Marketing Weather Forecasting Regression Customer Segmentation Market Forecasting Estimating life expectancy Real-time decisions Game Al Reinforcement Reena Robot Navigation Skill Acquisition Learning Tasks<div>updated</div>",
+          "answerStatus": "active",
+          "answeredTimestamp": 1671616116000,
+          "answerUpdatedTimestamp": 1671616160000,
+          "expertFirstName": "Diksha",
+          "expertLastName": "Jadhav",
+          "expertScore": "6.94",
+          "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+          "badges": [
+            {
+              "expertUuid": null,
+              "level": 1,
+              "type": null,
+              "email": null,
+              "name": "quality"
+            },
+            {
+              "expertUuid": null,
+              "level": 3,
+              "type": null,
+              "email": null,
+              "name": "amplified"
+            }
+          ],
+          "voteInfo": {
+            "upvote": null,
+            "upvoteCount": 0,
+            "downvoteCount": 0
+          },
+          "privacy": false,
+          "originalAnswerUuid": "d62af9f5-c960-4e6c-9e52-4c5d7d12ab88",
+          "popularityScore": 2,
+          "ratingAllowed": true,
+          "viewFeedbackAllowed": true,
+          "feedbackProvided": true,
+          "internal": false,
+          "curationStatus": "curated",
+          "confidence": false,
+          "userInitiatedCuration": false,
+          "vizAnswer": false,
+          "seekerCurationVisibility": true,
+          "attachments": [
+            {
+              "name": "machine-learning.png",
+              "size": null,
+              "src": null,
+              "type": "image/jpeg",
+              "data": null,
+              "caption": null,
+              "answerId": null,
+              "objectUrl": "attachments/machine-learning.png",
+              "targetStream": null,
+              "metaData": null,
+              "crawling": false,
+              "thumbnail": false
+            }
+          ],
+          "threadAttachments": []
+        }
+      ],
+      "clarificationStatus": false,
+      "totalCount": 639,
+      "userInitiatedCuration": false,
+      "userType": "Employee",
+      "draftExists": false,
+      "viewCount": 2
+    },
+    {
+      "questionUuid": "5a39357b-13ba-4a51-8c4a-ba866d204b9b",
+      "topicUuid": "3e6ac5fc-76b9-450b-bab7-97f74391b61a",
+      "text": "What does Apache Spark provide data structures that mirror the underlying structure of database records?",
+      "domain": "Collaterals",
+      "postedTimestamp": 1671603925000,
+      "acceptedTimestamp": 0,
+      "status": "answered",
+      "popularityScore": 0,
+      "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+      "postedUserFirstName": "Diksha",
+      "postedUserLastName": "Jadhav",
+      "tags": [
+        {
+          "term": "apache spark provide",
+          "source": null,
+          "clickable": false
+        },
+        {
+          "term": "mirror",
+          "source": null,
+          "clickable": false
+        },
+        {
+          "term": "records",
+          "source": null,
+          "clickable": false
+        },
+        {
+          "term": "structures",
+          "source": null,
+          "clickable": false
+        },
+        {
+          "term": "underlying",
+          "source": null,
+          "clickable": false
+        }
+      ],
+      "express": false,
+      "favourite": false,
+      "sharing": false,
+      "sharedWith": [],
+      "answersList": [
+        {
+          "answerUuid": "4134c3e8-4aea-4bfa-87d5-75b1d772f3ca",
+          "questionUuid": "5a39357b-13ba-4a51-8c4a-ba866d204b9b",
+          "answer": "In general, data structures are used to implement the physical forms of abstract data types. Data structures are a crucial part of designing efficient software. They also play a critical role in algorithm design and how those algorithms are used within computer programs. Early programming languages -- such as Fortran, C and C++ -- enabled programmers to define their own data structures. Today, many programming languages include an extensive collection of built-in data structures to organize code and information. For example, Python lists and dictionaries, and JavaScript arrays and objects are common coding structures used for storing and retrieving information. Software engineers use algorithms that are tightly coupled with the data structures -- such as lists, queues and mappings from one set of values to another. This approach can be fused in a variety of applications, including managing collections of records in a relational database and creating an index of those records using a data structure called a binary tree. Some examples of how data structures are used include the following: Storing data. Data structures are used for efficient data persistence, such as specifying the collection of attributes and corresponding structures used to store records in a database management system. Managing resources and services. Core operating system (OS) resources and services are enabled through the use of data structures such as linked lists for memory allocation, file directory management and file structure trees, as well as process scheduling queues. Data exchange. Data structures define the organization of information shared between applications, such as TCP/IP packets. Ordering and sorting. Data structures such as binary search trees -- also known as an ordered or sorted binary tree -- provide efficient methods of sorting objects, such as character strings used as tags. With data structures such as priority queues, programmers can manage items organized according to a specific priority. Indexing. Even more sophisticated data structures such as B-trees are used to index objects, such as those stored in a database. Searching. Indexes created using binary search trees, B-trees or hash tables speed the ability to find a specific sought-after item. Scalability. Big data applications use data structures for allocating and managing data storage across distributed storage locations, ensuring scalability and performance. Certain big data programming environments -- such as Apache Spark -- provide data structures that mirror the underlying structure of database records to simplify querying.",
+          "answerStatus": "active",
+          "answeredTimestamp": 1671603992000,
+          "answerUpdatedTimestamp": 1671603992000,
+          "expertFirstName": "Diksha",
+          "expertLastName": "Jadhav",
+          "expertScore": "6.94",
+          "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+          "badges": [
+            {
+              "expertUuid": null,
+              "level": 1,
+              "type": null,
+              "email": null,
+              "name": "quality"
+            },
+            {
+              "expertUuid": null,
+              "level": 3,
+              "type": null,
+              "email": null,
+              "name": "amplified"
+            }
+          ],
+          "voteInfo": {
+            "upvote": null,
+            "upvoteCount": 0,
+            "downvoteCount": 0
+          },
+          "privacy": false,
+          "originalAnswerUuid": "4134c3e8-4aea-4bfa-87d5-75b1d772f3ca",
+          "popularityScore": 3,
+          "ratingAllowed": true,
+          "viewFeedbackAllowed": true,
+          "feedbackProvided": true,
+          "internal": false,
+          "curationStatus": "curated",
+          "confidence": false,
+          "userInitiatedCuration": false,
+          "vizAnswer": false,
+          "expiration": "2023-12-21T00:00:00.000+00:00",
+          "seekerCurationVisibility": true,
+          "attachments": [],
+          "threadAttachments": []
+        }
+      ],
+      "clarificationStatus": false,
+      "totalCount": 639,
+      "userInitiatedCuration": false,
+      "userType": "Employee",
+      "draftExists": false,
+      "viewCount": 3
+    },
+    {
+      "questionUuid": "f461ca96-57c4-4ea0-8b89-8027b240b20c",
+      "topicUuid": "28b4414a-3597-4cc9-a1b8-27c9a3c2f1a1",
+      "text": "what is flame icon task in trending?",
+      "domain": "Collaterals",
+      "postedTimestamp": 1670856756000,
+      "acceptedTimestamp": 0,
+      "status": "answered",
+      "popularityScore": 0,
+      "postedUserUuid": "015195ab-f97d-4d69-a78e-b0c613e45a98",
+      "postedUserFirstName": "Ujjawal",
+      "postedUserLastName": "Kriti",
+      "tags": [
+        {
+          "term": "flame icon task",
+          "source": null,
+          "clickable": false
+        },
+        {
+          "term": "trending",
+          "source": null,
+          "clickable": false
+        }
+      ],
+      "express": false,
+      "favourite": false,
+      "sharing": false,
+      "sharedWith": [],
+      "answersList": [
+        {
+          "answerUuid": "046051dd-7dab-48ff-8a0c-d5204ce35d30",
+          "questionUuid": "f461ca96-57c4-4ea0-8b89-8027b240b20c",
+          "answer": "don't know",
+          "answerStatus": "active",
+          "answeredTimestamp": 1671598084000,
+          "answerUpdatedTimestamp": 1671598084000,
+          "expertFirstName": "Sally",
+          "expertLastName": "Garcia",
+          "expertScore": "7.20",
+          "expertUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+          "badges": [
+            {
+              "expertUuid": null,
+              "level": 2,
+              "type": null,
+              "email": null,
+              "name": "answered"
+            },
+            {
+              "expertUuid": null,
+              "level": 2,
+              "type": null,
+              "email": null,
+              "name": "quality"
+            },
+            {
+              "expertUuid": null,
+              "level": 1,
+              "type": null,
+              "email": null,
+              "name": "amplified"
+            }
+          ],
+          "voteInfo": {
+            "upvote": null,
+            "upvoteCount": 0,
+            "downvoteCount": 0
+          },
+          "privacy": false,
+          "originalAnswerUuid": "046051dd-7dab-48ff-8a0c-d5204ce35d30",
+          "popularityScore": 2,
+          "ratingAllowed": true,
+          "viewFeedbackAllowed": true,
+          "feedbackProvided": true,
+          "internal": false,
+          "curationStatus": "curated",
+          "confidence": false,
+          "userInitiatedCuration": false,
+          "vizAnswer": false,
+          "expiration": "2023-12-21T00:00:00.000+00:00",
+          "seekerCurationVisibility": true,
+          "attachments": [],
+          "threadAttachments": []
+        },
+        {
+          "answerUuid": "cad644ec-7908-4838-8aae-0d590c29b54f",
+          "questionUuid": "f461ca96-57c4-4ea0-8b89-8027b240b20c",
+          "answer": "ababa",
+          "answerStatus": "active",
+          "answeredTimestamp": 1670949171000,
+          "answerUpdatedTimestamp": 1670949171000,
+          "expertFirstName": "Ujjawal",
+          "expertLastName": "Kriti",
+          "expertScore": "6.69",
+          "expertUuid": "015195ab-f97d-4d69-a78e-b0c613e45a98",
+          "badges": [
+            {
+              "expertUuid": null,
+              "level": 3,
+              "type": null,
+              "email": null,
+              "name": "answered"
+            }
+          ],
+          "voteInfo": {
+            "upvote": null,
+            "upvoteCount": 0,
+            "downvoteCount": 0
+          },
+          "privacy": false,
+          "originalAnswerUuid": "cad644ec-7908-4838-8aae-0d590c29b54f",
+          "popularityScore": 10,
+          "ratingAllowed": true,
+          "viewFeedbackAllowed": true,
+          "feedbackProvided": true,
+          "internal": false,
+          "curationStatus": "curated",
+          "curationCategory": 3,
+          "confidence": false,
+          "userInitiatedCuration": false,
+          "vizAnswer": false,
+          "expiration": "2023-12-13T00:00:00.000+00:00",
+          "seekerCurationVisibility": true,
+          "attachments": [],
+          "threadAttachments": []
+        }
+      ],
+      "clarificationStatus": false,
+      "totalCount": 639,
+      "userInitiatedCuration": false,
+      "userType": "Employee",
+      "draftExists": false,
+      "viewCount": 10
+    },
+    {
+      "questionUuid": "7934fb11-275c-4a5d-96dc-12513fa05603",
+      "topicUuid": "fa9b0ab4-5c8c-4f68-a725-2950f1c51daa",
+      "text": "what is new about penetration testing?",
+      "domain": "Collaterals",
+      "postedTimestamp": 1671557810000,
+      "acceptedTimestamp": 0,
+      "status": "answered",
+      "popularityScore": 0,
+      "postedUserUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+      "postedUserFirstName": "Sally",
+      "postedUserLastName": "Garcia",
+      "tags": [
+        {
+          "term": "penetration testing",
+          "source": null,
+          "clickable": false
+        }
+      ],
+      "express": false,
+      "favourite": false,
+      "sharing": false,
+      "sharedWith": [],
+      "answersList": [
+        {
+          "answerUuid": "b459985c-c80b-47f1-ba4c-7d12c55e72cf",
+          "questionUuid": "7934fb11-275c-4a5d-96dc-12513fa05603",
+          "answer": "it's a non-functional testing",
+          "answerStatus": "active",
+          "answeredTimestamp": 1671559537000,
+          "answerUpdatedTimestamp": 1671559537000,
+          "expertFirstName": "Sally",
+          "expertLastName": "Garcia",
+          "expertScore": "7.20",
+          "expertUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+          "badges": [
+            {
+              "expertUuid": null,
+              "level": 2,
+              "type": null,
+              "email": null,
+              "name": "answered"
+            },
+            {
+              "expertUuid": null,
+              "level": 2,
+              "type": null,
+              "email": null,
+              "name": "quality"
+            },
+            {
+              "expertUuid": null,
+              "level": 1,
+              "type": null,
+              "email": null,
+              "name": "amplified"
+            }
+          ],
+          "voteInfo": {
+            "upvote": null,
+            "upvoteCount": 0,
+            "downvoteCount": 0
+          },
+          "privacy": false,
+          "originalAnswerUuid": "b459985c-c80b-47f1-ba4c-7d12c55e72cf",
+          "popularityScore": 8,
+          "ratingAllowed": true,
+          "viewFeedbackAllowed": true,
+          "feedbackProvided": true,
+          "internal": false,
+          "curationStatus": "curated",
+          "confidence": false,
+          "userInitiatedCuration": false,
+          "vizAnswer": false,
+          "expiration": "2023-12-20T00:00:00.000+00:00",
+          "seekerCurationVisibility": true,
+          "attachments": [],
+          "threadAttachments": []
+        }
+      ],
+      "clarificationStatus": false,
+      "totalCount": 639,
+      "userInitiatedCuration": false,
+      "userType": "Employee",
+      "draftExists": false,
+      "viewCount": 8
+    },
+    {
+      "questionUuid": "db9edea9-a946-44a0-84be-cff2cc99ad48",
+      "topicUuid": "bcc934f1-2745-46fd-b575-fe074095cb34",
+      "text": "what is testing?",
+      "domain": "Collaterals",
+      "postedTimestamp": 1671517719000,
+      "acceptedTimestamp": 0,
+      "status": "answered",
+      "popularityScore": 0,
+      "postedUserUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+      "postedUserFirstName": "Sally",
+      "postedUserLastName": "Garcia",
+      "tags": [
+        {
+          "term": "testing",
+          "source": "expert",
+          "clickable": true
+        }
+      ],
+      "express": false,
+      "favourite": false,
+      "sharing": false,
+      "sharedWith": [],
+      "answersList": [
+        {
+          "answerUuid": "4b5e1f69-512e-4e99-a4e2-4278a0a4c9e2",
+          "questionUuid": "db9edea9-a946-44a0-84be-cff2cc99ad48",
+          "answer": "hello",
+          "answerStatus": "active",
+          "answeredTimestamp": 1671556157000,
+          "answerUpdatedTimestamp": 1671556157000,
+          "expertFirstName": "Manoj",
+          "expertLastName": "Kumar",
+          "expertScore": "6.62",
+          "expertUuid": "af273bdd-cb86-42d4-aac9-35da0b7cedd6",
+          "badges": [],
+          "voteInfo": {
+            "upvote": null,
+            "upvoteCount": 0,
+            "downvoteCount": 0
+          },
+          "privacy": false,
+          "originalAnswerUuid": "4b5e1f69-512e-4e99-a4e2-4278a0a4c9e2",
+          "popularityScore": 10,
+          "ratingAllowed": true,
+          "viewFeedbackAllowed": true,
+          "feedbackProvided": true,
+          "internal": false,
+          "curationStatus": "curated",
+          "confidence": false,
+          "userInitiatedCuration": false,
+          "vizAnswer": false,
+          "expiration": "2023-12-20T00:00:00.000+00:00",
+          "seekerCurationVisibility": true,
+          "attachments": [
+            {
+              "name": "Screen Shot 2022-12-20 at 10.38.06 PM.png",
+              "size": null,
+              "src": null,
+              "type": "image/png",
+              "data": null,
+              "caption": "test",
+              "answerId": null,
+              "objectUrl": "attachments/Screen Shot 2022-12-20 at 10.38.06 PM.png",
+              "targetStream": null,
+              "metaData": null,
+              "crawling": false,
+              "thumbnail": false
+            }
+          ],
+          "threadAttachments": []
+        }
+      ],
+      "clarificationStatus": false,
+      "totalCount": 639,
+      "userInitiatedCuration": false,
+      "userType": "Employee",
+      "draftExists": false,
+      "viewCount": 10
+    },
+    {
+      "questionUuid": "facb4df4-7e46-44cb-9a2f-a047d63353c3",
+      "topicUuid": "156eb85b-ef41-43d0-87ee-fe618c65ee12",
+      "text": "What is java?",
+      "domain": "Collaterals",
+      "postedTimestamp": 1661765529000,
+      "acceptedTimestamp": 1669975230000,
+      "status": "answered",
+      "popularityScore": 0,
+      "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+      "postedUserFirstName": "Diksha",
+      "postedUserLastName": "Jadhav",
+      "tags": [
+        {
+          "term": "java",
+          "source": "expert",
+          "clickable": true
+        }
+      ],
+      "express": false,
+      "favourite": false,
+      "sharing": false,
+      "sharedWith": [],
+      "answersList": [
+        {
+          "answerUuid": "96e45d0c-cfb5-46dc-97a0-eb50930160b3",
+          "questionUuid": "facb4df4-7e46-44cb-9a2f-a047d63353c3",
+          "answer": "Getting missing grant_type error to get access token using rest api in JAVA ? , Shibi You need to add grant_type: authorization_code or grant_type: refresh_token to the request when requesting for the access_token at https://api.ciscospark.com/v1/access_token.<div><br></div><div>Ans verify </div><div><br></div><div><br></div><div contenteditable=\"false\" id=\"inlineimages\" style=\"width:100px;height:100px;\">96e45d0c-cfb5-46dc-97a0-eb50930160b3_0</div>",
+          "answerStatus": "active",
+          "answeredTimestamp": 1661854097000,
+          "answerUpdatedTimestamp": 1669975230000,
+          "expertFirstName": "Diksha",
+          "expertLastName": "Jadhav",
+          "expertScore": "6.94",
+          "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+          "badges": [
+            {
+              "expertUuid": null,
+              "level": 1,
+              "type": null,
+              "email": null,
+              "name": "quality"
+            },
+            {
+              "expertUuid": null,
+              "level": 3,
+              "type": null,
+              "email": null,
+              "name": "amplified"
+            }
+          ],
+          "voteInfo": {
+            "upvote": null,
+            "upvoteCount": 2,
+            "downvoteCount": 0
+          },
+          "privacy": false,
+          "originalAnswerUuid": "96e45d0c-cfb5-46dc-97a0-eb50930160b3",
+          "popularityScore": 377,
+          "ratingAllowed": true,
+          "viewFeedbackAllowed": true,
+          "feedbackProvided": true,
+          "internal": false,
+          "curationStatus": "curated",
+          "curationCategory": 3,
+          "confidence": false,
+          "userInitiatedCuration": true,
+          "vizAnswer": false,
+          "expiration": "2023-08-30T00:00:00.000+00:00",
+          "seekerCurationVisibility": true,
+          "attachments": [],
+          "threadAttachments": []
+        }
+      ],
+      "clarificationStatus": false,
+      "totalCount": 639,
+      "userInitiatedCuration": false,
+      "userType": "Employee",
+      "draftExists": false,
+      "viewCount": 377
+    },
+    {
+      "questionUuid": "f89b663f-8b99-41e1-8ac0-d647153ecf33",
+      "topicUuid": "d038b02a-2aee-44a1-b0cc-0e514a97c016",
+      "text": "Database management system?",
+      "domain": "Capacity & Sizing",
+      "postedTimestamp": 1655355401000,
+      "acceptedTimestamp": 1671008755000,
+      "status": "answered",
+      "popularityScore": 0,
+      "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+      "postedUserFirstName": "Diksha",
+      "postedUserLastName": "Jadhav",
+      "tags": [
+        {
+          "term": "database management system",
+          "source": "expert",
+          "clickable": true
+        }
+      ],
+      "express": false,
+      "favourite": false,
+      "sharing": false,
+      "sharedId": 2264,
+      "sharedWith": [
+        {
+          "userId": null,
+          "firstName": "Mukul",
+          "lastName": "Kale",
+          "email": "mukul.kale@digitalmain.com",
+          "userUuidStr": "3c51d003-056e-4fc0-a057-6486abe7f562",
+          "userUuidBin": "PFHQAwVuT8CgV2SGq+f1Yg==",
+          "userStatus": null,
+          "orgId": null,
+          "modifiedDate": null,
+          "id": null,
+          "password": null,
+          "createdDate": null,
+          "newQuestion": null,
+          "expertAnswered": null,
+          "anotherExpertAnswered": null,
+          "seekerRated": null,
+          "questionShared": null,
+          "newExpQuestion": null,
+          "phoneNumber": null,
+          "token": null,
+          "expDate": null,
+          "tourFlag": null,
+          "accountnonlocked": null,
+          "title": null,
+          "timezone": null,
+          "locale": null,
+          "department": null,
+          "costCenter": null,
+          "country": null,
+          "zipcode": null,
+          "userType": null,
+          "seekerIdentity": null,
+          "expertScore": null,
+          "reroute": null
+        }
+      ],
+      "answersList": [
+        {
+          "answerUuid": "11583386-a023-4558-937b-369a39726cd5",
+          "questionUuid": "f89b663f-8b99-41e1-8ac0-d647153ecf33",
+          "answer": "Ans edit with attachment <div><br></div><div><br></div><div contentEditable=\"false\" id=\"inlineimages\" style=\"width:100px;height:100px;\">11583386-a023-4558-937b-369a39726cd5_0</div>",
+          "answerStatus": "active",
+          "answeredTimestamp": 1660625218000,
+          "answerUpdatedTimestamp": 1669711591000,
+          "expertFirstName": "Mukul",
+          "expertLastName": "Kale",
+          "expertScore": "6.44",
+          "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+          "badges": [
+            {
+              "expertUuid": null,
+              "level": 3,
+              "type": null,
+              "email": null,
+              "name": "quality"
+            }
+          ],
+          "voteInfo": {
+            "upvote": null,
+            "upvoteCount": 1,
+            "downvoteCount": 0
+          },
+          "privacy": false,
+          "originalAnswerUuid": "11583386-a023-4558-937b-369a39726cd5",
+          "popularityScore": 428,
+          "ratingAllowed": true,
+          "viewFeedbackAllowed": true,
+          "feedbackProvided": true,
+          "internal": false,
+          "curationStatus": "curated",
+          "curationCategory": 3,
+          "confidence": false,
+          "userInitiatedCuration": true,
+          "vizAnswer": false,
+          "expiration": "2023-08-16T00:00:00.000+00:00",
+          "seekerCurationVisibility": true,
+          "attachments": [
+            {
+              "name": "sdimage.jpg",
+              "size": null,
+              "src": null,
+              "type": "image/jpeg",
+              "data": null,
+              "caption": "caption_01",
+              "answerId": null,
+              "objectUrl": "attachments/sdimage.jpg",
+              "targetStream": null,
+              "metaData": null,
+              "crawling": false,
+              "thumbnail": false
+            }
+          ],
+          "threadAttachments": []
+        },
+        {
+          "answerUuid": "7033c1a2-7ca1-4f2b-a649-e49c068c6168",
+          "questionUuid": "f89b663f-8b99-41e1-8ac0-d647153ecf33",
+          "answer": "Does work with any api that extracts data from data sheets? , The APIs wouldn't extract anything the data sheet tool would need its own API that an app could use to extract the data from the data sheet and then the APIs could the take that data and send it to a Teams space or similar use case. , is there a site that I see the updates that cisco does?",
+          "answerStatus": "active",
+          "answeredTimestamp": 1655355401000,
+          "answerUpdatedTimestamp": 1671008755000,
+          "expertFirstName": "Diksha",
+          "expertLastName": "Jadhav",
+          "expertScore": "6.94",
+          "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+          "badges": [
+            {
+              "expertUuid": null,
+              "level": 1,
+              "type": null,
+              "email": null,
+              "name": "quality"
+            },
+            {
+              "expertUuid": null,
+              "level": 3,
+              "type": null,
+              "email": null,
+              "name": "amplified"
+            }
+          ],
+          "voteInfo": {
+            "upvote": null,
+            "upvoteCount": 0,
+            "downvoteCount": 0
+          },
+          "privacy": false,
+          "originalAnswerUuid": "7033c1a2-7ca1-4f2b-a649-e49c068c6168",
+          "popularityScore": 298,
+          "ratingAllowed": true,
+          "viewFeedbackAllowed": true,
+          "feedbackProvided": true,
+          "internal": false,
+          "curationStatus": "curated",
+          "curationCategory": 3,
+          "confidence": false,
+          "userInitiatedCuration": true,
+          "vizAnswer": false,
+          "expiration": "2023-06-16T00:00:00.000+00:00",
+          "seekerCurationVisibility": true,
+          "attachments": [],
+          "threadAttachments": []
+        }
+      ],
+      "clarificationStatus": false,
+      "totalCount": 639,
+      "userInitiatedCuration": false,
+      "userType": "Employee",
+      "draftExists": false,
+      "viewCount": 428
+    },
+    {
+      "questionUuid": "53604df9-18e8-49b3-9f4a-cfef412f5244",
+      "topicUuid": "33bcbf75-1d02-42ce-ad10-990bbe365fdc",
+      "text": "Is it possible to do a 7, 10, or even 15 year Evergreen//One (formerly Pure as-a-Service) term?",
+      "domain": "Terms & Conditions",
+      "postedTimestamp": 1671198959000,
+      "acceptedTimestamp": 1671451944000,
+      "status": "accepted",
+      "popularityScore": 0,
+      "postedUserUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+      "postedUserFirstName": "Ujjawal",
+      "postedUserLastName": "Kriti",
+      "tags": [
+        {
+          "term": "pure",
+          "source": null,
+          "clickable": false
+        },
+        {
+          "term": "year evergreen",
+          "source": null,
+          "clickable": false
+        }
+      ],
+      "express": false,
+      "favourite": false,
+      "sharing": false,
+      "sharedWith": [],
+      "answersList": [
+        {
+          "answerUuid": "31cfc570-38ed-4ff2-829e-b499a64e8fdb",
+          "questionUuid": "53604df9-18e8-49b3-9f4a-cfef412f5244",
+          "answer": "driver.navigate().to(\"stage.vizerto.com\");",
+          "answerStatus": "accepted",
+          "answeredTimestamp": 1671198959000,
+          "answerUpdatedTimestamp": 1671450182000,
+          "expertFirstName": "Sally",
+          "expertLastName": "Garcia",
+          "expertScore": "7.20",
+          "expertUuid": "056166bd-f005-4ab4-aaac-a6cd3b4ce168",
+          "badges": [
+            {
+              "expertUuid": null,
+              "level": 2,
+              "type": null,
+              "email": null,
+              "name": "answered"
+            },
+            {
+              "expertUuid": null,
+              "level": 2,
+              "type": null,
+              "email": null,
+              "name": "quality"
+            },
+            {
+              "expertUuid": null,
+              "level": 1,
+              "type": null,
+              "email": null,
+              "name": "amplified"
+            }
+          ],
+          "privacy": false,
+          "originalAnswerUuid": "31cfc570-38ed-4ff2-829e-b499a64e8fdb",
+          "popularityScore": 120,
+          "ratingAllowed": true,
+          "viewFeedbackAllowed": true,
+          "feedbackProvided": true,
+          "internal": false,
+          "curationStatus": "curated",
+          "confidence": false,
+          "userInitiatedCuration": false,
+          "vizAnswer": false,
+          "seekerCurationVisibility": true,
+          "attachments": [],
+          "threadAttachments": []
+        }
+      ],
+      "clarificationStatus": false,
+      "totalCount": 639,
+      "userInitiatedCuration": false,
+      "draftExists": false,
+      "acceptedAnswerUuidBin": "Mc/FcDjtT/KCnrSZpk6P2w=="
+    },
+    {
+      "questionUuid": "90ef3cb7-6c24-4cca-9e18-84a310ed4264",
+      "topicUuid": "b7166a92-91d3-470d-96d2-642d39ea6c70",
+      "text": "What is javascript?",
+      "domain": "Partner Specific",
+      "postedTimestamp": 1653387034000,
+      "acceptedTimestamp": 1671448759000,
+      "status": "accepted",
+      "popularityScore": 0,
+      "postedUserUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+      "postedUserFirstName": "Ujjawal",
+      "postedUserLastName": "Kriti",
+      "tags": [
+        {
+          "term": "javascript",
+          "source": null,
+          "clickable": false
+        }
+      ],
+      "express": false,
+      "favourite": true,
+      "sharing": false,
+      "sharedWith": [],
+      "answersList": [
+        {
+          "answerUuid": "a29ffd33-6217-4500-a0b9-91ae1b77659a",
+          "questionUuid": "90ef3cb7-6c24-4cca-9e18-84a310ed4264",
+          "answer": "Ans 1",
+          "answerStatus": "accepted",
+          "answeredTimestamp": 1653902627000,
+          "answerUpdatedTimestamp": 1653902627000,
+          "expertFirstName": "Mukul",
+          "expertLastName": "Kale",
+          "expertScore": "6.44",
+          "expertUuid": "3c51d003-056e-4fc0-a057-6486abe7f562",
+          "badges": [
+            {
+              "expertUuid": null,
+              "level": 3,
+              "type": null,
+              "email": null,
+              "name": "quality"
+            }
+          ],
+          "privacy": false,
+          "originalAnswerUuid": "a29ffd33-6217-4500-a0b9-91ae1b77659a",
+          "popularityScore": 103,
+          "ratingAllowed": true,
+          "viewFeedbackAllowed": true,
+          "feedbackProvided": true,
+          "internal": false,
+          "curationStatus": "pending",
+          "curationCategory": 3,
+          "confidence": false,
+          "userInitiatedCuration": false,
+          "vizAnswer": false,
+          "seekerCurationVisibility": true,
+          "attachments": [],
+          "threadAttachments": []
+        },
+        {
+          "answerUuid": "dac640a8-badf-4c47-862c-115c105fc6a6",
+          "questionUuid": "90ef3cb7-6c24-4cca-9e18-84a310ed4264",
+          "answer": "its a scripting language",
+          "answerStatus": "active",
+          "answeredTimestamp": 1653387171000,
+          "answerUpdatedTimestamp": 1653387878000,
+          "expertFirstName": "Diksha",
+          "expertLastName": "Jadhav",
+          "expertScore": "6.94",
+          "expertUuid": "d3edc71b-b814-43f9-ac13-842f213071ac",
+          "badges": [
+            {
+              "expertUuid": null,
+              "level": 1,
+              "type": null,
+              "email": null,
+              "name": "quality"
+            },
+            {
+              "expertUuid": null,
+              "level": 3,
+              "type": null,
+              "email": null,
+              "name": "amplified"
+            }
+          ],
+          "voteInfo": {
+            "upvote": null,
+            "upvoteCount": 1,
+            "downvoteCount": 0
+          },
+          "privacy": false,
+          "originalAnswerUuid": "dac640a8-badf-4c47-862c-115c105fc6a6",
+          "popularityScore": 127,
+          "ratingAllowed": true,
+          "viewFeedbackAllowed": true,
+          "feedbackProvided": true,
+          "internal": false,
+          "curationStatus": "pending",
+          "curationCategory": 3,
+          "confidence": false,
+          "userInitiatedCuration": false,
+          "vizAnswer": false,
+          "seekerCurationVisibility": true,
+          "attachments": [
+            {
+              "name": "javascript-illustration.png",
+              "size": null,
+              "src": null,
+              "type": "image/png",
+              "data": null,
+              "caption": "js",
+              "answerId": null,
+              "objectUrl": "attachments/javascript-illustration.png",
+              "targetStream": null,
+              "metaData": null,
+              "crawling": false,
+              "thumbnail": false
+            }
+          ],
+          "threadAttachments": []
+        }
+      ],
+      "clarificationStatus": false,
+      "totalCount": 639,
+      "userInitiatedCuration": false,
+      "draftExists": false,
+      "acceptedAnswerUuidBin": "op/9M2IXRQCguZGuG3dlmg=="
+    }
+  ]
