@@ -14,6 +14,7 @@
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "bootstrap-switch-button-react": "^1.2.0",
+    "image-extensions": "^1.1.0",
     "lodash": "^4.17.21",
     "mdb-react-ui-kit": "^4.2.0",
     "moment": "^2.29.4",

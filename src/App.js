@@ -35,6 +35,7 @@ function App() {
           )
         })}
         {/* <AutoSuggestions /> */}
+        <EditorImageRender />
         </div>      
     </div>
   );
