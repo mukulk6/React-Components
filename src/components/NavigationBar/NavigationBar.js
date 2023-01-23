@@ -8,6 +8,16 @@ import { NavLink, Link } from 'react-router-dom';
 import AwardsModal from '../AwardsModal/AwardsModal';
 import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 import { Navbar } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import Tooltip from 'react-bootstrap/Tooltip';
+
+const renderTooltip = (props) => (
+  <Tooltip id="button-tooltip" {...props}>
+    Simple tooltip
+  </Tooltip>
+);
+
 
 const NavigationBar = () => {
   const [show, setShow] = useState(false);
@@ -63,21 +73,25 @@ const NavigationBar = () => {
           </li>
           <li class="nav-item" className={styles.className}>
             <div class={styles.fireIcon}>
-              <i class="fa fa-fire"></i>
+              <i class="fa fa-fire-flame-curved"></i>
               <span>2/3</span>
             </div>
           </li>
           <li class="nav-item" onClick={() => setLgShow(true)} className={styles.iconCenter}>
-
             <div className={styles.dropNotification}>
               <i class="fa fa-bell"></i>
+            </div>
+          </li>
+          <li class="nav-item">
+          <div className={styles.avatarIcon} >
+              <img src={require('../../images/sample.jpg')} className={styles.iconCenter} style={{ width: '35px', height: '35px', borderRadius: '50%', verticalAlign: 'center' }} data-bs-toggle="tooltip" data-bs-html='true' data-bs-title='<h1>fghjkl;</h1>' />
             </div>
           </li>
           <li class="nav-item">
             <div class="dropdown dropdown-right">
               <div className={styles.userinfo}>
                 <div class="clearfix">
-                  <span>Mukul Kale</span> 
+                  <span>Mukul Kale</span>
                   <select class="form-select form-select-sm" aria-label=".form-select-lg example">
                     <option value="1">Admin</option>
                     <option value="2">CM</option>
@@ -91,7 +105,7 @@ const NavigationBar = () => {
           <li class="nav-item">
             <div className={styles.username}>
               <span>Group</span>
-              <select class="form-select form-select-sm" aria-label=".form-select-lg example">
+              <select class="form-select form-select-sm" aria-label=".form-select-lg example">)
                 <option value="1">Alpha</option>
                 <option value="2">GTech</option>
               </select>

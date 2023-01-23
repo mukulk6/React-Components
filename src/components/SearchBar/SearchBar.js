@@ -127,10 +127,26 @@ class SearchBar extends React.Component {
 
     this.state = {
       value: '',
-      suggestions: []
+      suggestions: [],
+      content: '',
+      charLimit: 200
     };
   }
 
+  handleOnChange = (e) => {
+    this.setState({[e.target.name]:e.target.value})
+  }
+
+  // handleOnSubmit = (e) => {
+  //   e.preventDefault()
+  //   if(this.state.content.length <= this.state.charLimit){
+  //    <span>Count:</span>
+  //   }else{
+  //     <span>Character count increased</span>
+  //   }
+  // }
+
+  
   onChange = (event, { newValue, method }) => {
     this.setState({
       value: newValue
@@ -139,8 +155,9 @@ class SearchBar extends React.Component {
 
   onSuggestionsFetchRequested = ({ value }) => {
     this.setState({
-      suggestions: getSuggestions(value)
-    });
+      suggestions: getSuggestions(value),
+    })
+  ;
   };
 
   onSuggestionsClearRequested = () => {
@@ -152,8 +169,8 @@ class SearchBar extends React.Component {
     const { value, suggestions } = this.state;
     const inputProps = {
       placeholder: "Ask a Question",
-      value,
-      onChange: this.onChange,
+      value:this.state.content,
+      onChange: this.handleOnChange,
       'width:':'100%'
     };
     return (
@@ -169,11 +186,18 @@ class SearchBar extends React.Component {
               inputProps={inputProps}
               highlightFirstSuggestion={true}
               id={styles.searchControl}
-               />
+              value={this.state.content}
+              onChange = {this.handleOnChange}
+              />
             <Button variant="outline-secondary" id={styles.searchButton}>
               Get Answers
             </Button>
           </InputGroup>
+        </Row>
+        <Row className='text-right'>
+          <Col md={12}>
+            <span>Characters: </span><span>{this.state.charLimit - this.state.content.length}/200</span>
+          </Col>
         </Row>
         </Grid>
     )

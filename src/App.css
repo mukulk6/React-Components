@@ -195,3 +195,9 @@
 }
 /* react-autosuggest styles end */
 
+/* */
+img,svg
+{
+  vertical-align: baseline !important;
+}
+/* */
